@@ -83,6 +83,20 @@ async function resolve(f) {
 
 const lib = JSON.parse(await fs.readFile(FILE, "utf8"));
 const before = JSON.stringify(lib);
+
+// Manual corrections from data/fixes.json (this file is never written by the script, so editing it can't clash with its commits).
+const fixes = JSON.parse(await fs.readFile(new URL("../data/fixes.json", import.meta.url), "utf8").catch(() => "{}"));
+for (const f of lib.films) {
+  const fx = fixes[f.id];
+  if (!fx) continue;
+  if (fx.d && fx.d !== f.d) f.d = fx.d;
+  if (fx.imdbId && (fx.imdbId !== f.imdbId || !f.idLock)) {
+    Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null });
+    delete f.check;
+    if (!f.posterLock) f.poster = null;
+  }
+  if (fx.poster && (fx.poster !== f.poster || !f.posterLock)) { f.poster = fx.poster; f.posterLock = true; }
+}
 const missed = [], unsure = [];
 for (const f of lib.films) {
   try {

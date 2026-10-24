@@ -194,7 +194,6 @@ function starsHTML(v,size){
 }
 function ratingsRow(f){
   let h="";
-  if(f.r!=null)h+=starsHTML(f.r,14);
   if(f.lb!=null)h+=`<span><span class="k">LB</span>${Number(f.lb).toFixed(1)}</span>`;
   if(f.imdb!=null)h+=`<span><span class="k">IMDb</span>${Number(f.imdb).toFixed(1)}</span>`;
   return h?`<span class="rt">${h}</span>`:`<span class="rt"></span>`;
@@ -237,8 +236,8 @@ function libraryView(){
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
     <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
     <select id="colsel" aria-label="Collection"><option value="">All collections</option>${cols.map(x=>`<option value="${x.id}" ${ui.col===x.id?"selected":""}>${esc(x.name)}</option>`).join("")}</select>
-    ${ui.view==="watched"?"":`<select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"],["rated","Rated by me"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>`}
-    <select id="order" aria-label="Sort">${[["new","Newest first"],["old","Oldest first"],["title","Title A–Z"],["mine","My rating"],["imdb","IMDb rating"]].map(([v,l])=>`<option value="${v}" ${ui.order===v?"selected":""}>${l}</option>`).join("")}</select>
+    ${ui.view==="watched"?"":`<select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>`}
+    <select id="order" aria-label="Sort">${[["new","Newest first"],["old","Oldest first"],["title","Title A–Z"],["imdb","IMDb rating"]].map(([v,l])=>`<option value="${v}" ${ui.order===v?"selected":""}>${l}</option>`).join("")}</select>
     <span class="seg" id="seg"><button data-l="grid" aria-pressed="${ui.layout==="grid"}">Grid</button><button data-l="list" aria-pressed="${ui.layout==="list"}">List</button></span>
     ${ui.editable?`<button class="btn" id="addbtn">Add ${NOUN[ui.view]}</button>`:""}
   </div><div id="list"></div>`;
@@ -268,12 +267,11 @@ const SORT={
   new:(a,b)=>b.y-a.y||a.t.localeCompare(b.t),
   old:(a,b)=>a.y-b.y||a.t.localeCompare(b.t),
   title:(a,b)=>a.t.replace(/^(the|a|an) /i,"").localeCompare(b.t.replace(/^(the|a|an) /i,"")),
-  mine:(a,b)=>(b.r??-1)-(a.r??-1)||b.y-a.y,
   imdb:(a,b)=>(b.imdb??-1)-(a.imdb??-1)||b.y-a.y};
 function tileHTML(f){
   return `<button class="tile film-t" data-id="${esc(f.id)}">
     <span class="art${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="ay">${f.y}</span><span class="at">${esc(f.t)}</span><span class="ad">${esc(f.d)}</span>${f.w?`<span class="w">Watched</span>`:""}</span>
-    <span class="cap"><span class="ct">${esc(f.t)}</span><span class="cy">${f.y}${f.r!=null?" · "+starsHTML(f.r,11):""}</span></span></button>`;
+    <span class="cap"><span class="ct">${esc(f.t)}</span><span class="cy">${f.y}${f.imdb!=null?" · IMDb "+Number(f.imdb).toFixed(1):""}</span></span></button>`;
 }
 function rowHTML(f,withYear){
   return `<button class="film" data-id="${esc(f.id)}">
@@ -285,7 +283,7 @@ function rowHTML(f,withYear){
 function list(){
   const P=viewPred();
   const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
-    (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)||(ui.show==="rated"&&f.r!=null)))
+    (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(SORT[ui.order]||SORT.new);
   const el=$("#list");if(!el)return;
   if(!L.length){const any=films.some(P);el.innerHTML=`<p class="empty">${!films.length?"Loading the library…":any?"Nothing matches. Clear the search or filters.":ui.view==="watched"?"Nothing watched yet.":`No ${ui.view} yet.${ui.editable?` Add one with “Add ${NOUN[ui.view]}”.`:""}`}</p>`;return}
@@ -344,10 +342,6 @@ function drawer(){
       <div class="mcol"><div class="info"><h2>${esc(f.t)}</h2><span class="d">${esc(f.d)} · ${f.y}</span>${(f.g||[]).length?`<span class="d" style="font-style:italic">${esc(f.g.join(", "))}</span>`:""}${f.runtime?`<span class="d">${f.runtime} min</span>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div>
-      <div class="fld"><span class="lbl">My rating</span>
-        ${E?`<div style="display:flex"><span class="starin" id="starin">${starsHTML(f.r||0)}${Array.from({length:10},(_,i)=>`<button class="hit" style="left:${i*.525}em" data-v="${(i+1)/2}" aria-label="${(i+1)/2} stars"></button>`).join("")}</span><span class="rv" id="rv">${f.r!=null?f.r.toFixed(1)+" / 5":"Not rated"}</span></div>`
-        :(f.r!=null?starsHTML(f.r,26):`<span class="rv" style="margin:0">Not rated</span>`)}
-      </div>
       <div class="two">
         <label class="fld"><span class="lbl">Letterboxd</span>${E?`<input type="number" id="lb" min="0" max="5" step="0.1" placeholder="0–5" value="${f.lb??""}">`:`<span>${f.lb!=null?Number(f.lb).toFixed(1)+" / 5":"—"}</span>`}</label>
         <label class="fld"><span class="lbl">IMDb</span>${E?`<input type="number" id="imdb" min="0" max="10" step="0.1" placeholder="0–10" value="${f.imdb??""}">`:`<span>${f.imdb!=null?Number(f.imdb).toFixed(1)+" / 10":"—"}</span>`}</label>
@@ -381,11 +375,6 @@ function drawer(){
   }
   if(!ui.editable)return;
   R("#watch").onclick=()=>{f.w=!f.w;dirty();rerender();drawer()};
-  const si=R("#starin"),fill=si.querySelector(".fill");
-  si.addEventListener("mouseover",e=>{const b=e.target.closest(".hit");if(b)fill.style.width=(b.dataset.v*1.05)+"em"});
-  si.addEventListener("mouseleave",()=>{fill.style.width=((f.r||0)*1.05)+"em"});
-  si.onclick=e=>{const b=e.target.closest(".hit");if(!b)return;const v=Number(b.dataset.v);f.r=f.r===v?null:v;
-    fill.style.width=((f.r||0)*1.05)+"em";R("#rv").textContent=f.r!=null?f.r.toFixed(1)+" / 5":"Not rated";dirty();rerender()};
   const num=(id,k,max)=>R(id).onchange=e=>{const v=e.target.value===""?null:Number(e.target.value);f[k]=v==null||isNaN(v)?null:Math.min(max,Math.max(0,v));dirty();rerender()};
   num("#lb","lb",5);num("#imdb","imdb",10);
   R("#fc").onclick=e=>{const b=e.target.closest(".mchip");if(!b)return;const c=b.dataset.c;f.c=f.c.includes(c)?f.c.filter(x=>x!==c):[...f.c,c];b.setAttribute("aria-pressed",f.c.includes(c));dirty();rerender()};

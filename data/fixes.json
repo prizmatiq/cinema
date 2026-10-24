@@ -1,0 +1,9 @@
+{
+ "_help": "Manual corrections. Key = film title|year in lowercase. imdbId fixes a wrong match, poster sets a picture, d corrects the director. The enrich script applies these on every run.",
+ "onibaba|1964": {"imdbId": "tt0058430"},
+ "naked|1993": {"imdbId": "tt0107653"},
+ "insidious|2010": {"imdbId": "tt1591095"},
+ "her|2013": {"imdbId": "tt1798709"},
+ "split|2016": {"imdbId": "tt4972582"},
+ "eyimofe (this is my desire)|2020": {"poster": "https://m.media-amazon.com/images/M/MV5BYTg5ZDczNTYtZWE1My00MjdiLTk3NzgtOTU1NzkwMjJmZGRkXkEyXkFqcGc@._V1_SX400.jpg"}
+}
