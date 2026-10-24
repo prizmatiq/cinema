@@ -44,12 +44,13 @@
     "Mystery"
    ],
    "imdbId": "tt0033467",
-   "poster": "https://m.media-amazon.com/images/M/MV5BYjk1ZDJlMmUtOWQ0Zi00MDM5LTk1OGYtODczNjFmMGYwZGVkXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/1RodLEV25rM3WDsiRZqFhyxuRj9.jpg",
    "runtime": 119,
    "overview": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'",
    "v": 3,
    "imdbVotes": 498016,
-   "lbUrl": "https://letterboxd.com/film/citizen-kane/"
+   "lbUrl": "https://letterboxd.com/film/citizen-kane/",
+   "posterLock": true
   },
   {
    "id": "stromboli|1950",
@@ -68,14 +69,15 @@
     "Drama"
    ],
    "imdbId": "tt0041931",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMTY0NzcwNmEtMmE5My00ZWUwLWEyYWItM2NiMWZmNWIyNzFiXkEyXkFqcGc@._V1_SX300.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/kg0ujiyNetYrFsuHiBamOOJ31v1.jpg",
    "runtime": 81,
    "overview": "Karin, a young woman from the Baltic countries, marries fisherman Antonio to escape from a prison camp. But she cannot get used to the tough life in Antonio's volcano-threatened village, Stromboli.",
    "v": 3,
    "imdbVotes": 9137,
    "lbUrl": "https://letterboxd.com/film/stromboli/",
    "fr": "Rossellini–Bergman",
-   "frI": 0
+   "frI": 0,
+   "posterLock": true
   },
   {
    "id": "europe '51|1952",
@@ -95,14 +97,15 @@
     "Drama"
    ],
    "imdbId": "tt0043511",
-   "poster": "https://m.media-amazon.com/images/M/MV5BOTRiZTkzNDYtMmI1Yi00ODY0LThiNTQtNmRjMmI1YmY3YzlkXkEyXkFqcGc@._V1_SX300.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/sNpnZMYggEkWArg7Mrk4Qk7fBYI.jpg",
    "runtime": 118,
    "overview": "A wealthy woman becomes obsessed with humanitarianism when her young son dies after committing suicide.",
    "v": 3,
    "imdbVotes": 5584,
    "lbUrl": "https://letterboxd.com/film/europa-51/",
    "fr": "Rossellini–Bergman",
-   "frI": 1
+   "frI": 1,
+   "posterLock": true
   },
   {
    "id": "journey to italy|1954",
@@ -123,14 +126,15 @@
     "Romance"
    ],
    "imdbId": "tt0046511",
-   "poster": "https://m.media-amazon.com/images/M/MV5BYTkwZjdlMjMtYTM5MC00NjhlLWJkOTgtNDVlOWRhY2M0ODRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/kB5f3DTWKxW150NjMGWrtBJXaud.jpg",
    "runtime": 97,
    "overview": "An unhappily married couple attempts to find direction and insight while vacationing in Naples.",
    "v": 3,
    "imdbVotes": 14163,
    "lbUrl": "https://letterboxd.com/film/journey-to-italy/",
    "fr": "Rossellini–Bergman",
-   "frI": 2
+   "frI": 2,
+   "posterLock": true
   },
   {
    "id": "the searchers|1956",
@@ -150,12 +154,13 @@
     "Adventure"
    ],
    "imdbId": "tt0049730",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4YWI0MTItMTE4YS00ZTNjLWE3ZTQtN2E2MTlhYWQxNDNmXkEyXkFqcGc@._V1_QL75_UX380_CR0,9,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/5Oz7iIqZjPTBsyTwfpbAwPlIxFP.jpg",
    "runtime": 119,
    "overview": "An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm.",
    "v": 3,
    "imdbVotes": 104235,
-   "lbUrl": "https://letterboxd.com/film/the-searchers/"
+   "lbUrl": "https://letterboxd.com/film/the-searchers/",
+   "posterLock": true
   },
   {
    "id": "ashes and diamonds|1958",
@@ -175,13 +180,14 @@
     "Drama"
    ],
    "imdbId": "tt0052080",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNjc4ZGEwMmItZGI3OS00Y2NiLWFlMDUtNmIwY2NhZGFmNjAxXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/nE8aqRvVnRQEqskiarnFhdJdk8g.jpg",
    "runtime": 103,
    "overview": "As World War II and the German occupation ends, the Polish resistance and the Soviet forces turn on each other in an attempt to take over leadership in Communist Poland.",
    "idLock": true,
    "v": 3,
    "imdbVotes": 15312,
-   "lbUrl": "https://letterboxd.com/film/ashes-and-diamonds/"
+   "lbUrl": "https://letterboxd.com/film/ashes-and-diamonds/",
+   "posterLock": true
   },
   {
    "id": "psycho|1960",
@@ -201,12 +207,13 @@
     "Thriller"
    ],
    "imdbId": "tt0054215",
-   "poster": "https://m.media-amazon.com/images/M/MV5BYjZhMzFiZjItODA3ZC00MmRhLWIzMGYtMmVjOWUwYTA3MTRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/yZBfcfUKlXBx3Khciau7W1XLaJv.jpg",
    "runtime": 109,
    "overview": "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.",
    "v": 3,
    "imdbVotes": 798044,
-   "lbUrl": "https://letterboxd.com/film/psycho/"
+   "lbUrl": "https://letterboxd.com/film/psycho/",
+   "posterLock": true
   },
   {
    "id": "ivan's childhood|1962",
@@ -6662,10 +6669,11 @@
    "imdbId": "tt0052357",
    "runtime": 128,
    "overview": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNzEyZTUxMWItMGVhYy00Y2NlLTljYTMtYzBmMzI1YmUyMDBkXkEyXkFqcGc@._V1_QL75_UX380_CR0,13,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/dg9escdBIAAATxlUeTya9gurTtI.jpg",
    "v": 3,
    "imdbVotes": 464303,
-   "lbUrl": "https://letterboxd.com/film/vertigo/"
+   "lbUrl": "https://letterboxd.com/film/vertigo/",
+   "posterLock": true
   },
   {
    "w": false,
