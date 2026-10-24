@@ -54,7 +54,7 @@ function accept(f, m) {
   return nameKeys(f.d).some((k) => dir.has(k));
 }
 
-const titleVariants = (t) => [t, t.replace(/\s*\(.*?\)\s*/g, " ").trim(), t.replace("½", " 1/2")].filter((v, i, a) => v && a.indexOf(v) === i);
+const titleVariants = (t) => [t, t.replace(/\s*\(.*?\)\s*/g, " ").trim(), t.replace("½", " 1/2"), t.replace(/\s*[–—]\s*/g, " - "), t.replace(/\s*[–—:]\s*/g, " ").replace(/\s+/g, " ")].filter((v, i, a) => v && a.indexOf(v) === i);
 const typeFor = (f) => (f.type === "series" ? "series" : "movie");
 
 async function resolve(f) {

@@ -30,17 +30,22 @@ body.lock{overflow:hidden}
 .wrap{max-width:1000px;margin:0 auto;padding-block:32px 110px;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 h1{font-family:var(--f-display);font-stretch:78%;font-weight:800;font-size:clamp(34px,7vw,56px);line-height:1;letter-spacing:-.01em;margin:0;color:var(--fg);text-wrap:balance}
-.masthead{display:flex;align-items:center;gap:16px 32px;flex-wrap:wrap;padding-bottom:18px;border-bottom:1px solid var(--line)}
-.logo{display:flex;align-items:center;color:var(--fg);flex:none}
+.masthead{display:flex;align-items:center;gap:16px 36px;flex-wrap:wrap;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;color:var(--fg);flex:none;border-radius:50%}
+.logo:hover{opacity:.8}
+.acts{display:flex;gap:8px;flex:none;margin-left:auto}
+.ib{position:relative;width:40px;height:40px;display:grid;place-items:center;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--muted);cursor:pointer;padding:0}
+.ib:hover,.ib[aria-expanded=true]{color:var(--fg);border-color:var(--muted)}
+.ib .dot{position:absolute;top:7px;right:7px;width:7px;height:7px;border-radius:50%;background:var(--orange)}
 .logo svg{width:40px;height:40px;display:block}
-.nav{display:flex;gap:4px 28px;margin-left:auto;overflow-x:auto;max-width:100%;scrollbar-width:none}
+.nav{display:flex;gap:4px 28px;overflow-x:auto;max-width:100%;scrollbar-width:none}
 .nav::-webkit-scrollbar{display:none}
 .nt{background:none;border:0;padding:6px 0 8px;text-align:left;cursor:pointer;color:var(--muted);font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid transparent;white-space:nowrap;flex:none}
 .nt b{display:block;font-size:22px;font-weight:500;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:0;text-transform:none;line-height:1.2}
 .nt:hover b,.nt:hover{color:var(--fg)}
 .nt[aria-selected=true]{color:var(--fg);border-bottom-color:var(--fg)}
 .nt[aria-selected=true] b{color:var(--fg)}
-@media (max-width:640px){.nav{margin-left:0;width:100%;gap:4px 22px}}
+@media (max-width:640px){.nav{margin-left:0;width:100%;gap:4px 22px;order:3}.acts{margin-left:auto}}
 .decades{display:flex;align-items:flex-end;gap:4px;height:60px;margin:22px 0 0}
 .decades button{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;height:100%;background:none;border:0;padding:0;cursor:pointer;color:var(--muted);font-family:var(--f-mono);font-size:10px}
 .decades .bar{width:100%;background:var(--muted);opacity:.55;border-radius:2px 2px 0 0}
@@ -199,7 +204,7 @@ const CONFIG={owner:"",repo:"",branch:"main",path:"data/library.json"};
 const IMG="https://image.tmdb.org/t/p/";
 let films=[], cols=[];
 const posterSrc=(f,w)=>f.poster.startsWith("http")?(w>400?f.poster.replace(/\._V1_.*\.jpg$/,"._V1_SX700.jpg"):f.poster):IMG+"w"+w+f.poster;
-const ui={view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
+const ui={filters:false,view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const colName=id=>(cols.find(c=>c.id===id)||{}).name||"";
@@ -220,8 +225,9 @@ function ratingsRow(f){
 function shell(){
   app.innerHTML=`<div class="wrap">
     <header class="masthead">
-      <span class="logo" aria-label="Cinema" title="Cinema"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="3" fill="currentColor"/><circle cx="20" cy="10.5" r="4" fill="currentColor"/><circle cx="29" cy="17" r="4" fill="currentColor"/><circle cx="25.6" cy="27.7" r="4" fill="currentColor"/><circle cx="14.4" cy="27.7" r="4" fill="currentColor"/><circle cx="11" cy="17" r="4" fill="currentColor"/></svg></span>
+      <a class="logo" id="home" href="./" aria-label="Cinema — home" title="Cinema"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="3" fill="currentColor"/><circle cx="20" cy="10.5" r="4" fill="currentColor"/><circle cx="29" cy="17" r="4" fill="currentColor"/><circle cx="25.6" cy="27.7" r="4" fill="currentColor"/><circle cx="14.4" cy="27.7" r="4" fill="currentColor"/><circle cx="11" cy="17" r="4" fill="currentColor"/></svg></a>
       <nav class="nav" id="nav" role="tablist" aria-label="Sections"></nav>
+      <div class="acts" id="acts"><button class="ib" id="fbtn" aria-label="Filters" aria-expanded="false" title="Filters"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg><span class="dot" hidden></span></button><button class="ib" id="addbtn" aria-label="Add" title="Add" hidden><svg viewBox="0 0 24 24" width="20" height="20" fill="none" aria-hidden="true"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
     </header>
     <div id="view"></div>
     <div class="foot" id="foot"></div>
@@ -231,6 +237,9 @@ function shell(){
   <div class="savebar" id="savebar" hidden><div class="in"><span id="savemsg"></span><button class="btn" id="savebtn">Save to GitHub</button></div></div>`;
   $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;ui.order="new";render();window.scrollTo(0,0)};
   $("#savebtn").onclick=save;
+  $("#home").onclick=e=>{e.preventDefault();closeDrawer();Object.assign(ui,{view:"films",col:null,q:"",genre:null,show:"all",decade:null,director:null,order:"new",filters:false});render();window.scrollTo(0,0)};
+  $("#fbtn").onclick=()=>{ui.filters=!ui.filters;const p=$("#fpanel");if(p)p.hidden=!ui.filters;acts()};
+  $("#addbtn").onclick=()=>{ui.adding=true;ui.open=null;drawer()};
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
 const TYPE=f=>f.type||"film";
@@ -242,26 +251,32 @@ function stats(){
   $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}"><b>${films.filter(pr).length}</b>${label}</button>`).join("")+
     `<button class="nt" role="tab" data-v="collections" aria-selected="${ui.view==="collections"}"><b>${cols.length}</b>Collections</button>`;
 }
+function filtersActive(){return !!(ui.q||ui.genre||ui.decade!=null||ui.show!=="all"||(ui.col&&ui.view!=="collections")||(ui.order!=="new"&&!(ui.col&&ui.order==="imdb"))||ui.layout!=="grid")}
+function acts(){
+  const grid=ui.view==="collections"&&!ui.col;
+  $("#fbtn").hidden=grid;$("#fbtn").setAttribute("aria-expanded",ui.filters&&!grid);
+  $("#fbtn .dot").hidden=!filtersActive();
+  $("#addbtn").hidden=!ui.editable||grid;$("#addbtn").setAttribute("aria-label","Add "+NOUN[ui.view]);$("#addbtn").title="Add "+NOUN[ui.view];
+}
 function render(){
   stats();
   if(ui.view==="collections"&&!ui.col)collectionsView();else libraryView();
-  foot();bar();
+  foot();bar();acts();
 }
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
   const dn=ui.director?films.filter(f=>f.d===ui.director).length:0;
   $("#view").innerHTML=(ui.director?`<div class="banner"><div><h2>${esc(ui.director)}</h2><p>${dn} ${dn===1?"title":"titles"} in the library</p></div><button id="cleardir">Clear filter</button></div>`:"")+
-  (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:ui.director?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`)+
-  `<div class="tools">
+  (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:"")+
+  `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
     <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
     <select id="colsel" aria-label="Collection"><option value="">All collections</option>${cols.map(x=>`<option value="${x.id}" ${ui.col===x.id?"selected":""}>${esc(x.name)}</option>`).join("")}</select>
     ${ui.view==="watched"?"":`<select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>`}
     <select id="order" aria-label="Sort">${[["new","Newest first"],["old","Oldest first"],["title","Title A–Z"],["imdb","IMDb rating"]].map(([v,l])=>`<option value="${v}" ${ui.order===v?"selected":""}>${l}</option>`).join("")}</select>
     <span class="seg" id="seg"><button data-l="grid" aria-pressed="${ui.layout==="grid"}">Grid</button><button data-l="list" aria-pressed="${ui.layout==="list"}">List</button></span>
-    ${ui.editable?`<button class="btn" id="addbtn">Add ${NOUN[ui.view]}</button>`:""}
-  </div><div id="list"></div>`;
-  if(!c&&!ui.director)decades();
+  </div></div><div id="list"></div>`;
+  if($("#decades"))decades();
   if($("#cleardir"))$("#cleardir").onclick=()=>{ui.director=null;render()};
   $("#q").oninput=e=>{ui.q=e.target.value.trim().toLowerCase();list()};
   $("#colsel").onchange=e=>{ui.col=e.target.value||null;libraryView()};
@@ -270,7 +285,6 @@ function libraryView(){
   if($("#show"))$("#show").onchange=e=>{ui.show=e.target.value;list()};
   $("#order").onchange=e=>{ui.order=e.target.value;list()};
   if($("#clearcol"))$("#clearcol").onclick=()=>{ui.col=null;render()};
-  if($("#addbtn"))$("#addbtn").onclick=()=>{ui.adding=true;ui.open=null;drawer()};
   list();
 }
 function decades(){
@@ -306,7 +320,7 @@ function list(){
   const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||f.d===ui.director)&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(SORT[ui.order]||SORT.new);
-  const el=$("#list");if(!el)return;
+  const el=$("#list");if(!el)return;acts();
   if(!L.length){const any=films.some(P);el.innerHTML=`<p class="empty">${!films.length?"Loading the library…":any?"Nothing matches. Clear the search or filters.":ui.view==="watched"?"Nothing watched yet.":`No ${ui.view} yet.${ui.editable?` Add one with “Add ${NOUN[ui.view]}”.`:""}`}</p>`;return}
   let h="";
   if(ui.layout==="grid")h=`<div class="grid" style="margin-top:22px">${L.map(tileHTML).join("")}</div>`;
