@@ -6,7 +6,7 @@ import fs from "node:fs/promises";
 const FILE = new URL("../data/library.json", import.meta.url);
 const OMDB = (process.env.OMDB_KEY || "").trim();
 const TMDB = (process.env.TMDB_TOKEN || "").trim();
-const REFRESH = process.env.REFRESH_RATINGS === "1";
+const REFRESH = process.env.REFRESH_RATINGS === "1" && new Date().getUTCDate() === 1; // scheduled runs refresh everything on the 1st of the month
 const VERIFIED = 3; // bump to re-check everything with the current rules
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -95,6 +95,15 @@ for (const a of additions) {
   ids.add(id); added++;
 }
 if (added) console.log(`Added ${added} new titles from additions.json`);
+
+// Franchises from data/franchises.json: [{ name, ids: [...] }] — order in the file is the watch order.
+const franchises = JSON.parse(await fs.readFile(new URL("../data/franchises.json", import.meta.url), "utf8").catch(() => "[]"));
+const frMap = new Map();
+franchises.forEach((fr) => fr.ids.forEach((id, i) => frMap.set(id, { fr: fr.name, frI: i })));
+for (const f of lib.films) {
+  const x = frMap.get(f.id);
+  if (x) { f.fr = x.fr; f.frI = x.frI; } else { delete f.fr; delete f.frI; }
+}
 
 // Manual corrections from data/fixes.json (this file is never written by the script, so editing it can't clash with its commits).
 const fixes = JSON.parse(await fs.readFile(new URL("../data/fixes.json", import.meta.url), "utf8").catch(() => "{}"));

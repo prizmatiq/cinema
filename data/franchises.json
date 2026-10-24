@@ -1,0 +1,106 @@
+[
+ {
+  "name": "Mission: Impossible",
+  "ids": [
+   "mission: impossible|1996",
+   "mission: impossible 2|2000",
+   "mission: impossible iii|2006",
+   "mission: impossible – ghost protocol|2011",
+   "mission: impossible – rogue nation|2015",
+   "mission: impossible – fallout|2018",
+   "mission: impossible – dead reckoning part one|2023",
+   "mission: impossible – the final reckoning|2025"
+  ]
+ },
+ {
+  "name": "The Lord of the Rings",
+  "ids": [
+   "the lord of the rings: the fellowship of the ring|2001",
+   "the lord of the rings: the two towers|2002",
+   "the lord of the rings: the return of the king|2003"
+  ]
+ },
+ {
+  "name": "Star Trek (Kelvin)",
+  "ids": [
+   "star trek|2009",
+   "star trek into darkness|2013",
+   "star trek beyond|2016"
+  ]
+ },
+ {
+  "name": "Alien",
+  "ids": [
+   "alien|1979",
+   "prometheus|2012",
+   "alien: covenant|2017",
+   "alien: romulus|2024",
+   "alien: earth|2025"
+  ]
+ },
+ {
+  "name": "Blade Runner",
+  "ids": [
+   "blade runner|1982",
+   "blade runner 2049|2017"
+  ]
+ },
+ {
+  "name": "The Godfather",
+  "ids": [
+   "the godfather|1972",
+   "the godfather part ii|1974"
+  ]
+ },
+ {
+  "name": "Dollars Trilogy",
+  "ids": [
+   "a fistful of dollars|1964",
+   "for a few dollars more|1965",
+   "the good, the bad and the ugly|1966"
+  ]
+ },
+ {
+  "name": "Kill Bill",
+  "ids": [
+   "kill bill: vol. 1|2003",
+   "kill bill: vol. 2|2004"
+  ]
+ },
+ {
+  "name": "28 Days Later",
+  "ids": [
+   "28 days later|2002",
+   "28 weeks later|2007"
+  ]
+ },
+ {
+  "name": "X Trilogy",
+  "ids": [
+   "x|2022",
+   "pearl|2022"
+  ]
+ },
+ {
+  "name": "The Shining",
+  "ids": [
+   "the shining|1980",
+   "doctor sleep|2019"
+  ]
+ },
+ {
+  "name": "Breaking Bad",
+  "ids": [
+   "breaking bad|2008",
+   "better call saul|2015"
+  ]
+ },
+ {
+  "name": "Rossellini–Bergman",
+  "ids": [
+   "stromboli|1950",
+   "europe '51|1952",
+   "journey to italy|1954"
+  ]
+ }
+]

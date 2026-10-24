@@ -106,6 +106,15 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .col .cnt{font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .col .peek{font-size:13px;color:var(--fg);opacity:.8;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical}
 .col.new{border-style:dashed;cursor:default}
+.frs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:22px}
+.fr{display:flex;flex-direction:column;gap:10px;text-align:left;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;color:inherit;min-width:0}
+.fr:hover{border-color:var(--muted)}
+.frstrip{display:grid;grid-template-columns:repeat(5,1fr);gap:4px}
+.frp{aspect-ratio:2/3;border-radius:3px;background:var(--tile);position:relative;overflow:hidden}
+.frp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.frt{display:flex;flex-direction:column;gap:2px}
+.frt b{font-family:var(--f-display);font-stretch:80%;font-size:20px;line-height:1.1}
+.frt span{font:12px var(--f-mono);color:var(--muted)}
 .col.new input,.col.new textarea{width:100%}
 .scrim{position:fixed;inset:0;background:rgba(10,8,7,.45);z-index:30}
 .drawer{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(860px,calc(100% - 32px));max-height:calc(100dvh - 48px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));z-index:31;
@@ -204,7 +213,7 @@ const CONFIG={owner:"",repo:"",branch:"main",path:"data/library.json"};
 const IMG="https://image.tmdb.org/t/p/";
 let films=[], cols=[];
 const posterSrc=(f,w)=>f.poster.startsWith("http")?(w>400?f.poster.replace(/\._V1_.*\.jpg$/,"._V1_SX700.jpg"):f.poster):IMG+"w"+w+f.poster;
-const ui={filters:false,view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
+const ui={filters:false,fr:null,view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const colName=id=>(cols.find(c=>c.id===id)||{}).name||"";
@@ -235,38 +244,41 @@ function shell(){
   </div>
   <div id="drawerRoot"></div>
   <div class="savebar" id="savebar" hidden><div class="in"><span id="savemsg"></span><button class="btn" id="savebtn">Save to GitHub</button></div></div>`;
-  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;ui.order="new";render();window.scrollTo(0,0)};
+  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.fr=null;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;ui.order="new";render();window.scrollTo(0,0)};
   $("#savebtn").onclick=save;
-  $("#home").onclick=e=>{e.preventDefault();closeDrawer();Object.assign(ui,{view:"films",col:null,q:"",genre:null,show:"all",decade:null,director:null,order:"new",filters:false});render();window.scrollTo(0,0)};
+  $("#home").onclick=e=>{e.preventDefault();closeDrawer();Object.assign(ui,{view:"films",fr:null,col:null,q:"",genre:null,show:"all",decade:null,director:null,order:"new",filters:false});render();window.scrollTo(0,0)};
   $("#fbtn").onclick=()=>{ui.filters=!ui.filters;const p=$("#fpanel");if(p)p.hidden=!ui.filters;acts()};
   $("#addbtn").onclick=()=>{ui.adding=true;ui.open=null;drawer()};
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
 const TYPE=f=>f.type||"film";
 const VIEWS=[["films","Films",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"],["watched","Watched",f=>f.w]];
-const NOUN={films:"film",series:"series",shorts:"short",watched:"film",collections:"film"};
+const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
+const NOUN={films:"film",series:"series",shorts:"short",watched:"film",collections:"film",franchises:"film"};
 const VTYPE={series:"series",shorts:"short"};
-function viewPred(){const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
+function viewPred(){if(ui.view==="franchises")return f=>!!f.fr&&(!ui.fr||f.fr===ui.fr);const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
 function stats(){
   $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}"><b>${films.filter(pr).length}</b>${label}</button>`).join("")+
+    `<button class="nt" role="tab" data-v="franchises" aria-selected="${ui.view==="franchises"}"><b>${frNames().length}</b>Franchises</button>`+
     `<button class="nt" role="tab" data-v="collections" aria-selected="${ui.view==="collections"}"><b>${cols.length}</b>Collections</button>`;
 }
 function filtersActive(){return !!(ui.q||ui.genre||ui.decade!=null||ui.show!=="all"||(ui.col&&ui.view!=="collections")||(ui.order!=="new"&&!(ui.col&&ui.order==="imdb"))||ui.layout!=="grid")}
 function acts(){
-  const grid=ui.view==="collections"&&!ui.col;
+  const grid=(ui.view==="collections"&&!ui.col)||(ui.view==="franchises"&&!ui.fr);
   $("#fbtn").hidden=grid;$("#fbtn").setAttribute("aria-expanded",ui.filters&&!grid);
   $("#fbtn .dot").hidden=!filtersActive();
   $("#addbtn").hidden=!ui.editable||grid;$("#addbtn").setAttribute("aria-label","Add "+NOUN[ui.view]);$("#addbtn").title="Add "+NOUN[ui.view];
 }
 function render(){
   stats();
-  if(ui.view==="collections"&&!ui.col)collectionsView();else libraryView();
+  if(ui.view==="collections"&&!ui.col)collectionsView();else if(ui.view==="franchises"&&!ui.fr)franchisesView();else libraryView();
   foot();bar();acts();
 }
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
   const dn=ui.director?films.filter(f=>f.d===ui.director).length:0;
   $("#view").innerHTML=(ui.director?`<div class="banner"><div><h2>${esc(ui.director)}</h2><p>${dn} ${dn===1?"title":"titles"} in the library</p></div><button id="cleardir">Clear filter</button></div>`:"")+
+  (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button id="clearfr">All franchises</button></div>`:"")+
   (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:"")+
   `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
@@ -278,6 +290,7 @@ function libraryView(){
   </div></div><div id="list"></div>`;
   if($("#decades"))decades();
   if($("#cleardir"))$("#cleardir").onclick=()=>{ui.director=null;render()};
+  if($("#clearfr"))$("#clearfr").onclick=()=>{ui.fr=null;render()};
   $("#q").oninput=e=>{ui.q=e.target.value.trim().toLowerCase();list()};
   $("#colsel").onchange=e=>{ui.col=e.target.value||null;libraryView()};
   $("#gensel").onchange=e=>{ui.genre=e.target.value||null;list()};
@@ -301,6 +314,7 @@ function decades(){
 const SORT={
   new:(a,b)=>b.y-a.y||a.t.localeCompare(b.t),
   old:(a,b)=>a.y-b.y||a.t.localeCompare(b.t),
+  saga:(a,b)=>(a.frI??99)-(b.frI??99)||a.y-b.y,
   title:(a,b)=>a.t.replace(/^(the|a|an) /i,"").localeCompare(b.t.replace(/^(the|a|an) /i,"")),
   imdb:(a,b)=>(b.imdb??-1)-(a.imdb??-1)||b.y-a.y};
 function tileHTML(f){
@@ -319,7 +333,7 @@ function list(){
   const P=viewPred();
   const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||f.d===ui.director)&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
-    .sort(SORT[ui.order]||SORT.new);
+    .sort(ui.fr&&ui.order==="new"?SORT.saga:(SORT[ui.order]||SORT.new));
   const el=$("#list");if(!el)return;acts();
   if(!L.length){const any=films.some(P);el.innerHTML=`<p class="empty">${!films.length?"Loading the library…":any?"Nothing matches. Clear the search or filters.":ui.view==="watched"?"Nothing watched yet.":`No ${ui.view} yet.${ui.editable?` Add one with “Add ${NOUN[ui.view]}”.`:""}`}</p>`;return}
   let h="";
@@ -344,6 +358,14 @@ function collectionsView(){
   $("#view").querySelector(".cols").onclick=e=>{const b=e.target.closest("button.col");if(!b)return;ui.col=b.dataset.c;ui.q="";ui.order="imdb";render();window.scrollTo(0,0)};
   if($("#newcol"))$("#newcol").onsubmit=e=>{e.preventDefault();const n=$("#nc-name").value.trim();if(!n)return;
     cols.push({id:"c"+Date.now().toString(36),name:n,desc:$("#nc-desc").value.trim()});dirty();render()};
+}
+function franchisesView(){
+  const names=frNames().sort((a,b)=>{const ya=Math.min(...films.filter(f=>f.fr===a).map(f=>f.y)),yb=Math.min(...films.filter(f=>f.fr===b).map(f=>f.y));return yb-ya});
+  $("#view").innerHTML=`<div class="frs">`+names.map(n=>{
+    const fs=films.filter(f=>f.fr===n).sort((a,b)=>(a.frI??0)-(b.frI??0)),ys=fs.map(f=>f.y),w=fs.filter(f=>f.w).length;
+    return `<button class="fr" data-fr="${esc(n)}"><span class="frstrip">${fs.slice(0,5).map(f=>`<span class="frp${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}</span>`).join("")}</span>
+      <span class="frt"><b>${esc(n)}</b><span>${fs.length} titles · ${Math.min(...ys)}–${Math.max(...ys)}${w?` · ${w} watched`:""}</span></span></button>`}).join("")+`</div>`;
+  $("#view").querySelector(".frs").onclick=e=>{const b=e.target.closest("button.fr");if(!b)return;ui.fr=b.dataset.fr;ui.q="";ui.order="new";render();window.scrollTo(0,0)};
 }
 function foot(){
   $("#foot").innerHTML=`<button class="btn ghost" id="access">${ui.editable?"Editor access ✓":"Editor access"}</button>${ui.editable?`<button class="btn ghost" id="export">Export data (JSON)</button>`:""}`;
@@ -435,7 +457,7 @@ function drawer(){
   R("#e-g").onchange=e=>{f.g=e.target.value.split(",").map(x=>x.trim()).filter(Boolean).slice(0,3);dirty();rerender()};
   R("#e-y").onchange=e=>{const v=parseInt(e.target.value,10);if(v){f.y=v;dirty();rerender()}};
 }
-function rerender(){stats();if(ui.view==="collections"&&!ui.col)collectionsView();else list();bar()}
+function rerender(){stats();if(ui.view==="collections"&&!ui.col)collectionsView();else if(ui.view==="franchises"&&!ui.fr)franchisesView();else list();bar()}
 
 /* saving */
 function dirty(){ui.dirty=true;ui.msg="";bar()}

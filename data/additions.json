@@ -1950,5 +1950,43 @@
   "r": null,
   "lb": null,
   "imdb": null
+ },
+ {
+  "id": "shrinking|2023",
+  "type": "series",
+  "t": "Shrinking",
+  "y": 2023,
+  "d": "Bill Lawrence, Brett Goldstein & Jason Segel",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the shrink next door|2021",
+  "type": "series",
+  "t": "The Shrink Next Door",
+  "y": 2021,
+  "d": "Georgia Pritchett",
+  "g": [
+   "Dark Comedy",
+   "Drama"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
  }
 ]
