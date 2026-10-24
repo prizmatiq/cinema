@@ -1,0 +1,39 @@
+name: Enrich library
+
+on:
+  push:
+    branches: [main]
+    paths: [data/library.json]
+  workflow_dispatch:
+  schedule:
+    - cron: "17 4 1 * *" # monthly: refresh IMDb ratings
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich
+  cancel-in-progress: false
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Fetch posters and ratings
+        run: node scripts/enrich.mjs
+        env:
+          TMDB_TOKEN: ${{ secrets.TMDB_TOKEN }}
+          OMDB_KEY: ${{ secrets.OMDB_KEY }}
+          REFRESH_RATINGS: ${{ github.event_name == 'schedule' && '1' || '' }}
+      - name: Commit changes
+        run: |
+          if git diff --quiet; then echo "No changes"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Add posters and ratings"
+          git pull --rebase
+          git push

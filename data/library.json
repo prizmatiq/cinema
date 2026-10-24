@@ -1,0 +1,4266 @@
+{
+ "films": [
+  {
+   "id": "metropolis|1927",
+   "t": "Metropolis",
+   "y": 1927,
+   "d": "Fritz Lang",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep",
+    "su"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Drama"
+   ]
+  },
+  {
+   "id": "citizen kane|1941",
+   "t": "Citizen Kane",
+   "y": 1941,
+   "d": "Orson Welles",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Drama",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "stromboli|1950",
+   "t": "Stromboli",
+   "y": 1950,
+   "d": "Roberto Rossellini",
+   "n": "Rossellini–Bergman trilogy: Stromboli → Europe '51 → Journey to Italy",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "europe '51|1952",
+   "t": "Europe '51",
+   "y": 1952,
+   "d": "Roberto Rossellini",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc",
+    "gp"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "journey to italy|1954",
+   "t": "Journey to Italy",
+   "y": 1954,
+   "d": "Roberto Rossellini",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc",
+    "lv"
+   ],
+   "g": [
+    "Drama",
+    "Romance"
+   ]
+  },
+  {
+   "id": "the searchers|1956",
+   "t": "The Searchers",
+   "y": 1956,
+   "d": "John Ford",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "ashes and diamonds|1958",
+   "t": "Ashes and Diamonds",
+   "y": 1958,
+   "d": "Andrzej Wajda",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "War",
+    "Drama"
+   ]
+  },
+  {
+   "id": "psycho|1960",
+   "t": "Psycho",
+   "y": 1960,
+   "d": "Alfred Hitchcock",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "ivan's childhood|1962",
+   "t": "Ivan's Childhood",
+   "y": 1962,
+   "d": "Andrei Tarkovsky",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp",
+    "qc"
+   ],
+   "g": [
+    "War",
+    "Drama"
+   ]
+  },
+  {
+   "id": "carnival of souls|1962",
+   "t": "Carnival of Souls",
+   "y": 1962,
+   "d": "Herk Harvey",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "su"
+   ],
+   "g": [
+    "Horror",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "lolita|1962",
+   "t": "Lolita",
+   "y": 1962,
+   "d": "Stanley Kubrick",
+   "n": "Kubrick's version; there is also Adrian Lyne's (1997)",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv"
+   ],
+   "g": [
+    "Drama",
+    "Romance"
+   ]
+  },
+  {
+   "id": "8½|1963",
+   "t": "8½",
+   "y": 1963,
+   "d": "Federico Fellini",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "pt"
+   ],
+   "g": [
+    "Drama",
+    "Fantasy"
+   ]
+  },
+  {
+   "id": "the leopard|1963",
+   "t": "The Leopard",
+   "y": 1963,
+   "d": "Luchino Visconti",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ]
+  },
+  {
+   "id": "onibaba|1964",
+   "t": "Onibaba",
+   "y": 1964,
+   "d": "Kaneto Shindo",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Historical"
+   ]
+  },
+  {
+   "id": "gate of flesh|1964",
+   "t": "Gate of Flesh",
+   "y": 1964,
+   "d": "Seijun Suzuki",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "a fistful of dollars|1964",
+   "t": "A Fistful of Dollars",
+   "y": 1964,
+   "d": "Sergio Leone",
+   "n": "Dollars Trilogy: Fistful → For a Few Dollars More → The Good, the Bad and the Ugly",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "for a few dollars more|1965",
+   "t": "For a Few Dollars More",
+   "y": 1965,
+   "d": "Sergio Leone",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "persona|1966",
+   "t": "Persona",
+   "y": 1966,
+   "d": "Ingmar Bergman",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "qc"
+   ],
+   "g": [
+    "Psychological",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the good, the bad and the ugly|1966",
+   "t": "The Good, the Bad and the Ugly",
+   "y": 1966,
+   "d": "Sergio Leone",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "ep"
+   ],
+   "g": [
+    "Western",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "2001: a space odyssey|1968",
+   "t": "2001: A Space Odyssey",
+   "y": 1968,
+   "d": "Stanley Kubrick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "ep"
+   ],
+   "g": [
+    "Sci-Fi"
+   ]
+  },
+  {
+   "id": "rosemary's baby|1968",
+   "t": "Rosemary's Baby",
+   "y": 1968,
+   "d": "Roman Polanski",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Psychological"
+   ]
+  },
+  {
+   "id": "once upon a time in the west|1968",
+   "t": "Once Upon a Time in the West",
+   "y": 1968,
+   "d": "Sergio Leone",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "ep"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "a clockwork orange|1971",
+   "t": "A Clockwork Orange",
+   "y": 1971,
+   "d": "Stanley Kubrick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Crime",
+    "Satire"
+   ]
+  },
+  {
+   "id": "the devil|1972",
+   "t": "The Devil",
+   "y": 1972,
+   "d": "Andrzej Żuławski",
+   "n": "Shot in 1972, banned, released in 1988 — some sites list that year",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "dr"
+   ],
+   "g": [
+    "Historical",
+    "Horror"
+   ]
+  },
+  {
+   "id": "the godfather|1972",
+   "t": "The Godfather",
+   "y": 1972,
+   "d": "Francis Ford Coppola",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "ep"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ]
+  },
+  {
+   "id": "serpico|1973",
+   "t": "Serpico",
+   "y": 1973,
+   "d": "Sidney Lumet",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "pt"
+   ],
+   "g": [
+    "Crime",
+    "Biography"
+   ]
+  },
+  {
+   "id": "don't look now|1973",
+   "t": "Don't Look Now",
+   "y": 1973,
+   "d": "Nicolas Roeg",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "the exorcist|1973",
+   "t": "The Exorcist",
+   "y": 1973,
+   "d": "William Friedkin",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror"
+   ]
+  },
+  {
+   "id": "the godfather part ii|1974",
+   "t": "The Godfather Part II",
+   "y": 1974,
+   "d": "Francis Ford Coppola",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "ep"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ]
+  },
+  {
+   "id": "chinatown|1974",
+   "t": "Chinatown",
+   "y": 1974,
+   "d": "Roman Polanski",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Neo-Noir",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "barry lyndon|1975",
+   "t": "Barry Lyndon",
+   "y": 1975,
+   "d": "Stanley Kubrick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep",
+    "qc"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ]
+  },
+  {
+   "id": "taxi driver|1976",
+   "t": "Taxi Driver",
+   "y": 1976,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "nc"
+   ],
+   "g": [
+    "Psychological",
+    "Crime"
+   ]
+  },
+  {
+   "id": "saturday night fever|1977",
+   "t": "Saturday Night Fever",
+   "y": 1977,
+   "d": "John Badham",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "lt"
+   ],
+   "g": [
+    "Drama",
+    "Music"
+   ]
+  },
+  {
+   "id": "house|1977",
+   "t": "House",
+   "y": 1977,
+   "d": "Nobuhiko Obayashi",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "dr",
+    "lt"
+   ],
+   "g": [
+    "Horror",
+    "Comedy",
+    "Fantasy"
+   ]
+  },
+  {
+   "id": "apocalypse now|1979",
+   "t": "Apocalypse Now",
+   "y": 1979,
+   "d": "Francis Ford Coppola",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep",
+    "su"
+   ],
+   "g": [
+    "War",
+    "Drama"
+   ]
+  },
+  {
+   "id": "demon pond|1979",
+   "t": "Demon Pond",
+   "y": 1979,
+   "d": "Masahiro Shinoda",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su"
+   ],
+   "g": [
+    "Fantasy",
+    "Folklore"
+   ]
+  },
+  {
+   "id": "the shining|1980",
+   "t": "The Shining",
+   "y": 1980,
+   "d": "Stanley Kubrick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Psychological"
+   ]
+  },
+  {
+   "id": "raging bull|1980",
+   "t": "Raging Bull",
+   "y": 1980,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Sports",
+    "Biography"
+   ]
+  },
+  {
+   "id": "altered states|1980",
+   "t": "Altered States",
+   "y": 1980,
+   "d": "Ken Russell",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "su"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Horror"
+   ]
+  },
+  {
+   "id": "thief|1981",
+   "t": "Thief",
+   "y": 1981,
+   "d": "Michael Mann",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "nc"
+   ],
+   "g": [
+    "Crime",
+    "Heist"
+   ]
+  },
+  {
+   "id": "pennies from heaven|1981",
+   "t": "Pennies from Heaven",
+   "y": 1981,
+   "d": "Herbert Ross",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "su"
+   ],
+   "g": [
+    "Musical",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the king of comedy|1982",
+   "t": "The King of Comedy",
+   "y": 1982,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Satire",
+    "Comedy"
+   ]
+  },
+  {
+   "id": "scarface|1983",
+   "t": "Scarface",
+   "y": 1983,
+   "d": "Brian De Palma",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ]
+  },
+  {
+   "id": "paris, texas|1984",
+   "t": "Paris, Texas",
+   "y": 1984,
+   "d": "Wim Wenders",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "qc"
+   ],
+   "g": [
+    "Drama",
+    "Road Movie"
+   ]
+  },
+  {
+   "id": "once upon a time in america|1984",
+   "t": "Once Upon a Time in America",
+   "y": 1984,
+   "d": "Sergio Leone",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "ep"
+   ],
+   "g": [
+    "Crime",
+    "Epic"
+   ]
+  },
+  {
+   "id": "ran|1985",
+   "t": "Ran",
+   "y": 1985,
+   "d": "Akira Kurosawa",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep"
+   ],
+   "g": [
+    "War",
+    "Drama",
+    "Epic"
+   ]
+  },
+  {
+   "id": "after hours|1985",
+   "t": "After Hours",
+   "y": 1985,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "blue velvet|1986",
+   "t": "Blue Velvet",
+   "y": 1986,
+   "d": "David Lynch",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "dr"
+   ],
+   "g": [
+    "Neo-Noir",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "the untouchables|1987",
+   "t": "The Untouchables",
+   "y": 1987,
+   "d": "Brian De Palma",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Historical"
+   ]
+  },
+  {
+   "id": "dead ringers|1988",
+   "t": "Dead Ringers",
+   "y": 1988,
+   "d": "David Cronenberg",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "pt"
+   ],
+   "g": [
+    "Psychological",
+    "Horror"
+   ]
+  },
+  {
+   "id": "mo' better blues|1990",
+   "t": "Mo' Better Blues",
+   "y": 1990,
+   "d": "Spike Lee",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "nc"
+   ],
+   "g": [
+    "Drama",
+    "Music"
+   ]
+  },
+  {
+   "id": "goodfellas|1990",
+   "t": "Goodfellas",
+   "y": 1990,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Biography"
+   ]
+  },
+  {
+   "id": "king of new york|1990",
+   "t": "King of New York",
+   "y": 1990,
+   "d": "Abel Ferrara",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "nc"
+   ],
+   "g": [
+    "Crime",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "dreams|1990",
+   "t": "Dreams",
+   "y": 1990,
+   "d": "Akira Kurosawa",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "qc"
+   ],
+   "g": [
+    "Fantasy",
+    "Anthology"
+   ]
+  },
+  {
+   "id": "tie me up! tie me down!|1990",
+   "t": "Tie Me Up! Tie Me Down!",
+   "y": 1990,
+   "d": "Pedro Almodóvar",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "su"
+   ],
+   "g": [
+    "Romance",
+    "Dark Comedy"
+   ]
+  },
+  {
+   "id": "the silence of the lambs|1991",
+   "t": "The Silence of the Lambs",
+   "y": 1991,
+   "d": "Jonathan Demme",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "cr"
+   ],
+   "g": [
+    "Thriller",
+    "Crime"
+   ]
+  },
+  {
+   "id": "unforgiven|1992",
+   "t": "Unforgiven",
+   "y": 1992,
+   "d": "Clint Eastwood",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "malcolm x|1992",
+   "t": "Malcolm X",
+   "y": 1992,
+   "d": "Spike Lee",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "ep"
+   ],
+   "g": [
+    "Biography",
+    "Drama"
+   ]
+  },
+  {
+   "id": "naked|1993",
+   "t": "Naked",
+   "y": 1993,
+   "d": "Mike Leigh",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp",
+    "pt"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "tombstone|1993",
+   "t": "Tombstone",
+   "y": 1993,
+   "d": "George P. Cosmatos",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "lt"
+   ],
+   "g": [
+    "Western",
+    "Action"
+   ]
+  },
+  {
+   "id": "chungking express|1994",
+   "t": "Chungking Express",
+   "y": 1994,
+   "d": "Wong Kar-wai",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "lv"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ]
+  },
+  {
+   "id": "fallen angels|1995",
+   "t": "Fallen Angels",
+   "y": 1995,
+   "d": "Wong Kar-wai",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "lv"
+   ],
+   "g": [
+    "Crime",
+    "Romance"
+   ]
+  },
+  {
+   "id": "la haine|1995",
+   "t": "La Haine",
+   "y": 1995,
+   "d": "Mathieu Kassovitz",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "gp"
+   ],
+   "g": [
+    "Drama",
+    "Crime"
+   ]
+  },
+  {
+   "id": "hackers|1995",
+   "t": "Hackers",
+   "y": 1995,
+   "d": "Iain Softley",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "lt"
+   ],
+   "g": [
+    "Thriller",
+    "Crime"
+   ]
+  },
+  {
+   "id": "heat|1995",
+   "t": "Heat",
+   "y": 1995,
+   "d": "Michael Mann",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "nc"
+   ],
+   "g": [
+    "Crime",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "12 monkeys|1995",
+   "t": "12 Monkeys",
+   "y": 1995,
+   "d": "Terry Gilliam",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "the quick and the dead|1995",
+   "t": "The Quick and the Dead",
+   "y": 1995,
+   "d": "Sam Raimi",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "lt"
+   ],
+   "g": [
+    "Western",
+    "Action"
+   ]
+  },
+  {
+   "id": "casino|1995",
+   "t": "Casino",
+   "y": 1995,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the usual suspects|1995",
+   "t": "The Usual Suspects",
+   "y": 1995,
+   "d": "Bryan Singer",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "mb"
+   ],
+   "g": [
+    "Crime",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "bottle rocket|1996",
+   "t": "Bottle Rocket",
+   "y": 1996,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Crime"
+   ]
+  },
+  {
+   "id": "primal fear|1996",
+   "t": "Primal Fear",
+   "y": 1996,
+   "d": "Gregory Hoblit",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "mb"
+   ],
+   "g": [
+    "Thriller",
+    "Courtroom"
+   ]
+  },
+  {
+   "id": "perfect blue|1997",
+   "t": "Perfect Blue",
+   "y": 1997,
+   "d": "Satoshi Kon",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "dr"
+   ],
+   "g": [
+    "Animation",
+    "Psychological Thriller"
+   ]
+  },
+  {
+   "id": "good will hunting|1997",
+   "t": "Good Will Hunting",
+   "y": 1997,
+   "d": "Gus Van Sant",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "lost highway|1997",
+   "t": "Lost Highway",
+   "y": 1997,
+   "d": "David Lynch",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "mb"
+   ],
+   "g": [
+    "Neo-Noir",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "the game|1997",
+   "t": "The Game",
+   "y": 1997,
+   "d": "David Fincher",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Thriller",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "l.a. confidential|1997",
+   "t": "L.A. Confidential",
+   "y": 1997,
+   "d": "Curtis Hanson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Neo-Noir",
+    "Crime"
+   ]
+  },
+  {
+   "id": "the truman show|1998",
+   "t": "The Truman Show",
+   "y": 1998,
+   "d": "Peter Weir",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "pt"
+   ],
+   "g": [
+    "Satire",
+    "Drama"
+   ]
+  },
+  {
+   "id": "rushmore|1998",
+   "t": "Rushmore",
+   "y": 1998,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt",
+    "lv"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ]
+  },
+  {
+   "id": "american history x|1998",
+   "t": "American History X",
+   "y": 1998,
+   "d": "Tony Kaye",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp",
+    "pt"
+   ],
+   "g": [
+    "Drama",
+    "Crime"
+   ]
+  },
+  {
+   "id": "rounders|1998",
+   "t": "Rounders",
+   "y": 1998,
+   "d": "John Dahl",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "nc"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ]
+  },
+  {
+   "id": "pi|1998",
+   "t": "Pi",
+   "y": 1998,
+   "d": "Darren Aronofsky",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Psychological Thriller"
+   ]
+  },
+  {
+   "id": "dark city|1998",
+   "t": "Dark City",
+   "y": 1998,
+   "d": "Alex Proyas",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "nc"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Neo-Noir"
+   ]
+  },
+  {
+   "id": "fight club|1999",
+   "t": "Fight Club",
+   "y": 1999,
+   "d": "David Fincher",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "pt"
+   ],
+   "g": [
+    "Psychological Thriller"
+   ]
+  },
+  {
+   "id": "bleeder|1999",
+   "t": "Bleeder",
+   "y": 1999,
+   "d": "Nicolas Winding Refn",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp",
+    "nc"
+   ],
+   "g": [
+    "Drama",
+    "Crime"
+   ]
+  },
+  {
+   "id": "being john malkovich|1999",
+   "t": "Being John Malkovich",
+   "y": 1999,
+   "d": "Spike Jonze",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "su"
+   ],
+   "g": [
+    "Comedy",
+    "Fantasy"
+   ]
+  },
+  {
+   "id": "the sixth sense|1999",
+   "t": "The Sixth Sense",
+   "y": 1999,
+   "d": "M. Night Shyamalan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "dr"
+   ],
+   "g": [
+    "Supernatural",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "sleepy hollow|1999",
+   "t": "Sleepy Hollow",
+   "y": 1999,
+   "d": "Tim Burton",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "lt"
+   ],
+   "g": [
+    "Gothic Horror",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "eyes wide shut|1999",
+   "t": "Eyes Wide Shut",
+   "y": 1999,
+   "d": "Stanley Kubrick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "su"
+   ],
+   "g": [
+    "Mystery",
+    "Drama"
+   ]
+  },
+  {
+   "id": "requiem for a dream|2000",
+   "t": "Requiem for a Dream",
+   "y": 2000,
+   "d": "Darren Aronofsky",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "american psycho|2000",
+   "t": "American Psycho",
+   "y": 2000,
+   "d": "Mary Harron",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "dr"
+   ],
+   "g": [
+    "Satire",
+    "Horror"
+   ]
+  },
+  {
+   "id": "memento|2000",
+   "t": "Memento",
+   "y": 2000,
+   "d": "Christopher Nolan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Mystery",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "mulholland drive|2001",
+   "t": "Mulholland Drive",
+   "y": 2001,
+   "d": "David Lynch",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "mb"
+   ],
+   "g": [
+    "Mystery",
+    "Neo-Noir"
+   ]
+  },
+  {
+   "id": "ocean's eleven|2001",
+   "t": "Ocean's Eleven",
+   "y": 2001,
+   "d": "Steven Soderbergh",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "lt"
+   ],
+   "g": [
+    "Heist",
+    "Comedy"
+   ]
+  },
+  {
+   "id": "the royal tenenbaums|2001",
+   "t": "The Royal Tenenbaums",
+   "y": 2001,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the devil's backbone|2001",
+   "t": "The Devil's Backbone",
+   "y": 2001,
+   "d": "Guillermo del Toro",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Gothic Horror",
+    "War"
+   ]
+  },
+  {
+   "id": "the piano teacher|2001",
+   "t": "The Piano Teacher",
+   "y": 2001,
+   "d": "Michael Haneke",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp",
+    "pt"
+   ],
+   "g": [
+    "Psychological",
+    "Drama"
+   ]
+  },
+  {
+   "id": "donnie darko|2001",
+   "t": "Donnie Darko",
+   "y": 2001,
+   "d": "Richard Kelly",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "a beautiful mind|2001",
+   "t": "A Beautiful Mind",
+   "y": 2001,
+   "d": "Ron Howard",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Biography",
+    "Drama"
+   ]
+  },
+  {
+   "id": "training day|2001",
+   "t": "Training Day",
+   "y": 2001,
+   "d": "Antoine Fuqua",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "the others|2001",
+   "t": "The Others",
+   "y": 2001,
+   "d": "Alejandro Amenábar",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "mb"
+   ],
+   "g": [
+    "Supernatural",
+    "Horror"
+   ]
+  },
+  {
+   "id": "25th hour|2002",
+   "t": "25th Hour",
+   "y": 2002,
+   "d": "Spike Lee",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "nc"
+   ],
+   "g": [
+    "Drama",
+    "Crime"
+   ]
+  },
+  {
+   "id": "city of god|2002",
+   "t": "City of God",
+   "y": 2002,
+   "d": "Fernando Meirelles",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "gp"
+   ],
+   "g": [
+    "Crime",
+    "Drama"
+   ]
+  },
+  {
+   "id": "signs|2002",
+   "t": "Signs",
+   "y": 2002,
+   "d": "M. Night Shyamalan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "japón|2002",
+   "t": "Japón",
+   "y": 2002,
+   "d": "Carlos Reygadas",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "memories of murder|2003",
+   "t": "Memories of Murder",
+   "y": 2003,
+   "d": "Bong Joon-ho",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "lost in translation|2003",
+   "t": "Lost in Translation",
+   "y": 2003,
+   "d": "Sofia Coppola",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "nc",
+    "qc"
+   ],
+   "g": [
+    "Drama",
+    "Romance"
+   ]
+  },
+  {
+   "id": "oldboy|2003",
+   "t": "Oldboy",
+   "y": 2003,
+   "d": "Park Chan-wook",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "gp"
+   ],
+   "g": [
+    "Thriller",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "girl with a pearl earring|2003",
+   "t": "Girl with a Pearl Earring",
+   "y": 2003,
+   "d": "Peter Webber",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the life aquatic with steve zissou|2004",
+   "t": "The Life Aquatic with Steve Zissou",
+   "y": 2004,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "primer|2004",
+   "t": "Primer",
+   "y": 2004,
+   "d": "Shane Carruth",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Time Travel"
+   ]
+  },
+  {
+   "id": "saw|2004",
+   "t": "Saw",
+   "y": 2004,
+   "d": "James Wan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "kingdom of heaven|2005",
+   "t": "Kingdom of Heaven",
+   "y": 2005,
+   "d": "Ridley Scott",
+   "n": "Watch the Director's Cut — the theatrical version is heavily trimmed",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep"
+   ],
+   "g": [
+    "Historical",
+    "War",
+    "Epic"
+   ]
+  },
+  {
+   "id": "capote|2005",
+   "t": "Capote",
+   "y": 2005,
+   "d": "Bennett Miller",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Biography",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the exorcism of emily rose|2005",
+   "t": "The Exorcism of Emily Rose",
+   "y": 2005,
+   "d": "Scott Derrickson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Courtroom"
+   ]
+  },
+  {
+   "id": "grizzly man|2005",
+   "t": "Grizzly Man",
+   "y": 2005,
+   "d": "Werner Herzog",
+   "n": "Documentary",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Documentary"
+   ]
+  },
+  {
+   "id": "the illusionist|2006",
+   "t": "The Illusionist",
+   "y": 2006,
+   "d": "Neil Burger",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "lv"
+   ],
+   "g": [
+    "Mystery",
+    "Romance"
+   ]
+  },
+  {
+   "id": "the prestige|2006",
+   "t": "The Prestige",
+   "y": 2006,
+   "d": "Christopher Nolan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Mystery",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "the departed|2006",
+   "t": "The Departed",
+   "y": 2006,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "marie antoinette|2006",
+   "t": "Marie Antoinette",
+   "y": 2006,
+   "d": "Sofia Coppola",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Historical",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the darjeeling limited|2007",
+   "t": "The Darjeeling Limited",
+   "y": 2007,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ]
+  },
+  {
+   "id": "no country for old men|2007",
+   "t": "No Country for Old Men",
+   "y": 2007,
+   "d": "Joel & Ethan Coen",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "cr"
+   ],
+   "g": [
+    "Neo-Western",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "3:10 to yuma|2007",
+   "t": "3:10 to Yuma",
+   "y": 2007,
+   "d": "James Mangold",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "the assassination of jesse james by the coward robert ford|2007",
+   "t": "The Assassination of Jesse James by the Coward Robert Ford",
+   "y": 2007,
+   "d": "Andrew Dominik",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "qc"
+   ],
+   "g": [
+    "Western",
+    "Drama"
+   ]
+  },
+  {
+   "id": "there will be blood|2007",
+   "t": "There Will Be Blood",
+   "y": 2007,
+   "d": "Paul Thomas Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "ep"
+   ],
+   "g": [
+    "Drama",
+    "Western"
+   ]
+  },
+  {
+   "id": "american gangster|2007",
+   "t": "American Gangster",
+   "y": 2007,
+   "d": "Ridley Scott",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Biography"
+   ]
+  },
+  {
+   "id": "eastern promises|2007",
+   "t": "Eastern Promises",
+   "y": 2007,
+   "d": "David Cronenberg",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "secret sunshine|2007",
+   "t": "Secret Sunshine",
+   "y": 2007,
+   "d": "Lee Chang-dong",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "4 months, 3 weeks and 2 days|2007",
+   "t": "4 Months, 3 Weeks and 2 Days",
+   "y": 2007,
+   "d": "Cristian Mungiu",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "the dark knight|2008",
+   "t": "The Dark Knight",
+   "y": 2008,
+   "d": "Christopher Nolan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "ep"
+   ],
+   "g": [
+    "Action",
+    "Crime"
+   ]
+  },
+  {
+   "id": "the wrestler|2008",
+   "t": "The Wrestler",
+   "y": 2008,
+   "d": "Darren Aronofsky",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "gp"
+   ],
+   "g": [
+    "Sports",
+    "Drama"
+   ]
+  },
+  {
+   "id": "enter the void|2009",
+   "t": "Enter the Void",
+   "y": 2009,
+   "d": "Gaspar Noé",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "nc"
+   ],
+   "g": [
+    "Psychedelic",
+    "Drama"
+   ]
+  },
+  {
+   "id": "fantastic mr. fox|2009",
+   "t": "Fantastic Mr. Fox",
+   "y": 2009,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Animation",
+    "Comedy"
+   ]
+  },
+  {
+   "id": "moon|2009",
+   "t": "Moon",
+   "y": 2009,
+   "d": "Duncan Jones",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "pt"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the house of the devil|2009",
+   "t": "The House of the Devil",
+   "y": 2009,
+   "d": "Ti West",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror"
+   ]
+  },
+  {
+   "id": "the social network|2010",
+   "t": "The Social Network",
+   "y": 2010,
+   "d": "David Fincher",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Drama",
+    "Biography"
+   ]
+  },
+  {
+   "id": "blue valentine|2010",
+   "t": "Blue Valentine",
+   "y": 2010,
+   "d": "Derek Cianfrance",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "gp"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ]
+  },
+  {
+   "id": "inception|2010",
+   "t": "Inception",
+   "y": 2010,
+   "d": "Christopher Nolan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "ep"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Heist"
+   ]
+  },
+  {
+   "id": "shutter island|2010",
+   "t": "Shutter Island",
+   "y": 2010,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Psychological Thriller",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "true grit|2010",
+   "t": "True Grit",
+   "y": 2010,
+   "d": "Joel & Ethan Coen",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "black swan|2010",
+   "t": "Black Swan",
+   "y": 2010,
+   "d": "Darren Aronofsky",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "dr"
+   ],
+   "g": [
+    "Psychological Thriller"
+   ]
+  },
+  {
+   "id": "the town|2010",
+   "t": "The Town",
+   "y": 2010,
+   "d": "Ben Affleck",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr"
+   ],
+   "g": [
+    "Crime",
+    "Heist"
+   ]
+  },
+  {
+   "id": "insidious|2010",
+   "t": "Insidious",
+   "y": 2010,
+   "d": "James Wan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Supernatural",
+    "Horror"
+   ]
+  },
+  {
+   "id": "incendies|2010",
+   "t": "Incendies",
+   "y": 2010,
+   "d": "Denis Villeneuve",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "Drama",
+    "War",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "the tree of life|2011",
+   "t": "The Tree of Life",
+   "y": 2011,
+   "d": "Terrence Malick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "rango|2011",
+   "t": "Rango",
+   "y": 2011,
+   "d": "Gore Verbinski",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "lt"
+   ],
+   "g": [
+    "Animation",
+    "Western",
+    "Comedy"
+   ]
+  },
+  {
+   "id": "drive|2011",
+   "t": "Drive",
+   "y": 2011,
+   "d": "Nicolas Winding Refn",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "nc",
+    "cr"
+   ],
+   "g": [
+    "Neo-Noir",
+    "Crime"
+   ]
+  },
+  {
+   "id": "melancholia|2011",
+   "t": "Melancholia",
+   "y": 2011,
+   "d": "Lars von Trier",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc",
+    "gp"
+   ],
+   "g": [
+    "Drama",
+    "Sci-Fi"
+   ]
+  },
+  {
+   "id": "weekend|2011",
+   "t": "Weekend",
+   "y": 2011,
+   "d": "Andrew Haigh",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the master|2012",
+   "t": "The Master",
+   "y": 2012,
+   "d": "Paul Thomas Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "moonrise kingdom|2012",
+   "t": "Moonrise Kingdom",
+   "y": 2012,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt",
+    "lv"
+   ],
+   "g": [
+    "Comedy",
+    "Romance"
+   ]
+  },
+  {
+   "id": "django unchained|2012",
+   "t": "Django Unchained",
+   "y": 2012,
+   "d": "Quentin Tarantino",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western"
+   ]
+  },
+  {
+   "id": "sinister|2012",
+   "t": "Sinister",
+   "y": 2012,
+   "d": "Scott Derrickson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "her|2013",
+   "t": "Her",
+   "y": 2013,
+   "d": "Spike Jonze",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Romance"
+   ]
+  },
+  {
+   "id": "enemy|2013",
+   "t": "Enemy",
+   "y": 2013,
+   "d": "Denis Villeneuve",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Psychological Thriller",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "inside llewyn davis|2013",
+   "t": "Inside Llewyn Davis",
+   "y": 2013,
+   "d": "Joel & Ethan Coen",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Drama",
+    "Music"
+   ]
+  },
+  {
+   "id": "evil dead|2013",
+   "t": "Evil Dead",
+   "y": 2013,
+   "d": "Fede Álvarez",
+   "n": "Remake of Raimi's 1981 film; works on its own",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror"
+   ]
+  },
+  {
+   "id": "the conjuring|2013",
+   "t": "The Conjuring",
+   "y": 2013,
+   "d": "James Wan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Supernatural",
+    "Horror"
+   ]
+  },
+  {
+   "id": "oculus|2013",
+   "t": "Oculus",
+   "y": 2013,
+   "d": "Mike Flanagan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Supernatural",
+    "Horror"
+   ]
+  },
+  {
+   "id": "coherence|2013",
+   "t": "Coherence",
+   "y": 2013,
+   "d": "James Ward Byrkit",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "birdman|2014",
+   "t": "Birdman",
+   "y": 2014,
+   "d": "Alejandro G. Iñárritu",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt",
+    "su"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the grand budapest hotel|2014",
+   "t": "The Grand Budapest Hotel",
+   "y": 2014,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "predestination|2014",
+   "t": "Predestination",
+   "y": 2014,
+   "d": "Spierig Brothers",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Time Travel"
+   ]
+  },
+  {
+   "id": "the one i love|2014",
+   "t": "The One I Love",
+   "y": 2014,
+   "d": "Charlie McDowell",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "lv"
+   ],
+   "g": [
+    "Romance",
+    "Sci-Fi"
+   ]
+  },
+  {
+   "id": "the revenant|2015",
+   "t": "The Revenant",
+   "y": 2015,
+   "d": "Alejandro G. Iñárritu",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep"
+   ],
+   "g": [
+    "Survival",
+    "Western"
+   ]
+  },
+  {
+   "id": "the hateful eight|2015",
+   "t": "The Hateful Eight",
+   "y": 2015,
+   "d": "Quentin Tarantino",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "the witch|2015",
+   "t": "The Witch",
+   "y": 2015,
+   "d": "Robert Eggers",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Folk Horror"
+   ]
+  },
+  {
+   "id": "20th century women|2016",
+   "t": "20th Century Women",
+   "y": 2016,
+   "d": "Mike Mills",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt",
+    "pt"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ]
+  },
+  {
+   "id": "moonlight|2016",
+   "t": "Moonlight",
+   "y": 2016,
+   "d": "Barry Jenkins",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "pt"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "captain fantastic|2016",
+   "t": "Captain Fantastic",
+   "y": 2016,
+   "d": "Matt Ross",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ]
+  },
+  {
+   "id": "hell or high water|2016",
+   "t": "Hell or High Water",
+   "y": 2016,
+   "d": "David Mackenzie",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr",
+    "cr"
+   ],
+   "g": [
+    "Neo-Western",
+    "Crime"
+   ]
+  },
+  {
+   "id": "the magnificent seven|2016",
+   "t": "The Magnificent Seven",
+   "y": 2016,
+   "d": "Antoine Fuqua",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western",
+    "Action"
+   ]
+  },
+  {
+   "id": "manchester by the sea|2016",
+   "t": "Manchester by the Sea",
+   "y": 2016,
+   "d": "Kenneth Lonergan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "gp"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "don't breathe|2016",
+   "t": "Don't Breathe",
+   "y": 2016,
+   "d": "Fede Álvarez",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "hush|2016",
+   "t": "Hush",
+   "y": 2016,
+   "d": "Mike Flanagan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "split|2016",
+   "t": "Split",
+   "y": 2016,
+   "d": "M. Night Shyamalan",
+   "n": "Part two of a trilogy: Unbreakable (2000) → Split → Glass (2019)",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "mb"
+   ],
+   "g": [
+    "Psychological Thriller",
+    "Horror"
+   ]
+  },
+  {
+   "id": "song to song|2017",
+   "t": "Song to Song",
+   "y": 2017,
+   "d": "Terrence Malick",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "qc"
+   ],
+   "g": [
+    "Romance",
+    "Drama",
+    "Music"
+   ]
+  },
+  {
+   "id": "phantom thread|2017",
+   "t": "Phantom Thread",
+   "y": 2017,
+   "d": "Paul Thomas Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ]
+  },
+  {
+   "id": "a ghost story|2017",
+   "t": "A Ghost Story",
+   "y": 2017,
+   "d": "David Lowery",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama",
+    "Fantasy"
+   ]
+  },
+  {
+   "id": "get out|2017",
+   "t": "Get Out",
+   "y": 2017,
+   "d": "Jordan Peele",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Satire"
+   ]
+  },
+  {
+   "id": "the endless|2017",
+   "t": "The Endless",
+   "y": 2017,
+   "d": "Justin Benson & Aaron Moorhead",
+   "n": "Watch Resolution (2012) first",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Horror"
+   ]
+  },
+  {
+   "id": "burning|2018",
+   "t": "Burning",
+   "y": 2018,
+   "d": "Lee Chang-dong",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "qc"
+   ],
+   "g": [
+    "Mystery",
+    "Drama"
+   ]
+  },
+  {
+   "id": "isle of dogs|2018",
+   "t": "Isle of Dogs",
+   "y": 2018,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Animation",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "annihilation|2018",
+   "t": "Annihilation",
+   "y": 2018,
+   "d": "Alex Garland",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "su"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Horror"
+   ]
+  },
+  {
+   "id": "the ballad of buster scruggs|2018",
+   "t": "The Ballad of Buster Scruggs",
+   "y": 2018,
+   "d": "Joel & Ethan Coen",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "fr"
+   ],
+   "g": [
+    "Western",
+    "Anthology"
+   ]
+  },
+  {
+   "id": "hereditary|2018",
+   "t": "Hereditary",
+   "y": 2018,
+   "d": "Ari Aster",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "gp"
+   ],
+   "g": [
+    "Horror",
+    "Drama"
+   ]
+  },
+  {
+   "id": "the lighthouse|2019",
+   "t": "The Lighthouse",
+   "y": 2019,
+   "d": "Robert Eggers",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su",
+    "dr"
+   ],
+   "g": [
+    "Psychological Horror"
+   ]
+  },
+  {
+   "id": "joker|2019",
+   "t": "Joker",
+   "y": 2019,
+   "d": "Todd Phillips",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Psychological Thriller",
+    "Crime"
+   ]
+  },
+  {
+   "id": "the irishman|2019",
+   "t": "The Irishman",
+   "y": 2019,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "ep"
+   ],
+   "g": [
+    "Crime",
+    "Epic"
+   ]
+  },
+  {
+   "id": "midsommar|2019",
+   "t": "Midsommar",
+   "y": 2019,
+   "d": "Ari Aster",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Folk Horror"
+   ]
+  },
+  {
+   "id": "us|2019",
+   "t": "Us",
+   "y": 2019,
+   "d": "Jordan Peele",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "doctor sleep|2019",
+   "t": "Doctor Sleep",
+   "y": 2019,
+   "d": "Mike Flanagan",
+   "n": "Sequel to The Shining — watch that first. The Director's Cut is better",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Supernatural",
+    "Horror"
+   ]
+  },
+  {
+   "id": "minari|2020",
+   "t": "Minari",
+   "y": 2020,
+   "d": "Lee Isaac Chung",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "tenet|2020",
+   "t": "Tenet",
+   "y": 2020,
+   "d": "Christopher Nolan",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "ep"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Action"
+   ]
+  },
+  {
+   "id": "caveat|2020",
+   "t": "Caveat",
+   "y": 2020,
+   "d": "Damian McCarthy",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror"
+   ]
+  },
+  {
+   "id": "eyimofe (this is my desire)|2020",
+   "t": "Eyimofe (This Is My Desire)",
+   "y": 2020,
+   "d": "Arie & Chuko Esiri",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "dune|2021",
+   "t": "Dune",
+   "y": 2021,
+   "d": "Denis Villeneuve",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "ep"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "the french dispatch|2021",
+   "t": "The French Dispatch",
+   "y": 2021,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Anthology"
+   ]
+  },
+  {
+   "id": "the black phone|2021",
+   "t": "The Black Phone",
+   "y": 2021,
+   "d": "Scott Derrickson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "drive my car|2021",
+   "t": "Drive My Car",
+   "y": 2021,
+   "d": "Ryusuke Hamaguchi",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc",
+    "lv"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "x|2022",
+   "t": "X",
+   "y": 2022,
+   "d": "Ti West",
+   "n": "Trilogy: X → Pearl → MaXXXine",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Slasher",
+    "Horror"
+   ]
+  },
+  {
+   "id": "pearl|2022",
+   "t": "Pearl",
+   "y": 2022,
+   "d": "Ti West",
+   "n": "Prequel to X; watch it after X",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "pt"
+   ],
+   "g": [
+    "Horror",
+    "Psychological"
+   ]
+  },
+  {
+   "id": "everything everywhere all at once|2022",
+   "t": "Everything Everywhere All at Once",
+   "y": 2022,
+   "d": "Daniels",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb",
+    "lt"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Comedy",
+    "Action"
+   ]
+  },
+  {
+   "id": "tár|2022",
+   "t": "Tár",
+   "y": 2022,
+   "d": "Todd Field",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Drama",
+    "Music"
+   ]
+  },
+  {
+   "id": "barbarian|2022",
+   "t": "Barbarian",
+   "y": 2022,
+   "d": "Zach Cregger",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller"
+   ]
+  },
+  {
+   "id": "nope|2022",
+   "t": "Nope",
+   "y": 2022,
+   "d": "Jordan Peele",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "ep"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Horror"
+   ]
+  },
+  {
+   "id": "past lives|2023",
+   "t": "Past Lives",
+   "y": 2023,
+   "d": "Celine Song",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv",
+    "qc"
+   ],
+   "g": [
+    "Romance",
+    "Drama"
+   ]
+  },
+  {
+   "id": "asteroid city|2023",
+   "t": "Asteroid City",
+   "y": 2023,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Sci-Fi"
+   ]
+  },
+  {
+   "id": "killers of the flower moon|2023",
+   "t": "Killers of the Flower Moon",
+   "y": 2023,
+   "d": "Martin Scorsese",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "ep"
+   ],
+   "g": [
+    "Crime",
+    "Western",
+    "Historical"
+   ]
+  },
+  {
+   "id": "beau is afraid|2023",
+   "t": "Beau Is Afraid",
+   "y": 2023,
+   "d": "Ari Aster",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "su"
+   ],
+   "g": [
+    "Surreal Comedy",
+    "Horror"
+   ]
+  },
+  {
+   "id": "challengers|2024",
+   "t": "Challengers",
+   "y": 2024,
+   "d": "Luca Guadagnino",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lv"
+   ],
+   "g": [
+    "Sports",
+    "Romance"
+   ]
+  },
+  {
+   "id": "the substance|2024",
+   "t": "The Substance",
+   "y": 2024,
+   "d": "Coralie Fargeat",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "su"
+   ],
+   "g": [
+    "Body Horror",
+    "Satire"
+   ]
+  },
+  {
+   "id": "the fall guy|2024",
+   "t": "The Fall Guy",
+   "y": 2024,
+   "d": "David Leitch",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Action",
+    "Comedy"
+   ]
+  },
+  {
+   "id": "marmalade|2024",
+   "t": "Marmalade",
+   "y": 2024,
+   "d": "Keir O'Donnell",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "lt"
+   ],
+   "g": [
+    "Crime",
+    "Romance"
+   ]
+  },
+  {
+   "id": "the assessment|2024",
+   "t": "The Assessment",
+   "y": 2024,
+   "d": "Fleur Fortuné",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Drama"
+   ]
+  },
+  {
+   "id": "caddo lake|2024",
+   "t": "Caddo Lake",
+   "y": 2024,
+   "d": "Celine Held & Logan George",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Mystery",
+    "Sci-Fi"
+   ]
+  },
+  {
+   "id": "it's what's inside|2024",
+   "t": "It's What's Inside",
+   "y": 2024,
+   "d": "Greg Jardin",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "mb"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Thriller",
+    "Comedy"
+   ]
+  },
+  {
+   "id": "a complete unknown|2024",
+   "t": "A Complete Unknown",
+   "y": 2024,
+   "d": "James Mangold",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Biography",
+    "Music"
+   ]
+  },
+  {
+   "id": "alien: romulus|2024",
+   "t": "Alien: Romulus",
+   "y": 2024,
+   "d": "Fede Álvarez",
+   "n": "Best after Alien (1979)",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Horror"
+   ]
+  },
+  {
+   "id": "oddity|2024",
+   "t": "Oddity",
+   "y": 2024,
+   "d": "Damian McCarthy",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Supernatural",
+    "Horror"
+   ]
+  },
+  {
+   "id": "nosferatu|2024",
+   "t": "Nosferatu",
+   "y": 2024,
+   "d": "Robert Eggers",
+   "n": "Remake of Murnau's 1922 silent film — worth seeing the original first",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Gothic Horror"
+   ]
+  },
+  {
+   "id": "no other choice|2025",
+   "t": "No Other Choice",
+   "y": 2025,
+   "d": "Park Chan-wook",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "cr",
+    "pt"
+   ],
+   "g": [
+    "Thriller",
+    "Dark Comedy"
+   ]
+  },
+  {
+   "id": "the phoenician scheme|2025",
+   "t": "The Phoenician Scheme",
+   "y": 2025,
+   "d": "Wes Anderson",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "train dreams|2025",
+   "t": "Train Dreams",
+   "y": 2025,
+   "d": "Clint Bentley",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama"
+   ]
+  },
+  {
+   "id": "weapons|2025",
+   "t": "Weapons",
+   "y": 2025,
+   "d": "Zach Cregger",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "mb"
+   ],
+   "g": [
+    "Horror",
+    "Mystery"
+   ]
+  },
+  {
+   "id": "peter hujar's day|2025",
+   "t": "Peter Hujar's Day",
+   "y": 2025,
+   "d": "Ira Sachs",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Drama",
+    "Biography"
+   ]
+  },
+  {
+   "id": "project hail mary|2026",
+   "t": "Project Hail Mary",
+   "y": 2026,
+   "d": "Phil Lord & Christopher Miller",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt",
+    "ep"
+   ],
+   "g": [
+    "Sci-Fi",
+    "Adventure"
+   ]
+  },
+  {
+   "id": "resident evil|2026",
+   "t": "Resident Evil",
+   "y": 2026,
+   "d": "Zach Cregger",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror",
+    "Action"
+   ]
+  },
+  {
+   "id": "hokum|2026",
+   "t": "Hokum",
+   "y": 2026,
+   "d": "Damian McCarthy",
+   "n": "",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr"
+   ],
+   "g": [
+    "Horror"
+   ]
+  },
+  {
+   "id": "hearing damage|2026",
+   "t": "Hearing Damage",
+   "y": 2026,
+   "d": "Devin Desouza",
+   "n": "Short film, about 1.5 minutes, on YouTube",
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "qc"
+   ],
+   "g": [
+    "Short",
+    "Drama"
+   ]
+  }
+ ],
+ "cols": [
+  {
+   "id": "mb",
+   "name": "Mind-Benders",
+   "desc": "Puzzles, loops and unreliable realities. Watch alert."
+  },
+  {
+   "id": "su",
+   "name": "Strange & Surreal",
+   "desc": "Dream logic and fever visions. Films that don't explain themselves."
+  },
+  {
+   "id": "dr",
+   "name": "After Dark",
+   "desc": "Horror and dread. Lights off."
+  },
+  {
+   "id": "nc",
+   "name": "Night City",
+   "desc": "Neon, insomnia, streets after midnight."
+  },
+  {
+   "id": "cr",
+   "name": "Crime & Heists",
+   "desc": "Gangsters, cops, robbers and long cons."
+  },
+  {
+   "id": "fr",
+   "name": "Frontier",
+   "desc": "Westerns old and new: dust, guns, reckonings."
+  },
+  {
+   "id": "ep",
+   "name": "Big Screen",
+   "desc": "Scale and spectacle. Best on the largest screen you have."
+  },
+  {
+   "id": "lv",
+   "name": "Love & Longing",
+   "desc": "Romance, heartbreak, people who almost connect."
+  },
+  {
+   "id": "pt",
+   "name": "Portraits",
+   "desc": "One person at the center, studied up close."
+  },
+  {
+   "id": "qc",
+   "name": "Slow & Quiet",
+   "desc": "Patient, contemplative films for a calm evening."
+  },
+  {
+   "id": "gp",
+   "name": "Gut Punch",
+   "desc": "Heavy and devastating. Pick your evening carefully."
+  },
+  {
+   "id": "lt",
+   "name": "Light Mood",
+   "desc": "Fun, warm, stylish. Easy to put on."
+  }
+ ]
+}
