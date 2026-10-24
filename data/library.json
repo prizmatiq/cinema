@@ -8,7 +8,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.24,
    "imdb": 8.2,
    "c": [
     "ep",
@@ -22,7 +22,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjhjMGYyMjAtMzJkYy00NzhlLWIwY2MtMWQ2ODIxZDUyOGYyXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 150,
    "overview": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 203781,
+   "lbUrl": "https://letterboxd.com/film/metropolis/"
   },
   {
    "id": "citizen kane|1941",
@@ -32,7 +34,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.19,
    "imdb": 8.2,
    "c": [
     "pt"
@@ -45,7 +47,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYjk1ZDJlMmUtOWQ0Zi00MDM5LTk1OGYtODczNjFmMGYwZGVkXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 119,
    "overview": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 498016,
+   "lbUrl": "https://letterboxd.com/film/citizen-kane/"
   },
   {
    "id": "stromboli|1950",
@@ -55,7 +59,7 @@
    "n": "Rossellini–Bergman trilogy: Stromboli → Europe '51 → Journey to Italy",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.84,
    "imdb": 7.2,
    "c": [
     "qc"
@@ -67,7 +71,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTY0NzcwNmEtMmE5My00ZWUwLWEyYWItM2NiMWZmNWIyNzFiXkEyXkFqcGc@._V1_SX300.jpg",
    "runtime": 81,
    "overview": "Karin, a young woman from the Baltic countries, marries fisherman Antonio to escape from a prison camp. But she cannot get used to the tough life in Antonio's volcano-threatened village, Stromboli.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 9137,
+   "lbUrl": "https://letterboxd.com/film/stromboli/"
   },
   {
    "id": "europe '51|1952",
@@ -77,7 +83,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.89,
    "imdb": 7.4,
    "c": [
     "qc",
@@ -90,7 +96,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOTRiZTkzNDYtMmI1Yi00ODY0LThiNTQtNmRjMmI1YmY3YzlkXkEyXkFqcGc@._V1_SX300.jpg",
    "runtime": 118,
    "overview": "A wealthy woman becomes obsessed with humanitarianism when her young son dies after committing suicide.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 5584,
+   "lbUrl": "https://letterboxd.com/film/europa-51/"
   },
   {
    "id": "journey to italy|1954",
@@ -100,7 +108,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.79,
    "imdb": 7.2,
    "c": [
     "qc",
@@ -114,7 +122,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTkwZjdlMjMtYTM5MC00NjhlLWJkOTgtNDVlOWRhY2M0ODRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 97,
    "overview": "An unhappily married couple attempts to find direction and insight while vacationing in Naples.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 14163,
+   "lbUrl": "https://letterboxd.com/film/journey-to-italy/"
   },
   {
    "id": "the searchers|1956",
@@ -124,7 +134,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.94,
    "imdb": 7.8,
    "c": [
     "fr"
@@ -137,7 +147,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4YWI0MTItMTE4YS00ZTNjLWE3ZTQtN2E2MTlhYWQxNDNmXkEyXkFqcGc@._V1_QL75_UX380_CR0,9,380,562_.jpg",
    "runtime": 119,
    "overview": "An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 104235,
+   "lbUrl": "https://letterboxd.com/film/the-searchers/"
   },
   {
    "id": "ashes and diamonds|1958",
@@ -147,7 +159,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.04,
    "imdb": 7.7,
    "c": [
     "gp"
@@ -161,7 +173,9 @@
    "runtime": 103,
    "overview": "As World War II and the German occupation ends, the Polish resistance and the Soviet forces turn on each other in an attempt to take over leadership in Communist Poland.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 15312,
+   "lbUrl": "https://letterboxd.com/film/ashes-and-diamonds/"
   },
   {
    "id": "psycho|1960",
@@ -171,7 +185,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.31,
    "imdb": 8.5,
    "c": [
     "dr"
@@ -184,7 +198,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYjZhMzFiZjItODA3ZC00MmRhLWIzMGYtMmVjOWUwYTA3MTRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 109,
    "overview": "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 798044,
+   "lbUrl": "https://letterboxd.com/film/psycho/"
   },
   {
    "id": "ivan's childhood|1962",
@@ -194,7 +210,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.19,
    "imdb": 8,
    "c": [
     "gp",
@@ -208,7 +224,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMGM0ZGQ3ZWMtMGZjMi00MTIzLTg2ODItMjdmNmY3YTlkMDNiXkEyXkFqcGc@._V1_QL75_UX380_CR0,30,380,562_.jpg",
    "runtime": 95,
    "overview": "During WWII, Soviet orphan Ivan Bondarev strikes up a friendship with three sympathetic Soviet officers while working as a scout behind the German lines.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 44250,
+   "lbUrl": "https://letterboxd.com/film/ivans-childhood/"
   },
   {
    "id": "carnival of souls|1962",
@@ -218,7 +236,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.78,
    "imdb": 7,
    "c": [
     "dr",
@@ -232,7 +250,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNWRmOWVmZmEtMWI0MC00MWQ3LWEwYWItOWI0MmIzYzk1MTVjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 78,
    "overview": "After a traumatic accident, a woman becomes drawn to a mysterious abandoned carnival.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 31926,
+   "lbUrl": "https://letterboxd.com/film/carnival-of-souls/"
   },
   {
    "id": "lolita|1962",
@@ -242,7 +262,7 @@
    "n": "Kubrick's version; there is also Adrian Lyne's (1997)",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.42,
    "imdb": 7.5,
    "c": [
     "lv"
@@ -255,7 +275,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmY2ZTEwZTAtOThkZS00MzkxLTk3MDUtOTJiMTgzOGI1MzdjXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
    "runtime": 153,
    "overview": "A middle-aged college professor becomes infatuated with a 14-year-old girl.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 117623,
+   "lbUrl": "https://letterboxd.com/film/lolita/"
   },
   {
    "id": "8½|1963",
@@ -265,7 +287,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.25,
    "imdb": 8,
    "c": [
     "su",
@@ -279,7 +301,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmI4YWJlYzAtNGU5MS00NTljLThhN2QtNzMwMWM4NTA0ODNlXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 138,
    "overview": "Guido seeks peace after his success but faces pressure from past collaborators. As he struggles with creativity, he reflects on his life and past romances.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 134143,
+   "lbUrl": "https://letterboxd.com/film/8-half/"
   },
   {
    "id": "the leopard|1963",
@@ -289,7 +313,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.14,
    "imdb": 7.9,
    "c": [
     "ep"
@@ -302,7 +326,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODNiYThjOGMtOTZlYy00Y2Q0LTk5MjQtYTRkNzU2OTA2OWQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
    "runtime": 186,
    "overview": "The Prince of Salina, a noble aristocrat of impeccable integrity, tries to preserve his family and class amid the tumultuous social upheavals of 1860s Sicily.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 35180,
+   "lbUrl": "https://letterboxd.com/film/the-leopard/"
   },
   {
    "id": "onibaba|1964",
@@ -312,7 +338,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.06,
    "imdb": 7.8,
    "c": [
     "dr"
@@ -326,7 +352,9 @@
    "runtime": 103,
    "overview": "Two women kill samurai and sell their belongings for a living. While one of them is having an affair with their neighbor, the other woman meets a mysterious samurai wearing a bizarre mask.",
    "v": 3,
-   "idLock": true
+   "idLock": true,
+   "imdbVotes": 26376,
+   "lbUrl": "https://letterboxd.com/film/onibaba/"
   },
   {
    "id": "gate of flesh|1964",
@@ -336,7 +364,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.8,
    "imdb": 7.2,
    "c": [
     "gp"
@@ -348,7 +376,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMmIyMDY3NmUtMDhhNC00Y2NjLWI4NzMtNTJhMGY2M2RjMmE1XkEyXkFqcGc@._V1_SX300.jpg",
    "runtime": 90,
    "overview": "An injured thief on the run finds sanctuary within a brothel of united, ruthless women.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 3776,
+   "lbUrl": "https://letterboxd.com/film/gate-of-flesh/"
   },
   {
    "id": "a fistful of dollars|1964",
@@ -358,7 +388,7 @@
    "n": "Dollars Trilogy: Fistful → For a Few Dollars More → The Good, the Bad and the Ugly",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.98,
    "imdb": 7.9,
    "c": [
     "fr"
@@ -371,7 +401,9 @@
    "runtime": 99,
    "overview": "A wandering gunfighter plays two rival families against each other in a town torn apart by greed, pride, and revenge.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 257667,
+   "lbUrl": "https://letterboxd.com/film/a-fistful-of-dollars/"
   },
   {
    "id": "for a few dollars more|1965",
@@ -381,7 +413,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.25,
    "imdb": 8.2,
    "c": [
     "fr"
@@ -394,7 +426,9 @@
    "runtime": 132,
    "overview": "Two bounty killers with similar intentions but different motivations team up to take down a psychotic Mexican outlaw before he and his gang can carry out an audacious bank robbery.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 305063,
+   "lbUrl": "https://letterboxd.com/film/for-a-few-dollars-more/"
   },
   {
    "id": "persona|1966",
@@ -404,7 +438,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.37,
    "imdb": 8,
    "c": [
     "su",
@@ -418,7 +452,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTRhNzkzMDktZDNlNi00MDIwLWFiNjAtNTlmYjZjYWZlMTEzXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 83,
    "overview": "A nurse is put in charge of a mute actress and finds that their personae are melding together.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 142682,
+   "lbUrl": "https://letterboxd.com/film/persona/"
   },
   {
    "id": "the good, the bad and the ugly|1966",
@@ -428,7 +464,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.51,
    "imdb": 8.8,
    "c": [
     "fr",
@@ -442,7 +478,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 178,
    "overview": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 905186,
+   "lbUrl": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/"
   },
   {
    "id": "2001: a space odyssey|1968",
@@ -452,7 +490,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.23,
    "imdb": 8.3,
    "c": [
     "mb",
@@ -465,7 +503,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 149,
    "overview": "When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two scientists and one supercomputer is dispatched to Jupiter to find its origins.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 795752,
+   "lbUrl": "https://letterboxd.com/film/2001-a-space-odyssey/"
   },
   {
    "id": "rosemary's baby|1968",
@@ -475,7 +515,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.21,
    "imdb": 8,
    "c": [
     "dr"
@@ -488,7 +528,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDlhMDI3OTQtNTBkYy00NWQ5LWJmNWEtZGQwYzZlMTQ4MDI1XkEyXkFqcGc@._V1_QL75_UX380_CR0,5,380,562_.jpg",
    "runtime": 137,
    "overview": "A young woman suspects her neighbors have sinister plans for her pregnancy.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 262327,
+   "lbUrl": "https://letterboxd.com/film/rosemarys-baby/"
   },
   {
    "id": "once upon a time in the west|1968",
@@ -498,7 +540,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.39,
    "imdb": 8.5,
    "c": [
     "fr",
@@ -512,7 +554,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BZjYyNGY1MDEtN2I1MC00MGVhLTljZTYtODQ1NzQ0ODc2NzZlXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "runtime": 145,
-   "overview": "A mysterious stranger with a harmonica teams up with a notorious desperado to protect a beautiful widow and her land from a ruthless assassin in the employ of a railroad tycoon."
+   "overview": "A mysterious stranger with a harmonica teams up with a notorious desperado to protect a beautiful widow and her land from a ruthless assassin in the employ of a railroad tycoon.",
+   "imdbVotes": 388836,
+   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-the-west/"
   },
   {
    "id": "a clockwork orange|1971",
@@ -522,7 +566,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.09,
    "imdb": 8.2,
    "c": [
     "su"
@@ -536,7 +580,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 136,
    "overview": "Alex DeLarge and his droogs barbarize a decaying near-future.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 948130,
+   "lbUrl": "https://letterboxd.com/film/a-clockwork-orange/"
   },
   {
    "id": "the devil|1972",
@@ -546,7 +592,7 @@
    "n": "Shot in 1972, banned, released in 1988 — some sites list that year",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.84,
    "imdb": 7,
    "c": [
     "su",
@@ -560,7 +606,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTkzZTU2OGEtNjA2MC00YTM1LTg0M2EtM2NiY2I4M2RiZjg3XkEyXkFqcGc@._V1_SX300.jpg",
    "runtime": 125,
    "overview": "Young Polish noble Jakub, freed during 1793 Prussian invasion, experiences father's death, betrayal. Traumatized, he follows his savior, committing brutal murders across the country.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 3728,
+   "lbUrl": "https://letterboxd.com/film/the-devil-1972/"
   },
   {
    "id": "the godfather|1972",
@@ -570,7 +618,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.51,
    "imdb": 9.2,
    "c": [
     "cr",
@@ -584,7 +632,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_QL75_UY562_CR8,0,380,562_.jpg",
    "runtime": 175,
    "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 2267515,
+   "lbUrl": "https://letterboxd.com/film/the-godfather/"
   },
   {
    "id": "serpico|1973",
@@ -594,7 +644,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 7.7,
    "c": [
     "cr",
@@ -608,7 +658,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTg3NzUzYzYtMmQxOS00MjAwLWI0ZDYtNDg4OTQ4OTljNGFlXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 130,
    "overview": "An honest New York cop named Frank Serpico blows the whistle on rampant corruption in the force only to have his comrades turn against him.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 149346,
+   "lbUrl": "https://letterboxd.com/film/serpico/"
   },
   {
    "id": "don't look now|1973",
@@ -618,7 +670,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.77,
    "imdb": 7.1,
    "c": [
     "dr"
@@ -631,7 +683,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTVlYjE0MjItZTRmZC00ZGM1LWIyNzMtYTMzZTViZGFlYzMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "runtime": 110,
    "overview": "A married couple grieving the recent death of their young daughter are in Venice when they encounter two elderly sisters with a warning from beyond.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 69720,
+   "lbUrl": "https://letterboxd.com/film/dont-look-now/"
   },
   {
    "id": "the exorcist|1973",
@@ -641,7 +695,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.94,
    "imdb": 8.1,
    "c": [
     "dr"
@@ -653,7 +707,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZjg3YjE4ZjAtYTdmYS00ZTBkLWE1ZjgtNzAzODUwNzRiYjlmXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 122,
    "overview": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 507785,
+   "lbUrl": "https://letterboxd.com/film/the-exorcist/"
   },
   {
    "id": "the godfather part ii|1974",
@@ -663,7 +719,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.59,
    "imdb": 9,
    "c": [
     "cr",
@@ -677,7 +733,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 202,
    "overview": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1520732,
+   "lbUrl": "https://letterboxd.com/film/the-godfather-part-ii/"
   },
   {
    "id": "chinatown|1974",
@@ -687,7 +745,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.3,
    "imdb": 8.1,
    "c": [
     "cr"
@@ -700,7 +758,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmRmZTE0NmUtZjhiZi00MzQ3LTk3ZjctN2Q3ODYzY2U3MDk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
    "runtime": 130,
    "overview": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 381487,
+   "lbUrl": "https://letterboxd.com/film/chinatown/"
   },
   {
    "id": "barry lyndon|1975",
@@ -710,7 +770,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.41,
    "imdb": 8.1,
    "c": [
     "ep",
@@ -724,7 +784,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmM2MGQ5Y2UtYzA3ZC00ZDJlLTkwNDYtMjBmZGExZDJiN2RlXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 185,
    "overview": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 209554,
+   "lbUrl": "https://letterboxd.com/film/barry-lyndon/"
   },
   {
    "id": "taxi driver|1976",
@@ -734,7 +796,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.1,
    "imdb": 8.2,
    "c": [
     "pt",
@@ -748,7 +810,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
    "runtime": 114,
    "overview": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1046419,
+   "lbUrl": "https://letterboxd.com/film/taxi-driver/"
   },
   {
    "id": "saturday night fever|1977",
@@ -758,7 +822,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.21,
    "imdb": 6.8,
    "c": [
     "nc",
@@ -772,7 +836,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BM2UxZGU5ZDItZmQ0NS00NzNlLTgwMGMtOGJkMzQ5N2QwZjNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
    "runtime": 119,
    "overview": "Anxious about his future after high school, a 19-year-old Italian-American from Brooklyn tries to escape the harsh reality of his bleak family life by dominating the dance floor at the local disco.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 96267,
+   "lbUrl": "https://letterboxd.com/film/saturday-night-fever/"
   },
   {
    "id": "house|1977",
@@ -782,7 +848,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.98,
    "imdb": 7.2,
    "c": [
     "su",
@@ -798,7 +864,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOGI5OGIwOGUtMzM4MC00MTZkLWI0MWMtZDkzNzE2ZjYxYWZlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 88,
    "overview": "A schoolgirl and six of her classmates travel to her aunt's country home, which turns out to be haunted.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 40944,
+   "lbUrl": "https://letterboxd.com/film/house/"
   },
   {
    "id": "apocalypse now|1979",
@@ -808,7 +876,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.43,
    "imdb": 8.4,
    "c": [
     "ep",
@@ -822,7 +890,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDhiMTljYjYtODc1Yy00MmEwLTg2OTYtYmE1YTRmNDE4MmEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,11,380,562_.jpg",
    "runtime": 147,
    "overview": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 780694,
+   "lbUrl": "https://letterboxd.com/film/apocalypse-now/"
   },
   {
    "id": "demon pond|1979",
@@ -832,7 +902,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.72,
    "imdb": 7,
    "c": [
     "su"
@@ -845,7 +915,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOGZkZjdkZTctNTFkOS00MTZkLThkNzctMmQ4MDM3NWQ1ZjY2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 123,
    "overview": "Mysterious pond near Japanese village inhabited by mythical beings. Their narrative revolves around vengeance, heartbreak, and the strength of genuine affection.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1325,
+   "lbUrl": "https://letterboxd.com/film/demon-pond-1979/"
   },
   {
    "id": "the shining|1980",
@@ -855,7 +927,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.21,
    "imdb": 8.4,
    "c": [
     "dr"
@@ -868,7 +940,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 146,
    "overview": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1249808,
+   "lbUrl": "https://letterboxd.com/film/the-shining/"
   },
   {
    "id": "raging bull|1980",
@@ -878,7 +952,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.21,
    "imdb": 8.1,
    "c": [
     "pt"
@@ -891,7 +965,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 129,
    "overview": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 415625,
+   "lbUrl": "https://letterboxd.com/film/raging-bull/"
   },
   {
    "id": "altered states|1980",
@@ -901,7 +977,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.7,
    "imdb": 6.9,
    "c": [
     "mb",
@@ -915,7 +991,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjA3ZmU3ZjEtMmJkNC00MzZjLWEzZTEtZDdmN2Y3OWJhMmFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 102,
    "overview": "A maverick psychology professor decides to combine his experiments in sensory deprivation tanks with powerful hallucinogenic mushrooms, and begins to experience altered mental and physical states.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 43333,
+   "lbUrl": "https://letterboxd.com/film/altered-states/"
   },
   {
    "id": "thief|1981",
@@ -925,7 +1003,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.07,
    "imdb": 7.4,
    "c": [
     "cr",
@@ -939,7 +1017,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzk2MGQ3NjMtNDc4Yy00NzEwLTk5ZDQtNzYwMjhmMzcwN2JiXkEyXkFqcGc@._V1_SX300.jpg",
    "runtime": 123,
    "overview": "After years in prison, ace safe-cracker Frank owns a car dealership and a cocktail lounge, which are fronts for high-stakes jewelry heists. He wants to complete one last big heist for the Mob before he goes straight.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 52215,
+   "lbUrl": "https://letterboxd.com/film/thief/"
   },
   {
    "id": "pennies from heaven|1981",
@@ -949,7 +1029,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.46,
    "imdb": 6.5,
    "c": [
     "lv",
@@ -963,7 +1043,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOWZkZTM2YjMtZDgxNy00ODFhLWEzOGEtZGUxZTZmZWVkMTEzXkEyXkFqcGc@._V1_SX300.jpg",
    "runtime": 108,
    "overview": "During the Great Depression, a sheet-music salesman seeks to escape his dreary life through popular music and a love affair with an innocent schoolteacher.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 6929,
+   "lbUrl": "https://letterboxd.com/film/pennies-from-heaven/"
   },
   {
    "id": "the king of comedy|1982",
@@ -973,7 +1055,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.24,
    "imdb": 7.8,
    "c": [
     "pt"
@@ -986,7 +1068,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTQxNGUwNmUtMDJhYy00ZjM1LWFjZjQtYmI5ZGY4YTZmZWQyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 109,
    "overview": "Rupert is an aspiring stand-up comedian, who is willing to go the extra mile in his attempt to appear in the late night show hosted by his idol.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 136318,
+   "lbUrl": "https://letterboxd.com/film/the-king-of-comedy/"
   },
   {
    "id": "scarface|1983",
@@ -996,7 +1080,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.16,
    "imdb": 8.3,
    "c": [
     "cr"
@@ -1009,7 +1093,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDUzYjY0NmUtMDM4OS00Y2Q5LWJiODYtNTk0ZTk0YjZhMTg1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 170,
    "overview": "In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1039645,
+   "lbUrl": "https://letterboxd.com/film/scarface-1983/"
   },
   {
    "id": "paris, texas|1984",
@@ -1019,7 +1105,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.36,
    "imdb": 8.1,
    "c": [
     "lv",
@@ -1033,7 +1119,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYWY5YzE4YmUtZWFhMS00YjYxLWI5ZGUtNDEyNmMzNDVjMGEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,12,380,562_.jpg",
    "runtime": 145,
    "overview": "After missing for 4 years, aimless drifter Travis Henderson wanders out of the desert and slowly begins to reconnect with his brother's family and his young son while examining his past and attempting to reconcile with his estrang...",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 145913,
+   "lbUrl": "https://letterboxd.com/film/paris-texas/"
   },
   {
    "id": "once upon a time in america|1984",
@@ -1043,7 +1131,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.22,
    "imdb": 8.3,
    "c": [
     "cr",
@@ -1057,7 +1145,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMDQ0ZTg2OGUtZjMyOC00M2M5LThkMmItZmM2MmUzMmIxMWJhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 229,
    "overview": "A former New York gangster returns after decades in exile, confronting the friendships, dreams, and regrets that shaped his rise from street kid to Prohibition-era mobster.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 413518,
+   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-america/"
   },
   {
    "id": "ran|1985",
@@ -1067,7 +1157,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.51,
    "imdb": 8.2,
    "c": [
     "ep"
@@ -1081,7 +1171,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDk2NDY5YjktMjEyMC00OTJhLTkzM2EtY2Q4Y2RjYzc2Yjk4XkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
    "runtime": 160,
    "overview": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 155491,
+   "lbUrl": "https://letterboxd.com/film/ran/"
   },
   {
    "id": "after hours|1985",
@@ -1091,7 +1183,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.13,
    "imdb": 7.6,
    "c": [
     "nc",
@@ -1105,7 +1197,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMjEzMzI2MV5BMl5BanBnXkFtZTgwNTU3ODAxMDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 97,
    "overview": "Ordinary word processor Paul Hackett experiences the worst night of his life after he agrees to visit Marcy, a Soho resident that he met that evening at a coffee shop.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 101558,
+   "lbUrl": "https://letterboxd.com/film/after-hours/"
   },
   {
    "id": "blue velvet|1986",
@@ -1115,7 +1209,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.06,
    "imdb": 7.7,
    "c": [
     "su",
@@ -1129,7 +1223,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzkwZGUyYjQtM2QyOC00MTBjLWE0NGYtMTZmOGM5MjI0Mzg0XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 120,
    "overview": "A young man finds a severed human ear that is somehow connected to a mysterious lounge singer and a group of psychopathic criminals who have kidnapped her child.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 250477,
+   "lbUrl": "https://letterboxd.com/film/blue-velvet/"
   },
   {
    "id": "the untouchables|1987",
@@ -1139,7 +1235,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.86,
    "imdb": 7.8,
    "c": [
     "cr"
@@ -1152,7 +1248,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYjVlNTk3NGYtOWE0OC00MDI4LThlZWItZGMwMTdmYzcwM2Y5XkEyXkFqcGc@._V1_QL75_UX380_CR0,13,380,562_.jpg",
    "runtime": 119,
    "overview": "During Prohibition, Treasury agent Eliot Ness sets out to stop ruthless Chicago gangster Al Capone, and assembles a small, incorruptible team to help him.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 358149,
+   "lbUrl": "https://letterboxd.com/film/the-untouchables/"
   },
   {
    "id": "dead ringers|1988",
@@ -1162,7 +1260,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.85,
    "imdb": 7.2,
    "c": [
     "dr",
@@ -1176,7 +1274,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTMwZDViNDMtZGJjNC00YzM4LWFiN2YtZjVjNjAwOWNjMTIxXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "runtime": 116,
    "overview": "Twin gynecologists take full advantage of the fact that nobody can tell them apart, until their relationship begins to deteriorate over a woman.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 59923,
+   "lbUrl": "https://letterboxd.com/film/dead-ringers/"
   },
   {
    "id": "mo' better blues|1990",
@@ -1186,7 +1286,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.74,
    "imdb": 6.7,
    "c": [
     "lv",
@@ -1200,7 +1300,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2UwODg5YzMtYjBiOC00MTU2LWE0OGEtYjA5MWNkOWEwODQ5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 130,
    "overview": "Jazz trumpeter Bleek Gilliam makes questionable decisions in his professional and romantic lives.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 15218,
+   "lbUrl": "https://letterboxd.com/film/mo-better-blues/"
   },
   {
    "id": "goodfellas|1990",
@@ -1210,7 +1312,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.46,
    "imdb": 8.7,
    "c": [
     "cr"
@@ -1223,7 +1325,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "runtime": 145,
    "overview": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1420469,
+   "lbUrl": "https://letterboxd.com/film/goodfellas/"
   },
   {
    "id": "king of new york|1990",
@@ -1233,7 +1337,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.76,
    "imdb": 6.9,
    "c": [
     "cr",
@@ -1247,7 +1351,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOTE2NDcxNzE4N15BMl5BanBnXkFtZTgwMDc1NTk4NjE@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 103,
    "overview": "A drug kingpin is released from prison and seeks to take total control of the criminal underworld in order to give back to the community.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 50277,
+   "lbUrl": "https://letterboxd.com/film/king-of-new-york/"
   },
   {
    "id": "dreams|1990",
@@ -1257,7 +1363,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.24,
    "imdb": 7.7,
    "c": [
     "su",
@@ -1271,7 +1377,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDkwYmVkNTgtMGYyOC00NTQzLTkyNmMtODcxM2RmZDg1MTA4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 119,
    "overview": "A collection of tales based upon eight of director Akira Kurosawa's recurring dreams.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 33513,
+   "lbUrl": "https://letterboxd.com/film/dreams/"
   },
   {
    "id": "tie me up! tie me down!|1990",
@@ -1281,7 +1389,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.53,
    "imdb": 7,
    "c": [
     "lv",
@@ -1295,7 +1403,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2M5OGY1MDEtZmJmYy00OGEyLTg5MzQtMDhjNzA5YzExNDI1XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
    "runtime": 101,
    "overview": "An unbalanced but alluring former mental patient takes a porn star prisoner in the hopes of convincing her to marry him.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 34046,
+   "lbUrl": "https://letterboxd.com/film/tie-me-up-tie-me-down/"
   },
   {
    "id": "the silence of the lambs|1991",
@@ -1305,7 +1415,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.34,
    "imdb": 8.6,
    "c": [
     "dr",
@@ -1319,7 +1429,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 118,
    "overview": "A young FBI cadet is aided by a manipulative cannibal killer in her pursuit of a madman who skins his victims.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1761085,
+   "lbUrl": "https://letterboxd.com/film/the-silence-of-the-lambs/"
   },
   {
    "id": "unforgiven|1992",
@@ -1329,7 +1441,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.21,
    "imdb": 8.2,
    "c": [
     "fr"
@@ -1341,7 +1453,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmZmMzM3YWMtZjg5Yi00M2MxLTg3ZGItNGU4YjQxNDAxM2Q4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 130,
    "overview": "Retired Old West gunslinger Will Munny reluctantly takes on one last job to avenge an injustice with the help of his old partner and a young would-be gunman calling himself \"The Schofield Kid\".",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 474252,
+   "lbUrl": "https://letterboxd.com/film/unforgiven/"
   },
   {
    "id": "malcolm x|1992",
@@ -1351,7 +1465,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.3,
    "imdb": 7.7,
    "c": [
     "pt",
@@ -1365,7 +1479,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTQwYjFhNTMtMjliOC00MGJhLTkwYWMtYjQzZTRiYjRlNjE4XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "runtime": 202,
    "overview": "Biographical epic of the controversial and influential Black Nationalist leader, from his early life and career as a small-time gangster, to his ministry as a member of the Nation of Islam and his eventual assassination.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 112935,
+   "lbUrl": "https://letterboxd.com/film/malcolm-x-1992/"
   },
   {
    "id": "naked|1993",
@@ -1375,7 +1491,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.97,
    "imdb": 7.6,
    "c": [
     "gp",
@@ -1389,7 +1505,9 @@
    "runtime": 131,
    "overview": "An unemployed Mancunian vents his rage on unsuspecting strangers as he embarks on a nocturnal London odyssey.",
    "v": 3,
-   "idLock": true
+   "idLock": true,
+   "imdbVotes": 49617,
+   "lbUrl": "https://letterboxd.com/film/naked/"
   },
   {
    "id": "tombstone|1993",
@@ -1399,7 +1517,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.93,
    "imdb": 7.8,
    "c": [
     "fr",
@@ -1413,7 +1531,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNmQyMzlhNjUtMzRjYS00MWY4LWI5MDAtZGU1MWE2M2E0OGMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 130,
    "overview": "A successful lawman's plans to retire anonymously in Tombstone, Arizona, are disrupted by the kind of outlaws he was famous for eliminating.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 196300,
+   "lbUrl": "https://letterboxd.com/film/tombstone/"
   },
   {
    "id": "chungking express|1994",
@@ -1423,7 +1543,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.27,
    "imdb": 7.9,
    "c": [
     "nc",
@@ -1438,7 +1558,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BNDQ4ZmYxODctZDVlZC00OTcxLWJjOGItZjRlMzk4MDA1Yjg1XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 102,
-   "overview": "Two melancholic Hong Kong policemen fall in love: one with a mysterious female underworld figure, the other with a beautiful and ethereal waitress at a late-night restaurant he frequents."
+   "overview": "Two melancholic Hong Kong policemen fall in love: one with a mysterious female underworld figure, the other with a beautiful and ethereal waitress at a late-night restaurant he frequents.",
+   "imdbVotes": 114694,
+   "lbUrl": "https://letterboxd.com/film/chungking-express/"
   },
   {
    "id": "fallen angels|1995",
@@ -1448,7 +1570,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.16,
    "imdb": 7.5,
    "c": [
     "nc",
@@ -1463,7 +1585,9 @@
    "overview": "This Hong Kong-set crime drama follows the lives of a hitman, hoping to get out of the business, and his elusive female partner.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNDI1MThjODYtZjQyZi00ZWU0LWI4OTItODlhN2ZjYzI3ODAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 61739,
+   "lbUrl": "https://letterboxd.com/film/fallen-angels/"
   },
   {
    "id": "la haine|1995",
@@ -1473,7 +1597,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.5,
    "imdb": 8.1,
    "c": [
     "nc",
@@ -1487,7 +1611,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMThlMDA3NDYtZGM2Zi00NmJhLThlYWItZjViZTkzZWU1ZWRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 98,
    "overview": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 233177,
+   "lbUrl": "https://letterboxd.com/film/la-haine/"
   },
   {
    "id": "hackers|1995",
@@ -1497,7 +1623,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.32,
    "imdb": 6.2,
    "c": [
     "nc",
@@ -1511,7 +1637,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOGZkZTc2ZjItNzIzMS00ODRlLTliNjgtZjRmNzM2NjkzZTU1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 105,
    "overview": "Teenage hackers discover a criminal conspiracy with plans to use a computer virus that will capsize five oil tankers.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 83309,
+   "lbUrl": "https://letterboxd.com/film/hackers/"
   },
   {
    "id": "heat|1995",
@@ -1521,7 +1649,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.32,
    "imdb": 8.3,
    "c": [
     "cr",
@@ -1535,7 +1663,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_QL75_UY562_CR6,0,380,562_.jpg",
    "runtime": 170,
    "overview": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 822232,
+   "lbUrl": "https://letterboxd.com/film/heat-1995/"
   },
   {
    "id": "12 monkeys|1995",
@@ -1545,7 +1675,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.89,
    "imdb": 8,
    "c": [
     "mb"
@@ -1559,7 +1689,9 @@
    "runtime": 129,
    "overview": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 686158,
+   "lbUrl": "https://letterboxd.com/film/twelve-monkeys/"
   },
   {
    "id": "the quick and the dead|1995",
@@ -1569,7 +1701,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.48,
    "imdb": 6.5,
    "c": [
     "fr",
@@ -1583,7 +1715,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzU2OGUyOWItMDY4Yi00N2M0LTgwZjYtNTQ0YjZjNTAxYjg4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 108,
    "overview": "A female gunfighter returns to a frontier town where a dueling tournament is being held, which she enters in an effort to avenge her father's death.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 115336,
+   "lbUrl": "https://letterboxd.com/film/the-quick-and-the-dead-1995/"
   },
   {
    "id": "casino|1995",
@@ -1593,7 +1727,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.22,
    "imdb": 8.2,
    "c": [
     "cr"
@@ -1606,7 +1740,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMDRlZWZjZjYtYzY2NS00ZWVjLTkwYzAtZTA2ZDAzMGRiYmYwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 178,
    "overview": "In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 630478,
+   "lbUrl": "https://letterboxd.com/film/casino/"
   },
   {
    "id": "the usual suspects|1995",
@@ -1616,7 +1752,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.08,
    "imdb": 8.5,
    "c": [
     "cr",
@@ -1630,7 +1766,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "runtime": 106,
    "overview": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1259868,
+   "lbUrl": "https://letterboxd.com/film/the-usual-suspects/"
   },
   {
    "id": "bottle rocket|1996",
@@ -1640,7 +1778,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.53,
    "imdb": 6.9,
    "c": [
     "lt"
@@ -1653,7 +1791,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDlmNWY5NmMtZDNiMS00YjQ1LTg5NmItZmE5ZWEwNDg2MzhjXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 91,
    "overview": "Three friends plan to pull off a simple robbery and go on the run.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 89287,
+   "lbUrl": "https://letterboxd.com/film/bottle-rocket-1996/"
   },
   {
    "id": "primal fear|1996",
@@ -1663,7 +1803,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.03,
    "imdb": 7.7,
    "c": [
     "cr",
@@ -1677,7 +1817,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTJlYjM5MTYtZWU3YS00ZDRhLTk1MWEtZGQyODc1ZDU2MWEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "runtime": 129,
    "overview": "A high-profile murder intrigues a publicity hungry lawyer.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 300599,
+   "lbUrl": "https://letterboxd.com/film/primal-fear/"
   },
   {
    "id": "perfect blue|1997",
@@ -1687,7 +1829,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.37,
    "imdb": 8,
    "c": [
     "mb",
@@ -1702,7 +1844,9 @@
    "overview": "A pop singer gives up her career to become an actress, but she slowly goes insane when she starts being stalked by an obsessed fan and what seems to be a ghost of her past.",
    "idLock": true,
    "v": 3,
-   "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZjY1OWItNjYyNC00ZjlhLTgwOTAtMGNiYTFmYTNmZDI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZjY1OWItNjYyNC00ZjlhLTgwOTAtMGNiYTFmYTNmZDI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "imdbVotes": 128527,
+   "lbUrl": "https://letterboxd.com/film/perfect-blue/"
   },
   {
    "id": "good will hunting|1997",
@@ -1712,7 +1856,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.39,
    "imdb": 8.4,
    "c": [
     "pt"
@@ -1725,7 +1869,9 @@
    "runtime": 126,
    "idLock": true,
    "v": 3,
-   "overview": "A therapist counsels Will Hunting, a janitor with a genius IQ."
+   "overview": "A therapist counsels Will Hunting, a janitor with a genius IQ.",
+   "imdbVotes": 1249772,
+   "lbUrl": "https://letterboxd.com/film/good-will-hunting/"
   },
   {
    "id": "lost highway|1997",
@@ -1735,7 +1881,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.12,
    "imdb": 7.6,
    "c": [
     "su",
@@ -1749,7 +1895,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNjcyNmM2ODktYzk0Mi00Njk0LTljZGMtNGZhMzI4NmY1NzA1XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 134,
    "overview": "Anonymous videotapes presage a musician's murder conviction, and a gangster's girlfriend leads a mechanic astray.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 174151,
+   "lbUrl": "https://letterboxd.com/film/lost-highway/"
   },
   {
    "id": "the game|1997",
@@ -1759,7 +1907,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.83,
    "imdb": 7.7,
    "c": [
     "mb"
@@ -1772,7 +1920,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNGUzNzQwNmMtNzI3Mi00ZDIwLWJlM2ItMTA5N2Q2ZDMxMjJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 129,
    "overview": "An arrogant, isolated investment banker is targeted by an enigmatic entertainment company, plunging into an escalating, reality-bending conspiracy orchestrated by his estranged brother to shatter his emotional detachment.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 479422,
+   "lbUrl": "https://letterboxd.com/film/the-game/"
   },
   {
    "id": "l.a. confidential|1997",
@@ -1782,7 +1932,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.1,
    "imdb": 8.2,
    "c": [
     "cr"
@@ -1795,7 +1945,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODdiMjY1OGYtNDk0NC00NGQ1LWI4MDItOTJhMTM0YjE1YTAzXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "runtime": 138,
    "overview": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 665714,
+   "lbUrl": "https://letterboxd.com/film/la-confidential/"
   },
   {
    "id": "the truman show|1998",
@@ -1805,7 +1957,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.22,
    "imdb": 8.2,
    "c": [
     "mb",
@@ -1819,7 +1971,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 103,
    "overview": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1414876,
+   "lbUrl": "https://letterboxd.com/film/the-truman-show/"
   },
   {
    "id": "rushmore|1998",
@@ -1829,7 +1983,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.89,
    "imdb": 7.6,
    "c": [
     "lt",
@@ -1843,7 +1997,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZmM2MTNhYWItMDc4Yi00MTM3LWI3YTctYjE1NWRjNTczYjI5XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 93,
    "overview": "A teenager at Rushmore Academy falls for a much older teacher and befriends a middle-aged industrialist. Later, he finds out that his love interest and his friend are having an affair, which prompts him to begin a vendetta.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 210091,
+   "lbUrl": "https://letterboxd.com/film/rushmore/"
   },
   {
    "id": "american history x|1998",
@@ -1853,7 +2009,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.17,
    "imdb": 8.5,
    "c": [
     "gp",
@@ -1867,7 +2023,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMzhiOTQ0NDItOTg0Zi00OGVmLWE0OGEtMTI4NDM0NWMxZWU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 119,
    "overview": "A neo-Nazi is released from prison a changed man and hopes to prevent his younger brother from following in his footsteps.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1290926,
+   "lbUrl": "https://letterboxd.com/film/american-history-x/"
   },
   {
    "id": "rounders|1998",
@@ -1877,7 +2035,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.61,
    "imdb": 7.3,
    "c": [
     "cr",
@@ -1891,7 +2049,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMWQ1NTVjZjYtNzlhYi00YmQ2LWFhM2EtMWY4MGE3NzVmZGQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 121,
    "overview": "A law student and his recently paroled pal gamble for high stakes in the legal and illegal poker parlors in the tri-state area of New York.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 174290,
+   "lbUrl": "https://letterboxd.com/film/rounders/"
   },
   {
    "id": "pi|1998",
@@ -1901,7 +2061,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.74,
    "imdb": 7.3,
    "c": [
     "mb"
@@ -1913,7 +2073,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNWExNjZlZGQtYjIxMS00ZTAyLTkzMjktOWVlMDg0NTM2OTUxXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 84,
    "overview": "A paranoid mathematician searches for a key number that will unlock the universal patterns found in nature.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 194161,
+   "lbUrl": "https://letterboxd.com/film/pi/"
   },
   {
    "id": "dark city|1998",
@@ -1923,7 +2085,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.69,
    "imdb": 7.5,
    "c": [
     "mb",
@@ -1937,7 +2099,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTczNDQ3YWUtZTkxNS00MTFlLWE4Y2UtNGIxZTc3ZmEwMzgxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 100,
    "overview": "A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 229406,
+   "lbUrl": "https://letterboxd.com/film/dark-city-1998/"
   },
   {
    "id": "fight club|1999",
@@ -1947,7 +2111,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.27,
    "imdb": 8.8,
    "c": [
     "mb",
@@ -1960,7 +2124,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 139,
    "overview": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 2676207,
+   "lbUrl": "https://letterboxd.com/film/fight-club/"
   },
   {
    "id": "bleeder|1999",
@@ -1970,7 +2136,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.63,
    "imdb": 6.8,
    "c": [
     "gp",
@@ -1984,7 +2150,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDU1MjNmZjUtOGYzMC00OTkyLTlkYjEtZDgwZWUxOGU0OWY1XkEyXkFqcGc@._V1_QL75_UY562_CR15,0,380,562_.jpg",
    "runtime": 98,
    "overview": "Two stories for the price of one: Lenny works in a video shop and tries to get acquainted with Lea. Leo beats his pregnant wife, Louise, which is a VERY bad idea, as her brother, Louis, is a violent racist.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 11806,
+   "lbUrl": "https://letterboxd.com/film/bleeder/"
   },
   {
    "id": "being john malkovich|1999",
@@ -1994,7 +2162,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.07,
    "imdb": 7.7,
    "c": [
     "mb",
@@ -2008,7 +2176,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDExODk1MTktNzRiYS00MWEyLTgyOWItYTI1OWY4NzI1NDM2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 113,
    "overview": "A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 372132,
+   "lbUrl": "https://letterboxd.com/film/being-john-malkovich/"
   },
   {
    "id": "the sixth sense|1999",
@@ -2018,7 +2188,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.12,
    "imdb": 8.2,
    "c": [
     "mb",
@@ -2032,7 +2202,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZWQ2OTY0M2UtMTQxNC00MmIzLTllNDQtNDQ0MTQyYzI2M2ZiXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 107,
    "overview": "After being shot by a resentful former patient whom he failed to help, a Philadelphia child psychologist seeks redemption by treating a young boy with a disturbing secret.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1172195,
+   "lbUrl": "https://letterboxd.com/film/the-sixth-sense/"
   },
   {
    "id": "sleepy hollow|1999",
@@ -2042,7 +2214,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.59,
    "imdb": 7.3,
    "c": [
     "dr",
@@ -2056,7 +2228,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYWIwMTIxZTQtNDZhNS00ZDZlLTg5MTEtOTNkMmNjOGUzMTA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 105,
    "overview": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people; the culprit is legendary apparition The Headless Horseman.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 418787,
+   "lbUrl": "https://letterboxd.com/film/sleepy-hollow/"
   },
   {
    "id": "eyes wide shut|1999",
@@ -2066,7 +2240,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.98,
    "imdb": 7.5,
    "c": [
     "nc",
@@ -2080,7 +2254,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTQ0MmM5MDAtYmYyZS00MzlmLTlhZTAtZDJlZWY5ZTZkZjZmXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 159,
    "overview": "A Manhattan doctor embarks on a bizarre, night-long odyssey after his wife's admission of unfulfilled longing.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 442706,
+   "lbUrl": "https://letterboxd.com/film/eyes-wide-shut/"
   },
   {
    "id": "requiem for a dream|2000",
@@ -2090,7 +2266,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.11,
    "imdb": 8.3,
    "c": [
     "gp"
@@ -2102,7 +2278,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2ZlMjIzZjctYzA2My00ZWYyLWI4ZjctMGI2NWYyNzFiZjAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 102,
    "overview": "Four Coney Island dreamers chase love, fame, and escape, but addiction and obsession begin to distort their hopes for a better life.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 988226,
+   "lbUrl": "https://letterboxd.com/film/requiem-for-a-dream/"
   },
   {
    "id": "american psycho|2000",
@@ -2112,7 +2290,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.75,
    "imdb": 7.6,
    "c": [
     "pt",
@@ -2126,7 +2304,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzBjM2I5ZjUtNmIzNy00OGNkLWIwZDMtOTAwYWUwMzA2YjdlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 102,
    "overview": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 862095,
+   "lbUrl": "https://letterboxd.com/film/american-psycho/"
   },
   {
    "id": "memento|2000",
@@ -2136,8 +2316,8 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 4.18,
+   "imdb": 8.4,
    "c": [
     "mb"
    ],
@@ -2150,7 +2330,9 @@
    "runtime": null,
    "overview": null,
    "v": 3,
-   "posterLock": true
+   "posterLock": true,
+   "imdbVotes": 1464396,
+   "lbUrl": "https://letterboxd.com/film/memento/"
   },
   {
    "id": "mulholland drive|2001",
@@ -2160,7 +2342,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.26,
    "imdb": 7.9,
    "c": [
     "su",
@@ -2174,7 +2356,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNjliY2UwMjQtYjVlNi00NzExLTg1MDMtMjE2OTYwYjI0NTcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 147,
    "overview": "After a car wreck on Mulholland Drive renders a woman amnesiac, she and a Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 436301,
+   "lbUrl": "https://letterboxd.com/film/mulholland-drive/"
   },
   {
    "id": "ocean's eleven|2001",
@@ -2184,7 +2368,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.95,
    "imdb": 7.7,
    "c": [
     "cr",
@@ -2198,7 +2382,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMmNhZDkxYTgtMDM3ZC00NTQ3LWFjZTUtNzc1Y2QyNWZjNDRmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 116,
    "overview": "A thief and his team of associates plan a sophisticated heist to rob three Las Vegas casinos at the same time.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 686952,
+   "lbUrl": "https://letterboxd.com/film/oceans-eleven-2001/"
   },
   {
    "id": "the royal tenenbaums|2001",
@@ -2208,7 +2394,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.11,
    "imdb": 7.6,
    "c": [
     "lt"
@@ -2222,7 +2408,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BZTc1MzFlMjEtMzkyNC00NDgyLThjMjMtMzQzZGI5YjUyNzU5XkEyXkFqcGc@._V1_QL75_UX380_CR0,25,380,562_.jpg",
    "runtime": 110,
-   "overview": "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons."
+   "overview": "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.",
+   "imdbVotes": 339767,
+   "lbUrl": "https://letterboxd.com/film/the-royal-tenenbaums/"
   },
   {
    "id": "the devil's backbone|2001",
@@ -2232,7 +2420,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.83,
    "imdb": 7.3,
    "c": [
     "dr"
@@ -2245,7 +2433,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZmUzNWM1NTktMTkwNC00OGFhLTgyNmEtYjE3ZTg5MmE3NzlmXkEyXkFqcGc@._V1_QL75_UX380_CR0,11,380,562_.jpg",
    "runtime": 106,
    "overview": "After Carlos - a 12-year-old whose father has died in the Spanish Civil War - arrives at an ominous boys' orphanage, he discovers the school is haunted and has many dark secrets which he must uncover.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 76512,
+   "lbUrl": "https://letterboxd.com/film/the-devils-backbone/"
   },
   {
    "id": "the piano teacher|2001",
@@ -2255,7 +2445,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.05,
    "imdb": 7.5,
    "c": [
     "gp",
@@ -2269,7 +2459,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOGE3ZjE2NjItMGIyZi00NjMxLWJiZWItMWJmMzZjOTgzZjJhXkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
    "runtime": 131,
    "overview": "A young man romantically pursues his masochistic piano teacher.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 83439,
+   "lbUrl": "https://letterboxd.com/film/the-piano-teacher/"
   },
   {
    "id": "donnie darko|2001",
@@ -2279,7 +2471,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.98,
    "imdb": 8,
    "c": [
     "mb"
@@ -2292,7 +2484,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 113,
    "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 923593,
+   "lbUrl": "https://letterboxd.com/film/donnie-darko/"
   },
   {
    "id": "a beautiful mind|2001",
@@ -2302,7 +2496,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.88,
    "imdb": 8.2,
    "c": [
     "pt"
@@ -2315,7 +2509,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYjgzNjFkMmItOGJhNi00NWM3LWJlYTUtNDExMGQ3ZTI3NjJkXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 135,
    "overview": "A mathematical genius, John Nash made an astonishing discovery early in his career and stood on the brink of international acclaim. But Nash soon found himself on a harrowing journey of self-discovery.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1066834,
+   "lbUrl": "https://letterboxd.com/film/a-beautiful-mind/"
   },
   {
    "id": "training day|2001",
@@ -2325,7 +2521,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.06,
    "imdb": 7.8,
    "c": [
     "cr"
@@ -2338,7 +2534,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjRlNjUwOGYtNGQxZS00ZjhkLTg0NDgtYjcwNzZlNDU2YjBlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 122,
    "overview": "A rookie cop spends his first day as a Los Angeles narcotics officer with a rogue detective who isn't what he appears to be.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 528262,
+   "lbUrl": "https://letterboxd.com/film/training-day/"
   },
   {
    "id": "the others|2001",
@@ -2348,7 +2546,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.79,
    "imdb": 7.6,
    "c": [
     "dr",
@@ -2362,7 +2560,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTNhODBkODAtNDllYy00YTg1LWJmNDUtYjgzMzEzOWQ0YWNjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 104,
    "overview": "In 1945, immediately following the end of Second World War, a woman who lives with her two photosensitive children on her darkened old family estate in the Channel Islands becomes convinced that the home is haunted.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 434535,
+   "lbUrl": "https://letterboxd.com/film/the-others/"
   },
   {
    "id": "25th hour|2002",
@@ -2372,7 +2572,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.86,
    "imdb": 7.6,
    "c": [
     "pt",
@@ -2386,7 +2586,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjg0OWI0ZjktZTM0My00NmI3LTkzNDEtYzJiODE1ODM0MDk3XkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
    "runtime": 135,
    "overview": "Cornered by the DEA, convicted New York drug dealer Montgomery Brogan reevaluates his life in the 24 remaining hours before facing a seven-year jail term.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 192000,
+   "lbUrl": "https://letterboxd.com/film/25th-hour/"
   },
   {
    "id": "city of god|2002",
@@ -2396,7 +2598,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.58,
    "imdb": 8.6,
    "c": [
     "cr",
@@ -2411,7 +2613,9 @@
    "runtime": 130,
    "overview": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 885640,
+   "lbUrl": "https://letterboxd.com/film/city-of-god/"
   },
   {
    "id": "signs|2002",
@@ -2421,7 +2625,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.53,
    "imdb": 6.8,
    "c": [
     "dr"
@@ -2434,7 +2638,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDUwMDUyMDAyNF5BMl5BanBnXkFtZTYwMDQ3NzM3._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 106,
    "overview": "A widowed former reverend living with his children and brother on a Pennsylvania farm finds mysterious crop circles in their fields, which suggests something more frightening to come.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 420242,
+   "lbUrl": "https://letterboxd.com/film/signs/"
   },
   {
    "id": "japón|2002",
@@ -2444,8 +2650,8 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": 6.9,
+   "lb": 3.69,
+   "imdb": 6.8,
    "c": [
     "qc"
    ],
@@ -2457,7 +2663,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BMTg5NTk2ODcxN15BMl5BanBnXkFtZTgwMDQ1Njg1NzM@._V1_SX300.jpg",
    "runtime": 122,
-   "overview": "A painter from the big city goes to a remote canyon to commit suicide. To reach some calmness, he stays at the farmstead of Ascen, an old, religious woman. Although but a few words are spoken, love grows."
+   "overview": "A painter from the big city goes to a remote canyon to commit suicide. To reach some calmness, he stays at the farmstead of Ascen, an old, religious woman. Although but a few words are spoken, love grows.",
+   "imdbVotes": 4238,
+   "lbUrl": "https://letterboxd.com/film/japon/"
   },
   {
    "id": "memories of murder|2003",
@@ -2467,7 +2675,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.42,
    "imdb": 8.1,
    "c": [
     "cr"
@@ -2480,7 +2688,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYmRjOWE5NmMtYTdkYS00ODFlLWJiMTMtYzE2NDZlZjlkZDQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 131,
    "overview": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 277506,
+   "lbUrl": "https://letterboxd.com/film/memories-of-murder/"
   },
   {
    "id": "lost in translation|2003",
@@ -2490,7 +2700,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.74,
    "imdb": 7.7,
    "c": [
     "lv",
@@ -2505,7 +2715,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_QL75_UX380_CR0,12,380,562_.jpg",
    "runtime": 102,
    "overview": "A fading movie star and a neglected married young woman come to be unlikely soulmates in Tokyo.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 536243,
+   "lbUrl": "https://letterboxd.com/film/lost-in-translation/"
   },
   {
    "id": "oldboy|2003",
@@ -2515,7 +2727,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.36,
    "imdb": 8.3,
    "c": [
     "mb",
@@ -2529,7 +2741,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTAwNzNjYWItZmI0Ni00ZTcyLWIwNWMtZjlmNGMxZTEyYTJmXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 120,
    "overview": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 736431,
+   "lbUrl": "https://letterboxd.com/film/oldboy/"
   },
   {
    "id": "girl with a pearl earring|2003",
@@ -2539,7 +2753,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.21,
    "imdb": 6.9,
    "c": [
     "qc"
@@ -2552,7 +2766,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTQ0MGU5ODEtYTg5NC00N2MyLTkyMGQtOWJhYzMwNGU3MzEzXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 100,
    "overview": "A young peasant maid working in the house of painter Johannes Vermeer becomes his talented assistant and the model for one of his most famous works.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 85027,
+   "lbUrl": "https://letterboxd.com/film/girl-with-a-pearl-earring/"
   },
   {
    "id": "the life aquatic with steve zissou|2004",
@@ -2562,7 +2778,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.81,
    "imdb": 7.2,
    "c": [
     "lt"
@@ -2575,7 +2791,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "runtime": 119,
    "overview": "With a plan to exact revenge on a legendary shark that killed his partner, oceanographer Steve Zissou rallies a crew that includes his estranged wife, a journalist, and a man who may or may not be his son.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 222738,
+   "lbUrl": "https://letterboxd.com/film/the-life-aquatic-with-steve-zissou/"
   },
   {
    "id": "primer|2004",
@@ -2585,7 +2803,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.56,
    "imdb": 6.7,
    "c": [
     "mb"
@@ -2599,7 +2817,9 @@
    "idLock": true,
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BZTRmZDlmNzUtNjM2NS00MjBjLWFmNjQtMTczMWNkZTdiOGZmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-   "overview": "Four friends/fledgling entrepreneurs, knowing that there's something bigger and more innovative than the different error-checking devices they've built, wrestle over their new invention."
+   "overview": "Four friends/fledgling entrepreneurs, knowing that there's something bigger and more innovative than the different error-checking devices they've built, wrestle over their new invention.",
+   "imdbVotes": 123457,
+   "lbUrl": "https://letterboxd.com/film/primer/"
   },
   {
    "id": "saw|2004",
@@ -2609,7 +2829,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.69,
    "imdb": 7.6,
    "c": [
     "dr"
@@ -2622,7 +2842,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTE5MzFlMTktMzBkOC00ZjMxLThmOTAtOGU3ZGEwZGRlNDdjXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 103,
    "overview": "Two men awaken to find themselves on the opposite sides of a dead body, each with specific instructions to kill the other, escape or face the consequences. These two are the latest contestants in Jigsaw's games.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 519071,
+   "lbUrl": "https://letterboxd.com/film/saw/"
   },
   {
    "id": "kingdom of heaven|2005",
@@ -2632,7 +2854,7 @@
    "n": "Watch the Director's Cut — the theatrical version is heavily trimmed",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.74,
    "imdb": 7.3,
    "c": [
     "ep"
@@ -2646,7 +2868,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMzdhNGZhMjQtYjVmNy00OWMyLTk1MmQtZGNhZDYwMzZlZjI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 144,
    "overview": "Balian of Ibelin travels to Jerusalem during the Crusades of the 12th century, and there he finds himself as the defender of the city and its people.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 363523,
+   "lbUrl": "https://letterboxd.com/film/kingdom-of-heaven/"
   },
   {
    "id": "capote|2005",
@@ -2656,7 +2880,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.7,
    "imdb": 7.3,
    "c": [
     "pt"
@@ -2669,7 +2893,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTczMzU0MjM1MV5BMl5BanBnXkFtZTcwMjczNzgyNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 114,
    "overview": "In 1959, Truman Capote learns of the murder of a Kansas family and decides to write a book about the case. While researching for his novel In Cold Blood, Capote forms a relationship with one of the killers, Perry Smith, who is on ...",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 150936,
+   "lbUrl": "https://letterboxd.com/film/capote/"
   },
   {
    "id": "the exorcism of emily rose|2005",
@@ -2679,7 +2905,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.1,
    "imdb": 6.7,
    "c": [
     "dr"
@@ -2692,7 +2918,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTI2NTM5MjQ0Nl5BMl5BanBnXkFtZTcwNDAxNjAzMQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 119,
    "overview": "A lawyer takes on a negligent homicide case involving a priest who performed an exorcism on a young girl.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 151357,
+   "lbUrl": "https://letterboxd.com/film/the-exorcism-of-emily-rose/"
   },
   {
    "id": "grizzly man|2005",
@@ -2702,8 +2930,8 @@
    "n": "Documentary",
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": 7.8,
+   "lb": 4.14,
+   "imdb": 7.7,
    "c": [
     "pt"
    ],
@@ -2714,7 +2942,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODc3NTAxMTY1MV5BMl5BanBnXkFtZTcwOTE4NjUzMw@@._V1_SX300.jpg",
    "runtime": 103,
    "overview": "A devastating and heart-rending take on grizzly bear activists Timothy Treadwell and Amie Huguenard, who were killed in October of 2003 while living among grizzly bears in Alaska.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 68740,
+   "lbUrl": "https://letterboxd.com/film/grizzly-man/"
   },
   {
    "id": "the illusionist|2006",
@@ -2724,7 +2954,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.45,
    "imdb": 7.5,
    "c": [
     "mb",
@@ -2738,7 +2968,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzNmYmI4YWMtMGFkOS00ODVkLTg3MTEtOTExNDg3ZjQ0MGM3XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
    "runtime": 110,
    "overview": "In turn-of-the-century Vienna, a magician uses his abilities to secure the love of a woman far above his social standing.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 407704,
+   "lbUrl": "https://letterboxd.com/film/the-illusionist/"
   },
   {
    "id": "the prestige|2006",
@@ -2748,7 +2980,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.31,
    "imdb": 8.5,
    "c": [
     "mb"
@@ -2761,7 +2993,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BM2Y0YmM5MWYtZTYzNi00ZjU5LTlmOGYtZDQ4ODQyMjAzNjQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "runtime": 130,
    "overview": "Two magicians dismantle their lives to outmaneuver each other following a shared tragedy. They chase the ultimate illusion across Victorian London, sacrificing sanity and safety to master a teleportation feat that defies all logic.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1636256,
+   "lbUrl": "https://letterboxd.com/film/the-prestige/"
   },
   {
    "id": "the departed|2006",
@@ -2771,7 +3005,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.35,
    "imdb": 8.5,
    "c": [
     "cr"
@@ -2784,7 +3018,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 151,
    "overview": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1586552,
+   "lbUrl": "https://letterboxd.com/film/the-departed/"
   },
   {
    "id": "marie antoinette|2006",
@@ -2794,7 +3030,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.73,
    "imdb": 6.5,
    "c": [
     "lt"
@@ -2807,7 +3043,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMmE4NzQzNGItNTY4My00ZTBhLTk2ZjItZDJkMjRlYTE2MGRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 123,
    "overview": "The retelling of France's iconic but ill-fated queen, Marie Antoinette. From her betrothal and marriage to Louis XVI at 14 to her reign as queen at 19 and to the end of her reign as queen, and ultimately the fall of Versailles.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 134182,
+   "lbUrl": "https://letterboxd.com/film/marie-antoinette-2006/"
   },
   {
    "id": "the darjeeling limited|2007",
@@ -2817,7 +3055,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.86,
    "imdb": 7.2,
    "c": [
     "lt"
@@ -2830,7 +3068,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDY4Mzc2YTQtZDg4ZS00OGIzLWJhOGMtOTQ2OThmNzg4NTc4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 91,
    "overview": "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 239299,
+   "lbUrl": "https://letterboxd.com/film/the-darjeeling-limited/"
   },
   {
    "id": "no country for old men|2007",
@@ -2840,7 +3080,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.3,
    "imdb": 8.2,
    "c": [
     "fr",
@@ -2854,7 +3094,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 122,
    "overview": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1219517,
+   "lbUrl": "https://letterboxd.com/film/no-country-for-old-men/"
   },
   {
    "id": "3:10 to yuma|2007",
@@ -2864,7 +3106,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.79,
    "imdb": 7.6,
    "c": [
     "fr"
@@ -2876,7 +3118,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_QL75_UX380_CR0,5,380,562_.jpg",
    "runtime": 122,
    "overview": "A small-time solely rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 354670,
+   "lbUrl": "https://letterboxd.com/film/310-to-yuma-2007/"
   },
   {
    "id": "the assassination of jesse james by the coward robert ford|2007",
@@ -2886,7 +3130,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.03,
    "imdb": 7.5,
    "c": [
     "fr",
@@ -2900,7 +3144,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTY2NDI2MTc2NV5BMl5BanBnXkFtZTcwNjA2NTQzMw@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 160,
    "overview": "Robert Ford, who has idolized Jesse James since childhood, tries hard to join the resurgent gang of the Missouri outlaw, but gradually becomes resentful of the bandit leader.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 206991,
+   "lbUrl": "https://letterboxd.com/film/the-assassination-of-jesse-james-by-the-coward-robert-ford/"
   },
   {
    "id": "there will be blood|2007",
@@ -2910,7 +3156,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.46,
    "imdb": 8.2,
    "c": [
     "pt",
@@ -2924,7 +3170,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 158,
    "overview": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 722337,
+   "lbUrl": "https://letterboxd.com/film/there-will-be-blood/"
   },
   {
    "id": "american gangster|2007",
@@ -2934,7 +3182,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.96,
    "imdb": 7.8,
    "c": [
     "cr"
@@ -2947,7 +3195,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZGExM2MwNjUtNThkNi00ZjBmLWJhZDgtN2ZmOWJiZWEwNGMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 157,
    "overview": "An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 495870,
+   "lbUrl": "https://letterboxd.com/film/american-gangster/"
   },
   {
    "id": "eastern promises|2007",
@@ -2957,7 +3207,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.88,
    "imdb": 7.6,
    "c": [
     "cr"
@@ -2970,7 +3220,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTcwMzU0OTY3NF5BMl5BanBnXkFtZTYwNzkwNjg2._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 100,
    "overview": "A teenager who dies during childbirth leaves clues in her journal that could tie her child to a rape involving a violent Russian mob family.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 280956,
+   "lbUrl": "https://letterboxd.com/film/eastern-promises/"
   },
   {
    "id": "secret sunshine|2007",
@@ -2980,7 +3232,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.1,
    "imdb": 7.5,
    "c": [
     "gp"
@@ -2993,7 +3245,9 @@
    "runtime": 142,
    "overview": "A woman moves to the town where her dead husband was born. As she tries to fit in, another tragic event overturns her life.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 11103,
+   "lbUrl": "https://letterboxd.com/film/secret-sunshine/"
   },
   {
    "id": "4 months, 3 weeks and 2 days|2007",
@@ -3003,7 +3257,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.25,
    "imdb": 7.9,
    "c": [
     "gp"
@@ -3015,7 +3269,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTk3NDY2MDg0MF5BMl5BanBnXkFtZTYwODcwODc4._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 113,
    "overview": "A woman assists her friend in arranging an illegal abortion in 1980s Romania.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 66737,
+   "lbUrl": "https://letterboxd.com/film/4-months-3-weeks-and-2-days/"
   },
   {
    "id": "the dark knight|2008",
@@ -3025,7 +3281,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.5,
    "imdb": 9.1,
    "c": [
     "cr",
@@ -3039,7 +3295,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 152,
    "overview": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 3242974,
+   "lbUrl": "https://letterboxd.com/film/the-dark-knight/"
   },
   {
    "id": "the wrestler|2008",
@@ -3049,7 +3307,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.09,
    "imdb": 7.9,
    "c": [
     "pt",
@@ -3064,7 +3322,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MjYyOTg4MF5BMl5BanBnXkFtZTcwNDc2MzQwMg@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 109,
-   "overview": "A faded professional wrestler must retire, but finds his quest for a new life outside the ring a dispiriting struggle."
+   "overview": "A faded professional wrestler must retire, but finds his quest for a new life outside the ring a dispiriting struggle.",
+   "imdbVotes": 333271,
+   "lbUrl": "https://letterboxd.com/film/the-wrestler/"
   },
   {
    "id": "enter the void|2009",
@@ -3074,7 +3334,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.76,
    "imdb": 7.2,
    "c": [
     "su",
@@ -3088,7 +3348,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZmUyYjM1YjUtYTVhZC00YzYwLThiYTMtZjE3ZmZmNzA2NDA4XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 161,
    "overview": "An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 95926,
+   "lbUrl": "https://letterboxd.com/film/enter-the-void/"
   },
   {
    "id": "fantastic mr. fox|2009",
@@ -3098,7 +3360,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.3,
    "imdb": 7.9,
    "c": [
     "lt"
@@ -3111,7 +3373,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTA1ZTIxZDUtNGFjYS00YTc5LTgzNDMtZWNjYjBlMzI2OTk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 87,
    "overview": "An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 312441,
+   "lbUrl": "https://letterboxd.com/film/fantastic-mr-fox/"
   },
   {
    "id": "moon|2009",
@@ -3121,7 +3385,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.82,
    "imdb": 7.8,
    "c": [
     "mb",
@@ -3135,7 +3399,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTgzODgyNTQwOV5BMl5BanBnXkFtZTcwNzc0NTc0Mg@@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 97,
    "overview": "Astronaut Sam Bell has a personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends home a resource that has helped diminish Earth's power problems.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 399422,
+   "lbUrl": "https://letterboxd.com/film/moon/"
   },
   {
    "id": "the house of the devil|2009",
@@ -3145,7 +3411,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.27,
    "imdb": 6.3,
    "c": [
     "dr"
@@ -3157,7 +3423,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTAxMDAxODg5ODReQTJeQWpwZ15BbWU3MDI5ODYxODI@._V1_SX300.jpg",
    "runtime": 95,
    "overview": "In 1983, financially struggling college student Samantha Hughes takes a strange babysitting job that coincides with a full lunar eclipse. She slowly realizes her clients harbor a terrifying secret, putting her life in mortal danger.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 56530,
+   "lbUrl": "https://letterboxd.com/film/the-house-of-the-devil/"
   },
   {
    "id": "the social network|2010",
@@ -3167,7 +3435,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 7.8,
    "c": [
     "pt"
@@ -3180,7 +3448,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 120,
    "overview": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 833429,
+   "lbUrl": "https://letterboxd.com/film/the-social-network/"
   },
   {
    "id": "blue valentine|2010",
@@ -3190,7 +3460,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.78,
    "imdb": 7.3,
    "c": [
     "lv",
@@ -3204,7 +3474,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTU4MTQ2MzA1Ml5BMl5BanBnXkFtZTcwODE3NTgwNA@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 112,
    "overview": "A couple cannot halt the downward spiral of their marriage.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 229160,
+   "lbUrl": "https://letterboxd.com/film/blue-valentine/"
   },
   {
    "id": "inception|2010",
@@ -3214,7 +3486,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.24,
    "imdb": 8.8,
    "c": [
     "mb",
@@ -3228,7 +3500,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 148,
    "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 2882764,
+   "lbUrl": "https://letterboxd.com/film/inception/"
   },
   {
    "id": "shutter island|2010",
@@ -3238,7 +3512,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.2,
    "imdb": 8.2,
    "c": [
     "mb"
@@ -3251,7 +3525,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 138,
    "overview": "Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1693154,
+   "lbUrl": "https://letterboxd.com/film/shutter-island/"
   },
   {
    "id": "true grit|2010",
@@ -3261,7 +3537,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.85,
    "imdb": 7.6,
    "c": [
     "fr"
@@ -3273,7 +3549,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTU5MjU3MTI4OF5BMl5BanBnXkFtZTcwMTQxOTAxNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 110,
    "overview": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 380183,
+   "lbUrl": "https://letterboxd.com/film/true-grit-2010/"
   },
   {
    "id": "black swan|2010",
@@ -3283,7 +3561,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.17,
    "imdb": 8,
    "c": [
     "pt",
@@ -3296,7 +3574,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 108,
    "overview": "An insecure ballerina finally gets the role she has always dreamed of, but as the pressures mount her line between reality and illusion starts to blur.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 900331,
+   "lbUrl": "https://letterboxd.com/film/black-swan/"
   },
   {
    "id": "the town|2010",
@@ -3306,7 +3586,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.67,
    "imdb": 7.5,
    "c": [
     "cr"
@@ -3319,7 +3599,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTcyNzcxODg3Nl5BMl5BanBnXkFtZTcwMTUyNjQ3Mw@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 125,
    "overview": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 456507,
+   "lbUrl": "https://letterboxd.com/film/the-town/"
   },
   {
    "id": "insidious|2010",
@@ -3329,7 +3611,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.26,
    "imdb": 6.8,
    "c": [
     "dr"
@@ -3343,7 +3625,9 @@
    "runtime": 103,
    "overview": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
    "v": 3,
-   "idLock": true
+   "idLock": true,
+   "imdbVotes": 375777,
+   "lbUrl": "https://letterboxd.com/film/insidious/"
   },
   {
    "id": "incendies|2010",
@@ -3353,7 +3637,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.46,
    "imdb": 8.3,
    "c": [
     "gp"
@@ -3368,7 +3652,9 @@
    "runtime": 131,
    "overview": "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 261827,
+   "lbUrl": "https://letterboxd.com/film/incendies/"
   },
   {
    "id": "the tree of life|2011",
@@ -3378,7 +3664,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.83,
    "imdb": 6.8,
    "c": [
     "qc"
@@ -3390,7 +3676,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "runtime": 139,
    "overview": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 193811,
+   "lbUrl": "https://letterboxd.com/film/the-tree-of-life-2011/"
   },
   {
    "id": "rango|2011",
@@ -3400,7 +3688,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.76,
    "imdb": 7.3,
    "c": [
     "fr",
@@ -3415,7 +3703,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 107,
    "overview": "Rango is an ordinary chameleon who accidentally winds up in the town of Dirt, a lawless outpost in the Wild West in desperate need of a new sheriff.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 325569,
+   "lbUrl": "https://letterboxd.com/film/rango/"
   },
   {
    "id": "drive|2011",
@@ -3425,7 +3715,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.91,
    "imdb": 7.8,
    "c": [
     "nc",
@@ -3439,7 +3729,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 100,
    "overview": "A mysterious Hollywood action film stuntman gets in trouble with gangsters when he tries to help his neighbor's husband rob a pawn shop while serving as his getaway driver.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 777160,
+   "lbUrl": "https://letterboxd.com/film/drive-2011/"
   },
   {
    "id": "melancholia|2011",
@@ -3449,7 +3741,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.83,
    "imdb": 7.1,
    "c": [
     "qc",
@@ -3463,7 +3755,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTk4NjM0MjI3MV5BMl5BanBnXkFtZTcwNjcxMDYzNg@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 135,
    "overview": "Two sisters find their already strained relationship challenged as a mysterious new planet threatens to collide with Earth.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 210570,
+   "lbUrl": "https://letterboxd.com/film/melancholia/"
   },
   {
    "id": "weekend|2011",
@@ -3473,7 +3767,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 7.6,
    "c": [
     "lv"
@@ -3486,7 +3780,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDE3MDQzNDA3Nl5BMl5BanBnXkFtZTcwMjk3NTU4Ng@@._V1_QL75_UY562_CR9,0,380,562_.jpg",
    "runtime": 97,
    "overview": "After a drunken house party with his straight mates, Russell heads out to a gay club. Just before closing time he picks up Glen but what's expected to be just a one-night stand becomes something else, something special.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 34982,
+   "lbUrl": "https://letterboxd.com/film/weekend-2011/"
   },
   {
    "id": "the master|2012",
@@ -3496,7 +3792,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.97,
    "imdb": 7.1,
    "c": [
     "pt"
@@ -3508,7 +3804,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NjQ5MzMwMF5BMl5BanBnXkFtZTcwMjczNTAzOA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 138,
    "overview": "A Naval veteran arrives home from war unsettled and uncertain of his future - until he is tantalized by a cult and its charismatic leader.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 204171,
+   "lbUrl": "https://letterboxd.com/film/the-master-2012/"
   },
   {
    "id": "moonrise kingdom|2012",
@@ -3518,7 +3816,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.03,
    "imdb": 7.7,
    "c": [
     "lt",
@@ -3532,7 +3830,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 94,
    "overview": "Two 12-year-olds, who live on an island, fall in love with each other and elope into the wilderness. While people set out on a search mission, a violent storm approaching them catches their attention.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 385712,
+   "lbUrl": "https://letterboxd.com/film/moonrise-kingdom/"
   },
   {
    "id": "django unchained|2012",
@@ -3542,7 +3842,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.35,
    "imdb": 8.5,
    "c": [
     "fr"
@@ -3554,7 +3854,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 165,
    "overview": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1922398,
+   "lbUrl": "https://letterboxd.com/film/django-unchained/"
   },
   {
    "id": "sinister|2012",
@@ -3564,7 +3866,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.4,
    "imdb": 6.8,
    "c": [
     "dr"
@@ -3577,7 +3879,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 110,
    "overview": "A controversial true-crime writer finds a box of Super 8 home movies in his new home, revealing that the murder case he is currently researching could be the work of an unknown serial killer whose legacy dates back to the 1960s.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 325681,
+   "lbUrl": "https://letterboxd.com/film/sinister/"
   },
   {
    "id": "her|2013",
@@ -3587,7 +3891,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.95,
    "imdb": 7.9,
    "c": [
     "lv"
@@ -3601,7 +3905,9 @@
    "runtime": 126,
    "overview": "In the near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
    "v": 3,
-   "idLock": true
+   "idLock": true,
+   "imdbVotes": 736391,
+   "lbUrl": "https://letterboxd.com/film/her/"
   },
   {
    "id": "enemy|2013",
@@ -3611,7 +3917,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.54,
    "imdb": 6.8,
    "c": [
     "mb"
@@ -3625,7 +3931,9 @@
    "runtime": 91,
    "overview": "A mild-mannered college professor investigates the life of an actor who looks exactly like him.",
    "v": 3,
-   "idLock": true
+   "idLock": true,
+   "imdbVotes": 245661,
+   "lbUrl": "https://letterboxd.com/film/enemy/"
   },
   {
    "id": "inside llewyn davis|2013",
@@ -3635,7 +3943,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.02,
    "imdb": 7.4,
    "c": [
     "pt"
@@ -3648,7 +3956,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjAxNjcyNDQxM15BMl5BanBnXkFtZTgwNzU2NDA0MDE@._V1_QL75_UX380_CR0,13,380,562_.jpg",
    "runtime": 104,
    "overview": "A week in the life of a young singer as he navigates the Greenwich Village folk scene of 1961.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 173677,
+   "lbUrl": "https://letterboxd.com/film/inside-llewyn-davis/"
   },
   {
    "id": "evil dead|2013",
@@ -3658,7 +3968,7 @@
    "n": "Remake of Raimi's 1981 film; works on its own",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.4,
    "imdb": 6.5,
    "c": [
     "dr"
@@ -3670,7 +3980,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYjkwODM5ZWUtMjI2Ni00Y2RiLWJkNDYtZWQ2ZTRhMjI1N2FmXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "runtime": 91,
    "overview": "Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 220533,
+   "lbUrl": "https://letterboxd.com/film/evil-dead/"
   },
   {
    "id": "the conjuring|2013",
@@ -3680,7 +3992,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.64,
    "imdb": 7.5,
    "c": [
     "dr"
@@ -3693,7 +4005,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 112,
    "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 636210,
+   "lbUrl": "https://letterboxd.com/film/the-conjuring/"
   },
   {
    "id": "oculus|2013",
@@ -3703,7 +4017,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.21,
    "imdb": 6.6,
    "c": [
     "dr"
@@ -3717,7 +4031,9 @@
    "overview": "A recently released inmate from a mental asylum learns from his sister that the murder he was convicted of committing were actually orchestrated by a supernatural entity, the Lasser Glass mirror.",
    "idLock": true,
    "v": 3,
-   "poster": "https://m.media-amazon.com/images/M/MV5BMzE1NzM4MjEyNV5BMl5BanBnXkFtZTgwMjYzMjMzMTE@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzE1NzM4MjEyNV5BMl5BanBnXkFtZTgwMjYzMjMzMTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "imdbVotes": 153119,
+   "lbUrl": "https://letterboxd.com/film/oculus/"
   },
   {
    "id": "coherence|2013",
@@ -3727,7 +4043,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.72,
    "imdb": 7.1,
    "c": [
     "mb"
@@ -3740,7 +4056,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzQ3ODUzNDY2M15BMl5BanBnXkFtZTgwNzg0ODY2MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 89,
    "overview": "Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 180544,
+   "lbUrl": "https://letterboxd.com/film/coherence/"
   },
   {
    "id": "birdman|2014",
@@ -3750,7 +4068,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4,
    "imdb": 7.7,
    "c": [
     "pt",
@@ -3765,7 +4083,9 @@
    "overview": "A washed-up superhero actor attempts to revive his fading career by writing, directing, and starring in a Broadway production.",
    "idLock": true,
    "v": 3,
-   "poster": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_QL75_UX380_CR0,0,380,562_.jpg"
+   "poster": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "imdbVotes": 705426,
+   "lbUrl": "https://letterboxd.com/film/birdman-or-the-unexpected-virtue-of-ignorance/"
   },
   {
    "id": "the grand budapest hotel|2014",
@@ -3775,7 +4095,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.24,
    "imdb": 8.1,
    "c": [
     "lt"
@@ -3788,7 +4108,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 99,
    "overview": "The owner of an aging high-class hotel regales a writer with tales of serving as a lobby boy under an exceptional concierge in the hotel's glory years.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 990283,
+   "lbUrl": "https://letterboxd.com/film/the-grand-budapest-hotel/"
   },
   {
    "id": "predestination|2014",
@@ -3798,8 +4120,8 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 3.58,
+   "imdb": 7.4,
    "c": [
     "mb"
    ],
@@ -3812,7 +4134,9 @@
    "runtime": null,
    "overview": null,
    "v": 3,
-   "posterLock": true
+   "posterLock": true,
+   "imdbVotes": 342502,
+   "lbUrl": "https://letterboxd.com/film/predestination/"
   },
   {
    "id": "the one i love|2014",
@@ -3822,7 +4146,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.58,
    "imdb": 7,
    "c": [
     "mb",
@@ -3836,7 +4160,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTgzODMyMjcyOV5BMl5BanBnXkFtZTgwMTAyMjMyMjE@._V1_QL75_UY562_CR6,0,380,562_.jpg",
    "runtime": 91,
    "overview": "A troubled couple vacate to a beautiful getaway, but bizarre circumstances further complicate their situation.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 48266,
+   "lbUrl": "https://letterboxd.com/film/the-one-i-love-2014/"
   },
   {
    "id": "the revenant|2015",
@@ -3846,7 +4172,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 8,
    "c": [
     "ep"
@@ -3860,7 +4186,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 156,
-   "overview": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team."
+   "overview": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
+   "imdbVotes": 966144,
+   "lbUrl": "https://letterboxd.com/film/the-revenant-2015/"
   },
   {
    "id": "the hateful eight|2015",
@@ -3870,7 +4198,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.04,
    "imdb": 7.8,
    "c": [
     "fr"
@@ -3883,7 +4211,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 168,
    "overview": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 733760,
+   "lbUrl": "https://letterboxd.com/film/the-hateful-eight/"
   },
   {
    "id": "the witch|2015",
@@ -3893,7 +4223,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.82,
    "imdb": 7,
    "c": [
     "dr"
@@ -3906,7 +4236,9 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 92,
-   "overview": "An isolated Puritan family in 1630s New England comes unraveled by the forces of witchcraft and possession."
+   "overview": "An isolated Puritan family in 1630s New England comes unraveled by the forces of witchcraft and possession.",
+   "imdbVotes": 362688,
+   "lbUrl": "https://letterboxd.com/film/the-witch-2015/"
   },
   {
    "id": "20th century women|2016",
@@ -3916,7 +4248,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.01,
    "imdb": 7.3,
    "c": [
     "lt",
@@ -3930,7 +4262,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTkwNDE4NzQwM15BMl5BanBnXkFtZTgwNzQ5Nzg0MDI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 119,
    "overview": "In 1979 Santa Barbara, Dorothea is a determined single mother who is raising her son, Jamie. Dorothea enlists the help of two women -- Abbie, a free-spirited punk artist and Julie, a savvy teenager -- to help with Jamie's upbringing.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 52978,
+   "lbUrl": "https://letterboxd.com/film/20th-century-women/"
   },
   {
    "id": "moonlight|2016",
@@ -3940,7 +4274,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.19,
    "imdb": 7.4,
    "c": [
     "lv",
@@ -3953,7 +4287,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 111,
    "overview": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 357124,
+   "lbUrl": "https://letterboxd.com/film/moonlight-2016/"
   },
   {
    "id": "captain fantastic|2016",
@@ -3963,7 +4299,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.95,
    "imdb": 7.8,
    "c": [
     "lt"
@@ -3976,7 +4312,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjE5OTM0OTY5NF5BMl5BanBnXkFtZTgwMDcxOTQ3ODE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 118,
    "overview": "A widower who lives in the forest takes his six children into the outside world for the first time.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 254138,
+   "lbUrl": "https://letterboxd.com/film/captain-fantastic/"
   },
   {
    "id": "hell or high water|2016",
@@ -3986,7 +4324,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.93,
    "imdb": 7.6,
    "c": [
     "fr",
@@ -4000,7 +4338,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 102,
    "overview": "A divorced father and his ex-con brother plan a series of heists against the bank that's about to foreclose on their family ranch.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 282979,
+   "lbUrl": "https://letterboxd.com/film/hell-or-high-water/"
   },
   {
    "id": "the magnificent seven|2016",
@@ -4010,7 +4350,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.21,
    "imdb": 6.9,
    "c": [
     "fr"
@@ -4023,7 +4363,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUzNTc0NTAyM15BMl5BanBnXkFtZTgwMTk1ODA5OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 132,
    "overview": "Seven gunmen from a variety of backgrounds are brought together by a vengeful young widow to protect her town from the private army of a destructive industrialist.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 250102,
+   "lbUrl": "https://letterboxd.com/film/the-magnificent-seven-2016/"
   },
   {
    "id": "manchester by the sea|2016",
@@ -4033,7 +4375,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.13,
    "imdb": 7.8,
    "c": [
     "gp"
@@ -4045,7 +4387,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTYxMjk0NDg4Ml5BMl5BanBnXkFtZTgwODcyNjA5OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 137,
    "overview": "A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 365220,
+   "lbUrl": "https://letterboxd.com/film/manchester-by-the-sea/"
   },
   {
    "id": "don't breathe|2016",
@@ -4055,7 +4399,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.32,
    "imdb": 7.1,
    "c": [
     "dr"
@@ -4068,7 +4412,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNjAxOTJkMmEtNjg4MC00ODk3LTkwYmUtNjM3YzE5YTk1YTFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 88,
    "overview": "Three delinquents break into the house of a war veteran who is blind to steal his money. However, they discover that the man is not as defenseless as he seems.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 336772,
+   "lbUrl": "https://letterboxd.com/film/dont-breathe-2016/"
   },
   {
    "id": "hush|2016",
@@ -4078,7 +4424,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.23,
    "imdb": 6.6,
    "c": [
     "dr"
@@ -4091,7 +4437,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZjQ0YTU4OTQtMTU3Zi00OTdlLTkzN2EtZjlmOTZhNjIwN2VkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 82,
    "overview": "A deaf mute European-American writer in her 20's who retreated to the woods to live in solitude must fight for her life in silence when a masked serial killer appears at her window.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 173288,
+   "lbUrl": "https://letterboxd.com/film/hush-2016/"
   },
   {
    "id": "split|2016",
@@ -4101,7 +4449,7 @@
    "n": "Part two of a trilogy: Unbreakable (2000) → Split → Glass (2019)",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.54,
    "imdb": 7.3,
    "c": [
     "dr",
@@ -4116,7 +4464,9 @@
    "runtime": 117,
    "overview": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.",
    "v": 3,
-   "idLock": true
+   "idLock": true,
+   "imdbVotes": 634058,
+   "lbUrl": "https://letterboxd.com/film/split-2016/"
   },
   {
    "id": "song to song|2017",
@@ -4126,7 +4476,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3,
    "imdb": 5.6,
    "c": [
     "lv",
@@ -4141,7 +4491,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzI1MTg0MzEyOF5BMl5BanBnXkFtZTgwNzk4Mjk0MTI@._V1_SX300.jpg",
    "runtime": 129,
    "overview": "Two intersecting love triangles. Obsession and betrayal set against the music scene in Austin, Texas.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 24565,
+   "lbUrl": "https://letterboxd.com/film/song-to-song/"
   },
   {
    "id": "phantom thread|2017",
@@ -4151,7 +4503,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.17,
    "imdb": 7.4,
    "c": [
     "lv"
@@ -4164,7 +4516,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOTMzNWNhNDctMTM2MC00N2EwLThjYTEtMmQ2ZDAyNDVlNzgyXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 130,
    "overview": "Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose fastidious life is disrupted by a young, strong-willed woman, Alma, who becomes his muse and lover.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 164877,
+   "lbUrl": "https://letterboxd.com/film/phantom-thread/"
   },
   {
    "id": "a ghost story|2017",
@@ -4174,7 +4528,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.76,
    "imdb": 6.8,
    "c": [
     "qc"
@@ -4187,7 +4541,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMzcyNTc1ODQzMF5BMl5BanBnXkFtZTgwNTgzMzY4MTI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 92,
    "overview": "In this singular exploration of legacy, love, loss, and the enormity of existence, a recently deceased, white-sheeted ghost returns to his suburban home to try to reconnect with his bereft wife.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 87889,
+   "lbUrl": "https://letterboxd.com/film/a-ghost-story-2017/"
   },
   {
    "id": "get out|2017",
@@ -4197,7 +4553,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.13,
    "imdb": 7.8,
    "c": [
     "dr"
@@ -4210,7 +4566,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 104,
    "overview": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 843209,
+   "lbUrl": "https://letterboxd.com/film/get-out-2017/"
   },
   {
    "id": "the endless|2017",
@@ -4220,7 +4578,7 @@
    "n": "Watch Resolution (2012) first",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.27,
    "imdb": 6.5,
    "c": [
     "mb"
@@ -4234,7 +4592,9 @@
    "runtime": 111,
    "overview": "As kids, they escaped a UFO death cult. Now, two adult brothers seek answers after an old videotape surfaces and brings them back to where they began.",
    "idLock": true,
-   "v": 3
+   "v": 3,
+   "imdbVotes": 59011,
+   "lbUrl": "https://letterboxd.com/film/the-endless/"
   },
   {
    "id": "burning|2018",
@@ -4244,7 +4604,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.03,
    "imdb": 7.4,
    "c": [
     "mb",
@@ -4258,7 +4618,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZWU3YzgzMTgtOTIwYi00MmNkLWExYWEtZTEyOTAzYzEwM2Q2XkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
    "runtime": 148,
    "overview": "Jong-su bumps into a girl who used to live in the same neighborhood, who asks him to look after her cat while she's on a trip to Africa. When back, she introduces Ben, a mysterious guy she met there, who confesses his secret hobby.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 87971,
+   "lbUrl": "https://letterboxd.com/film/burning-2018/"
   },
   {
    "id": "isle of dogs|2018",
@@ -4268,7 +4630,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.09,
    "imdb": 7.8,
    "c": [
     "lt"
@@ -4281,7 +4643,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTVmZWFmYWYtZTY1NC00Yjg5LTkxZGItZjhiYTExNTExNjA3XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 101,
    "overview": "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 215521,
+   "lbUrl": "https://letterboxd.com/film/isle-of-dogs-2018/"
   },
   {
    "id": "annihilation|2018",
@@ -4291,7 +4655,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.58,
    "imdb": 6.8,
    "c": [
     "mb",
@@ -4305,7 +4669,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_QL75_UX380_CR0,15,380,562_.jpg",
    "runtime": 115,
    "overview": "A biologist signs up for a dangerous, secret expedition in which the laws of nature don't apply.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 399837,
+   "lbUrl": "https://letterboxd.com/film/annihilation/"
   },
   {
    "id": "the ballad of buster scruggs|2018",
@@ -4315,7 +4681,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.65,
    "imdb": 7.2,
    "c": [
     "fr"
@@ -4328,7 +4694,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOTc0MzZjYTktYzBlZC00MmViLTgyNDYtNjljNTcxMzdjODRkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 133,
    "overview": "Six tales of life and violence in the Old West, following a singing gunslinger, a bank robber, a traveling impresario, an elderly prospector, a wagon train and a perverse pair of bounty hunters.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 187942,
+   "lbUrl": "https://letterboxd.com/film/the-ballad-of-buster-scruggs/"
   },
   {
    "id": "hereditary|2018",
@@ -4338,7 +4706,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 7.3,
    "c": [
     "dr",
@@ -4352,7 +4720,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNTEyZGQwODctYWJjZi00NjFmLTg3YmEtMzlhNjljOGZhMWMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 127,
    "overview": "A grieving family is haunted by tragic and disturbing occurrences.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 474546,
+   "lbUrl": "https://letterboxd.com/film/hereditary/"
   },
   {
    "id": "the lighthouse|2019",
@@ -4362,7 +4732,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4,
    "imdb": 7.3,
    "c": [
     "su",
@@ -4375,7 +4745,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTI4MjFhMjAtNmQxYi00N2IxLWJjMGEtYWY1YmU3OTQ0Zjk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 109,
    "overview": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 312158,
+   "lbUrl": "https://letterboxd.com/film/the-lighthouse-2019/"
   },
   {
    "id": "joker|2019",
@@ -4385,7 +4757,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.85,
    "imdb": 8.3,
    "c": [
     "pt"
@@ -4398,7 +4770,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 122,
    "overview": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1732936,
+   "lbUrl": "https://letterboxd.com/film/joker-2019/"
   },
   {
    "id": "the irishman|2019",
@@ -4408,7 +4782,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 7.8,
    "c": [
     "cr",
@@ -4422,7 +4796,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTY2YThkNmQtOWJhYy00ZDc3LWEzOGEtMmQwNzM0YjFmZWIyXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "runtime": 209,
    "overview": "An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 481737,
+   "lbUrl": "https://letterboxd.com/film/the-irishman-2019/"
   },
   {
    "id": "midsommar|2019",
@@ -4432,7 +4808,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.73,
    "imdb": 7.1,
    "c": [
     "dr"
@@ -4444,7 +4820,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 148,
    "overview": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 502271,
+   "lbUrl": "https://letterboxd.com/film/midsommar/"
   },
   {
    "id": "us|2019",
@@ -4454,7 +4832,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.63,
    "imdb": 6.8,
    "c": [
     "dr"
@@ -4467,7 +4845,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMzhkMjFkN2YtODU2Ni00YWYwLWExN2MtOWNjZmQxM2U4YTM5XkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
    "runtime": 116,
    "overview": "In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look lik...",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 402216,
+   "lbUrl": "https://letterboxd.com/film/us-2019/"
   },
   {
    "id": "doctor sleep|2019",
@@ -4477,7 +4857,7 @@
    "n": "Sequel to The Shining — watch that first. The Director's Cut is better",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.39,
    "imdb": 7.3,
    "c": [
     "dr"
@@ -4490,7 +4870,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNGUyNTg0NWItODdkZS00YWY0LTljNjItMDYwMTI1ZmZkMjExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 152,
    "overview": "Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 250346,
+   "lbUrl": "https://letterboxd.com/film/doctor-sleep/"
   },
   {
    "id": "minari|2020",
@@ -4500,7 +4882,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.09,
    "imdb": 7.4,
    "c": [
     "qc"
@@ -4512,7 +4894,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNWVmNDE3YzMtZWQ3Ny00YjhkLWEzN2QtZjNhYWNlMGI2N2NkXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
    "runtime": 115,
    "overview": "A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a ...",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 127866,
+   "lbUrl": "https://letterboxd.com/film/minari/"
   },
   {
    "id": "tenet|2020",
@@ -4522,7 +4906,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.47,
    "imdb": 7.3,
    "c": [
     "mb",
@@ -4536,7 +4920,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNTIzNDIxMzktMzlkMi00MmUyLWFmMjQtZDgwMjBmOGJmNTI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 150,
    "overview": "Armed with only the word \"Tenet,\" and fighting for the survival of the entire world, CIA operative, The Protagonist, journeys through a twilight world of international espionage on a global mission that unfolds beyond real time.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 714484,
+   "lbUrl": "https://letterboxd.com/film/tenet/"
   },
   {
    "id": "caveat|2020",
@@ -4546,7 +4932,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.02,
    "imdb": 6,
    "c": [
     "dr"
@@ -4558,7 +4944,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDRjNzA2YjktNTk1OC00NTM1LTg1ZDgtYjRhM2Y4MGI5ODhkXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 88,
    "overview": "A drifter with missing memories takes a strange care-taking job on an isolated island, only to find himself chained inside a decaying house with a dangerous woman and secrets that may involve him.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 16955,
+   "lbUrl": "https://letterboxd.com/film/caveat-2020/"
   },
   {
    "id": "eyimofe (this is my desire)|2020",
@@ -4568,7 +4956,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.75,
    "imdb": 7,
    "c": [
     "qc"
@@ -4582,7 +4970,9 @@
    "overview": "In Lagos, Nigeria, tragedy and fate intervene as two people try to better the lives of their families.",
    "idLock": true,
    "v": 3,
-   "posterLock": true
+   "posterLock": true,
+   "imdbVotes": 748,
+   "lbUrl": "https://letterboxd.com/film/eyimofe-this-is-my-desire/"
   },
   {
    "id": "dune|2021",
@@ -4592,7 +4982,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.89,
    "imdb": 8,
    "c": [
     "ep"
@@ -4605,7 +4995,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "runtime": 155,
    "overview": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1097411,
+   "lbUrl": "https://letterboxd.com/film/dune-2021/"
   },
   {
    "id": "the french dispatch|2021",
@@ -4615,7 +5007,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.66,
    "imdb": 7.1,
    "c": [
     "lt"
@@ -4628,7 +5020,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTU1YmNkZWYtYmExNC00YWE1LTk2NWEtMTQ2ODhmYTA5MmZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 107,
    "overview": "A collection of stories published in \"The French Dispatch Magazine\" comes to life in a fictional twentieth century French city.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 171152,
+   "lbUrl": "https://letterboxd.com/film/the-french-dispatch-of-the-liberty-kansas/"
   },
   {
    "id": "the black phone|2021",
@@ -4638,7 +5032,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.34,
    "imdb": 6.9,
    "c": [
     "dr"
@@ -4651,7 +5045,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjFhZTcxOTktMzllMS00MzIzLWJhODEtZDU5YTFkNzRjZWQyXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
    "runtime": 103,
    "overview": "After being abducted and locked in a basement, a boy starts receiving calls on a disconnected phone from the killer's previous victims.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 274148,
+   "lbUrl": "https://letterboxd.com/film/the-black-phone/"
   },
   {
    "id": "drive my car|2021",
@@ -4661,7 +5057,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.21,
    "imdb": 7.5,
    "c": [
     "qc",
@@ -4674,7 +5070,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOGE5ZWRhYjYtNzVkMS00ZGU3LTg2MTMtODYyMmJlMDMyZjU0XkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
    "runtime": 179,
    "overview": "A renowned stage actor and director learns to cope with a big personal loss when he receives an offer to direct a production of Uncle Vanya in Hiroshima.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 78478,
+   "lbUrl": "https://letterboxd.com/film/drive-my-car/"
   },
   {
    "id": "x|2022",
@@ -4684,7 +5082,7 @@
    "n": "Trilogy: X → Pearl → MaXXXine",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.4,
    "imdb": 6.5,
    "c": [
     "dr"
@@ -4697,7 +5095,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODUwYTNhMTMtYWQ5Ny00YTdmLWIxOTAtNDczNzVlYzg2NDFkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 105,
    "overview": "In 1979, a group of young filmmakers set out to make an adult film in a rural Texas farm, but when their reclusive, elderly hosts catch them in the act, the crew find themselves fighting for their lives.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 231254,
+   "lbUrl": "https://letterboxd.com/film/x-2022/"
   },
   {
    "id": "pearl|2022",
@@ -4707,7 +5107,7 @@
    "n": "Prequel to X; watch it after X",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.7,
    "imdb": 7,
    "c": [
     "dr",
@@ -4721,7 +5121,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzk0Y2RlZjItZDUzYi00Y2JhLTk5MzMtNjgzYWFmZmUxN2FmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 103,
    "overview": "In 1918, a young woman on the brink of madness pursues stardom in a desperate attempt to escape the drudgery, isolation, and lovelessness of life on her parents' farm.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 166657,
+   "lbUrl": "https://letterboxd.com/film/pearl-2022/"
   },
   {
    "id": "everything everywhere all at once|2022",
@@ -4731,7 +5133,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.24,
    "imdb": 7.7,
    "c": [
     "mb",
@@ -4746,7 +5148,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
    "runtime": 139,
    "overview": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 664485,
+   "lbUrl": "https://letterboxd.com/film/everything-everywhere-all-at-once/"
   },
   {
    "id": "tár|2022",
@@ -4756,7 +5160,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.92,
    "imdb": 7.4,
    "c": [
     "pt"
@@ -4769,7 +5173,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYWY5YThhOGUtNDU4OS00NTk3LWI0ODQtNmRiYTk0ZjVkZWU2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 158,
    "overview": "Set in the international world of Western classical music, the film centers on Lydia Tár, widely considered one of the greatest living composer-conductors and the very first female director of a major German orchestra.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 111470,
+   "lbUrl": "https://letterboxd.com/film/tar-2022/"
   },
   {
    "id": "barbarian|2022",
@@ -4779,7 +5185,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.43,
    "imdb": 7,
    "c": [
     "dr"
@@ -4792,7 +5198,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNWQ5MDgwMzMtNWZhMy00Y2Q4LWI5NTAtODA4MDIzYTExOGQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 102,
    "overview": "A woman staying at an Airbnb discovers that the house she has rented is not what it seems.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 278372,
+   "lbUrl": "https://letterboxd.com/film/barbarian-2022/"
   },
   {
    "id": "nope|2022",
@@ -4802,7 +5210,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.66,
    "imdb": 6.8,
    "c": [
     "dr",
@@ -4816,7 +5224,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODRlNWRhZWUtMzdlZC00ZDIyLWFhZjMtYTcxNjI1ZDIwODhjXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
    "runtime": 130,
    "overview": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling phenomenon.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 324964,
+   "lbUrl": "https://letterboxd.com/film/nope/"
   },
   {
    "id": "past lives|2023",
@@ -4826,7 +5236,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.16,
    "imdb": 7.8,
    "c": [
     "lv",
@@ -4840,7 +5250,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYjQyMTNhNjUtN2VmYy00NWRhLTkwOTctMGVmNTBmNDIxYjZhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 105,
    "overview": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 179390,
+   "lbUrl": "https://letterboxd.com/film/past-lives/"
   },
   {
    "id": "asteroid city|2023",
@@ -4850,7 +5262,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.47,
    "imdb": 6.4,
    "c": [
     "lt"
@@ -4863,7 +5275,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZjY2YjYxNjEtNDJkYi00ZmJjLWIwYTEtNjEyZDgzY2M5ZDc3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 105,
    "overview": "World-changing events spectacularly disrupt the annual Asteroid Day celebration in an American desert town.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 147695,
+   "lbUrl": "https://letterboxd.com/film/asteroid-city/"
   },
   {
    "id": "killers of the flower moon|2023",
@@ -4873,7 +5287,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.02,
    "imdb": 7.5,
    "c": [
     "cr",
@@ -4888,7 +5302,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZWY5ZDVjNTUtODI5Yy00MjFhLWEyM2EtYzZjM2VjZTI0MTBjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 206,
    "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 315524,
+   "lbUrl": "https://letterboxd.com/film/killers-of-the-flower-moon/"
   },
   {
    "id": "beau is afraid|2023",
@@ -4898,7 +5314,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.43,
    "imdb": 6.6,
    "c": [
     "su"
@@ -4911,7 +5327,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTdmYmQ5MjctYzU3NS00N2I0LTkwYTYtZWMxNTVhOTRkODA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 179,
    "overview": "Following the sudden death of his mother, a mild-mannered but anxiety-ridden man confronts his darkest fears as he embarks on an epic odyssey back home.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 80878,
+   "lbUrl": "https://letterboxd.com/film/beau-is-afraid/"
   },
   {
    "id": "challengers|2024",
@@ -4921,7 +5339,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.8,
    "imdb": 7,
    "c": [
     "lv"
@@ -4934,7 +5352,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 131,
    "overview": "Tashi, a former tennis prodigy-turned-coach, transformed her husband into a champion. But to overcome a recent losing streak and redeem himself, he'll need to face off against his former best friend--Tashi's ex-boyfriend.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 185979,
+   "lbUrl": "https://letterboxd.com/film/challengers/"
   },
   {
    "id": "the substance|2024",
@@ -4944,7 +5364,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.72,
    "imdb": 7.2,
    "c": [
     "dr",
@@ -4958,7 +5378,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "runtime": 141,
    "overview": "A fading celebrity takes a black-market drug: a cell-replicating substance that helps her create a younger, better version of herself.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 471289,
+   "lbUrl": "https://letterboxd.com/film/the-substance/"
   },
   {
    "id": "the fall guy|2024",
@@ -4968,7 +5390,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.4,
    "imdb": 6.8,
    "c": [
     "lt"
@@ -4981,7 +5403,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
    "runtime": 126,
    "overview": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 276313,
+   "lbUrl": "https://letterboxd.com/film/the-fall-guy-2024/"
   },
   {
    "id": "marmalade|2024",
@@ -4991,7 +5415,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.58,
    "imdb": 6.3,
    "c": [
     "cr",
@@ -5005,7 +5429,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzlhNTYzM2UtZDI3Ni00ODRiLThiNWYtN2NmYzg2OGNiMGQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 99,
    "overview": "Baron teams up with his cellmate Otis to plan an escape, all while remembering how he fell for Marmalade and joined her in a risky bank robbery to support his sick mother and pursue a better future.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 5031,
+   "lbUrl": "https://letterboxd.com/film/marmalade-2024/"
   },
   {
    "id": "the assessment|2024",
@@ -5015,7 +5441,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.45,
    "imdb": 6.6,
    "c": [
     "mb"
@@ -5028,7 +5454,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOWFjMGIwNDgtODE5MS00ZWVkLTlhNzgtMDI1ZDM1OWMyYzY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 114,
    "overview": "In the near future where parenthood is strictly controlled, a couple's seven-day assessment for the right to have a child unravels into a psychological nightmare.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 25948,
+   "lbUrl": "https://letterboxd.com/film/the-assessment-2024/"
   },
   {
    "id": "caddo lake|2024",
@@ -5038,7 +5466,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.46,
    "imdb": 6.8,
    "c": [
     "mb"
@@ -5051,7 +5479,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZmIyOGI3NjgtZWJlYS00NzQ0LWJkMDUtNjhlYmFkYjI3NTM5XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
    "runtime": 103,
    "overview": "When an 8-year-old girl disappears on Caddo Lake, a series of past deaths and disappearances begin to link together, altering a broken family's history.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 60945,
+   "lbUrl": "https://letterboxd.com/film/caddo-lake/"
   },
   {
    "id": "it's what's inside|2024",
@@ -5061,7 +5491,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.47,
    "imdb": 6.6,
    "c": [
     "mb"
@@ -5075,7 +5505,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDkxOTZmZTYtYTNmNS00MDk3LWE0MDAtMzY5M2Y5YmU1MmI2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 103,
    "overview": "A group of friends gather for a pre-wedding party that descends into an existential nightmare when an estranged friend arrives with a mysterious game that awakens long-hidden secrets, desires and grudges.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 54860,
+   "lbUrl": "https://letterboxd.com/film/its-whats-inside/"
   },
   {
    "id": "a complete unknown|2024",
@@ -5085,7 +5517,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.56,
    "imdb": 7.3,
    "c": [
     "pt"
@@ -5098,7 +5530,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTA2NTA5NDYtMzlkOC00MTQxLWI0NDQtMzk2M2YzMGE4MTkxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "runtime": 141,
    "overview": "In 1961, an unknown 19-year-old Bob Dylan arrives in New York City with his guitar and forges relationships with musical icons on his meteoric rise, culminating in a groundbreaking performance that reverberates around the world.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 123382,
+   "lbUrl": "https://letterboxd.com/film/a-complete-unknown/"
   },
   {
    "id": "alien: romulus|2024",
@@ -5108,7 +5542,7 @@
    "n": "Best after Alien (1979)",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.59,
    "imdb": 7.1,
    "c": [
     "dr"
@@ -5121,7 +5555,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMDU0NjcwOGQtNjNjOS00NzQ3LWIwM2YtYWVmODZjMzQzN2ExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 119,
    "overview": "While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 297051,
+   "lbUrl": "https://letterboxd.com/film/alien-romulus/"
   },
   {
    "id": "oddity|2024",
@@ -5131,7 +5567,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.38,
    "imdb": 6.7,
    "c": [
     "dr"
@@ -5144,7 +5580,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMWU5Yjc0N2MtZjhlYS00MTM3LWI5YWUtZDg5MzcxZjEyZWJmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 98,
    "overview": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 64239,
+   "lbUrl": "https://letterboxd.com/film/oddity-2024/"
   },
   {
    "id": "nosferatu|2024",
@@ -5154,7 +5592,7 @@
    "n": "Remake of Murnau's 1922 silent film — worth seeing the original first",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.65,
    "imdb": 7.1,
    "c": [
     "dr"
@@ -5166,7 +5604,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BY2FhZGE3NmEtNWJjOC00NDI1LWFhMTQtMjcxNmQzZmEwNGIzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 132,
    "overview": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 280678,
+   "lbUrl": "https://letterboxd.com/film/nosferatu-2024/"
   },
   {
    "id": "no other choice|2025",
@@ -5176,7 +5616,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.08,
    "imdb": 7.5,
    "c": [
     "cr",
@@ -5190,7 +5630,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
    "runtime": 139,
    "overview": "After being fired, a man devises a unique plan to secure a new job: eliminate his competition.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 77902,
+   "lbUrl": "https://letterboxd.com/film/no-other-choice-2025/"
   },
   {
    "id": "the phoenician scheme|2025",
@@ -5200,7 +5642,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.54,
    "imdb": 6.6,
    "c": [
     "lt"
@@ -5213,7 +5655,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNTJmODQzYmItNTZlMy00Mjg0LTk1NjctYjM4ZGI0NTM3ZTVjXkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
    "runtime": 101,
    "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists and determined assassins.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 74561,
+   "lbUrl": "https://letterboxd.com/film/the-phoenician-scheme/"
   },
   {
    "id": "train dreams|2025",
@@ -5223,7 +5667,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.07,
    "imdb": 7.5,
    "c": [
     "qc"
@@ -5235,7 +5679,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZDkzNzkyNTktYzNhMi00YjhiLWI5YmUtZjliMTY0ZDc5NmMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 102,
    "overview": "A logger leads a life of unexpected depth and beauty in the rapidly-changing America of the early 1900s.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 117963,
+   "lbUrl": "https://letterboxd.com/film/train-dreams/"
   },
   {
    "id": "weapons|2025",
@@ -5245,7 +5691,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.58,
    "imdb": 7.4,
    "c": [
     "dr",
@@ -5259,7 +5705,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNTBhNWJjZWItYzY3NS00M2NkLThmOWYtYTlmNzBmN2UxZWFjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
    "runtime": 128,
    "overview": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 415113,
+   "lbUrl": "https://letterboxd.com/film/weapons-2025/"
   },
   {
    "id": "peter hujar's day|2025",
@@ -5269,7 +5717,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.43,
    "imdb": 6.3,
    "c": [
     "qc"
@@ -5282,7 +5730,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BY2Q1ZWNiZGUtZTMyZi00OGZiLWJmMGMtYjg0NjM3NDZmNTBmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 76,
    "overview": "Conversation between photographer Peter Hujar and Linda Rosenkrantz from 1974 sheds light on New York's vibrant downtown art world and the introspective journey of an artist's life.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 1983,
+   "lbUrl": "https://letterboxd.com/film/peter-hujars-day/"
   },
   {
    "id": "project hail mary|2026",
@@ -5292,7 +5742,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 4.31,
    "imdb": 8.2,
    "c": [
     "lt",
@@ -5306,7 +5756,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 156,
    "overview": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 584479,
+   "lbUrl": "https://letterboxd.com/film/project-hail-mary/"
   },
   {
    "id": "resident evil|2026",
@@ -5316,8 +5768,8 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 3.75,
+   "imdb": 7.6,
    "c": [
     "dr"
    ],
@@ -5329,7 +5781,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BODIwYTk4MWYtMGUxYS00OWUzLTg5MDYtNzg5MmYyNzcyNThkXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
    "runtime": 90,
    "overview": "Follows a hapless courier tasked with delivering a package to a remote hospital. He soon finds himself caught in the middle of an outbreak and must fight through hordes of mutated creatures to survive.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 113638,
+   "lbUrl": "https://letterboxd.com/film/resident-evil-2026/"
   },
   {
    "id": "hokum|2026",
@@ -5339,7 +5793,7 @@
    "n": "",
    "w": false,
    "r": null,
-   "lb": null,
+   "lb": 3.27,
    "imdb": 6.6,
    "c": [
     "dr"
@@ -5351,7 +5805,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZjA1ZjFlZGItNTVjZC00NTFhLTg2YTEtODMzODRmNGFiNTdmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 107,
    "overview": "A horror writer visits an Irish inn to scatter his parents' ashes, unaware the property is said to be haunted by a witch.",
-   "v": 3
+   "v": 3,
+   "imdbVotes": 72925,
+   "lbUrl": "https://letterboxd.com/film/hokum/"
   },
   {
    "id": "hearing damage|2026",
