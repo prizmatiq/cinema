@@ -156,10 +156,12 @@
     "War",
     "Drama"
    ],
-   "imdbId": null,
-   "poster": null,
+   "imdbId": "tt0052080",
+   "poster": "",
    "runtime": null,
-   "overview": null
+   "overview": null,
+   "idLock": true,
+   "v": 0
   },
   {
    "id": "psycho|1960",
@@ -363,10 +365,12 @@
    "g": [
     "Western"
    ],
-   "imdbId": null,
-   "poster": null,
+   "imdbId": "tt0058461",
+   "poster": "",
    "runtime": null,
-   "overview": null
+   "overview": null,
+   "idLock": true,
+   "v": 0
   },
   {
    "id": "for a few dollars more|1965",
@@ -384,10 +388,12 @@
    "g": [
     "Western"
    ],
-   "imdbId": null,
-   "poster": null,
+   "imdbId": "tt0059578",
+   "poster": "",
    "runtime": null,
-   "overview": null
+   "overview": null,
+   "idLock": true,
+   "v": 0
   },
   {
    "id": "persona|1966",
@@ -1450,10 +1456,12 @@
     "Crime",
     "Romance"
    ],
-   "imdbId": null,
+   "imdbId": "tt0112913",
    "runtime": null,
    "overview": null,
-   "poster": null
+   "poster": "",
+   "idLock": true,
+   "v": 0
   },
   {
    "id": "la haine|1995",
@@ -2395,10 +2403,12 @@
     "Crime",
     "Drama"
    ],
-   "imdbId": null,
-   "poster": null,
+   "imdbId": "tt0317248",
+   "poster": "",
    "runtime": null,
-   "overview": null
+   "overview": null,
+   "idLock": true,
+   "v": 0
   },
   {
    "id": "signs|2002",
@@ -2975,10 +2985,12 @@
    "g": [
     "Drama"
    ],
-   "imdbId": null,
-   "poster": null,
+   "imdbId": "tt0817225",
+   "poster": "",
    "runtime": null,
-   "overview": null
+   "overview": null,
+   "idLock": true,
+   "v": 0
   },
   {
    "id": "4 months, 3 weeks and 2 days|2007",
@@ -3595,7 +3607,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": 3.1,
+   "imdb": null,
    "c": [
     "mb"
    ],
@@ -3603,11 +3615,12 @@
     "Psychological Thriller",
     "Mystery"
    ],
-   "imdbId": "tt2966728",
-   "poster": "https://m.media-amazon.com/images/M/MV5BOGQ3ZTU5Y2EtYTQ5ZS00YTNjLWI2ZTMtYWIwZmJiM2EzMmI1XkEyXkFqcGdeQXVyMTUxMjA2Mzg@._V1_SX300.jpg",
-   "runtime": 97,
-   "overview": "Sol, a charming fugitive with a robotic arm, crashes through a vast desert empire filled with deadly larger-than-life enemies on his quest for revenge. His only chance of survival is with the help of an uncooperative nomadic woman...",
-   "v": 2
+   "imdbId": "tt2316411",
+   "poster": "",
+   "runtime": null,
+   "overview": null,
+   "v": 0,
+   "idLock": true
   },
   {
    "id": "inside llewyn davis|2013",
@@ -3776,7 +3789,7 @@
    "id": "predestination|2014",
    "t": "Predestination",
    "y": 2014,
-   "d": "Spierig Brothers",
+   "d": "Michael & Peter Spierig",
    "n": "",
    "w": false,
    "r": null,
@@ -4706,7 +4719,7 @@
    "id": "everything everywhere all at once|2022",
    "t": "Everything Everywhere All at Once",
    "y": 2022,
-   "d": "Daniels",
+   "d": "Daniel Kwan & Daniel Scheinert",
    "n": "",
    "w": false,
    "r": null,

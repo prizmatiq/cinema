@@ -7,7 +7,7 @@ const FILE = new URL("../data/library.json", import.meta.url);
 const OMDB = (process.env.OMDB_KEY || "").trim();
 const TMDB = (process.env.TMDB_TOKEN || "").trim();
 const REFRESH = process.env.REFRESH_RATINGS === "1";
-const VERIFIED = 2;
+const VERIFIED = 3; // bump to re-check everything with the current rules
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 if (!OMDB) {
@@ -43,15 +43,15 @@ async function tmdbPoster(imdbId) {
 
 const norm = (s) => String(s || "").toLowerCase().replace(/ł/g, "l").replace(/ø/g, "o").replace(/æ/g, "ae").replace(/ß/g, "ss").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/&/g, "and").replace(/[^a-z0-9]+/g, " ").trim();
 const yearOf = (s) => parseInt(String(s || "").slice(0, 4)) || 0;
-const surnames = (d) => String(d || "").split(/,|&|\band\b/).map((p) => norm(p).split(" ").pop()).filter((x) => x && x.length > 2);
+// First and last word of every director name: covers "Wong Kar-wai" ↔ "Kar-Wai Wong" and "Bong Joon-ho".
+const nameKeys = (d) => String(d || "").split(/,|&|\band\b/).flatMap((p) => { const w = norm(p).split(" ").filter((x) => x.length > 2); return w.length ? [w[0], w[w.length - 1]] : []; });
+const words = (s) => new Set(norm(s).split(" "));
 
-// A candidate is accepted when the director matches and the year is within one,
-// or when the title and year match exactly.
+// A candidate is accepted only when the director matches and the year is within one.
 function accept(f, m) {
-  const dy = Math.abs(yearOf(m.Year) - f.y);
-  const dirOk = surnames(f.d).some((s) => norm(m.Director).includes(s) || norm(m.Writer).includes(s));
-  const titleOk = norm(m.Title) === norm(f.t) || norm(m.Title).startsWith(norm(f.t) + " ");
-  return (dirOk && dy <= 1) || (titleOk && dy === 0);
+  if (Math.abs(yearOf(m.Year) - f.y) > 1) return false;
+  const dir = words(m.Director);
+  return nameKeys(f.d).some((k) => dir.has(k));
 }
 
 const titleVariants = (t) => [t, t.replace(/\s*\(.*?\)\s*/g, " ").trim(), t.replace("½", " 1/2")].filter((v, i, a) => v && a.indexOf(v) === i);
@@ -83,9 +83,17 @@ async function resolve(f) {
 
 const lib = JSON.parse(await fs.readFile(FILE, "utf8"));
 const before = JSON.stringify(lib);
-const missed = [];
+const missed = [], unsure = [];
 for (const f of lib.films) {
   try {
+    // Matched by an older, looser rule: re-check the id it has; keep the data if the check is inconclusive.
+    if (f.v === 2 && f.imdbId && !f.idLock) {
+      const m = await omdb({ i: f.imdbId });
+      if (!m || !accept(f, m)) { unsure.push(`${f.t} (${f.y}) — ${f.imdbId}, director on IMDb: ${m?.Director || "?"}`); f.check = true; }
+      else delete f.check;
+      f.v = VERIFIED;
+      continue;
+    }
     if (f.v === VERIFIED) {
       if (REFRESH && f.imdbId) {
         const m = await omdb({ i: f.imdbId });
@@ -113,6 +121,7 @@ for (const f of lib.films) {
       if (!f.poster) missed.push(`${f.t} (${f.y}) — matched ${m.imdbID}, but no poster`);
     }
     f.v = VERIFIED;
+    delete f.check;
   } catch (e) {
     if (/OMDb:/.test(e.message)) { console.error(e.message); break; }
     console.warn(`${f.t}: ${e.message}`);
@@ -120,6 +129,7 @@ for (const f of lib.films) {
 }
 console.log(`OMDb requests: ${calls}`);
 console.log(`With posters: ${lib.films.filter((f) => f.poster).length} of ${lib.films.length}`);
+if (unsure.length) console.log("Director doesn't match — open these on the site and check the IMDb link:\n  " + unsure.join("\n  "));
 if (missed.length) console.log("Check these on the site → open the film → Edit details (IMDb link or poster URL):\n  " + missed.join("\n  "));
 if (JSON.stringify(lib) !== before) { await fs.writeFile(FILE, JSON.stringify(lib, null, 1) + "\n"); console.log("Library updated."); }
 else console.log("Nothing changed.");

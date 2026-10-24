@@ -85,8 +85,10 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .tile .art .ay{font-family:var(--f-mono);font-size:11px;opacity:.65}
 .tile .art .ad{font-size:11px;opacity:.65;line-height:1.2}
 .tile .art .w{position:absolute;top:8px;right:8px;font:500 9px/1 var(--f-mono);text-transform:uppercase;letter-spacing:.06em;background:var(--on-tile);color:var(--tile);border-radius:3px;padding:3px 5px}
-.tile .cap{font-size:12.5px;color:var(--muted);line-height:1.3}
-.tile .cap .stars{font-size:12px}
+.tile .cap{display:flex;flex-direction:column;gap:2px}
+.tile .cap .ct{font-size:13.5px;font-weight:600;color:var(--fg);line-height:1.25;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.tile .cap .cy{font:12px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.tile .cap .stars{font-size:11px;vertical-align:-1px}
 .seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
 .seg button{background:var(--surface);border:0;padding:8px 12px;cursor:pointer;color:var(--muted);font-size:13px}
 .seg button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
@@ -271,7 +273,7 @@ const SORT={
 function tileHTML(f){
   return `<button class="tile film-t" data-id="${esc(f.id)}">
     <span class="art${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="ay">${f.y}</span><span class="at">${esc(f.t)}</span><span class="ad">${esc(f.d)}</span>${f.w?`<span class="w">Watched</span>`:""}</span>
-    <span class="cap">${f.r!=null?starsHTML(f.r,12):esc((f.g||[]).slice(0,2).join(", "))}</span></button>`;
+    <span class="cap"><span class="ct">${esc(f.t)}</span><span class="cy">${f.y}${f.r!=null?" · "+starsHTML(f.r,11):""}</span></span></button>`;
 }
 function rowHTML(f,withYear){
   return `<button class="film" data-id="${esc(f.id)}">
