@@ -73,7 +73,9 @@
    "overview": "Karin, a young woman from the Baltic countries, marries fisherman Antonio to escape from a prison camp. But she cannot get used to the tough life in Antonio's volcano-threatened village, Stromboli.",
    "v": 3,
    "imdbVotes": 9137,
-   "lbUrl": "https://letterboxd.com/film/stromboli/"
+   "lbUrl": "https://letterboxd.com/film/stromboli/",
+   "fr": "Rossellini–Bergman",
+   "frI": 0
   },
   {
    "id": "europe '51|1952",
@@ -98,7 +100,9 @@
    "overview": "A wealthy woman becomes obsessed with humanitarianism when her young son dies after committing suicide.",
    "v": 3,
    "imdbVotes": 5584,
-   "lbUrl": "https://letterboxd.com/film/europa-51/"
+   "lbUrl": "https://letterboxd.com/film/europa-51/",
+   "fr": "Rossellini–Bergman",
+   "frI": 1
   },
   {
    "id": "journey to italy|1954",
@@ -124,7 +128,9 @@
    "overview": "An unhappily married couple attempts to find direction and insight while vacationing in Naples.",
    "v": 3,
    "imdbVotes": 14163,
-   "lbUrl": "https://letterboxd.com/film/journey-to-italy/"
+   "lbUrl": "https://letterboxd.com/film/journey-to-italy/",
+   "fr": "Rossellini–Bergman",
+   "frI": 2
   },
   {
    "id": "the searchers|1956",
@@ -403,7 +409,9 @@
    "idLock": true,
    "v": 3,
    "imdbVotes": 257667,
-   "lbUrl": "https://letterboxd.com/film/a-fistful-of-dollars/"
+   "lbUrl": "https://letterboxd.com/film/a-fistful-of-dollars/",
+   "fr": "Dollars Trilogy",
+   "frI": 0
   },
   {
    "id": "for a few dollars more|1965",
@@ -428,7 +436,9 @@
    "idLock": true,
    "v": 3,
    "imdbVotes": 305063,
-   "lbUrl": "https://letterboxd.com/film/for-a-few-dollars-more/"
+   "lbUrl": "https://letterboxd.com/film/for-a-few-dollars-more/",
+   "fr": "Dollars Trilogy",
+   "frI": 1
   },
   {
    "id": "persona|1966",
@@ -480,7 +490,9 @@
    "overview": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
    "v": 3,
    "imdbVotes": 905186,
-   "lbUrl": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/"
+   "lbUrl": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/",
+   "fr": "Dollars Trilogy",
+   "frI": 2
   },
   {
    "id": "2001: a space odyssey|1968",
@@ -634,7 +646,9 @@
    "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
    "v": 3,
    "imdbVotes": 2267515,
-   "lbUrl": "https://letterboxd.com/film/the-godfather/"
+   "lbUrl": "https://letterboxd.com/film/the-godfather/",
+   "fr": "The Godfather",
+   "frI": 0
   },
   {
    "id": "serpico|1973",
@@ -735,7 +749,9 @@
    "overview": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
    "v": 3,
    "imdbVotes": 1520732,
-   "lbUrl": "https://letterboxd.com/film/the-godfather-part-ii/"
+   "lbUrl": "https://letterboxd.com/film/the-godfather-part-ii/",
+   "fr": "The Godfather",
+   "frI": 1
   },
   {
    "id": "chinatown|1974",
@@ -942,7 +958,9 @@
    "overview": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future.",
    "v": 3,
    "imdbVotes": 1249808,
-   "lbUrl": "https://letterboxd.com/film/the-shining/"
+   "lbUrl": "https://letterboxd.com/film/the-shining/",
+   "fr": "The Shining",
+   "frI": 0
   },
   {
    "id": "raging bull|1980",
@@ -4872,7 +4890,9 @@
    "overview": "Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
    "v": 3,
    "imdbVotes": 250346,
-   "lbUrl": "https://letterboxd.com/film/doctor-sleep/"
+   "lbUrl": "https://letterboxd.com/film/doctor-sleep/",
+   "fr": "The Shining",
+   "frI": 1
   },
   {
    "id": "minari|2020",
@@ -5097,7 +5117,9 @@
    "overview": "In 1979, a group of young filmmakers set out to make an adult film in a rural Texas farm, but when their reclusive, elderly hosts catch them in the act, the crew find themselves fighting for their lives.",
    "v": 3,
    "imdbVotes": 231254,
-   "lbUrl": "https://letterboxd.com/film/x-2022/"
+   "lbUrl": "https://letterboxd.com/film/x-2022/",
+   "fr": "X Trilogy",
+   "frI": 0
   },
   {
    "id": "pearl|2022",
@@ -5123,7 +5145,9 @@
    "overview": "In 1918, a young woman on the brink of madness pursues stardom in a desperate attempt to escape the drudgery, isolation, and lovelessness of life on her parents' farm.",
    "v": 3,
    "imdbVotes": 166657,
-   "lbUrl": "https://letterboxd.com/film/pearl-2022/"
+   "lbUrl": "https://letterboxd.com/film/pearl-2022/",
+   "fr": "X Trilogy",
+   "frI": 1
   },
   {
    "id": "everything everywhere all at once|2022",
@@ -5557,7 +5581,9 @@
    "overview": "While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.",
    "v": 3,
    "imdbVotes": 297051,
-   "lbUrl": "https://letterboxd.com/film/alien-romulus/"
+   "lbUrl": "https://letterboxd.com/film/alien-romulus/",
+   "fr": "Alien",
+   "frI": 3
   },
   {
    "id": "oddity|2024",
@@ -5857,7 +5883,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 642313,
-   "lbUrl": "https://letterboxd.com/film/star-trek/"
+   "lbUrl": "https://letterboxd.com/film/star-trek/",
+   "fr": "Star Trek (Kelvin)",
+   "frI": 0
   },
   {
    "w": false,
@@ -5883,7 +5911,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTk2NzczOTgxNF5BMl5BanBnXkFtZTcwODQ5ODczOQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 513356,
-   "lbUrl": "https://letterboxd.com/film/star-trek-into-darkness/"
+   "lbUrl": "https://letterboxd.com/film/star-trek-into-darkness/",
+   "fr": "Star Trek (Kelvin)",
+   "frI": 1
   },
   {
    "w": false,
@@ -5910,7 +5940,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2FhNDI1YTYtNWI0OC00ZjYxLWJlYWEtN2ZiZjRmZDY1MWJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 272610,
-   "lbUrl": "https://letterboxd.com/film/star-trek-beyond/"
+   "lbUrl": "https://letterboxd.com/film/star-trek-beyond/",
+   "fr": "Star Trek (Kelvin)",
+   "frI": 2
   },
   {
    "w": false,
@@ -5936,7 +5968,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
    "imdbVotes": 2247312,
-   "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/"
+   "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
+   "fr": "The Lord of the Rings",
+   "frI": 0
   },
   {
    "w": false,
@@ -5962,7 +5996,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
    "v": 3,
    "imdbVotes": 1992800,
-   "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-two-towers/"
+   "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-two-towers/",
+   "fr": "The Lord of the Rings",
+   "frI": 1
   },
   {
    "w": false,
@@ -5988,7 +6024,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 2203148,
-   "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-return-of-the-king/"
+   "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-return-of-the-king/",
+   "fr": "The Lord of the Rings",
+   "frI": 2
   },
   {
    "w": false,
@@ -6043,7 +6081,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "v": 3,
    "imdbVotes": 894828,
-   "lbUrl": "https://letterboxd.com/film/blade-runner/"
+   "lbUrl": "https://letterboxd.com/film/blade-runner/",
+   "fr": "Blade Runner",
+   "frI": 0
   },
   {
    "w": false,
@@ -6070,7 +6110,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 773462,
-   "lbUrl": "https://letterboxd.com/film/blade-runner-2049/"
+   "lbUrl": "https://letterboxd.com/film/blade-runner-2049/",
+   "fr": "Blade Runner",
+   "frI": 1
   },
   {
    "w": false,
@@ -6389,7 +6431,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BOGZjNDlkMTYtMTJkZi00OTkzLWI4NDEtYTA2ODQyMjcwYTdlXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
    "imdbVotes": 525180,
-   "lbUrl": "https://letterboxd.com/film/mission-impossible/"
+   "lbUrl": "https://letterboxd.com/film/mission-impossible/",
+   "fr": "Mission: Impossible",
+   "frI": 0
   },
   {
    "w": false,
@@ -6412,11 +6456,14 @@
    "imdbId": "tt0120755",
    "runtime": null,
    "overview": null,
-   "poster": null,
+   "poster": "https://a.ltrbxd.com/resized/sm/upload/67/p1/1d/1m/MnK1Kn8cFcORYT8pIIexPUwLfW-0-460-0-690-crop.jpg?v=9f1c48e1b3",
    "idLock": true,
    "v": 0,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-ii/",
-   "imdbVotes": 419675
+   "imdbVotes": 419675,
+   "fr": "Mission: Impossible",
+   "frI": 1,
+   "posterLock": true
   },
   {
    "w": false,
@@ -6442,7 +6489,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNzY1MzdjMjYtNDJiZS00N2U4LWI0MWQtZTRiZWYxMzU3ZmI4XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
    "imdbVotes": 430024,
-   "lbUrl": "https://letterboxd.com/film/mission-impossible-iii/"
+   "lbUrl": "https://letterboxd.com/film/mission-impossible-iii/",
+   "fr": "Mission: Impossible",
+   "frI": 2
   },
   {
    "w": false,
@@ -6466,11 +6515,14 @@
    "imdbId": "tt1229238",
    "runtime": null,
    "overview": null,
-   "poster": null,
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX400.jpg",
    "idLock": true,
    "v": 0,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-ghost-protocol/",
-   "imdbVotes": 570910
+   "imdbVotes": 570910,
+   "fr": "Mission: Impossible",
+   "frI": 3,
+   "posterLock": true
   },
   {
    "w": false,
@@ -6493,11 +6545,14 @@
    "imdbId": "tt2381249",
    "runtime": null,
    "overview": null,
-   "poster": null,
+   "poster": "https://m.media-amazon.com/images/M/MV5BZjUwZjg2ZjAtY2RhZi00YmZjLTlhNGQtOWQwNDk1MjhhM2NhXkEyXkFqcGc@._V1_SX400.jpg",
    "idLock": true,
    "v": 0,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-rogue-nation/",
-   "imdbVotes": 451279
+   "imdbVotes": 451279,
+   "fr": "Mission: Impossible",
+   "frI": 4,
+   "posterLock": true
   },
   {
    "w": false,
@@ -6521,11 +6576,14 @@
    "imdbId": "tt4912910",
    "runtime": null,
    "overview": null,
-   "poster": null,
+   "poster": "https://m.media-amazon.com/images/M/MV5BZmUwZTg2YmMtMmZjOS00ZDYwLWI2ZDgtZDcyY2ZmMWMwZDdlXkEyXkFqcGc@._V1_SX400.jpg",
    "idLock": true,
    "v": 0,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-fallout/",
-   "imdbVotes": 426316
+   "imdbVotes": 426316,
+   "fr": "Mission: Impossible",
+   "frI": 5,
+   "posterLock": true
   },
   {
    "w": false,
@@ -6548,7 +6606,10 @@
    "imdbId": null,
    "runtime": null,
    "overview": null,
-   "poster": null
+   "poster": "https://m.media-amazon.com/images/M/MV5BN2U4OTdmM2QtZTkxYy00ZmQyLTg2N2UtMDdmMGJmNDhlZDU1XkEyXkFqcGc@._V1_SX400.jpg",
+   "fr": "Mission: Impossible",
+   "frI": 6,
+   "posterLock": true
   },
   {
    "w": false,
@@ -6571,7 +6632,10 @@
    "imdbId": null,
    "runtime": null,
    "overview": null,
-   "poster": null
+   "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_SX400.jpg",
+   "fr": "Mission: Impossible",
+   "frI": 7,
+   "posterLock": true
   },
   {
    "w": false,
@@ -6780,7 +6844,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
    "imdbVotes": 1330011,
-   "lbUrl": "https://letterboxd.com/film/kill-bill-vol-1/"
+   "lbUrl": "https://letterboxd.com/film/kill-bill-vol-1/",
+   "fr": "Kill Bill",
+   "frI": 0
   },
   {
    "w": false,
@@ -6806,7 +6872,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BY2FiNzhiZTctNzU1Mi00NDkwLWExNDMtZTg0MjYyNzhkNWNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 883395,
-   "lbUrl": "https://letterboxd.com/film/kill-bill-vol-2/"
+   "lbUrl": "https://letterboxd.com/film/kill-bill-vol-2/",
+   "fr": "Kill Bill",
+   "frI": 1
   },
   {
    "w": false,
@@ -7066,11 +7134,12 @@
    "imdbId": "tt0245429",
    "runtime": null,
    "overview": null,
-   "poster": null,
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTEyNmEwOWUtYzkyOC00ZTQ4LTllZmUtMjk0Y2YwOGUzYjRiXkEyXkFqcGc@._V1_SX400.jpg",
    "idLock": true,
    "v": 0,
    "lbUrl": "https://letterboxd.com/film/spirited-away/",
-   "imdbVotes": 990749
+   "imdbVotes": 990749,
+   "posterLock": true
   },
   {
    "w": false,
@@ -7753,7 +7822,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
    "v": 3,
    "imdbVotes": 1081032,
-   "lbUrl": "https://letterboxd.com/film/alien/"
+   "lbUrl": "https://letterboxd.com/film/alien/",
+   "fr": "Alien",
+   "frI": 0
   },
   {
    "w": false,
@@ -7779,7 +7850,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTY3NzIyNTA2NV5BMl5BanBnXkFtZTcwNzE2NjI4Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 709126,
-   "lbUrl": "https://letterboxd.com/film/prometheus/"
+   "lbUrl": "https://letterboxd.com/film/prometheus/",
+   "fr": "Alien",
+   "frI": 1
   },
   {
    "w": false,
@@ -7805,7 +7878,9 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjhiYWQ4MTAtOGY1Zi00ZjcyLTk1ZDYtODI3ODRhNjE4MzZhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 350371,
-   "lbUrl": "https://letterboxd.com/film/alien-covenant/"
+   "lbUrl": "https://letterboxd.com/film/alien-covenant/",
+   "fr": "Alien",
+   "frI": 2
   },
   {
    "w": false,
@@ -7911,8 +7986,11 @@
    "runtime": null,
    "overview": null,
    "lbUrl": "https://letterboxd.com/film/28-days-later/",
-   "poster": null,
-   "imdbVotes": 558623
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTU3MDQxN2EtNjI5ZC00NDAyLTgwMTctODgxYjRlNWFmOGQyXkEyXkFqcGc@._V1_SX400.jpg",
+   "imdbVotes": 558623,
+   "fr": "28 Days Later",
+   "frI": 0,
+   "posterLock": true
   },
   {
    "w": false,
@@ -7938,8 +8016,11 @@
    "runtime": null,
    "overview": null,
    "lbUrl": "https://letterboxd.com/film/28-weeks-later/",
-   "poster": null,
-   "imdbVotes": 369895
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMjc2MTcxNV5BMl5BanBnXkFtZTcwMzgzOTY0MQ@@._V1_SX400.jpg",
+   "imdbVotes": 369895,
+   "fr": "28 Days Later",
+   "frI": 1,
+   "posterLock": true
   },
   {
    "w": false,
@@ -7965,8 +8046,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 776658
+   "poster": "https://image.tmdb.org/t/p/w500/mV16EBXQ6kDWpj31P6BEhmzTTkd.jpg",
+   "imdbVotes": 776658,
+   "posterLock": true
   },
   {
    "w": false,
@@ -7993,8 +8075,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 98843
+   "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
+   "imdbVotes": 98843,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8020,8 +8103,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 413052
+   "poster": "https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
+   "imdbVotes": 413052,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8047,8 +8131,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 288326
+   "poster": "https://image.tmdb.org/t/p/w500/w7ri7byEYLdciSZOwWHj6TUAX7j.jpg",
+   "imdbVotes": 288326,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8074,8 +8159,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 177370
+   "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
+   "imdbVotes": 177370,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8101,8 +8187,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 15786
+   "poster": "https://image.tmdb.org/t/p/w500/iRv9QhsnNVwMKJ7Xqmmh4PXWSej.jpg",
+   "imdbVotes": 15786,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8129,8 +8216,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 146735
+   "poster": "https://image.tmdb.org/t/p/w500/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
+   "imdbVotes": 146735,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8157,8 +8245,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 252129
+   "poster": "https://a.ltrbxd.com/resized/sm/upload/lw/ov/gp/bp/show_05a97018a0f211322ea43b839a1dce82-0-460-0-690-crop.jpg?v=3e428bc912",
+   "imdbVotes": 252129,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8184,8 +8273,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 251541
+   "poster": "https://image.tmdb.org/t/p/w500/xcCCQKnJqxkjDoDSMz4LmbKhCRP.jpg",
+   "imdbVotes": 251541,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8204,7 +8294,11 @@
    "id": "alien: earth|2025",
    "t": "Alien: Earth",
    "y": 2025,
-   "d": "Noah Hawley"
+   "d": "Noah Hawley",
+   "fr": "Alien",
+   "frI": 4,
+   "poster": "https://image.tmdb.org/t/p/w500/yueXS3q8BtoWekcHOATFHicLl3e.jpg",
+   "posterLock": true
   },
   {
    "w": false,
@@ -8230,8 +8324,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 127532
+   "poster": "https://image.tmdb.org/t/p/w500/lD4gTLrI81Crs6CDwwjQrnkJrUm.jpg",
+   "imdbVotes": 127532,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8257,8 +8352,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 7884
+   "poster": "https://image.tmdb.org/t/p/w500/eKYPaXerPYUhmCsGlk8KlGkrIc9.jpg",
+   "imdbVotes": 7884,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8284,8 +8380,11 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 2695979
+   "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
+   "imdbVotes": 2695979,
+   "fr": "Breaking Bad",
+   "frI": 0,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8312,8 +8411,11 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 873073
+   "poster": "https://image.tmdb.org/t/p/w500/fIBGC36eUyaQvjZ6XqZo3NEXpoR.jpg",
+   "imdbVotes": 873073,
+   "fr": "Breaking Bad",
+   "frI": 1,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8339,8 +8441,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 389636
+   "poster": "https://image.tmdb.org/t/p/w500/lT8o38ubu9uzcjZbkDtwsVizDeQ.jpg",
+   "imdbVotes": 389636,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8367,8 +8470,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 960853
+   "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
+   "imdbVotes": 960853,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8393,8 +8497,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 564739
+   "poster": "https://image.tmdb.org/t/p/w500/wQrJngleXiFpkYfLkSpqP1YvQOW.jpg",
+   "imdbVotes": 564739,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8414,7 +8519,9 @@
    "id": "babylon berlin|2017",
    "t": "Babylon Berlin",
    "y": 2017,
-   "d": "Tom Tykwer, Achim von Borries & Henk Handloegten"
+   "d": "Tom Tykwer, Achim von Borries & Henk Handloegten",
+   "poster": "https://image.tmdb.org/t/p/w500/hr18RHPMQSA0zbCzAZN2asIOqy5.jpg",
+   "posterLock": true
   },
   {
    "w": false,
@@ -8439,8 +8546,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 137024
+   "poster": "https://image.tmdb.org/t/p/w500/pOC3DmU47X98Sv5vaPnmgjG30eY.jpg",
+   "imdbVotes": 137024,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8467,8 +8575,9 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 278431
+   "poster": "https://image.tmdb.org/t/p/w500/ondt1gkeBvU6Y5h1wwxfarT6807.jpg",
+   "imdbVotes": 278431,
+   "posterLock": true
   },
   {
    "w": false,
@@ -8494,8 +8603,51 @@
    "runtime": null,
    "overview": null,
    "lbUrl": null,
-   "poster": null,
-   "imdbVotes": 273314
+   "poster": "https://image.tmdb.org/t/p/w500/lwYqYpCndDbf4tLm73tCmedh63l.jpg",
+   "imdbVotes": 273314,
+   "posterLock": true
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "lt"
+   ],
+   "g": [
+    "Comedy",
+    "Drama"
+   ],
+   "n": "",
+   "type": "series",
+   "id": "shrinking|2023",
+   "t": "Shrinking",
+   "y": 2023,
+   "d": "Bill Lawrence, Brett Goldstein & Jason Segel",
+   "poster": "https://image.tmdb.org/t/p/w500/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg",
+   "posterLock": true
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "pt"
+   ],
+   "g": [
+    "Dark Comedy",
+    "Drama"
+   ],
+   "n": "",
+   "type": "series",
+   "id": "the shrink next door|2021",
+   "t": "The Shrink Next Door",
+   "y": 2021,
+   "d": "Georgia Pritchett",
+   "poster": "https://image.tmdb.org/t/p/w500/61GjPSU2HNAsdCVccSQEcdQHy1f.jpg",
+   "posterLock": true
   }
  ],
  "cols": [
