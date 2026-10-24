@@ -1988,5 +1988,62 @@
   "r": null,
   "lb": null,
   "imdb": null
+ },
+ {
+  "id": "platonic|2023",
+  "type": "series",
+  "t": "Platonic",
+  "y": 2023,
+  "d": "Nicholas Stoller & Francesca Delbanco",
+  "g": [
+   "Comedy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the studio|2025",
+  "type": "series",
+  "t": "The Studio",
+  "y": 2025,
+  "d": "Seth Rogen, Evan Goldberg, Peter Huyck, Alex Gregory & Frida Perez",
+  "g": [
+   "Comedy",
+   "Satire"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "gone girl|2014",
+  "type": "film",
+  "t": "Gone Girl",
+  "y": 2014,
+  "d": "David Fincher",
+  "g": [
+   "Thriller",
+   "Mystery"
+  ],
+  "c": [
+   "cr",
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
  }
 ]

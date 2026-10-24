@@ -111,6 +111,7 @@ for (const f of lib.films) {
   const fx = fixes[f.id];
   if (!fx) continue;
   if (fx.d && fx.d !== f.d) f.d = fx.d;
+  if (fx.t && fx.t !== f.t) f.t = fx.t;
   if (fx.imdbId && (fx.imdbId !== f.imdbId || !f.idLock)) {
     Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null, lb: null, lbUrl: null });
     delete f.check;

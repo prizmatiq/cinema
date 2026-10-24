@@ -1,5 +1,5 @@
 {
- "_help": "Manual corrections. Key = film title|year in lowercase. imdbId fixes a wrong match, poster sets a picture, d corrects the director. The enrich script applies these on every run.",
+ "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director. The enrich script applies these on every run.",
  "onibaba|1964": {
   "imdbId": "tt0058430"
  },
@@ -26,19 +26,19 @@
  },
  "mission: impossible 2|2000": {
   "imdbId": "tt0120755",
-  "poster": "https://a.ltrbxd.com/resized/sm/upload/67/p1/1d/1m/MnK1Kn8cFcORYT8pIIexPUwLfW-0-460-0-690-crop.jpg?v=9f1c48e1b3"
+  "poster": "https://image.tmdb.org/t/p/w500/1VMWLpk9VXyYcEZ8w3uUhp0OF1v.jpg"
  },
  "mission: impossible – ghost protocol|2011": {
   "imdbId": "tt1229238",
-  "poster": "https://m.media-amazon.com/images/M/MV5BMTY4MTUxMjQ5OV5BMl5BanBnXkFtZTcwNTUyMzg5Ng@@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/5xEUp122U0oqiPf2tuKoBJk07Vw.jpg"
  },
  "mission: impossible – rogue nation|2015": {
   "imdbId": "tt2381249",
-  "poster": "https://m.media-amazon.com/images/M/MV5BZjUwZjg2ZjAtY2RhZi00YmZjLTlhNGQtOWQwNDk1MjhhM2NhXkEyXkFqcGc@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/jwqL7croP7JMVfz0l9o7V4yJsJO.jpg"
  },
  "mission: impossible – fallout|2018": {
   "imdbId": "tt4912910",
-  "poster": "https://m.media-amazon.com/images/M/MV5BZmUwZTg2YmMtMmZjOS00ZDYwLWI2ZDgtZDcyY2ZmMWMwZDdlXkEyXkFqcGc@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/rVwZ3TVdEdUsIRfnUOQsm9lQJMI.jpg"
  },
  "spirited away|2001": {
   "imdbId": "tt0245429",
@@ -129,10 +129,11 @@
   "poster": "https://image.tmdb.org/t/p/w500/lwYqYpCndDbf4tLm73tCmedh63l.jpg"
  },
  "mission: impossible – the final reckoning|2025": {
-  "poster": "https://m.media-amazon.com/images/M/MV5BZGQ5NGEyYTItMjNiMi00Y2EwLTkzOWItMjc5YjJiMjMyNTI0XkEyXkFqcGc@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/vqw8D35ZBcb09VI9hvedgyd7FQD.jpg"
  },
  "mission: impossible – dead reckoning part one|2023": {
-  "poster": "https://m.media-amazon.com/images/M/MV5BN2U4OTdmM2QtZTkxYy00ZmQyLTg2N2UtMDdmMGJmNDhlZDU1XkEyXkFqcGc@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/tyuBWhADudiwYY5po8YLrJmI46R.jpg",
+  "t": "Mission: Impossible – Dead Reckoning"
  },
  "shrinking|2023": {
   "poster": "https://image.tmdb.org/t/p/w500/zEFKMNPBKq6JG7uuDkzTQ9WwErn.jpg"
@@ -148,5 +149,20 @@
  },
  "project hail mary|2026": {
   "poster": "https://image.tmdb.org/t/p/original/9HU853T7FsslBPODdnlRqHazDL3.jpg"
+ },
+ "mission: impossible|1996": {
+  "poster": "https://image.tmdb.org/t/p/w500/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg"
+ },
+ "mission: impossible iii|2006": {
+  "poster": "https://image.tmdb.org/t/p/w500/vKGYCpmQyV9uHybWDzXuII8Los5.jpg"
+ },
+ "platonic|2023": {
+  "poster": "https://image.tmdb.org/t/p/w500/g8WE4FY4VdCh65PTbf7JvQGgyss.jpg"
+ },
+ "the studio|2025": {
+  "poster": "https://image.tmdb.org/t/p/w500/wxS2Tqs5xgjCCYP6xpXIAzW1CTZ.jpg"
+ },
+ "gone girl|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/ts996lKsxvjkO2yiYG0ht4qAicO.jpg"
  }
 }
