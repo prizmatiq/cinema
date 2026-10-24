@@ -3,7 +3,7 @@ name: Enrich library
 on:
   push:
     branches: [main]
-    paths: [data/library.json]
+    paths: [data/library.json, data/fixes.json, scripts/enrich.mjs]
   workflow_dispatch:
   schedule:
     - cron: "17 4 1 * *" # monthly: refresh IMDb ratings
