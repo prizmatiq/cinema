@@ -1,7 +1,8 @@
 {
  "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director. The enrich script applies these on every run.",
  "onibaba|1964": {
-  "imdbId": "tt0058430"
+  "imdbId": "tt0058430",
+  "poster": "https://image.tmdb.org/t/p/w500/6IuG74QxgELxmJToIfVNJlsTrMp.jpg"
  },
  "naked|1993": {
   "imdbId": "tt0107653"
@@ -19,7 +20,7 @@
   "poster": "https://m.media-amazon.com/images/M/MV5BYTg5ZDczNTYtZWE1My00MjdiLTk3NzgtOTU1NzkwMjJmZGRkXkEyXkFqcGc@._V1_SX400.jpg"
  },
  "memento|2000": {
-  "poster": "https://m.media-amazon.com/images/M/MV5BMGQ3Y2Q4NjktN2E4Ny00Y2Q2LTliZDUtZTNiNjRhY2I0NGIyXkEyXkFqcGc@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg"
  },
  "predestination|2014": {
   "poster": "https://m.media-amazon.com/images/M/MV5BY2VhODM5OTUtZDJhMi00MTc5LThjNjYtZWY1M2NlNWU0N2NjXkEyXkFqcGc@._V1_SX400.jpg"
@@ -197,5 +198,45 @@
  },
  "psycho|1960": {
   "poster": "https://image.tmdb.org/t/p/w500/yZBfcfUKlXBx3Khciau7W1XLaJv.jpg"
+ },
+ "following|1998": {
+  "poster": "https://image.tmdb.org/t/p/w500/3bX6VVSMf0dvzk5pMT4ALG5A92d.jpg"
+ },
+ "insomnia|2002": {
+  "poster": "https://image.tmdb.org/t/p/w500/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg"
+ },
+ "the prestige|2006": {
+  "poster": "https://image.tmdb.org/t/p/w500/gcphM7ZLxS5HPeCZgjZobfz907x.jpg"
+ },
+ "the dark knight|2008": {
+  "poster": "https://image.tmdb.org/t/p/w500/qJ2tW6WMUDux911r6m7haRef0WH.jpg"
+ },
+ "inception|2010": {
+  "poster": "https://image.tmdb.org/t/p/w500/xlaY2zyzMfkhk0HSC5VUwzoZPU1.jpg"
+ },
+ "tenet|2020": {
+  "poster": "https://image.tmdb.org/t/p/w500/rrKH3VhHssGTCfPuaEQkxvEoElv.jpg"
+ },
+ "the odyssey|2026": {
+  "poster": "https://image.tmdb.org/t/p/w500/xbesTZHKudJKmaIXDnHPWcRKKFI.jpg"
+ },
+ "lolita|1962": {
+  "poster": "https://image.tmdb.org/t/p/w500/8Puqbeh0D95DpXFWep1rmH78btu.jpg"
+ },
+ "ivan's childhood|1962": {
+  "poster": "https://image.tmdb.org/t/p/w500/trY9ADhXgSExH3DLlFhV5C8aDtw.jpg"
+ },
+ "carnival of souls|1962": {
+  "poster": "https://image.tmdb.org/t/p/w500/AdbQsFB8pS090l0NO3uBtLZy2zw.jpg"
+ },
+ "the leopard|1963": {
+  "poster": "https://image.tmdb.org/t/p/w500/riSUxwoK3xjkOgy6YJSvPhi7cO6.jpg"
+ },
+ "8½|1963": {
+  "poster": "https://image.tmdb.org/t/p/w500/23VIf7zNxAgaXwIlvzd3IvOd9sY.jpg"
+ },
+ "interstellar|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/2GqRAbc6Xcak2ZYrIdTQGbHyTsl.jpg",
+  "imdbId": "tt0816692"
  }
 }
