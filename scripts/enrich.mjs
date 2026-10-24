@@ -91,7 +91,7 @@ for (const f of lib.films) {
   if (!fx) continue;
   if (fx.d && fx.d !== f.d) f.d = fx.d;
   if (fx.imdbId && (fx.imdbId !== f.imdbId || !f.idLock)) {
-    Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null });
+    Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null, lb: null, lbUrl: null });
     delete f.check;
     if (!f.posterLock) f.poster = null;
   }
@@ -141,6 +141,50 @@ for (const f of lib.films) {
     console.warn(`${f.t}: ${e.message}`);
   }
 }
+// ---- IMDb ratings from IMDb's own public dataset (refreshed daily by IMDb, free for personal use).
+try {
+  const want = new Set(lib.films.map((f) => f.imdbId).filter(Boolean));
+  const res = await fetch("https://datasets.imdbws.com/title.ratings.tsv.gz");
+  if (!res.ok) throw new Error("HTTP " + res.status);
+  const { createGunzip } = await import("node:zlib");
+  const { Readable } = await import("node:stream");
+  const { createInterface } = await import("node:readline");
+  const lines = createInterface({ input: Readable.fromWeb(res.body).pipe(createGunzip()) });
+  const ratings = new Map();
+  for await (const line of lines) {
+    const tab = line.indexOf("\t");
+    const id = line.slice(0, tab);
+    if (want.has(id)) { const [, r, votes] = line.split("\t"); ratings.set(id, { r: parseFloat(r), votes: parseInt(votes) }); }
+  }
+  let n = 0;
+  for (const f of lib.films) {
+    const x = f.imdbId && ratings.get(f.imdbId);
+    if (x && Number.isFinite(x.r)) { if (f.imdb !== x.r) n++; f.imdb = x.r; f.imdbVotes = x.votes; }
+  }
+  console.log(`IMDb ratings: ${ratings.size} found, ${n} updated`);
+} catch (e) { console.warn("IMDb dataset unavailable: " + e.message); }
+
+// ---- Letterboxd: direct film link and average rating, looked up by IMDb id.
+// Polite: one request every 0.6 s, and only for films that don't have a rating yet (all of them on the monthly run).
+{
+  const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
+  let got = 0, blocked = false;
+  const todo = lib.films.filter((f) => f.imdbId && (f.lb == null || !f.lbUrl || REFRESH));
+  for (const f of todo) {
+    try {
+      const res = await fetch(`https://letterboxd.com/imdb/${f.imdbId}/`, { headers: { "user-agent": UA, accept: "text/html" }, redirect: "follow" });
+      if (res.status === 403 || res.status === 429) { blocked = true; console.warn(`Letterboxd refused requests (HTTP ${res.status}) — stopping; ratings stay as they are.`); break; }
+      if (!res.ok) continue;
+      if (/letterboxd\.com\/film\//.test(res.url)) f.lbUrl = res.url;
+      const html = await res.text();
+      const m = html.match(/"ratingValue"\s*:\s*([\d.]+)/) || html.match(/name="twitter:data2" content="([\d.]+) out of 5"/);
+      if (m) { f.lb = Math.round(parseFloat(m[1]) * 100) / 100; got++; }
+    } catch (e) { console.warn(`Letterboxd ${f.t}: ${e.message}`); }
+    await sleep(600);
+  }
+  console.log(`Letterboxd: ${got} ratings from ${todo.length} lookups${blocked ? " (stopped early)" : ""}`);
+}
+
 console.log(`OMDb requests: ${calls}`);
 console.log(`With posters: ${lib.films.filter((f) => f.poster).length} of ${lib.films.length}`);
 if (unsure.length) console.log("Director doesn't match — open these on the site and check the IMDb link:\n  " + unsure.join("\n  "));
