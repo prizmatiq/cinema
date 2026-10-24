@@ -9,7 +9,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "ep",
     "su"
@@ -17,7 +17,11 @@
    "g": [
     "Sci-Fi",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0017136",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjhjMGYyMjAtMzJkYy00NzhlLWIwY2MtMWQ2ODIxZDUyOGYyXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 150,
+   "overview": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences."
   },
   {
    "id": "citizen kane|1941",
@@ -28,14 +32,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "pt"
    ],
    "g": [
     "Drama",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0033467",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjk1ZDJlMmUtOWQ0Zi00MDM5LTk1OGYtODczNjFmMGYwZGVkXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 119,
+   "overview": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'"
   },
   {
    "id": "stromboli|1950",
@@ -46,13 +54,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "qc"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0041931",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTY0NzcwNmEtMmE5My00ZWUwLWEyYWItM2NiMWZmNWIyNzFiXkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 81,
+   "overview": "Karin, a young woman from the Baltic countries, marries fisherman Antonio to escape from a prison camp. But she cannot get used to the tough life in Antonio's volcano-threatened village, Stromboli."
   },
   {
    "id": "europe '51|1952",
@@ -63,14 +75,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "qc",
     "gp"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0043511",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOTRiZTkzNDYtMmI1Yi00ODY0LThiNTQtNmRjMmI1YmY3YzlkXkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 118,
+   "overview": "A wealthy woman becomes obsessed with humanitarianism when her young son dies after committing suicide."
   },
   {
    "id": "journey to italy|1954",
@@ -81,7 +97,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "qc",
     "lv"
@@ -89,7 +105,11 @@
    "g": [
     "Drama",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt0046511",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTkwZjdlMjMtYTM5MC00NjhlLWJkOTgtNDVlOWRhY2M0ODRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 97,
+   "overview": "An unhappily married couple attempts to find direction and insight while vacationing in Naples."
   },
   {
    "id": "the searchers|1956",
@@ -100,14 +120,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "fr"
    ],
    "g": [
     "Western",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt0049730",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTQ4YWI0MTItMTE4YS00ZTNjLWE3ZTQtN2E2MTlhYWQxNDNmXkEyXkFqcGc@._V1_QL75_UX380_CR0,9,380,562_.jpg",
+   "runtime": 119,
+   "overview": "An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm."
   },
   {
    "id": "ashes and diamonds|1958",
@@ -118,14 +142,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "gp"
    ],
    "g": [
     "War",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0052080",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjc4ZGEwMmItZGI3OS00Y2NiLWFlMDUtNmIwY2NhZGFmNjAxXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+   "runtime": 103,
+   "overview": "As World War II and the German occupation ends, the Polish resistance and the Soviet forces turn on each other in an attempt to take over leadership in Communist Poland."
   },
   {
    "id": "psycho|1960",
@@ -136,14 +164,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.5,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0054215",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjZhMzFiZjItODA3ZC00MmRhLWIzMGYtMmVjOWUwYTA3MTRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 109,
+   "overview": "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother."
   },
   {
    "id": "ivan's childhood|1962",
@@ -154,7 +186,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "gp",
     "qc"
@@ -162,7 +194,11 @@
    "g": [
     "War",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0056111",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMGM0ZGQ3ZWMtMGZjMi00MTIzLTg2ODItMjdmNmY3YTlkMDNiXkEyXkFqcGc@._V1_QL75_UX380_CR0,30,380,562_.jpg",
+   "runtime": 95,
+   "overview": "During WWII, Soviet orphan Ivan Bondarev strikes up a friendship with three sympathetic Soviet officers while working as a scout behind the German lines."
   },
   {
    "id": "carnival of souls|1962",
@@ -173,7 +209,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "dr",
     "su"
@@ -181,7 +217,11 @@
    "g": [
     "Horror",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0055830",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNWRmOWVmZmEtMWI0MC00MWQ3LWEwYWItOWI0MmIzYzk1MTVjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 78,
+   "overview": "After a traumatic accident, a woman becomes drawn to a mysterious abandoned carnival."
   },
   {
    "id": "lolita|1962",
@@ -192,14 +232,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "lv"
    ],
    "g": [
     "Drama",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt0056193",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmY2ZTEwZTAtOThkZS00MzkxLTk3MDUtOTJiMTgzOGI1MzdjXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+   "runtime": 153,
+   "overview": "A middle-aged college professor becomes infatuated with a 14-year-old girl."
   },
   {
    "id": "8½|1963",
@@ -210,7 +254,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "su",
     "pt"
@@ -218,7 +262,11 @@
    "g": [
     "Drama",
     "Fantasy"
-   ]
+   ],
+   "imdbId": "tt0056801",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmI4YWJlYzAtNGU5MS00NTljLThhN2QtNzMwMWM4NTA0ODNlXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 138,
+   "overview": "Guido seeks peace after his success but faces pressure from past collaborators. As he struggles with creativity, he reflects on his life and past romances."
   },
   {
    "id": "the leopard|1963",
@@ -229,14 +277,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.9,
    "c": [
     "ep"
    ],
    "g": [
     "Historical",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0057091",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODNiYThjOGMtOTZlYy00Y2Q0LTk5MjQtYTRkNzU2OTA2OWQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+   "runtime": 186,
+   "overview": "The Prince of Salina, a noble aristocrat of impeccable integrity, tries to preserve his family and class amid the tumultuous social upheavals of 1860s Sicily."
   },
   {
    "id": "onibaba|1964",
@@ -254,7 +306,11 @@
    "g": [
     "Horror",
     "Historical"
-   ]
+   ],
+   "imdbId": "tt16897462",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjdiYmYzYTAtZTZiMS00YjRjLTlkMzgtOTdhMTQyZWRjY2U1XkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 37,
+   "overview": "A lyrical, silent on-location documentary about the filming of 'Onibaba' (1964), shot by lead actor Kei Satô with his own Super 8 camera in his free time."
   },
   {
    "id": "gate of flesh|1964",
@@ -265,13 +321,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "gp"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0058409",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMmIyMDY3NmUtMDhhNC00Y2NjLWI4NzMtNTJhMGY2M2RjMmE1XkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 90,
+   "overview": "An injured thief on the run finds sanctuary within a brothel of united, ruthless women."
   },
   {
    "id": "a fistful of dollars|1964",
@@ -282,13 +342,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.9,
    "c": [
     "fr"
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt0058461",
+   "poster": "https://m.media-amazon.com/images/M/MV5BM2ZkYWU1MGQtMzM3MC00ODQ5LWE1ZGQtMDM5YjczZDZhMjg5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 99,
+   "overview": "A wandering gunfighter plays two rival families against each other in a town torn apart by greed, pride, and revenge."
   },
   {
    "id": "for a few dollars more|1965",
@@ -299,13 +363,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "fr"
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt0059578",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTRmOTcyYmYtMTIwNi00ZGYyLTk4YjYtZGJlZTgwZGY0NGQyXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+   "runtime": 132,
+   "overview": "Two bounty killers with similar intentions but different motivations team up to take down a psychotic Mexican outlaw before he and his gang can carry out an audacious bank robbery."
   },
   {
    "id": "persona|1966",
@@ -316,7 +384,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "su",
     "qc"
@@ -324,7 +392,11 @@
    "g": [
     "Psychological",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0060827",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTRhNzkzMDktZDNlNi00MDIwLWFiNjAtNTlmYjZjYWZlMTEzXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 83,
+   "overview": "A nurse is put in charge of a mute actress and finds that their personae are melding together."
   },
   {
    "id": "the good, the bad and the ugly|1966",
@@ -335,7 +407,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.8,
    "c": [
     "fr",
     "ep"
@@ -343,7 +415,11 @@
    "g": [
     "Western",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt0060196",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMWM5ZjQxM2YtNDlmYi00ZDNhLWI4MWUtN2VkYjBlMTY1ZTkwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 178,
+   "overview": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery."
   },
   {
    "id": "2001: a space odyssey|1968",
@@ -354,14 +430,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "mb",
     "ep"
    ],
    "g": [
     "Sci-Fi"
-   ]
+   ],
+   "imdbId": "tt0062622",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjU0NDFkMTQtZWY5OS00MmZhLTg3Y2QtZmJhMzMzMWYyYjc2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 149,
+   "overview": "When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two scientists and one supercomputer is dispatched to Jupiter to find its origins."
   },
   {
    "id": "rosemary's baby|1968",
@@ -372,14 +452,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Psychological"
-   ]
+   ],
+   "imdbId": "tt0063522",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDlhMDI3OTQtNTBkYy00NWQ5LWJmNWEtZGQwYzZlMTQ4MDI1XkEyXkFqcGc@._V1_QL75_UX380_CR0,5,380,562_.jpg",
+   "runtime": 137,
+   "overview": "A young woman suspects her neighbors have sinister plans for her pregnancy."
   },
   {
    "id": "once upon a time in the west|1968",
@@ -397,7 +481,8 @@
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt21749726"
   },
   {
    "id": "a clockwork orange|1971",
@@ -408,7 +493,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "su"
    ],
@@ -416,7 +501,11 @@
     "Sci-Fi",
     "Crime",
     "Satire"
-   ]
+   ],
+   "imdbId": "tt0066921",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTY3MjM1Mzc4N15BMl5BanBnXkFtZTgwODM0NzAxMDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 136,
+   "overview": "Alex DeLarge and his droogs barbarize a decaying near-future."
   },
   {
    "id": "the devil|1972",
@@ -427,7 +516,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "su",
     "dr"
@@ -435,7 +524,11 @@
    "g": [
     "Historical",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt0095012",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTkzZTU2OGEtNjA2MC00YTM1LTg0M2EtM2NiY2I4M2RiZjg3XkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 125,
+   "overview": "Young Polish noble Jakub, freed during 1793 Prussian invasion, experiences father's death, betrayal. Traumatized, he follows his savior, committing brutal murders across the country."
   },
   {
    "id": "the godfather|1972",
@@ -446,7 +539,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 9.2,
    "c": [
     "cr",
     "ep"
@@ -454,7 +547,11 @@
    "g": [
     "Crime",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0068646",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNGEwYjgwOGQtYjg5ZS00Njc1LTk2ZGEtM2QwZWQ2NjdhZTE5XkEyXkFqcGc@._V1_QL75_UY562_CR8,0,380,562_.jpg",
+   "runtime": 175,
+   "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son."
   },
   {
    "id": "serpico|1973",
@@ -465,7 +562,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "cr",
     "pt"
@@ -473,7 +570,11 @@
    "g": [
     "Crime",
     "Biography"
-   ]
+   ],
+   "imdbId": "tt0070666",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTg3NzUzYzYtMmQxOS00MjAwLWI0ZDYtNDg4OTQ4OTljNGFlXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 130,
+   "overview": "An honest New York cop named Frank Serpico blows the whistle on rampant corruption in the force only to have his comrades turn against him."
   },
   {
    "id": "don't look now|1973",
@@ -484,14 +585,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0069995",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTVlYjE0MjItZTRmZC00ZGM1LWIyNzMtYTMzZTViZGFlYzMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+   "runtime": 110,
+   "overview": "A married couple grieving the recent death of their young daughter are in Venice when they encounter two elderly sisters with a warning from beyond."
   },
   {
    "id": "the exorcist|1973",
@@ -502,13 +607,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "dr"
    ],
    "g": [
     "Horror"
-   ]
+   ],
+   "imdbId": "tt0070047",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZjg3YjE4ZjAtYTdmYS00ZTBkLWE1ZjgtNzAzODUwNzRiYjlmXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 122,
+   "overview": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life."
   },
   {
    "id": "the godfather part ii|1974",
@@ -519,7 +628,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 9,
    "c": [
     "cr",
     "ep"
@@ -527,7 +636,11 @@
    "g": [
     "Crime",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0071562",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMDIxMzBlZDktZjMxNy00ZGI4LTgxNDEtYWRlNzRjMjJmOGQ1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 202,
+   "overview": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate."
   },
   {
    "id": "chinatown|1974",
@@ -538,14 +651,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "cr"
    ],
    "g": [
     "Neo-Noir",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0071315",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmRmZTE0NmUtZjhiZi00MzQ3LTk3ZjctN2Q3ODYzY2U3MDk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+   "runtime": 130,
+   "overview": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder."
   },
   {
    "id": "barry lyndon|1975",
@@ -556,7 +673,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "ep",
     "qc"
@@ -564,7 +681,11 @@
    "g": [
     "Historical",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0072684",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmM2MGQ5Y2UtYzA3ZC00ZDJlLTkwNDYtMjBmZGExZDJiN2RlXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 185,
+   "overview": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England."
   },
   {
    "id": "taxi driver|1976",
@@ -575,7 +696,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "pt",
     "nc"
@@ -583,7 +704,11 @@
    "g": [
     "Psychological",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0075314",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDNhMGYwM2UtMTdlZS00MGQ1LWI2YzAtODY5YWI1MjYyNzRmXkEyXkFqcGc@._V1_QL75_UX380_CR0,7,380,562_.jpg",
+   "runtime": 114,
+   "overview": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action."
   },
   {
    "id": "saturday night fever|1977",
@@ -594,7 +719,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "nc",
     "lt"
@@ -602,7 +727,11 @@
    "g": [
     "Drama",
     "Music"
-   ]
+   ],
+   "imdbId": "tt0076666",
+   "poster": "https://m.media-amazon.com/images/M/MV5BM2UxZGU5ZDItZmQ0NS00NzNlLTgwMGMtOGJkMzQ5N2QwZjNhXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
+   "runtime": 119,
+   "overview": "Anxious about his future after high school, a 19-year-old Italian-American from Brooklyn tries to escape the harsh reality of his bleak family life by dominating the dance floor at the local disco."
   },
   {
    "id": "house|1977",
@@ -613,7 +742,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "su",
     "dr",
@@ -623,7 +752,11 @@
     "Horror",
     "Comedy",
     "Fantasy"
-   ]
+   ],
+   "imdbId": "tt0076162",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOGI5OGIwOGUtMzM4MC00MTZkLWI0MWMtZDkzNzE2ZjYxYWZlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 88,
+   "overview": "A schoolgirl and six of her classmates travel to her aunt's country home, which turns out to be haunted."
   },
   {
    "id": "apocalypse now|1979",
@@ -634,7 +767,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.4,
    "c": [
     "ep",
     "su"
@@ -642,7 +775,11 @@
    "g": [
     "War",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0078788",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDhiMTljYjYtODc1Yy00MmEwLTg2OTYtYmE1YTRmNDE4MmEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,11,380,562_.jpg",
+   "runtime": 147,
+   "overview": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god."
   },
   {
    "id": "demon pond|1979",
@@ -653,14 +790,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "su"
    ],
    "g": [
     "Fantasy",
     "Folklore"
-   ]
+   ],
+   "imdbId": "tt0079041",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOGZkZjdkZTctNTFkOS00MTZkLThkNzctMmQ4MDM3NWQ1ZjY2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 123,
+   "overview": "Mysterious pond near Japanese village inhabited by mythical beings. Their narrative revolves around vengeance, heartbreak, and the strength of genuine affection."
   },
   {
    "id": "the shining|1980",
@@ -671,14 +812,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.4,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Psychological"
-   ]
+   ],
+   "imdbId": "tt0081505",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmM5ZThhY2ItOGRjOS00NzZiLWEwYTItNDgyMjFkOTgxMmRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 146,
+   "overview": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future."
   },
   {
    "id": "raging bull|1980",
@@ -689,14 +834,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "pt"
    ],
    "g": [
     "Sports",
     "Biography"
-   ]
+   ],
+   "imdbId": "tt0081398",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjlkYmYyZWQtNTZkOS00ZjA0LWEwNWUtNzE2ZGNiYjg0MjA2XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 129,
+   "overview": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it."
   },
   {
    "id": "altered states|1980",
@@ -707,7 +856,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "mb",
     "su"
@@ -715,7 +864,11 @@
    "g": [
     "Sci-Fi",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt0080360",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjA3ZmU3ZjEtMmJkNC00MzZjLWEzZTEtZDdmN2Y3OWJhMmFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 102,
+   "overview": "A maverick psychology professor decides to combine his experiments in sensory deprivation tanks with powerful hallucinogenic mushrooms, and begins to experience altered mental and physical states."
   },
   {
    "id": "thief|1981",
@@ -726,7 +879,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "cr",
     "nc"
@@ -734,7 +887,11 @@
    "g": [
     "Crime",
     "Heist"
-   ]
+   ],
+   "imdbId": "tt0083190",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzk2MGQ3NjMtNDc4Yy00NzEwLTk5ZDQtNzYwMjhmMzcwN2JiXkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 123,
+   "overview": "After years in prison, ace safe-cracker Frank owns a car dealership and a cocktail lounge, which are fronts for high-stakes jewelry heists. He wants to complete one last big heist for the Mob before he goes straight."
   },
   {
    "id": "pennies from heaven|1981",
@@ -745,7 +902,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.5,
    "c": [
     "lv",
     "su"
@@ -753,7 +910,11 @@
    "g": [
     "Musical",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0082894",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOWZkZTM2YjMtZDgxNy00ODFhLWEzOGEtZGUxZTZmZWVkMTEzXkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 108,
+   "overview": "During the Great Depression, a sheet-music salesman seeks to escape his dreary life through popular music and a love affair with an innocent schoolteacher."
   },
   {
    "id": "the king of comedy|1982",
@@ -764,14 +925,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "pt"
    ],
    "g": [
     "Satire",
     "Comedy"
-   ]
+   ],
+   "imdbId": "tt0085794",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTQxNGUwNmUtMDJhYy00ZjM1LWFjZjQtYmI5ZGY4YTZmZWQyXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 109,
+   "overview": "Rupert is an aspiring stand-up comedian, who is willing to go the extra mile in his attempt to appear in the late night show hosted by his idol."
   },
   {
    "id": "scarface|1983",
@@ -782,14 +947,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0086250",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDUzYjY0NmUtMDM4OS00Y2Q5LWJiODYtNTk0ZTk0YjZhMTg1XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 170,
+   "overview": "In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction."
   },
   {
    "id": "paris, texas|1984",
@@ -800,7 +969,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "lv",
     "qc"
@@ -808,7 +977,11 @@
    "g": [
     "Drama",
     "Road Movie"
-   ]
+   ],
+   "imdbId": "tt0087884",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYWY5YzE4YmUtZWFhMS00YjYxLWI5ZGUtNDEyNmMzNDVjMGEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,12,380,562_.jpg",
+   "runtime": 145,
+   "overview": "After missing for 4 years, aimless drifter Travis Henderson wanders out of the desert and slowly begins to reconnect with his brother's family and his young son while examining his past and attempting to reconcile with his estrang..."
   },
   {
    "id": "once upon a time in america|1984",
@@ -819,7 +992,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "cr",
     "ep"
@@ -827,7 +1000,11 @@
    "g": [
     "Crime",
     "Epic"
-   ]
+   ],
+   "imdbId": "tt0087843",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMDQ0ZTg2OGUtZjMyOC00M2M5LThkMmItZmM2MmUzMmIxMWJhXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 229,
+   "overview": "A former New York gangster returns after decades in exile, confronting the friendships, dreams, and regrets that shaped his rise from street kid to Prohibition-era mobster."
   },
   {
    "id": "ran|1985",
@@ -838,7 +1015,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "ep"
    ],
@@ -846,7 +1023,11 @@
     "War",
     "Drama",
     "Epic"
-   ]
+   ],
+   "imdbId": "tt0089881",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDk2NDY5YjktMjEyMC00OTJhLTkzM2EtY2Q4Y2RjYzc2Yjk4XkEyXkFqcGc@._V1_QL75_UX380_CR0,8,380,562_.jpg",
+   "runtime": 160,
+   "overview": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him."
   },
   {
    "id": "after hours|1985",
@@ -857,7 +1038,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "nc",
     "lt"
@@ -865,7 +1046,11 @@
    "g": [
     "Comedy",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0088680",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMjEzMzI2MV5BMl5BanBnXkFtZTgwNTU3ODAxMDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 97,
+   "overview": "Ordinary word processor Paul Hackett experiences the worst night of his life after he agrees to visit Marcy, a Soho resident that he met that evening at a coffee shop."
   },
   {
    "id": "blue velvet|1986",
@@ -876,7 +1061,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "su",
     "dr"
@@ -884,7 +1069,11 @@
    "g": [
     "Neo-Noir",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0090756",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzkwZGUyYjQtM2QyOC00MTBjLWE0NGYtMTZmOGM5MjI0Mzg0XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 120,
+   "overview": "A young man finds a severed human ear that is somehow connected to a mysterious lounge singer and a group of psychopathic criminals who have kidnapped her child."
   },
   {
    "id": "the untouchables|1987",
@@ -895,14 +1084,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Historical"
-   ]
+   ],
+   "imdbId": "tt0094226",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjVlNTk3NGYtOWE0OC00MDI4LThlZWItZGMwMTdmYzcwM2Y5XkEyXkFqcGc@._V1_QL75_UX380_CR0,13,380,562_.jpg",
+   "runtime": 119,
+   "overview": "During Prohibition, Treasury agent Eliot Ness sets out to stop ruthless Chicago gangster Al Capone, and assembles a small, incorruptible team to help him."
   },
   {
    "id": "dead ringers|1988",
@@ -913,7 +1106,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "dr",
     "pt"
@@ -921,7 +1114,11 @@
    "g": [
     "Psychological",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt0094964",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTMwZDViNDMtZGJjNC00YzM4LWFiN2YtZjVjNjAwOWNjMTIxXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+   "runtime": 116,
+   "overview": "Twin gynecologists take full advantage of the fact that nobody can tell them apart, until their relationship begins to deteriorate over a woman."
   },
   {
    "id": "mo' better blues|1990",
@@ -932,7 +1129,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.7,
    "c": [
     "lv",
     "nc"
@@ -940,7 +1137,11 @@
    "g": [
     "Drama",
     "Music"
-   ]
+   ],
+   "imdbId": "tt0100168",
+   "poster": "https://m.media-amazon.com/images/M/MV5BN2UwODg5YzMtYjBiOC00MTU2LWE0OGEtYjA5MWNkOWEwODQ5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 130,
+   "overview": "Jazz trumpeter Bleek Gilliam makes questionable decisions in his professional and romantic lives."
   },
   {
    "id": "goodfellas|1990",
@@ -951,14 +1152,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.7,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Biography"
-   ]
+   ],
+   "imdbId": "tt0099685",
+   "poster": "https://m.media-amazon.com/images/M/MV5BN2E5NzI2ZGMtY2VjNi00YTRjLWI1MDUtZGY5OWU1MWJjZjRjXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+   "runtime": 145,
+   "overview": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito."
   },
   {
    "id": "king of new york|1990",
@@ -969,7 +1174,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "cr",
     "nc"
@@ -977,7 +1182,11 @@
    "g": [
     "Crime",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0099939",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOTE2NDcxNzE4N15BMl5BanBnXkFtZTgwMDc1NTk4NjE@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 103,
+   "overview": "A drug kingpin is released from prison and seeks to take total control of the criminal underworld in order to give back to the community."
   },
   {
    "id": "dreams|1990",
@@ -988,7 +1197,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "su",
     "qc"
@@ -996,7 +1205,11 @@
    "g": [
     "Fantasy",
     "Anthology"
-   ]
+   ],
+   "imdbId": "tt0100998",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDkwYmVkNTgtMGYyOC00NTQzLTkyNmMtODcxM2RmZDg1MTA4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 119,
+   "overview": "A collection of tales based upon eight of director Akira Kurosawa's recurring dreams."
   },
   {
    "id": "tie me up! tie me down!|1990",
@@ -1007,7 +1220,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "lv",
     "su"
@@ -1015,7 +1228,11 @@
    "g": [
     "Romance",
     "Dark Comedy"
-   ]
+   ],
+   "imdbId": "tt0101026",
+   "poster": "https://m.media-amazon.com/images/M/MV5BN2M5OGY1MDEtZmJmYy00OGEyLTg5MzQtMDhjNzA5YzExNDI1XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+   "runtime": 101,
+   "overview": "An unbalanced but alluring former mental patient takes a porn star prisoner in the hopes of convincing her to marry him."
   },
   {
    "id": "the silence of the lambs|1991",
@@ -1026,7 +1243,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.6,
    "c": [
     "dr",
     "cr"
@@ -1034,7 +1251,11 @@
    "g": [
     "Thriller",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0102926",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDdhOGJhYzctYzYwZC00YmI2LWI0MjctYjg4ODdlMDExYjBlXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 118,
+   "overview": "A young FBI cadet is aided by a manipulative cannibal killer in her pursuit of a madman who skins his victims."
   },
   {
    "id": "unforgiven|1992",
@@ -1045,13 +1266,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "fr"
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt0105695",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmZmMzM3YWMtZjg5Yi00M2MxLTg3ZGItNGU4YjQxNDAxM2Q4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 130,
+   "overview": "Retired Old West gunslinger Will Munny reluctantly takes on one last job to avenge an injustice with the help of his old partner and a young would-be gunman calling himself \"The Schofield Kid\"."
   },
   {
    "id": "malcolm x|1992",
@@ -1062,7 +1287,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "pt",
     "ep"
@@ -1070,7 +1295,11 @@
    "g": [
     "Biography",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0104797",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTQwYjFhNTMtMjliOC00MGJhLTkwYWMtYjQzZTRiYjRlNjE4XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+   "runtime": 202,
+   "overview": "Biographical epic of the controversial and influential Black Nationalist leader, from his early life and career as a small-time gangster, to his ministry as a member of the Nation of Islam and his eventual assassination."
   },
   {
    "id": "naked|1993",
@@ -1081,14 +1310,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 5.6,
    "c": [
     "gp",
     "pt"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0108609",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZjA3YzE1OGMtNzNlNS00NTYyLTg0NWQtOTc4MDNjMWQzYjViXkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
+   "runtime": 97,
+   "overview": "When a cunning lawyer is set free after raping a model, the victim's best friend seeks revenge with the help of her triad boyfriend."
   },
   {
    "id": "tombstone|1993",
@@ -1099,7 +1332,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "fr",
     "lt"
@@ -1107,7 +1340,11 @@
    "g": [
     "Western",
     "Action"
-   ]
+   ],
+   "imdbId": "tt0108358",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNmQyMzlhNjUtMzRjYS00MWY4LWI5MDAtZGU1MWE2M2E0OGMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 130,
+   "overview": "A successful lawman's plans to retire anonymously in Tombstone, Arizona, are disrupted by the kind of outlaws he was famous for eliminating."
   },
   {
    "id": "chungking express|1994",
@@ -1126,7 +1363,8 @@
    "g": [
     "Romance",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt25509792"
   },
   {
    "id": "fallen angels|1995",
@@ -1145,7 +1383,8 @@
    "g": [
     "Crime",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt2326828"
   },
   {
    "id": "la haine|1995",
@@ -1156,7 +1395,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "nc",
     "gp"
@@ -1164,7 +1403,11 @@
    "g": [
     "Drama",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0113247",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMThlMDA3NDYtZGM2Zi00NmJhLThlYWItZjViZTkzZWU1ZWRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 98,
+   "overview": "24 hours in the lives of three young men in the French suburbs the day after a violent riot."
   },
   {
    "id": "hackers|1995",
@@ -1175,7 +1418,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.2,
    "c": [
     "nc",
     "lt"
@@ -1183,7 +1426,11 @@
    "g": [
     "Thriller",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0113243",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOGZkZTc2ZjItNzIzMS00ODRlLTliNjgtZjRmNzM2NjkzZTU1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 105,
+   "overview": "Teenage hackers discover a criminal conspiracy with plans to use a computer virus that will capsize five oil tankers."
   },
   {
    "id": "heat|1995",
@@ -1194,7 +1441,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "cr",
     "nc"
@@ -1202,7 +1449,11 @@
    "g": [
     "Crime",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0113277",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTkxYjU1OTMtYWViZC00ZjAzLWI3MDktZGQ2N2VmMjVjNDRlXkEyXkFqcGc@._V1_QL75_UY562_CR6,0,380,562_.jpg",
+   "runtime": 170,
+   "overview": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist."
   },
   {
    "id": "12 monkeys|1995",
@@ -1220,7 +1471,11 @@
    "g": [
     "Sci-Fi",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt18260470",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMDgzZTNhOWUtNGRmZi00Mjg3LTlmMmMtMjkyZjJmMmVmNGIzXkEyXkFqcGdeQXVyNzYzMTgwMw@@._V1_SX300.jpg",
+   "runtime": 109,
+   "overview": "'12 Monkeys' probably shouldn't work on any level, but it was a critical and box-office hit that changed sci-fi filmmaking and Hollywood as a whole. It also evolved how the movies tell time travel stories with a fascinating approa..."
   },
   {
    "id": "the quick and the dead|1995",
@@ -1231,7 +1486,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.5,
    "c": [
     "fr",
     "lt"
@@ -1239,7 +1494,11 @@
    "g": [
     "Western",
     "Action"
-   ]
+   ],
+   "imdbId": "tt0114214",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzU2OGUyOWItMDY4Yi00N2M0LTgwZjYtNTQ0YjZjNTAxYjg4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 108,
+   "overview": "A female gunfighter returns to a frontier town where a dueling tournament is being held, which she enters in an effort to avenge her father's death."
   },
   {
    "id": "casino|1995",
@@ -1250,14 +1509,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0112641",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMDRlZWZjZjYtYzY2NS00ZWVjLTkwYzAtZTA2ZDAzMGRiYmYwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 178,
+   "overview": "In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite."
   },
   {
    "id": "the usual suspects|1995",
@@ -1268,7 +1531,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.5,
    "c": [
     "cr",
     "mb"
@@ -1276,7 +1539,11 @@
    "g": [
     "Crime",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0114814",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOTE5MDUxZDUtZWZmZC00NDVmLWFhOGQtNWI2YTc4NzY3MGQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+   "runtime": 106,
+   "overview": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup."
   },
   {
    "id": "bottle rocket|1996",
@@ -1287,14 +1554,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0115734",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDlmNWY5NmMtZDNiMS00YjQ1LTg5NmItZmE5ZWEwNDg2MzhjXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 91,
+   "overview": "Three friends plan to pull off a simple robbery and go on the run."
   },
   {
    "id": "primal fear|1996",
@@ -1305,7 +1576,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "cr",
     "mb"
@@ -1313,7 +1584,11 @@
    "g": [
     "Thriller",
     "Courtroom"
-   ]
+   ],
+   "imdbId": "tt0117381",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZTJlYjM5MTYtZWU3YS00ZDRhLTk1MWEtZGQyODc1ZDU2MWEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
+   "runtime": 129,
+   "overview": "A high-profile murder intrigues a publicity hungry lawyer."
   },
   {
    "id": "perfect blue|1997",
@@ -1324,7 +1599,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "mb",
     "dr"
@@ -1332,7 +1607,10 @@
    "g": [
     "Animation",
     "Psychological Thriller"
-   ]
+   ],
+   "imdbId": "tt0184816",
+   "runtime": 81,
+   "overview": "Romantic comedy following the fortunes of old friends Sunny (Inday Ba) and Tom (Philip Glenister) who are about to get married -- to other people -- when they meet again at a wedding fair. Sunny teaches boisterous four-year-olds; ..."
   },
   {
    "id": "good will hunting|1997",
@@ -1343,13 +1621,16 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.2,
    "c": [
     "pt"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1013648",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYzJkNmZiMDEtNjg2Yi00ZDljLWJjZGQtZGFiMTExZjMyMTljXkEyXkFqcGdeQXVyMjQ0NzE0MQ@@._V1_SX300.jpg",
+   "runtime": 7
   },
   {
    "id": "lost highway|1997",
@@ -1360,7 +1641,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "su",
     "mb"
@@ -1368,7 +1649,11 @@
    "g": [
     "Neo-Noir",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0116922",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjcyNmM2ODktYzk0Mi00Njk0LTljZGMtNGZhMzI4NmY1NzA1XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 134,
+   "overview": "Anonymous videotapes presage a musician's murder conviction, and a gangster's girlfriend leads a mechanic astray."
   },
   {
    "id": "the game|1997",
@@ -1379,14 +1664,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "mb"
    ],
    "g": [
     "Thriller",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0119174",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNGUzNzQwNmMtNzI3Mi00ZDIwLWJlM2ItMTA5N2Q2ZDMxMjJiXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 129,
+   "overview": "An arrogant, isolated investment banker is targeted by an enigmatic entertainment company, plunging into an escalating, reality-bending conspiracy orchestrated by his estranged brother to shatter his emotional detachment."
   },
   {
    "id": "l.a. confidential|1997",
@@ -1397,14 +1686,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "cr"
    ],
    "g": [
     "Neo-Noir",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0119488",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODdiMjY1OGYtNDk0NC00NGQ1LWI4MDItOTJhMTM0YjE1YTAzXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "runtime": 138,
+   "overview": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice."
   },
   {
    "id": "the truman show|1998",
@@ -1415,7 +1708,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "mb",
     "pt"
@@ -1423,7 +1716,11 @@
    "g": [
     "Satire",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0120382",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzA3ZjZlNzYtMTdjMy00NjMzLTk5ZGYtMTkyYzNiOGM1YmM3XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 103,
+   "overview": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show."
   },
   {
    "id": "rushmore|1998",
@@ -1434,7 +1731,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "lt",
     "lv"
@@ -1442,7 +1739,11 @@
    "g": [
     "Comedy",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0128445",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZmM2MTNhYWItMDc4Yi00MTM3LWI3YTctYjE1NWRjNTczYjI5XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 93,
+   "overview": "A teenager at Rushmore Academy falls for a much older teacher and befriends a middle-aged industrialist. Later, he finds out that his love interest and his friend are having an affair, which prompts him to begin a vendetta."
   },
   {
    "id": "american history x|1998",
@@ -1453,7 +1754,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.5,
    "c": [
     "gp",
     "pt"
@@ -1461,7 +1762,11 @@
    "g": [
     "Drama",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0120586",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzhiOTQ0NDItOTg0Zi00OGVmLWE0OGEtMTI4NDM0NWMxZWU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 119,
+   "overview": "A neo-Nazi is released from prison a changed man and hopes to prevent his younger brother from following in his footsteps."
   },
   {
    "id": "rounders|1998",
@@ -1472,7 +1777,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "cr",
     "nc"
@@ -1480,7 +1785,11 @@
    "g": [
     "Crime",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0128442",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMWQ1NTVjZjYtNzlhYi00YmQ2LWFhM2EtMWY4MGE3NzVmZGQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 121,
+   "overview": "A law student and his recently paroled pal gamble for high stakes in the legal and illegal poker parlors in the tri-state area of New York."
   },
   {
    "id": "pi|1998",
@@ -1491,13 +1800,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "mb"
    ],
    "g": [
     "Psychological Thriller"
-   ]
+   ],
+   "imdbId": "tt0138704",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNWExNjZlZGQtYjIxMS00ZTAyLTkzMjktOWVlMDg0NTM2OTUxXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 84,
+   "overview": "A paranoid mathematician searches for a key number that will unlock the universal patterns found in nature."
   },
   {
    "id": "dark city|1998",
@@ -1508,7 +1821,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "mb",
     "nc"
@@ -1516,7 +1829,11 @@
    "g": [
     "Sci-Fi",
     "Neo-Noir"
-   ]
+   ],
+   "imdbId": "tt0118929",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTczNDQ3YWUtZTkxNS00MTFlLWE4Y2UtNGIxZTc3ZmEwMzgxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 100,
+   "overview": "A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from."
   },
   {
    "id": "fight club|1999",
@@ -1527,14 +1844,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.8,
    "c": [
     "mb",
     "pt"
    ],
    "g": [
     "Psychological Thriller"
-   ]
+   ],
+   "imdbId": "tt0137523",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOTgyOGQ1NDItNGU3Ny00MjU3LTg2YWEtNmEyYjBiMjI1Y2M5XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 139,
+   "overview": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more."
   },
   {
    "id": "bleeder|1999",
@@ -1545,7 +1866,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "gp",
     "nc"
@@ -1553,7 +1874,11 @@
    "g": [
     "Drama",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0161292",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDU1MjNmZjUtOGYzMC00OTkyLTlkYjEtZDgwZWUxOGU0OWY1XkEyXkFqcGc@._V1_QL75_UY562_CR15,0,380,562_.jpg",
+   "runtime": 98,
+   "overview": "Two stories for the price of one: Lenny works in a video shop and tries to get acquainted with Lea. Leo beats his pregnant wife, Louise, which is a VERY bad idea, as her brother, Louis, is a violent racist."
   },
   {
    "id": "being john malkovich|1999",
@@ -1564,7 +1889,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "mb",
     "su"
@@ -1572,7 +1897,11 @@
    "g": [
     "Comedy",
     "Fantasy"
-   ]
+   ],
+   "imdbId": "tt0120601",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDExODk1MTktNzRiYS00MWEyLTgyOWItYTI1OWY4NzI1NDM2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 113,
+   "overview": "A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich."
   },
   {
    "id": "the sixth sense|1999",
@@ -1583,7 +1912,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "mb",
     "dr"
@@ -1591,7 +1920,11 @@
    "g": [
     "Supernatural",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0167404",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZWQ2OTY0M2UtMTQxNC00MmIzLTllNDQtNDQ0MTQyYzI2M2ZiXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 107,
+   "overview": "After being shot by a resentful former patient whom he failed to help, a Philadelphia child psychologist seeks redemption by treating a young boy with a disturbing secret."
   },
   {
    "id": "sleepy hollow|1999",
@@ -1602,7 +1935,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "dr",
     "lt"
@@ -1610,7 +1943,11 @@
    "g": [
     "Gothic Horror",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0162661",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYWIwMTIxZTQtNDZhNS00ZDZlLTg5MTEtOTNkMmNjOGUzMTA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 105,
+   "overview": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people; the culprit is legendary apparition The Headless Horseman."
   },
   {
    "id": "eyes wide shut|1999",
@@ -1621,7 +1958,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "nc",
     "su"
@@ -1629,7 +1966,11 @@
    "g": [
     "Mystery",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0120663",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZTQ0MmM5MDAtYmYyZS00MzlmLTlhZTAtZDJlZWY5ZTZkZjZmXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 159,
+   "overview": "A Manhattan doctor embarks on a bizarre, night-long odyssey after his wife's admission of unfulfilled longing."
   },
   {
    "id": "requiem for a dream|2000",
@@ -1640,13 +1981,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "gp"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0180093",
+   "poster": "https://m.media-amazon.com/images/M/MV5BN2ZlMjIzZjctYzA2My00ZWYyLWI4ZjctMGI2NWYyNzFiZjAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 102,
+   "overview": "Four Coney Island dreamers chase love, fame, and escape, but addiction and obsession begin to distort their hopes for a better life."
   },
   {
    "id": "american psycho|2000",
@@ -1657,7 +2002,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "pt",
     "dr"
@@ -1665,7 +2010,11 @@
    "g": [
     "Satire",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt0144084",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzBjM2I5ZjUtNmIzNy00OGNkLWIwZDMtOTAwYWUwMzA2YjdlXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 102,
+   "overview": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies."
   },
   {
    "id": "memento|2000",
@@ -1683,7 +2032,9 @@
    "g": [
     "Mystery",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt24735934",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZmJlNzYxMmMtMzQ2YS00NTM5LWJjMjYtMzRmY2NhNDZkMjE1XkEyXkFqcGdeQXVyNjc5Mjg4Nzc@._V1_SX300.jpg"
   },
   {
    "id": "mulholland drive|2001",
@@ -1694,7 +2045,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.9,
    "c": [
     "su",
     "mb"
@@ -1702,7 +2053,11 @@
    "g": [
     "Mystery",
     "Neo-Noir"
-   ]
+   ],
+   "imdbId": "tt0166924",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjliY2UwMjQtYjVlNi00NzExLTg1MDMtMjE2OTYwYjI0NTcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 147,
+   "overview": "After a car wreck on Mulholland Drive renders a woman amnesiac, she and a Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality."
   },
   {
    "id": "ocean's eleven|2001",
@@ -1713,7 +2068,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "cr",
     "lt"
@@ -1721,7 +2076,11 @@
    "g": [
     "Heist",
     "Comedy"
-   ]
+   ],
+   "imdbId": "tt0240772",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMmNhZDkxYTgtMDM3ZC00NTQ3LWFjZTUtNzc1Y2QyNWZjNDRmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 116,
+   "overview": "A thief and his team of associates plan a sophisticated heist to rob three Las Vegas casinos at the same time."
   },
   {
    "id": "the royal tenenbaums|2001",
@@ -1739,7 +2098,8 @@
    "g": [
     "Comedy",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt22673968"
   },
   {
    "id": "the devil's backbone|2001",
@@ -1750,14 +2110,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "dr"
    ],
    "g": [
     "Gothic Horror",
     "War"
-   ]
+   ],
+   "imdbId": "tt0256009",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZmUzNWM1NTktMTkwNC00OGFhLTgyNmEtYjE3ZTg5MmE3NzlmXkEyXkFqcGc@._V1_QL75_UX380_CR0,11,380,562_.jpg",
+   "runtime": 106,
+   "overview": "After Carlos - a 12-year-old whose father has died in the Spanish Civil War - arrives at an ominous boys' orphanage, he discovers the school is haunted and has many dark secrets which he must uncover."
   },
   {
    "id": "the piano teacher|2001",
@@ -1768,7 +2132,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "gp",
     "pt"
@@ -1776,7 +2140,11 @@
    "g": [
     "Psychological",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0254686",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOGE3ZjE2NjItMGIyZi00NjMxLWJiZWItMWJmMzZjOTgzZjJhXkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
+   "runtime": 131,
+   "overview": "A young man romantically pursues his masochistic piano teacher."
   },
   {
    "id": "donnie darko|2001",
@@ -1787,14 +2155,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "mb"
    ],
    "g": [
     "Sci-Fi",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0246578",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMWE3NTYzZmEtM2U5MS00MDZhLTk2ZTQtZTgzNjg0ZGQ5ZjM0XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 113,
+   "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes."
   },
   {
    "id": "a beautiful mind|2001",
@@ -1805,14 +2177,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "pt"
    ],
    "g": [
     "Biography",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0268978",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjgzNjFkMmItOGJhNi00NWM3LWJlYTUtNDExMGQ3ZTI3NjJkXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 135,
+   "overview": "A mathematical genius, John Nash made an astonishing discovery early in his career and stood on the brink of international acclaim. But Nash soon found himself on a harrowing journey of self-discovery."
   },
   {
    "id": "training day|2001",
@@ -1823,14 +2199,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0139654",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjRlNjUwOGYtNGQxZS00ZjhkLTg0NDgtYjcwNzZlNDU2YjBlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 122,
+   "overview": "A rookie cop spends his first day as a Los Angeles narcotics officer with a rogue detective who isn't what he appears to be."
   },
   {
    "id": "the others|2001",
@@ -1841,7 +2221,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "dr",
     "mb"
@@ -1849,7 +2229,11 @@
    "g": [
     "Supernatural",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt0230600",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZTNhODBkODAtNDllYy00YTg1LWJmNDUtYjgzMzEzOWQ0YWNjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 104,
+   "overview": "In 1945, immediately following the end of Second World War, a woman who lives with her two photosensitive children on her darkened old family estate in the Channel Islands becomes convinced that the home is haunted."
   },
   {
    "id": "25th hour|2002",
@@ -1860,7 +2244,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "pt",
     "nc"
@@ -1868,7 +2252,11 @@
    "g": [
     "Drama",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0307901",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjg0OWI0ZjktZTM0My00NmI3LTkzNDEtYzJiODE1ODM0MDk3XkEyXkFqcGc@._V1_QL75_UY562_CR10,0,380,562_.jpg",
+   "runtime": 135,
+   "overview": "Cornered by the DEA, convicted New York drug dealer Montgomery Brogan reevaluates his life in the 24 remaining hours before facing a seven-year jail term."
   },
   {
    "id": "city of god|2002",
@@ -1879,7 +2267,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.6,
    "c": [
     "cr",
     "gp"
@@ -1887,7 +2275,11 @@
    "g": [
     "Crime",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0317248",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjY4NGI5OTUtY2ZlZS00Zjk4LTk5N2MtN2JmYWVjNGNmMGRlXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 130,
+   "overview": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin."
   },
   {
    "id": "signs|2002",
@@ -1898,14 +2290,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "dr"
    ],
    "g": [
     "Sci-Fi",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0286106",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDUwMDUyMDAyNF5BMl5BanBnXkFtZTYwMDQ3NzM3._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 106,
+   "overview": "A widowed former reverend living with his children and brother on a Pennsylvania farm finds mysterious crop circles in their fields, which suggests something more frightening to come."
   },
   {
    "id": "japón|2002",
@@ -1922,7 +2318,8 @@
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt2436482"
   },
   {
    "id": "memories of murder|2003",
@@ -1933,14 +2330,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0353969",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYmRjOWE5NmMtYTdkYS00ODFlLWJiMTMtYzE2NDZlZjlkZDQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 131,
+   "overview": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit."
   },
   {
    "id": "lost in translation|2003",
@@ -1951,7 +2352,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "lv",
     "nc",
@@ -1960,7 +2361,11 @@
    "g": [
     "Drama",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt0335266",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMzk0NDg1MV5BMl5BanBnXkFtZTgwNDg0NjkxMDI@._V1_QL75_UX380_CR0,12,380,562_.jpg",
+   "runtime": 102,
+   "overview": "A fading movie star and a neglected married young woman come to be unlikely soulmates in Tokyo."
   },
   {
    "id": "oldboy|2003",
@@ -1971,7 +2376,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "mb",
     "gp"
@@ -1979,7 +2384,11 @@
    "g": [
     "Thriller",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt0364569",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTAwNzNjYWItZmI0Ni00ZTcyLWIwNWMtZjlmNGMxZTEyYTJmXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 120,
+   "overview": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days."
   },
   {
    "id": "girl with a pearl earring|2003",
@@ -1990,14 +2399,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "qc"
    ],
    "g": [
     "Historical",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0335119",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTQ0MGU5ODEtYTg5NC00N2MyLTkyMGQtOWJhYzMwNGU3MzEzXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 100,
+   "overview": "A young peasant maid working in the house of painter Johannes Vermeer becomes his talented assistant and the model for one of his most famous works."
   },
   {
    "id": "the life aquatic with steve zissou|2004",
@@ -2008,14 +2421,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt0362270",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTYzODYzNzg2MF5BMl5BanBnXkFtZTcwMTkzOTQzMw@@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "runtime": 119,
+   "overview": "With a plan to exact revenge on a legendary shark that killed his partner, oceanographer Steve Zissou rallies a crew that includes his estranged wife, a journalist, and a man who may or may not be his son."
   },
   {
    "id": "primer|2004",
@@ -2026,14 +2443,16 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "mb"
    ],
    "g": [
     "Sci-Fi",
     "Time Travel"
-   ]
+   ],
+   "imdbId": "tt0461320",
+   "runtime": 10
   },
   {
    "id": "saw|2004",
@@ -2044,14 +2463,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0387564",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZTE5MzFlMTktMzBkOC00ZjMxLThmOTAtOGU3ZGEwZGRlNDdjXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 103,
+   "overview": "Two men awaken to find themselves on the opposite sides of a dead body, each with specific instructions to kill the other, escape or face the consequences. These two are the latest contestants in Jigsaw's games."
   },
   {
    "id": "kingdom of heaven|2005",
@@ -2062,7 +2485,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "ep"
    ],
@@ -2070,7 +2493,11 @@
     "Historical",
     "War",
     "Epic"
-   ]
+   ],
+   "imdbId": "tt0320661",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzdhNGZhMjQtYjVmNy00OWMyLTk1MmQtZGNhZDYwMzZlZjI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 144,
+   "overview": "Balian of Ibelin travels to Jerusalem during the Crusades of the 12th century, and there he finds himself as the defender of the city and its people."
   },
   {
    "id": "capote|2005",
@@ -2081,14 +2508,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "pt"
    ],
    "g": [
     "Biography",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0379725",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTczMzU0MjM1MV5BMl5BanBnXkFtZTcwMjczNzgyNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 114,
+   "overview": "In 1959, Truman Capote learns of the murder of a Kansas family and decides to write a book about the case. While researching for his novel In Cold Blood, Capote forms a relationship with one of the killers, Perry Smith, who is on ..."
   },
   {
    "id": "the exorcism of emily rose|2005",
@@ -2099,14 +2530,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.7,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Courtroom"
-   ]
+   ],
+   "imdbId": "tt0404032",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTI2NTM5MjQ0Nl5BMl5BanBnXkFtZTcwNDAxNjAzMQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 119,
+   "overview": "A lawyer takes on a negligent homicide case involving a priest who performed an exorcism on a young girl."
   },
   {
    "id": "grizzly man|2005",
@@ -2117,13 +2552,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "pt"
    ],
    "g": [
     "Documentary"
-   ]
+   ],
+   "imdbId": "tt0427312",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODc3NTAxMTY1MV5BMl5BanBnXkFtZTcwOTE4NjUzMw@@._V1_SX300.jpg",
+   "runtime": 103,
+   "overview": "A devastating and heart-rending take on grizzly bear activists Timothy Treadwell and Amie Huguenard, who were killed in October of 2003 while living among grizzly bears in Alaska."
   },
   {
    "id": "the illusionist|2006",
@@ -2134,7 +2573,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "mb",
     "lv"
@@ -2142,7 +2581,11 @@
    "g": [
     "Mystery",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt0443543",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzNmYmI4YWMtMGFkOS00ODVkLTg3MTEtOTExNDg3ZjQ0MGM3XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+   "runtime": 110,
+   "overview": "In turn-of-the-century Vienna, a magician uses his abilities to secure the love of a woman far above his social standing."
   },
   {
    "id": "the prestige|2006",
@@ -2153,14 +2596,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.5,
    "c": [
     "mb"
    ],
    "g": [
     "Mystery",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0482571",
+   "poster": "https://m.media-amazon.com/images/M/MV5BM2Y0YmM5MWYtZTYzNi00ZjU5LTlmOGYtZDQ4ODQyMjAzNjQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+   "runtime": 130,
+   "overview": "Two magicians dismantle their lives to outmaneuver each other following a shared tragedy. They chase the ultimate illusion across Victorian London, sacrificing sanity and safety to master a teleportation feat that defies all logic."
   },
   {
    "id": "the departed|2006",
@@ -2171,14 +2618,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.5,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0407887",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTI1MTY2OTIxNV5BMl5BanBnXkFtZTYwNjQ4NjY3._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 151,
+   "overview": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston."
   },
   {
    "id": "marie antoinette|2006",
@@ -2189,14 +2640,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.5,
    "c": [
     "lt"
    ],
    "g": [
     "Historical",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0422720",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMmE4NzQzNGItNTY4My00ZTBhLTk2ZjItZDJkMjRlYTE2MGRiXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "runtime": 123,
+   "overview": "The retelling of France's iconic but ill-fated queen, Marie Antoinette. From her betrothal and marriage to Louis XVI at 14 to her reign as queen at 19 and to the end of her reign as queen, and ultimately the fall of Versailles."
   },
   {
    "id": "the darjeeling limited|2007",
@@ -2207,14 +2662,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0838221",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDY4Mzc2YTQtZDg4ZS00OGIzLWJhOGMtOTQ2OThmNzg4NTc4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 91,
+   "overview": "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other."
   },
   {
    "id": "no country for old men|2007",
@@ -2225,7 +2684,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "fr",
     "cr"
@@ -2233,7 +2692,11 @@
    "g": [
     "Neo-Western",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0477348",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjA5Njk3MjM4OV5BMl5BanBnXkFtZTcwMTc5MTE1MQ@@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 122,
+   "overview": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande."
   },
   {
    "id": "3:10 to yuma|2007",
@@ -2244,13 +2707,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "fr"
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt0381849",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODE0NTcxNTQzNF5BMl5BanBnXkFtZTcwMzczOTIzMw@@._V1_QL75_UX380_CR0,5,380,562_.jpg",
+   "runtime": 122,
+   "overview": "A small-time solely rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher."
   },
   {
    "id": "the assassination of jesse james by the coward robert ford|2007",
@@ -2261,7 +2728,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "fr",
     "qc"
@@ -2269,7 +2736,11 @@
    "g": [
     "Western",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0443680",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTY2NDI2MTc2NV5BMl5BanBnXkFtZTcwNjA2NTQzMw@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 160,
+   "overview": "Robert Ford, who has idolized Jesse James since childhood, tries hard to join the resurgent gang of the Missouri outlaw, but gradually becomes resentful of the bandit leader."
   },
   {
    "id": "there will be blood|2007",
@@ -2280,7 +2751,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "pt",
     "ep"
@@ -2288,7 +2759,11 @@
    "g": [
     "Drama",
     "Western"
-   ]
+   ],
+   "imdbId": "tt0469494",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjAxODQ4MDU5NV5BMl5BanBnXkFtZTcwMDU4MjU1MQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 158,
+   "overview": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business."
   },
   {
    "id": "american gangster|2007",
@@ -2299,14 +2774,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Biography"
-   ]
+   ],
+   "imdbId": "tt0765429",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZGExM2MwNjUtNThkNi00ZjBmLWJhZDgtN2ZmOWJiZWEwNGMxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 157,
+   "overview": "An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas."
   },
   {
    "id": "eastern promises|2007",
@@ -2317,14 +2796,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt0765443",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTcwMzU0OTY3NF5BMl5BanBnXkFtZTYwNzkwNjg2._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 100,
+   "overview": "A teenager who dies during childbirth leaves clues in her journal that could tie her child to a rape involving a violent Russian mob family."
   },
   {
    "id": "secret sunshine|2007",
@@ -2335,13 +2818,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "gp"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0817225",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjAzMDE5MDM5OV5BMl5BanBnXkFtZTgwMDE1NzE1MjE@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+   "runtime": 142,
+   "overview": "A woman moves to the town where her dead husband was born. As she tries to fit in, another tragic event overturns her life."
   },
   {
    "id": "4 months, 3 weeks and 2 days|2007",
@@ -2352,13 +2839,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.9,
    "c": [
     "gp"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1032846",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTk3NDY2MDg0MF5BMl5BanBnXkFtZTYwODcwODc4._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 113,
+   "overview": "A woman assists her friend in arranging an illegal abortion in 1980s Romania."
   },
   {
    "id": "the dark knight|2008",
@@ -2369,7 +2860,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 9.1,
    "c": [
     "cr",
     "ep"
@@ -2377,7 +2868,11 @@
    "g": [
     "Action",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0468569",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 152,
+   "overview": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness."
   },
   {
    "id": "the wrestler|2008",
@@ -2396,7 +2891,8 @@
    "g": [
     "Sports",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt27992077"
   },
   {
    "id": "enter the void|2009",
@@ -2407,7 +2903,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "su",
     "nc"
@@ -2415,7 +2911,11 @@
    "g": [
     "Psychedelic",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1191111",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZmUyYjM1YjUtYTVhZC00YzYwLThiYTMtZjE3ZmZmNzA2NDA4XkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 161,
+   "overview": "An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection."
   },
   {
    "id": "fantastic mr. fox|2009",
@@ -2426,14 +2926,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.9,
    "c": [
     "lt"
    ],
    "g": [
     "Animation",
     "Comedy"
-   ]
+   ],
+   "imdbId": "tt0432283",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTA1ZTIxZDUtNGFjYS00YTc5LTgzNDMtZWNjYjBlMzI2OTk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 87,
+   "overview": "An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation."
   },
   {
    "id": "moon|2009",
@@ -2444,7 +2948,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "mb",
     "pt"
@@ -2452,7 +2956,11 @@
    "g": [
     "Sci-Fi",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1182345",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTgzODgyNTQwOV5BMl5BanBnXkFtZTcwNzc0NTc0Mg@@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 97,
+   "overview": "Astronaut Sam Bell has a personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends home a resource that has helped diminish Earth's power problems."
   },
   {
    "id": "the house of the devil|2009",
@@ -2463,13 +2971,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.3,
    "c": [
     "dr"
    ],
    "g": [
     "Horror"
-   ]
+   ],
+   "imdbId": "tt1172994",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTAxMDAxODg5ODReQTJeQWpwZ15BbWU3MDI5ODYxODI@._V1_SX300.jpg",
+   "runtime": 95,
+   "overview": "In 1983, financially struggling college student Samantha Hughes takes a strange babysitting job that coincides with a full lunar eclipse. She slowly realizes her clients harbor a terrifying secret, putting her life in mortal danger."
   },
   {
    "id": "the social network|2010",
@@ -2480,14 +2992,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "pt"
    ],
    "g": [
     "Drama",
     "Biography"
-   ]
+   ],
+   "imdbId": "tt1285016",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjlkNTE5ZTUtNGEwNy00MGVhLThmZjMtZjU1NDE5Zjk1NDZkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 120,
+   "overview": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business."
   },
   {
    "id": "blue valentine|2010",
@@ -2498,7 +3014,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "lv",
     "gp"
@@ -2506,7 +3022,11 @@
    "g": [
     "Romance",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1120985",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTU4MTQ2MzA1Ml5BMl5BanBnXkFtZTcwODE3NTgwNA@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 112,
+   "overview": "A couple cannot halt the downward spiral of their marriage."
   },
   {
    "id": "inception|2010",
@@ -2517,7 +3037,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.8,
    "c": [
     "mb",
     "ep"
@@ -2525,7 +3045,11 @@
    "g": [
     "Sci-Fi",
     "Heist"
-   ]
+   ],
+   "imdbId": "tt1375666",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjAxMzY3NjcxNF5BMl5BanBnXkFtZTcwNTI5OTM0Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 148,
+   "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster."
   },
   {
    "id": "shutter island|2010",
@@ -2536,14 +3060,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "mb"
    ],
    "g": [
     "Psychological Thriller",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt1130884",
+   "poster": "https://m.media-amazon.com/images/M/MV5BN2FjNWExYzEtY2YzOC00YjNlLTllMTQtNmIwM2Q1YzBhOWM1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 138,
+   "overview": "Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient."
   },
   {
    "id": "true grit|2010",
@@ -2554,13 +3082,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "fr"
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt1403865",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTU5MjU3MTI4OF5BMl5BanBnXkFtZTcwMTQxOTAxNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 110,
+   "overview": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer."
   },
   {
    "id": "black swan|2010",
@@ -2571,14 +3103,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "pt",
     "dr"
    ],
    "g": [
     "Psychological Thriller"
-   ]
+   ],
+   "imdbId": "tt0947798",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzY2NzI4OTE5MF5BMl5BanBnXkFtZTcwMjMyNDY4Mw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 108,
+   "overview": "An insecure ballerina finally gets the role she has always dreamed of, but as the pressures mount her line between reality and illusion starts to blur."
   },
   {
    "id": "the town|2010",
@@ -2589,14 +3125,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "cr"
    ],
    "g": [
     "Crime",
     "Heist"
-   ]
+   ],
+   "imdbId": "tt0840361",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTcyNzcxODg3Nl5BMl5BanBnXkFtZTcwMTUyNjQ3Mw@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 125,
+   "overview": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her."
   },
   {
    "id": "insidious|2010",
@@ -2607,14 +3147,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "dr"
    ],
    "g": [
     "Supernatural",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt1737184",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTA4NDg0NjM0MjNeQTJeQWpwZ15BbWU3MDc5Mjg0MTQ@._V1_SX300.jpg",
+   "runtime": 8,
+   "overview": "A troubled Chicago detective finds a family poisoned to death and must race against the clock to solve the murders before the killer strikes again."
   },
   {
    "id": "incendies|2010",
@@ -2625,7 +3169,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "gp"
    ],
@@ -2633,7 +3177,11 @@
     "Drama",
     "War",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt1756720",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjI0YTE3NWYtYWQyYy00NDdhLWIyODktYzgyNGY2MmY4YWI4L2ltYWdlXkEyXkFqcGdeQXVyNTA1NDY3NzY@._V1_SX300.jpg",
+   "runtime": 44,
+   "overview": "In Jordan, in the heart of the Middle East, Iraqi, Palestinian and Lebanese refugees are working on the filming of Incendies, an adaptation of Wajdi Mouawad's play. Whether extras or onlookers, these exiles once experienced scenes..."
   },
   {
    "id": "the tree of life|2011",
@@ -2644,13 +3192,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "qc"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt0478304",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTMwNjQ0NjMzN15BMl5BanBnXkFtZTcwNjMxMTkyNA@@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "runtime": 139,
+   "overview": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings."
   },
   {
    "id": "rango|2011",
@@ -2661,7 +3213,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "fr",
     "lt"
@@ -2670,7 +3222,11 @@
     "Animation",
     "Western",
     "Comedy"
-   ]
+   ],
+   "imdbId": "tt1192628",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTc4NjEyODE1OV5BMl5BanBnXkFtZTcwMjYzNTkxNA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 107,
+   "overview": "Rango is an ordinary chameleon who accidentally winds up in the town of Dirt, a lawless outpost in the Wild West in desperate need of a new sheriff."
   },
   {
    "id": "drive|2011",
@@ -2681,7 +3237,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "nc",
     "cr"
@@ -2689,7 +3245,11 @@
    "g": [
     "Neo-Noir",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt0780504",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTFmNTFlOTAtNzEyNi00MWU2LTg3MGEtYjA2NWY3MDliNjlkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 100,
+   "overview": "A mysterious Hollywood action film stuntman gets in trouble with gangsters when he tries to help his neighbor's husband rob a pawn shop while serving as his getaway driver."
   },
   {
    "id": "melancholia|2011",
@@ -2700,7 +3260,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "qc",
     "gp"
@@ -2708,7 +3268,11 @@
    "g": [
     "Drama",
     "Sci-Fi"
-   ]
+   ],
+   "imdbId": "tt1527186",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTk4NjM0MjI3MV5BMl5BanBnXkFtZTcwNjcxMDYzNg@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 135,
+   "overview": "Two sisters find their already strained relationship challenged as a mysterious new planet threatens to collide with Earth."
   },
   {
    "id": "weekend|2011",
@@ -2719,14 +3283,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "lv"
    ],
    "g": [
     "Romance",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1714210",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDE3MDQzNDA3Nl5BMl5BanBnXkFtZTcwMjk3NTU4Ng@@._V1_QL75_UY562_CR9,0,380,562_.jpg",
+   "runtime": 97,
+   "overview": "After a drunken house party with his straight mates, Russell heads out to a gay club. Just before closing time he picks up Glen but what's expected to be just a one-night stand becomes something else, something special."
   },
   {
    "id": "the master|2012",
@@ -2737,13 +3305,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "pt"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt1560747",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTQ2NjQ5MzMwMF5BMl5BanBnXkFtZTcwMjczNTAzOA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 138,
+   "overview": "A Naval veteran arrives home from war unsettled and uncertain of his future - until he is tantalized by a cult and its charismatic leader."
   },
   {
    "id": "moonrise kingdom|2012",
@@ -2754,7 +3326,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "lt",
     "lv"
@@ -2762,7 +3334,11 @@
    "g": [
     "Comedy",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt1748122",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTEwMTc3NDkzOTJeQTJeQWpwZ15BbWU3MDI4NTAwNzc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 94,
+   "overview": "Two 12-year-olds, who live on an island, fall in love with each other and elope into the wilderness. While people set out on a search mission, a violent storm approaching them catches their attention."
   },
   {
    "id": "django unchained|2012",
@@ -2773,13 +3349,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.5,
    "c": [
     "fr"
    ],
    "g": [
     "Western"
-   ]
+   ],
+   "imdbId": "tt1853728",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjIyNTQ5NjQ1OV5BMl5BanBnXkFtZTcwODg1MDU4OA@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 165,
+   "overview": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi."
   },
   {
    "id": "sinister|2012",
@@ -2790,14 +3370,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt1922777",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjI5MTg1Njg0Ml5BMl5BanBnXkFtZTcwNzg2Mjc4Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 110,
+   "overview": "A controversial true-crime writer finds a box of Super 8 home movies in his new home, revealing that the murder case he is currently researching could be the work of an unknown serial killer whose legacy dates back to the 1960s."
   },
   {
    "id": "her|2013",
@@ -2808,14 +3392,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "lv"
    ],
    "g": [
     "Sci-Fi",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt3720788",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjIxYTI3NTYtMDJmMC00Yzk0LWFkOGUtODlkMDdkZTFiNTE4XkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 100,
+   "overview": "Told from the female perspective, the story of a couple trying to reclaim the life and love they once knew and pick up the pieces of a past that may be too far gone."
   },
   {
    "id": "enemy|2013",
@@ -2826,14 +3414,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "mb"
    ],
    "g": [
     "Psychological Thriller",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt3187076",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZGU1ZWMyY2UtMmZiMC00NDRmLWIwMTAtNzQ5MmY5MTU0MmUwXkEyXkFqcGc@._V1_SX300.jpg",
+   "runtime": 112,
+   "overview": "Relations between the students and the new teacher of German are extremely tense. When one female student commits suicide, her schoolmates blame the teacher for her death. An awareness that things are not quite so black and white ..."
   },
   {
    "id": "inside llewyn davis|2013",
@@ -2844,14 +3436,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "pt"
    ],
    "g": [
     "Drama",
     "Music"
-   ]
+   ],
+   "imdbId": "tt3358552",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjIwODg4MDY3Nl5BMl5BanBnXkFtZTgwNzcxNzc4MDE@._V1_SX300.jpg",
+   "runtime": 101,
+   "overview": "A concert inspired by the Coen Brothers' film, 'Inside Llewyn Davis,' which is set in the 1960s Greenwich Village folk music scene, featuring live performances of the film's music, as well as songs from the early 1960s. Performers..."
   },
   {
    "id": "evil dead|2013",
@@ -2862,13 +3458,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.5,
    "c": [
     "dr"
    ],
    "g": [
     "Horror"
-   ]
+   ],
+   "imdbId": "tt1288558",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjkwODM5ZWUtMjI2Ni00Y2RiLWJkNDYtZWQ2ZTRhMjI1N2FmXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+   "runtime": 91,
+   "overview": "Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods."
   },
   {
    "id": "the conjuring|2013",
@@ -2879,14 +3479,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "dr"
    ],
    "g": [
     "Supernatural",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt1457767",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 112,
+   "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse."
   },
   {
    "id": "oculus|2013",
@@ -2904,7 +3508,10 @@
    "g": [
     "Supernatural",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt2412946",
+   "runtime": 13,
+   "overview": "A man is plagued by haunting dreams that force him to journey through his subconscious to discover and conquer the root of his fears."
   },
   {
    "id": "coherence|2013",
@@ -2915,14 +3522,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "mb"
    ],
    "g": [
     "Sci-Fi",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt2866360",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzQ3ODUzNDY2M15BMl5BanBnXkFtZTgwNzg0ODY2MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 89,
+   "overview": "Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead."
   },
   {
    "id": "birdman|2014",
@@ -2933,7 +3544,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 5.1,
    "c": [
     "pt",
     "su"
@@ -2941,7 +3552,10 @@
    "g": [
     "Comedy",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt5130912",
+   "runtime": 13,
+   "overview": "A portrait of Robert, a troubled but poetic soul struggling with his purgatorial existence in a hackney scrapyard."
   },
   {
    "id": "the grand budapest hotel|2014",
@@ -2952,14 +3566,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.1,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt2278388",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 99,
+   "overview": "The owner of an aging high-class hotel regales a writer with tales of serving as a lobby boy under an exceptional concierge in the hotel's glory years."
   },
   {
    "id": "predestination|2014",
@@ -2977,7 +3595,9 @@
    "g": [
     "Sci-Fi",
     "Time Travel"
-   ]
+   ],
+   "imdbId": "tt4725946",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjcxZjhkOTAtNTAyMC00ZjAwLWJmODAtNDA0Mjc3YzZjMWYyXkEyXkFqcGc@._V1_SX300.jpg"
   },
   {
    "id": "the one i love|2014",
@@ -2988,7 +3608,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "mb",
     "lv"
@@ -2996,7 +3616,11 @@
    "g": [
     "Romance",
     "Sci-Fi"
-   ]
+   ],
+   "imdbId": "tt2756032",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTgzODMyMjcyOV5BMl5BanBnXkFtZTgwMTAyMjMyMjE@._V1_QL75_UY562_CR6,0,380,562_.jpg",
+   "runtime": 91,
+   "overview": "A troubled couple vacate to a beautiful getaway, but bizarre circumstances further complicate their situation."
   },
   {
    "id": "the revenant|2015",
@@ -3014,7 +3638,8 @@
    "g": [
     "Survival",
     "Western"
-   ]
+   ],
+   "imdbId": "tt27793995"
   },
   {
    "id": "the hateful eight|2015",
@@ -3025,14 +3650,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "fr"
    ],
    "g": [
     "Western",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt3460252",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjA1MTc1NTg5NV5BMl5BanBnXkFtZTgwOTM2MDEzNzE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 168,
+   "overview": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters."
   },
   {
    "id": "the witch|2015",
@@ -3049,7 +3678,8 @@
    ],
    "g": [
     "Folk Horror"
-   ]
+   ],
+   "imdbId": "tt4030996"
   },
   {
    "id": "20th century women|2016",
@@ -3060,7 +3690,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "lt",
     "pt"
@@ -3068,7 +3698,11 @@
    "g": [
     "Comedy",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt4385888",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTkwNDE4NzQwM15BMl5BanBnXkFtZTgwNzQ5Nzg0MDI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 119,
+   "overview": "In 1979 Santa Barbara, Dorothea is a determined single mother who is raising her son, Jamie. Dorothea enlists the help of two women -- Abbie, a free-spirited punk artist and Julie, a savvy teenager -- to help with Jamie's upbringing."
   },
   {
    "id": "moonlight|2016",
@@ -3079,14 +3713,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "lv",
     "pt"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt4975722",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzQxNTIyODAxMV5BMl5BanBnXkFtZTgwNzQyMDA3OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 111,
+   "overview": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood."
   },
   {
    "id": "captain fantastic|2016",
@@ -3097,14 +3735,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt3553976",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjE5OTM0OTY5NF5BMl5BanBnXkFtZTgwMDcxOTQ3ODE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 118,
+   "overview": "A widower who lives in the forest takes his six children into the outside world for the first time."
   },
   {
    "id": "hell or high water|2016",
@@ -3115,7 +3757,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.6,
    "c": [
     "fr",
     "cr"
@@ -3123,7 +3765,11 @@
    "g": [
     "Neo-Western",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt2582782",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTg4NDA1OTA5NF5BMl5BanBnXkFtZTgwMDQ2MDM5ODE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 102,
+   "overview": "A divorced father and his ex-con brother plan a series of heists against the bank that's about to foreclose on their family ranch."
   },
   {
    "id": "the magnificent seven|2016",
@@ -3134,14 +3780,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "fr"
    ],
    "g": [
     "Western",
     "Action"
-   ]
+   ],
+   "imdbId": "tt2404435",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTUzNTc0NTAyM15BMl5BanBnXkFtZTgwMTk1ODA5OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 132,
+   "overview": "Seven gunmen from a variety of backgrounds are brought together by a vengeful young widow to protect her town from the private army of a destructive industrialist."
   },
   {
    "id": "manchester by the sea|2016",
@@ -3152,13 +3802,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "gp"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt4034228",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTYxMjk0NDg4Ml5BMl5BanBnXkFtZTgwODcyNjA5OTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 137,
+   "overview": "A depressed uncle is asked to take care of his teenage nephew after the boy's father dies."
   },
   {
    "id": "don't breathe|2016",
@@ -3169,14 +3823,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt4160708",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNjAxOTJkMmEtNjg4MC00ODk3LTkwYmUtNjM3YzE5YTk1YTFjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 88,
+   "overview": "Three delinquents break into the house of a war veteran who is blind to steal his money. However, they discover that the man is not as defenseless as he seems."
   },
   {
    "id": "hush|2016",
@@ -3187,14 +3845,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.6,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt5022702",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZjQ0YTU4OTQtMTU3Zi00OTdlLTkzN2EtZjlmOTZhNjIwN2VkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 82,
+   "overview": "A deaf mute European-American writer in her 20's who retreated to the woods to live in solitude must fight for her life in silence when a masked serial killer appears at her window."
   },
   {
    "id": "split|2016",
@@ -3205,7 +3867,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 2.9,
    "c": [
     "dr",
     "mb"
@@ -3213,7 +3875,11 @@
    "g": [
     "Psychological Thriller",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt2660118",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTg1NDA1NzI0OV5BMl5BanBnXkFtZTgwNzgyMzQ0MjE@._V1_SX300.jpg",
+   "runtime": 90,
+   "overview": "As her 30th birthday looms, an over-achieving woman with a thing for bowlers decides to marry the man of her dreams in just under a month."
   },
   {
    "id": "song to song|2017",
@@ -3224,7 +3890,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 5.6,
    "c": [
     "lv",
     "qc"
@@ -3233,7 +3899,11 @@
     "Romance",
     "Drama",
     "Music"
-   ]
+   ],
+   "imdbId": "tt2062700",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzI1MTg0MzEyOF5BMl5BanBnXkFtZTgwNzk4Mjk0MTI@._V1_SX300.jpg",
+   "runtime": 129,
+   "overview": "Two intersecting love triangles. Obsession and betrayal set against the music scene in Austin, Texas."
   },
   {
    "id": "phantom thread|2017",
@@ -3244,14 +3914,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "lv"
    ],
    "g": [
     "Romance",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt5776858",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOTMzNWNhNDctMTM2MC00N2EwLThjYTEtMmQ2ZDAyNDVlNzgyXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
+   "runtime": 130,
+   "overview": "Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose fastidious life is disrupted by a young, strong-willed woman, Alma, who becomes his muse and lover."
   },
   {
    "id": "a ghost story|2017",
@@ -3262,14 +3936,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "qc"
    ],
    "g": [
     "Drama",
     "Fantasy"
-   ]
+   ],
+   "imdbId": "tt6265828",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzcyNTc1ODQzMF5BMl5BanBnXkFtZTgwNTgzMzY4MTI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 92,
+   "overview": "In this singular exploration of legacy, love, loss, and the enormity of existence, a recently deceased, white-sheeted ghost returns to his suburban home to try to reconnect with his bereft wife."
   },
   {
    "id": "get out|2017",
@@ -3280,14 +3958,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Satire"
-   ]
+   ],
+   "imdbId": "tt5052448",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjUxMDQwNjcyNl5BMl5BanBnXkFtZTgwNzcwMzc0MTI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 104,
+   "overview": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point."
   },
   {
    "id": "the endless|2017",
@@ -3305,7 +3987,11 @@
    "g": [
     "Sci-Fi",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt7636886",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMmI5ZWQ5N2QtZGVlYy00NzVlLWI5OTktYWNlZmNiZTc3M2EwXkEyXkFqcGdeQXVyODIyOTM0ODc@._V1_SX300.jpg",
+   "runtime": 3,
+   "overview": "At the top of a tower higher than the clouds, in the middle of a storm, two colleagues are faced with a strange phenomenon in the sky."
   },
   {
    "id": "burning|2018",
@@ -3316,7 +4002,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "mb",
     "qc"
@@ -3324,7 +4010,11 @@
    "g": [
     "Mystery",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt7282468",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZWU3YzgzMTgtOTIwYi00MmNkLWExYWEtZTEyOTAzYzEwM2Q2XkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
+   "runtime": 148,
+   "overview": "Jong-su bumps into a girl who used to live in the same neighborhood, who asks him to look after her cat while she's on a trip to Africa. When back, she introduces Ben, a mysterious guy she met there, who confesses his secret hobby."
   },
   {
    "id": "isle of dogs|2018",
@@ -3335,14 +4025,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "lt"
    ],
    "g": [
     "Animation",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt5104604",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZTVmZWFmYWYtZTY1NC00Yjg5LTkxZGItZjhiYTExNTExNjA3XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 101,
+   "overview": "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog."
   },
   {
    "id": "annihilation|2018",
@@ -3353,7 +4047,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "mb",
     "su"
@@ -3361,7 +4055,11 @@
    "g": [
     "Sci-Fi",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt2798920",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTk2Mjc2NzYxNl5BMl5BanBnXkFtZTgwMTA2OTA1NDM@._V1_QL75_UX380_CR0,15,380,562_.jpg",
+   "runtime": 115,
+   "overview": "A biologist signs up for a dangerous, secret expedition in which the laws of nature don't apply."
   },
   {
    "id": "the ballad of buster scruggs|2018",
@@ -3372,14 +4070,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "fr"
    ],
    "g": [
     "Western",
     "Anthology"
-   ]
+   ],
+   "imdbId": "tt6412452",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOTc0MzZjYTktYzBlZC00MmViLTgyNDYtNjljNTcxMzdjODRkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 133,
+   "overview": "Six tales of life and violence in the Old West, following a singing gunslinger, a bank robber, a traveling impresario, an elderly prospector, a wagon train and a perverse pair of bounty hunters."
   },
   {
    "id": "hereditary|2018",
@@ -3390,7 +4092,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "dr",
     "gp"
@@ -3398,7 +4100,11 @@
    "g": [
     "Horror",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt7784604",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTEyZGQwODctYWJjZi00NjFmLTg3YmEtMzlhNjljOGZhMWMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 127,
+   "overview": "A grieving family is haunted by tragic and disturbing occurrences."
   },
   {
    "id": "the lighthouse|2019",
@@ -3409,14 +4115,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "su",
     "dr"
    ],
    "g": [
     "Psychological Horror"
-   ]
+   ],
+   "imdbId": "tt7984734",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTI4MjFhMjAtNmQxYi00N2IxLWJjMGEtYWY1YmU3OTQ0Zjk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 109,
+   "overview": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s."
   },
   {
    "id": "joker|2019",
@@ -3427,14 +4137,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.3,
    "c": [
     "pt"
    ],
    "g": [
     "Psychological Thriller",
     "Crime"
-   ]
+   ],
+   "imdbId": "tt7286456",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzY3OWQ5NDktNWQ2OC00ZjdlLThkMmItMDhhNDk3NTFiZGU4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 122,
+   "overview": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City."
   },
   {
    "id": "the irishman|2019",
@@ -3445,7 +4159,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "cr",
     "ep"
@@ -3453,7 +4167,11 @@
    "g": [
     "Crime",
     "Epic"
-   ]
+   ],
+   "imdbId": "tt1302006",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTY2YThkNmQtOWJhYy00ZDc3LWEzOGEtMmQwNzM0YjFmZWIyXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "runtime": 209,
+   "overview": "An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa."
   },
   {
    "id": "midsommar|2019",
@@ -3464,13 +4182,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "dr"
    ],
    "g": [
     "Folk Horror"
-   ]
+   ],
+   "imdbId": "tt8772262",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzQxNzQzOTQwM15BMl5BanBnXkFtZTgwMDQ2NTcwODM@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 148,
+   "overview": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult."
   },
   {
    "id": "us|2019",
@@ -3481,14 +4203,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt6857112",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMzhkMjFkN2YtODU2Ni00YWYwLWExN2MtOWNjZmQxM2U4YTM5XkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+   "runtime": 116,
+   "overview": "In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look lik..."
   },
   {
    "id": "doctor sleep|2019",
@@ -3499,14 +4225,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "dr"
    ],
    "g": [
     "Supernatural",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt5606664",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNGUyNTg0NWItODdkZS00YWY0LTljNjItMDYwMTI1ZmZkMjExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 152,
+   "overview": "Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal."
   },
   {
    "id": "minari|2020",
@@ -3517,13 +4247,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "qc"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt10633456",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNWVmNDE3YzMtZWQ3Ny00YjhkLWEzN2QtZjNhYWNlMGI2N2NkXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+   "runtime": 115,
+   "overview": "A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a ..."
   },
   {
    "id": "tenet|2020",
@@ -3534,7 +4268,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "mb",
     "ep"
@@ -3542,7 +4276,11 @@
    "g": [
     "Sci-Fi",
     "Action"
-   ]
+   ],
+   "imdbId": "tt6723592",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTIzNDIxMzktMzlkMi00MmUyLWFmMjQtZDgwMjBmOGJmNTI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 150,
+   "overview": "Armed with only the word \"Tenet,\" and fighting for the survival of the entire world, CIA operative, The Protagonist, journeys through a twilight world of international espionage on a global mission that unfolds beyond real time."
   },
   {
    "id": "caveat|2020",
@@ -3553,13 +4291,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6,
    "c": [
     "dr"
    ],
    "g": [
     "Horror"
-   ]
+   ],
+   "imdbId": "tt7917178",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDRjNzA2YjktNTk1OC00NTM1LTg1ZDgtYjRhM2Y4MGI5ODhkXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 88,
+   "overview": "A drifter with missing memories takes a strange care-taking job on an isolated island, only to find himself chained inside a decaying house with a dangerous woman and secrets that may involve him."
   },
   {
    "id": "eyimofe (this is my desire)|2020",
@@ -3570,13 +4312,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "qc"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt10365870",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMGI0ZDkyNDYtMGMwZC00NjQzLWJlMmItYTRjMWI2MWI5ZTQ1XkEyXkFqcGdeQXVyMTI0MjI0NTc0._V1_SX300.jpg",
+   "runtime": 116,
+   "overview": "In Lagos, Nigeria, tragedy and fate intervene as two people try to better the lives of their families."
   },
   {
    "id": "dune|2021",
@@ -3587,14 +4333,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8,
    "c": [
     "ep"
    ],
    "g": [
     "Sci-Fi",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt1160419",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNWIyNmU5MGYtZDZmNi00ZjAwLWJlYjgtZTc0ZGIxMDE4ZGYwXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
+   "runtime": 155,
+   "overview": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource."
   },
   {
    "id": "the french dispatch|2021",
@@ -3605,14 +4355,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Anthology"
-   ]
+   ],
+   "imdbId": "tt8847712",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTU1YmNkZWYtYmExNC00YWE1LTk2NWEtMTQ2ODhmYTA5MmZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 107,
+   "overview": "A collection of stories published in \"The French Dispatch Magazine\" comes to life in a fictional twentieth century French city."
   },
   {
    "id": "the black phone|2021",
@@ -3623,14 +4377,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.9,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt7144666",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjFhZTcxOTktMzllMS00MzIzLWJhODEtZDU5YTFkNzRjZWQyXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+   "runtime": 103,
+   "overview": "After being abducted and locked in a basement, a boy starts receiving calls on a disconnected phone from the killer's previous victims."
   },
   {
    "id": "drive my car|2021",
@@ -3641,14 +4399,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "qc",
     "lv"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt14039582",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOGE5ZWRhYjYtNzVkMS00ZGU3LTg2MTMtODYyMmJlMDMyZjU0XkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
+   "runtime": 179,
+   "overview": "A renowned stage actor and director learns to cope with a big personal loss when he receives an offer to direct a production of Uncle Vanya in Hiroshima."
   },
   {
    "id": "x|2022",
@@ -3659,14 +4421,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.5,
    "c": [
     "dr"
    ],
    "g": [
     "Slasher",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt13560574",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODUwYTNhMTMtYWQ5Ny00YTdmLWIxOTAtNDczNzVlYzg2NDFkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 105,
+   "overview": "In 1979, a group of young filmmakers set out to make an adult film in a rural Texas farm, but when their reclusive, elderly hosts catch them in the act, the crew find themselves fighting for their lives."
   },
   {
    "id": "pearl|2022",
@@ -3677,7 +4443,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "dr",
     "pt"
@@ -3685,7 +4451,11 @@
    "g": [
     "Horror",
     "Psychological"
-   ]
+   ],
+   "imdbId": "tt18925334",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzk0Y2RlZjItZDUzYi00Y2JhLTk5MzMtNjgzYWFmZmUxN2FmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 103,
+   "overview": "In 1918, a young woman on the brink of madness pursues stardom in a desperate attempt to escape the drudgery, isolation, and lovelessness of life on her parents' farm."
   },
   {
    "id": "everything everywhere all at once|2022",
@@ -3696,7 +4466,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.7,
    "c": [
     "mb",
     "lt"
@@ -3705,7 +4475,11 @@
     "Sci-Fi",
     "Comedy",
     "Action"
-   ]
+   ],
+   "imdbId": "tt6710474",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOWNmMzAzZmQtNDQ1NC00Nzk5LTkyMmUtNGI2N2NkOWM4MzEyXkEyXkFqcGc@._V1_QL75_UY562_CR4,0,380,562_.jpg",
+   "runtime": 139,
+   "overview": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led."
   },
   {
    "id": "tár|2022",
@@ -3716,14 +4490,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "pt"
    ],
    "g": [
     "Drama",
     "Music"
-   ]
+   ],
+   "imdbId": "tt14444726",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYWY5YThhOGUtNDU4OS00NTk3LWI0ODQtNmRiYTk0ZjVkZWU2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 158,
+   "overview": "Set in the international world of Western classical music, the film centers on Lydia Tár, widely considered one of the greatest living composer-conductors and the very first female director of a major German orchestra."
   },
   {
    "id": "barbarian|2022",
@@ -3734,14 +4512,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "dr"
    ],
    "g": [
     "Horror",
     "Thriller"
-   ]
+   ],
+   "imdbId": "tt15791034",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNWQ5MDgwMzMtNWZhMy00Y2Q4LWI5NTAtODA4MDIzYTExOGQzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 102,
+   "overview": "A woman staying at an Airbnb discovers that the house she has rented is not what it seems."
   },
   {
    "id": "nope|2022",
@@ -3752,7 +4534,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "dr",
     "ep"
@@ -3760,7 +4542,11 @@
    "g": [
     "Sci-Fi",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt10954984",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODRlNWRhZWUtMzdlZC00ZDIyLWFhZjMtYTcxNjI1ZDIwODhjXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+   "runtime": 130,
+   "overview": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling phenomenon."
   },
   {
    "id": "past lives|2023",
@@ -3771,7 +4557,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.8,
    "c": [
     "lv",
     "qc"
@@ -3779,7 +4565,11 @@
    "g": [
     "Romance",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt13238346",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYjQyMTNhNjUtN2VmYy00NWRhLTkwOTctMGVmNTBmNDIxYjZhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 105,
+   "overview": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny."
   },
   {
    "id": "asteroid city|2023",
@@ -3790,14 +4580,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.4,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Sci-Fi"
-   ]
+   ],
+   "imdbId": "tt14230388",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZjY2YjYxNjEtNDJkYi00ZmJjLWIwYTEtNjEyZDgzY2M5ZDc3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 105,
+   "overview": "World-changing events spectacularly disrupt the annual Asteroid Day celebration in an American desert town."
   },
   {
    "id": "killers of the flower moon|2023",
@@ -3808,7 +4602,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "cr",
     "ep"
@@ -3817,7 +4611,11 @@
     "Crime",
     "Western",
     "Historical"
-   ]
+   ],
+   "imdbId": "tt5537002",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZWY5ZDVjNTUtODI5Yy00MjFhLWEyM2EtYzZjM2VjZTI0MTBjXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 206,
+   "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery."
   },
   {
    "id": "beau is afraid|2023",
@@ -3828,14 +4626,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.6,
    "c": [
     "su"
    ],
    "g": [
     "Surreal Comedy",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt13521006",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMTdmYmQ5MjctYzU3NS00N2I0LTkwYTYtZWMxNTVhOTRkODA1XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 179,
+   "overview": "Following the sudden death of his mother, a mild-mannered but anxiety-ridden man confronts his darkest fears as he embarks on an epic odyssey back home."
   },
   {
    "id": "challengers|2024",
@@ -3846,14 +4648,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7,
    "c": [
     "lv"
    ],
    "g": [
     "Sports",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt16426418",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 131,
+   "overview": "Tashi, a former tennis prodigy-turned-coach, transformed her husband into a champion. But to overcome a recent losing streak and redeem himself, he'll need to face off against his former best friend--Tashi's ex-boyfriend."
   },
   {
    "id": "the substance|2024",
@@ -3864,7 +4670,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.2,
    "c": [
     "dr",
     "su"
@@ -3872,7 +4678,11 @@
    "g": [
     "Body Horror",
     "Satire"
-   ]
+   ],
+   "imdbId": "tt17526714",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "runtime": 141,
+   "overview": "A fading celebrity takes a black-market drug: a cell-replicating substance that helps her create a younger, better version of herself."
   },
   {
    "id": "the fall guy|2024",
@@ -3883,14 +4693,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "lt"
    ],
    "g": [
     "Action",
     "Comedy"
-   ]
+   ],
+   "imdbId": "tt1684562",
+   "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+   "runtime": 126,
+   "overview": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job."
   },
   {
    "id": "marmalade|2024",
@@ -3901,7 +4715,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.3,
    "c": [
     "cr",
     "lt"
@@ -3909,7 +4723,11 @@
    "g": [
     "Crime",
     "Romance"
-   ]
+   ],
+   "imdbId": "tt21275544",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNzlhNTYzM2UtZDI3Ni00ODRiLThiNWYtN2NmYzg2OGNiMGQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 99,
+   "overview": "Baron teams up with his cellmate Otis to plan an escape, all while remembering how he fell for Marmalade and joined her in a risky bank robbery to support his sick mother and pursue a better future."
   },
   {
    "id": "the assessment|2024",
@@ -3920,14 +4738,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.6,
    "c": [
     "mb"
    ],
    "g": [
     "Sci-Fi",
     "Drama"
-   ]
+   ],
+   "imdbId": "tt32768323",
+   "poster": "https://m.media-amazon.com/images/M/MV5BOWFjMGIwNDgtODE5MS00ZWVkLTlhNzgtMDI1ZDM1OWMyYzY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 114,
+   "overview": "In the near future where parenthood is strictly controlled, a couple's seven-day assessment for the right to have a child unravels into a psychological nightmare."
   },
   {
    "id": "caddo lake|2024",
@@ -3938,14 +4760,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.8,
    "c": [
     "mb"
    ],
    "g": [
     "Mystery",
     "Sci-Fi"
-   ]
+   ],
+   "imdbId": "tt15552142",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZmIyOGI3NjgtZWJlYS00NzQ0LWJkMDUtNjhlYmFkYjI3NTM5XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "runtime": 103,
+   "overview": "When an 8-year-old girl disappears on Caddo Lake, a series of past deaths and disappearances begin to link together, altering a broken family's history."
   },
   {
    "id": "it's what's inside|2024",
@@ -3956,7 +4782,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.6,
    "c": [
     "mb"
    ],
@@ -3964,7 +4790,11 @@
     "Sci-Fi",
     "Thriller",
     "Comedy"
-   ]
+   ],
+   "imdbId": "tt14577874",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNDkxOTZmZTYtYTNmNS00MDk3LWE0MDAtMzY5M2Y5YmU1MmI2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 103,
+   "overview": "A group of friends gather for a pre-wedding party that descends into an existential nightmare when an estranged friend arrives with a mysterious game that awakens long-hidden secrets, desires and grudges."
   },
   {
    "id": "a complete unknown|2024",
@@ -3975,14 +4805,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.3,
    "c": [
     "pt"
    ],
    "g": [
     "Biography",
     "Music"
-   ]
+   ],
+   "imdbId": "tt11563598",
+   "poster": "https://m.media-amazon.com/images/M/MV5BYTA2NTA5NDYtMzlkOC00MTQxLWI0NDQtMzk2M2YzMGE4MTkxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "runtime": 141,
+   "overview": "In 1961, an unknown 19-year-old Bob Dylan arrives in New York City with his guitar and forges relationships with musical icons on his meteoric rise, culminating in a groundbreaking performance that reverberates around the world."
   },
   {
    "id": "alien: romulus|2024",
@@ -3993,14 +4827,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "dr"
    ],
    "g": [
     "Sci-Fi",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt18412256",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMDU0NjcwOGQtNjNjOS00NzQ3LWIwM2YtYWVmODZjMzQzN2ExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 119,
+   "overview": "While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe."
   },
   {
    "id": "oddity|2024",
@@ -4011,14 +4849,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.7,
    "c": [
     "dr"
    ],
    "g": [
     "Supernatural",
     "Horror"
-   ]
+   ],
+   "imdbId": "tt26470109",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMWU5Yjc0N2MtZjhlYS00MTM3LWI5YWUtZDg5MzcxZjEyZWJmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 98,
+   "overview": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime."
   },
   {
    "id": "nosferatu|2024",
@@ -4029,13 +4871,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.1,
    "c": [
     "dr"
    ],
    "g": [
     "Gothic Horror"
-   ]
+   ],
+   "imdbId": "tt5040012",
+   "poster": "https://m.media-amazon.com/images/M/MV5BY2FhZGE3NmEtNWJjOC00NDI1LWFhMTQtMjcxNmQzZmEwNGIzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 132,
+   "overview": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake."
   },
   {
    "id": "no other choice|2025",
@@ -4046,7 +4892,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "cr",
     "pt"
@@ -4054,7 +4900,11 @@
    "g": [
     "Thriller",
     "Dark Comedy"
-   ]
+   ],
+   "imdbId": "tt1527793",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+   "runtime": 139,
+   "overview": "After being fired, a man devises a unique plan to secure a new job: eliminate his competition."
   },
   {
    "id": "the phoenician scheme|2025",
@@ -4065,14 +4915,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.6,
    "c": [
     "lt"
    ],
    "g": [
     "Comedy",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt30840798",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTJmODQzYmItNTZlMy00Mjg0LTk1NjctYjM4ZGI0NTM3ZTVjXkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
+   "runtime": 101,
+   "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists and determined assassins."
   },
   {
    "id": "train dreams|2025",
@@ -4083,13 +4937,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.5,
    "c": [
     "qc"
    ],
    "g": [
     "Drama"
-   ]
+   ],
+   "imdbId": "tt29768334",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZDkzNzkyNTktYzNhMi00YjhiLWI5YmUtZjliMTY0ZDc5NmMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 102,
+   "overview": "A logger leads a life of unexpected depth and beauty in the rapidly-changing America of the early 1900s."
   },
   {
    "id": "weapons|2025",
@@ -4100,7 +4958,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 7.4,
    "c": [
     "dr",
     "mb"
@@ -4108,7 +4966,11 @@
    "g": [
     "Horror",
     "Mystery"
-   ]
+   ],
+   "imdbId": "tt26581740",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTBhNWJjZWItYzY3NS00M2NkLThmOWYtYTlmNzBmN2UxZWFjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "runtime": 128,
+   "overview": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance."
   },
   {
    "id": "peter hujar's day|2025",
@@ -4119,14 +4981,18 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.3,
    "c": [
     "qc"
    ],
    "g": [
     "Drama",
     "Biography"
-   ]
+   ],
+   "imdbId": "tt34250044",
+   "poster": "https://m.media-amazon.com/images/M/MV5BY2Q1ZWNiZGUtZTMyZi00OGZiLWJmMGMtYjg0NjM3NDZmNTBmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 76,
+   "overview": "Conversation between photographer Peter Hujar and Linda Rosenkrantz from 1974 sheds light on New York's vibrant downtown art world and the introspective journey of an artist's life."
   },
   {
    "id": "project hail mary|2026",
@@ -4137,7 +5003,7 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 8.2,
    "c": [
     "lt",
     "ep"
@@ -4145,7 +5011,11 @@
    "g": [
     "Sci-Fi",
     "Adventure"
-   ]
+   ],
+   "imdbId": "tt12042730",
+   "poster": "https://m.media-amazon.com/images/M/MV5BNTkwNzJiYTctNzI3NC00NjE1LTlhYjktY2Q5MTdmMWFmNzcxXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 156,
+   "overview": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key."
   },
   {
    "id": "resident evil|2026",
@@ -4163,7 +5033,11 @@
    "g": [
     "Horror",
     "Action"
-   ]
+   ],
+   "imdbId": "tt35538033",
+   "poster": "https://m.media-amazon.com/images/M/MV5BODIwYTk4MWYtMGUxYS00OWUzLTg5MDYtNzg5MmYyNzcyNThkXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "runtime": 90,
+   "overview": "Follows a hapless courier tasked with delivering a package to a remote hospital. He soon finds himself caught in the middle of an outbreak and must fight through hordes of mutated creatures to survive."
   },
   {
    "id": "hokum|2026",
@@ -4174,13 +5048,17 @@
    "w": false,
    "r": null,
    "lb": null,
-   "imdb": null,
+   "imdb": 6.6,
    "c": [
     "dr"
    ],
    "g": [
     "Horror"
-   ]
+   ],
+   "imdbId": "tt35672862",
+   "poster": "https://m.media-amazon.com/images/M/MV5BZjA1ZjFlZGItNTVjZC00NTFhLTg2YTEtODMzODRmNGFiNTdmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "runtime": 107,
+   "overview": "A horror writer visits an Irish inn to scatter his parents' ashes, unaware the property is said to be haunted by a witch."
   },
   {
    "id": "hearing damage|2026",
