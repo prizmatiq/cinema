@@ -114,7 +114,25 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .mcol .info{display:flex;flex-direction:column;gap:6px;min-width:0;padding-right:72px}
 .mcol .info h2{font-family:var(--f-display);font-stretch:80%;font-size:32px;line-height:1.02;margin:0;color:var(--fg);text-wrap:balance}
 .mcol .info .d{color:var(--muted)}
-.x{background:none;border:1px solid var(--line);border-radius:6px;padding:6px 10px;cursor:pointer;color:var(--muted)}
+.x{width:38px;height:38px;display:grid;place-items:center;background:none;border:1px solid var(--line);border-radius:50%;padding:0;cursor:pointer;color:var(--muted)}
+.x:hover{color:var(--fg);border-color:var(--muted)}
+.dlink{background:none;border:0;padding:0;font:600 18px var(--f-body);color:var(--fg);cursor:pointer;text-align:left;align-self:flex-start;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:4px}
+.dlink:hover{text-decoration-color:var(--fg)}
+.meta2{font:13px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
+.glinks{display:flex;flex-wrap:wrap;gap:4px 12px}
+.glinks button{background:none;border:0;padding:0;font:italic 14px var(--f-body);color:var(--muted);cursor:pointer;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:3px}
+.glinks button:hover{color:var(--fg);text-decoration-color:var(--muted)}
+.scores2{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
+.scl{display:inline-flex;align-items:center;gap:8px;color:var(--fg);text-decoration:none;font:500 15px var(--f-mono);font-variant-numeric:tabular-nums}
+.scl .ico{height:22px;width:auto;display:block}
+.scl:hover .ico{opacity:.75}
+.scl .muted{color:var(--muted)}
+.scbox{display:inline-flex;align-items:center;gap:8px}
+.scbox input{width:64px;padding:5px 7px;font:14px var(--f-mono);text-align:center}
+.colnav{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.colnav .mchip{cursor:pointer}
+.colnav .mchip:hover{border-color:var(--muted);color:var(--fg)}
+.editc{background:none;border:0;padding:0 4px;color:var(--muted);font-size:12.5px;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
 .poster{aspect-ratio:2/3;max-width:180px;width:46%;background:var(--tile);color:var(--on-tile);border-radius:6px;padding:14px;display:flex;flex-direction:column;justify-content:space-between;align-self:flex-start}
 .poster .pt{font-family:var(--f-display);font-stretch:75%;font-weight:800;font-size:22px;line-height:1.02;text-wrap:balance;overflow-wrap:anywhere}
 .poster .py{font-family:var(--f-mono);font-size:12px;opacity:.7}
@@ -181,7 +199,7 @@ const CONFIG={owner:"",repo:"",branch:"main",path:"data/library.json"};
 const IMG="https://image.tmdb.org/t/p/";
 let films=[], cols=[];
 const posterSrc=(f,w)=>f.poster.startsWith("http")?(w>400?f.poster.replace(/\._V1_.*\.jpg$/,"._V1_SX700.jpg"):f.poster):IMG+"w"+w+f.poster;
-const ui={view:"films",layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
+const ui={view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const colName=id=>(cols.find(c=>c.id===id)||{}).name||"";
@@ -211,7 +229,7 @@ function shell(){
   </div>
   <div id="drawerRoot"></div>
   <div class="savebar" id="savebar" hidden><div class="in"><span id="savemsg"></span><button class="btn" id="savebtn">Save to GitHub</button></div></div>`;
-  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;render();window.scrollTo(0,0)};
+  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;render();window.scrollTo(0,0)};
   $("#savebtn").onclick=save;
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
@@ -231,7 +249,9 @@ function render(){
 }
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
-  $("#view").innerHTML=(c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:`<div class="decades" id="decades" aria-label="Films by decade"></div>`)+
+  const dn=ui.director?films.filter(f=>f.d===ui.director).length:0;
+  $("#view").innerHTML=(ui.director?`<div class="banner"><div><h2>${esc(ui.director)}</h2><p>${dn} ${dn===1?"title":"titles"} in the library</p></div><button id="cleardir">Clear filter</button></div>`:"")+
+  (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:ui.director?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`)+
   `<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
     <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
@@ -241,7 +261,8 @@ function libraryView(){
     <span class="seg" id="seg"><button data-l="grid" aria-pressed="${ui.layout==="grid"}">Grid</button><button data-l="list" aria-pressed="${ui.layout==="list"}">List</button></span>
     ${ui.editable?`<button class="btn" id="addbtn">Add ${NOUN[ui.view]}</button>`:""}
   </div><div id="list"></div>`;
-  if(!c)decades();
+  if(!c&&!ui.director)decades();
+  if($("#cleardir"))$("#cleardir").onclick=()=>{ui.director=null;render()};
   $("#q").oninput=e=>{ui.q=e.target.value.trim().toLowerCase();list()};
   $("#colsel").onchange=e=>{ui.col=e.target.value||null;libraryView()};
   $("#gensel").onchange=e=>{ui.genre=e.target.value||null;list()};
@@ -282,7 +303,7 @@ function rowHTML(f,withYear){
 }
 function list(){
   const P=viewPred();
-  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
+  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||f.d===ui.director)&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(SORT[ui.order]||SORT.new);
   const el=$("#list");if(!el)return;
@@ -325,7 +346,7 @@ function drawer(){
   document.body.classList.add("lock");
   const lbUrl=f?(f.tmdbId?"https://letterboxd.com/tmdb/"+f.tmdbId+"/":"https://letterboxd.com/search/films/"+encodeURIComponent(f.t+" "+f.y)+"/"):"";
   const imUrl=f?(f.imdbId?"https://www.imdb.com/title/"+f.imdbId+"/":"https://www.imdb.com/find/?s=tt&q="+encodeURIComponent(f.t+" "+f.y)):"";
-  let h=`<div class="scrim" id="scrim"></div><aside class="drawer${f?"":" narrow"}" role="dialog" aria-modal="true" aria-label="${f?esc(f.t):"Add "+NOUN[ui.view]}"><div class="top"><button class="x" id="close">Close</button></div>`;
+  let h=`<div class="scrim" id="scrim"></div><aside class="drawer${f?"":" narrow"}" role="dialog" aria-modal="true" aria-label="${f?esc(f.t):"Add "+NOUN[ui.view]}"><div class="top"><button class="x" id="close" aria-label="Close"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`;
   if(ui.adding){
     h+=`<form id="addf" style="display:flex;flex-direction:column;gap:14px">
       <div class="head"><div class="info"><h2>Add ${NOUN[ui.view]}</h2></div></div>
@@ -339,16 +360,21 @@ function drawer(){
   }else{
     const E=ui.editable;
     h+=`<div class="mgrid"><div class="poster${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,500)}" alt="Poster: ${esc(f.t)}" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="py">${f.y}</span><span class="pt">${esc(f.t)}</span><span class="py">${esc(f.d)}</span></div>
-      <div class="mcol"><div class="info"><h2>${esc(f.t)}</h2><span class="d">${esc(f.d)} · ${f.y}</span>${(f.g||[]).length?`<span class="d" style="font-style:italic">${esc(f.g.join(", "))}</span>`:""}${f.runtime?`<span class="d">${f.runtime} min</span>`:""}
+      <div class="mcol"><div class="info"><h2>${esc(f.t)}</h2>
+        ${f.d?`<button class="dlink" id="dirlink" title="All films by ${esc(f.d)}">${esc(f.d)}</button>`:""}
+        <span class="meta2">${f.y}${f.runtime?` · ${f.runtime} min`:""}</span>
+        ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} films">${esc(g)}</button>`).join("")}</div>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div>
-      <div class="two">
-        <label class="fld"><span class="lbl">Letterboxd</span>${E?`<input type="number" id="lb" min="0" max="5" step="0.1" placeholder="0–5" value="${f.lb??""}">`:`<span>${f.lb!=null?Number(f.lb).toFixed(1)+" / 5":"—"}</span>`}</label>
-        <label class="fld"><span class="lbl">IMDb</span>${E?`<input type="number" id="imdb" min="0" max="10" step="0.1" placeholder="0–10" value="${f.imdb??""}">`:`<span>${f.imdb!=null?Number(f.imdb).toFixed(1)+" / 10":"—"}</span>`}</label>
+      <div class="scores2">
+        <a class="scl" href="${imUrl}" target="_blank" rel="noopener" title="Open on IMDb"><svg class="ico" viewBox="0 0 44 22" aria-hidden="true"><rect width="44" height="22" rx="4" fill="currentColor"/><text x="22" y="15.6" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="12.5" fill="var(--bg)" letter-spacing="-.3">IMDb</text></svg><span class="${f.imdb!=null?"":"muted"}">${f.imdb!=null?Number(f.imdb).toFixed(1):"—"}</span></a>
+        <span class="scbox"><a class="scl" href="${lbUrl}" target="_blank" rel="noopener" title="Open on Letterboxd"><svg class="ico" viewBox="0 0 40 22" aria-hidden="true"><circle cx="9" cy="11" r="7" fill="currentColor" opacity=".55"/><circle cx="20" cy="11" r="7" fill="currentColor" opacity=".8"/><circle cx="31" cy="11" r="7" fill="currentColor"/></svg>${E?"":`<span class="${f.lb!=null?"":"muted"}">${f.lb!=null?Number(f.lb).toFixed(1):"—"}</span>`}</a>${E?`<input type="number" id="lb" min="0" max="5" step="0.1" placeholder="—" value="${f.lb??""}" aria-label="Letterboxd rating">`:""}</span>
       </div>
       ${f.overview?`<p class="ov" style="margin:0">${esc(f.overview)}</p>`:""}
-      <div class="ext"><a href="${lbUrl}" target="_blank" rel="noopener">Letterboxd ↗</a><a href="${imUrl}" target="_blank" rel="noopener">IMDb ↗</a></div>
-      <div class="fld"><span class="lbl">Collections</span><div class="mchips" id="fc">${(E?cols:cols.filter(c=>f.c.includes(c.id))).map(c=>`<button type="button" class="mchip" data-c="${c.id}" aria-pressed="${f.c.includes(c.id)}" ${E?"":"disabled"}>${esc(c.name)}</button>`).join("")||`<span class="rv" style="margin:0">None</span>`}</div></div>
+      <div class="fld"><span class="lbl">Collections</span>
+        <div class="colnav" id="colnav">${cols.filter(c=>f.c.includes(c.id)).map(c=>`<button type="button" class="mchip" data-go="${c.id}" title="Open collection">${esc(c.name)}</button>`).join("")||`<span class="rv" style="margin:0">None</span>`}${E?`<button type="button" class="editc" id="editc">Edit</button>`:""}</div>
+        ${E?`<div class="mchips" id="fc" hidden>${cols.map(c=>`<button type="button" class="mchip" data-c="${c.id}" aria-pressed="${f.c.includes(c.id)}">${esc(c.name)}</button>`).join("")}</div>`:""}
+      </div>
       ${E?`<label class="fld"><span class="lbl">Note</span><textarea id="note" rows="2">${esc(f.n)}</textarea></label>
         <details><summary style="cursor:pointer;color:var(--muted);font-size:13px">Edit details</summary>
           <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">
@@ -373,11 +399,18 @@ function drawer(){
       films.push(nf);dirty();ui.adding=false;ui.open=nf.id;rerender();drawer()};
     return;
   }
+  const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":TYPE(f)==="short"?"shorts":"films";ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
+  if(R("#dirlink"))R("#dirlink").onclick=()=>go(()=>{ui.director=f.d});
+  if(R("#glinks"))R("#glinks").onclick=e=>{const b=e.target.closest("[data-g]");if(b)go(()=>{ui.genre=b.dataset.g})};
+  R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.decade=null;ui.director=null;ui.genre=null;render();window.scrollTo(0,0)};
   if(!ui.editable)return;
+  R("#editc").onclick=()=>{const fc=R("#fc");fc.hidden=!fc.hidden;R("#editc").textContent=fc.hidden?"Edit":"Done"};
   R("#watch").onclick=()=>{f.w=!f.w;dirty();rerender();drawer()};
   const num=(id,k,max)=>R(id).onchange=e=>{const v=e.target.value===""?null:Number(e.target.value);f[k]=v==null||isNaN(v)?null:Math.min(max,Math.max(0,v));dirty();rerender()};
-  num("#lb","lb",5);num("#imdb","imdb",10);
-  R("#fc").onclick=e=>{const b=e.target.closest(".mchip");if(!b)return;const c=b.dataset.c;f.c=f.c.includes(c)?f.c.filter(x=>x!==c):[...f.c,c];b.setAttribute("aria-pressed",f.c.includes(c));dirty();rerender()};
+  num("#lb","lb",5);
+  R("#fc").onclick=e=>{const b=e.target.closest(".mchip");if(!b)return;const c=b.dataset.c;f.c=f.c.includes(c)?f.c.filter(x=>x!==c):[...f.c,c];b.setAttribute("aria-pressed",f.c.includes(c));
+    R("#colnav").querySelectorAll("[data-go]").forEach(x=>x.remove());const before=R("#colnav").firstChild;R("#colnav").insertAdjacentHTML("afterbegin",cols.filter(x=>f.c.includes(x.id)).map(x=>`<button type="button" class="mchip" data-go="${x.id}" title="Open collection">${esc(x.name)}</button>`).join(""));
+    const none=R("#colnav").querySelector(".rv");if(none&&f.c.length)none.remove();dirty();rerender()};
   R("#note").onchange=e=>{f.n=e.target.value.trim();dirty()};
   R("#e-t").onchange=e=>{const v=e.target.value.trim();if(v){f.t=v;dirty();rerender()}};
   R("#e-d").onchange=e=>{f.d=e.target.value.trim();dirty();rerender()};
@@ -462,7 +495,7 @@ function exportData(){
 function accessDrawer(){
   const root=document.getElementById("drawerRoot");document.body.classList.add("lock");ui.access=true;
   const {owner,repo}=repoInfo();const has=!!getToken();
-  root.innerHTML=`<div class="scrim" id="scrim"></div><aside class="drawer narrow" role="dialog" aria-modal="true" aria-label="Editor access"><div class="top"><button class="x" id="close">Close</button></div>
+  root.innerHTML=`<div class="scrim" id="scrim"></div><aside class="drawer narrow" role="dialog" aria-modal="true" aria-label="Editor access"><div class="top"><button class="x" id="close" aria-label="Close"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>
     <div class="head"><div class="info"><h2>Editor access</h2><span class="d">Paste a GitHub token that can write to <b>${esc(owner)}/${esc(repo)}</b>. It stays in this browser only. Visitors without a token see the library read-only.</span></div></div>
     <label class="fld"><span class="lbl">GitHub token</span><input type="password" id="tok" autocomplete="off" placeholder="github_pat_…" value="${has?"••••••••":""}"></label>
     <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="tsave">Save token</button>${has?`<button class="btn ghost" id="tclear">Sign out</button>`:""}</div>
