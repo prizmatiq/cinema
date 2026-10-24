@@ -1,22 +1,26 @@
-// Fills posters, runtime, synopsis, IMDb id and IMDb rating for every film in data/library.json.
-// Works with OMDB_KEY alone (omdbapi.com, email-only signup). TMDB_TOKEN is optional and gives better posters.
+// Fills posters, runtime, synopsis, IMDb id and IMDb rating for every item in data/library.json.
+// Every match is checked against the director and year before it is accepted.
+// Secrets: OMDB_KEY (required), TMDB_TOKEN (optional, sharper posters).
 import fs from "node:fs/promises";
 
 const FILE = new URL("../data/library.json", import.meta.url);
-const TMDB = (process.env.TMDB_TOKEN || "").trim();
 const OMDB = (process.env.OMDB_KEY || "").trim();
+const TMDB = (process.env.TMDB_TOKEN || "").trim();
 const REFRESH = process.env.REFRESH_RATINGS === "1";
+const VERIFIED = 2;
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-if (!TMDB && !OMDB) {
-  console.error("No API keys found. Add OMDB_KEY (and optionally TMDB_TOKEN) in Settings → Secrets and variables → Actions.");
+if (!OMDB) {
+  console.error("OMDB_KEY is missing. Add it in Settings → Secrets and variables → Actions.");
   process.exit(1);
 }
 
+let calls = 0;
 async function omdb(params) {
   const url = new URL("https://www.omdbapi.com/");
   url.searchParams.set("apikey", OMDB);
   for (const [k, v] of Object.entries(params)) if (v !== undefined && v !== "") url.searchParams.set(k, v);
+  calls++;
   const res = await fetch(url);
   const j = await res.json().catch(() => ({}));
   if (j.Error && /invalid api key|not activated|limit/i.test(j.Error)) throw new Error("OMDb: " + j.Error);
@@ -24,78 +28,98 @@ async function omdb(params) {
   return j.Response === "True" ? j : null;
 }
 
-async function tmdb(path, params = {}) {
-  const url = new URL("https://api.themoviedb.org/3" + path);
-  for (const [k, v] of Object.entries(params)) if (v !== undefined && v !== "") url.searchParams.set(k, v);
+async function tmdbPoster(imdbId) {
+  if (!TMDB || !imdbId) return null;
+  const url = new URL(`https://api.themoviedb.org/3/find/${imdbId}`);
+  url.searchParams.set("external_source", "imdb_id");
   const headers = { accept: "application/json" };
   if (TMDB.length <= 40) url.searchParams.set("api_key", TMDB); else headers.Authorization = "Bearer " + TMDB;
   const res = await fetch(url, { headers });
-  if (res.status === 401) throw new Error("TMDB rejected the key (401)");
-  if (!res.ok) throw new Error(`TMDB ${res.status} ${path}`);
-  await sleep(60);
-  return res.json();
+  if (!res.ok) return null;
+  const j = await res.json();
+  const hit = (j.movie_results || [])[0] || (j.tv_results || [])[0];
+  return hit?.poster_path || null;
 }
 
+const norm = (s) => String(s || "").toLowerCase().replace(/ł/g, "l").replace(/ø/g, "o").replace(/æ/g, "ae").replace(/ß/g, "ss").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/&/g, "and").replace(/[^a-z0-9]+/g, " ").trim();
 const yearOf = (s) => parseInt(String(s || "").slice(0, 4)) || 0;
-const variants = (t) => [t, t.replace(/\s*\(.*?\)\s*/g, " ").trim(), t.replace("½", " 1/2")].filter((v, i, a) => v && a.indexOf(v) === i);
+const surnames = (d) => String(d || "").split(/,|&|\band\b/).map((p) => norm(p).split(" ").pop()).filter((x) => x && x.length > 2);
 
-async function viaTmdb(f) {
-  let id = f.tmdbId;
-  if (!id) {
-    outer: for (const query of variants(f.t)) {
-      for (const p of [{ primary_release_year: f.y }, { year: f.y }, {}]) {
-        const hits = ((await tmdb("/search/movie", { query, include_adult: "false", ...p })).results || [])
-          .sort((a, b) => Math.abs(yearOf(a.release_date) - f.y) - Math.abs(yearOf(b.release_date) - f.y) || (b.popularity || 0) - (a.popularity || 0));
-        if (hits[0] && Math.abs((yearOf(hits[0].release_date) || f.y) - f.y) <= 2) { id = hits[0].id; break outer; }
-      }
-    }
-  }
-  if (!id) return false;
-  const m = await tmdb(`/movie/${id}`, { append_to_response: "external_ids", language: "en-US" });
-  f.tmdbId = id;
-  if (m.poster_path) f.poster = m.poster_path;
-  f.runtime = f.runtime || m.runtime || null;
-  f.overview = f.overview || (m.overview || "").slice(0, 600) || null;
-  f.imdbId = f.imdbId || m.external_ids?.imdb_id || m.imdb_id || null;
-  return true;
+// A candidate is accepted when the director matches and the year is within one,
+// or when the title and year match exactly.
+function accept(f, m) {
+  const dy = Math.abs(yearOf(m.Year) - f.y);
+  const dirOk = surnames(f.d).some((s) => norm(m.Director).includes(s) || norm(m.Writer).includes(s));
+  const titleOk = norm(m.Title) === norm(f.t) || norm(m.Title).startsWith(norm(f.t) + " ");
+  return (dirOk && dy <= 1) || (titleOk && dy === 0);
 }
 
-async function viaOmdb(f) {
-  let m = f.imdbId ? await omdb({ i: f.imdbId, plot: "short" }) : null;
-  if (!m) {
-    for (const t of variants(f.t)) {
-      for (const y of [f.y, f.y - 1, f.y + 1, ""]) {
-        m = await omdb({ t, y, type: "movie", plot: "short" });
-        if (m && (!y || Math.abs(yearOf(m.Year) - f.y) <= 1)) break;
-        m = null;
+const titleVariants = (t) => [t, t.replace(/\s*\(.*?\)\s*/g, " ").trim(), t.replace("½", " 1/2")].filter((v, i, a) => v && a.indexOf(v) === i);
+const typeFor = (f) => (f.type === "series" ? "series" : "movie");
+
+async function resolve(f) {
+  // 1. A manually set IMDb id always wins.
+  if (f.idLock && f.imdbId) return omdb({ i: f.imdbId, plot: "short" });
+  // 2. The id we already have, if it checks out.
+  if (f.imdbId) {
+    const m = await omdb({ i: f.imdbId, plot: "short" });
+    if (m && accept(f, m)) return m;
+  }
+  // 3. Search by title and verify each candidate.
+  const seen = new Set();
+  for (const t of titleVariants(f.t)) {
+    for (const y of [f.y, ""]) {
+      const s = await omdb({ s: t, y, type: typeFor(f) });
+      const cands = (s?.Search || []).filter((c) => !seen.has(c.imdbID) && Math.abs(yearOf(c.Year) - f.y) <= 1).slice(0, 3);
+      for (const c of cands) {
+        seen.add(c.imdbID);
+        const m = await omdb({ i: c.imdbID, plot: "short" });
+        if (m && accept(f, m)) return m;
       }
-      if (m) break;
     }
   }
-  if (!m) return false;
-  f.imdbId = f.imdbId || m.imdbID || null;
-  if (!f.poster && m.Poster && m.Poster !== "N/A") f.poster = m.Poster;
-  if (!f.runtime && parseInt(m.Runtime)) f.runtime = parseInt(m.Runtime);
-  if (!f.overview && m.Plot && m.Plot !== "N/A") f.overview = m.Plot;
-  const r = parseFloat(m.imdbRating);
-  if (Number.isFinite(r)) f.imdb = r;
-  return true;
+  return null;
 }
 
 const lib = JSON.parse(await fs.readFile(FILE, "utf8"));
 const before = JSON.stringify(lib);
 const missed = [];
 for (const f of lib.films) {
-  const needMeta = !f.poster || !f.imdbId || f.runtime == null;
-  const needRating = OMDB && (f.imdb == null || REFRESH);
-  if (!needMeta && !needRating) continue;
-  let found = false;
-  if (TMDB && needMeta) found = await viaTmdb(f).catch((e) => { if (/401/.test(e.message)) throw e; console.warn(`${f.t}: ${e.message}`); return false; });
-  if (OMDB) found = (await viaOmdb(f)) || found;
-  if (!found) missed.push(`${f.t} (${f.y})`);
+  try {
+    if (f.v === VERIFIED) {
+      if (REFRESH && f.imdbId) {
+        const m = await omdb({ i: f.imdbId });
+        const r = parseFloat(m?.imdbRating);
+        if (Number.isFinite(r)) f.imdb = r;
+      }
+      continue;
+    }
+    const m = await resolve(f);
+    if (!m) {
+      // Drop data from an earlier unverified match.
+      if (!f.idLock) { f.imdbId = null; f.imdb = null; f.runtime = null; f.overview = null; }
+      if (!f.posterLock) f.poster = null;
+      missed.push(`${f.t} (${f.y})`);
+      continue;
+    }
+    f.imdbId = m.imdbID;
+    const r = parseFloat(m.imdbRating);
+    f.imdb = Number.isFinite(r) ? r : null;
+    f.runtime = parseInt(m.Runtime) || null;
+    f.overview = m.Plot && m.Plot !== "N/A" ? m.Plot : null;
+    if (!f.posterLock) {
+      const tp = await tmdbPoster(m.imdbID);
+      f.poster = tp || (m.Poster && m.Poster !== "N/A" ? m.Poster : null);
+      if (!f.poster) missed.push(`${f.t} (${f.y}) — matched ${m.imdbID}, but no poster`);
+    }
+    f.v = VERIFIED;
+  } catch (e) {
+    if (/OMDb:/.test(e.message)) { console.error(e.message); break; }
+    console.warn(`${f.t}: ${e.message}`);
+  }
 }
-const withPoster = lib.films.filter((f) => f.poster).length;
-console.log(`Films with posters: ${withPoster} of ${lib.films.length}`);
-if (missed.length) console.log("Not found:\n  " + missed.join("\n  "));
+console.log(`OMDb requests: ${calls}`);
+console.log(`With posters: ${lib.films.filter((f) => f.poster).length} of ${lib.films.length}`);
+if (missed.length) console.log("Check these on the site → open the film → Edit details (IMDb link or poster URL):\n  " + missed.join("\n  "));
 if (JSON.stringify(lib) !== before) { await fs.writeFile(FILE, JSON.stringify(lib, null, 1) + "\n"); console.log("Library updated."); }
 else console.log("Nothing changed.");
