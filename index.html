@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Grinn's Film Library</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%232B2927'/%3E%3Crect x='9' y='7' width='14' height='18' rx='1.5' fill='none' stroke='%23EDEAE7' stroke-width='2'/%3E%3C/svg%3E">
+<title>Cinema</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='17' fill='%23EDEAE7' stroke='%231F1B18' stroke-width='2.4'/%3E%3Cg fill='%231F1B18'%3E%3Ccircle cx='20' cy='20' r='3'/%3E%3Ccircle cx='20' cy='10.5' r='4'/%3E%3Ccircle cx='29' cy='17' r='4'/%3E%3Ccircle cx='25.6' cy='27.7' r='4'/%3E%3Ccircle cx='14.4' cy='27.7' r='4'/%3E%3Ccircle cx='11' cy='17' r='4'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..100,400..800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
 <style id="css">
 /* Layout: a film shelf — years down the left in mono, titles and ratings to the right; greys throughout, dark brown for small marks, orange only for primary actions */
@@ -30,11 +30,17 @@ body.lock{overflow:hidden}
 .wrap{max-width:1000px;margin:0 auto;padding-block:32px 110px;
   padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
 h1{font-family:var(--f-display);font-stretch:78%;font-weight:800;font-size:clamp(34px,7vw,56px);line-height:1;letter-spacing:-.01em;margin:0;color:var(--fg);text-wrap:balance}
-.stats{display:flex;flex-wrap:wrap;gap:8px 28px;margin:20px 0 0;font-family:var(--f-mono);font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em}
-.stats b{color:var(--fg);font-weight:500;font-size:20px;display:block;font-variant-numeric:tabular-nums;text-transform:none;letter-spacing:0}
-.tabs{display:flex;gap:2px;margin-top:26px;border-bottom:1px solid var(--line)}
-.tab{background:none;border:0;border-bottom:2px solid transparent;margin-bottom:-1px;padding:10px 14px;font:600 14px var(--f-body);color:var(--muted);cursor:pointer}
-.tab[aria-selected=true]{color:var(--fg);border-bottom-color:var(--fg)}
+.masthead{display:flex;align-items:center;gap:16px 32px;flex-wrap:wrap;padding-bottom:18px;border-bottom:1px solid var(--line)}
+.logo{display:flex;align-items:center;color:var(--fg);flex:none}
+.logo svg{width:40px;height:40px;display:block}
+.nav{display:flex;gap:4px 28px;margin-left:auto;overflow-x:auto;max-width:100%;scrollbar-width:none}
+.nav::-webkit-scrollbar{display:none}
+.nt{background:none;border:0;padding:6px 0 8px;text-align:left;cursor:pointer;color:var(--muted);font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid transparent;white-space:nowrap;flex:none}
+.nt b{display:block;font-size:22px;font-weight:500;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:0;text-transform:none;line-height:1.2}
+.nt:hover b,.nt:hover{color:var(--fg)}
+.nt[aria-selected=true]{color:var(--fg);border-bottom-color:var(--fg)}
+.nt[aria-selected=true] b{color:var(--fg)}
+@media (max-width:640px){.nav{margin-left:0;width:100%;gap:4px 22px}}
 .decades{display:flex;align-items:flex-end;gap:4px;height:60px;margin:22px 0 0}
 .decades button{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;height:100%;background:none;border:0;padding:0;cursor:pointer;color:var(--muted);font-family:var(--f-mono);font-size:10px}
 .decades .bar{width:100%;background:var(--muted);opacity:.55;border-radius:2px 2px 0 0}
@@ -149,13 +155,13 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 <div id="app"></div>
 <script id="main">
 (function(){
-const TITLE="Grinn's Film Library";
+const TITLE="Cinema";
 /* If the site is not at <owner>.github.io/<repo>, set owner and repo here */
 const CONFIG={owner:"",repo:"",branch:"main",path:"data/library.json"};
 const IMG="https://image.tmdb.org/t/p/";
 let films=[], cols=[];
 const posterSrc=(f,w)=>f.poster.startsWith("http")?(w>400?f.poster.replace(/\._V1_.*\.jpg$/,"._V1_SX700.jpg"):f.poster):IMG+"w"+w+f.poster;
-const ui={view:"library",layout:"grid",q:"",genre:null,col:null,show:"all",order:"asc",open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
+const ui={view:"films",layout:"grid",q:"",genre:null,col:null,show:"all",order:"asc",open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const colName=id=>(cols.find(c=>c.id===id)||{}).name||"";
@@ -176,70 +182,73 @@ function ratingsRow(f){
 
 function shell(){
   app.innerHTML=`<div class="wrap">
-    <h1>${TITLE}</h1>
-    <div class="stats" id="stats"></div>
-    <div class="tabs" role="tablist">
-      <button class="tab" role="tab" data-v="library">Library</button>
-      <button class="tab" role="tab" data-v="collections">Collections</button>
-    </div>
+    <header class="masthead">
+      <span class="logo" aria-label="Cinema" title="Cinema"><svg viewBox="0 0 40 40" fill="none" aria-hidden="true"><circle cx="20" cy="20" r="17" stroke="currentColor" stroke-width="2.4"/><circle cx="20" cy="20" r="3" fill="currentColor"/><circle cx="20" cy="10.5" r="4" fill="currentColor"/><circle cx="29" cy="17" r="4" fill="currentColor"/><circle cx="25.6" cy="27.7" r="4" fill="currentColor"/><circle cx="14.4" cy="27.7" r="4" fill="currentColor"/><circle cx="11" cy="17" r="4" fill="currentColor"/></svg></span>
+      <nav class="nav" id="nav" role="tablist" aria-label="Sections"></nav>
+    </header>
     <div id="view"></div>
     <div class="foot" id="foot"></div>
     <p style="margin-top:20px;font-size:12px;color:var(--muted)">Posters and film data from <a href="https://www.omdbapi.com" target="_blank" rel="noopener" style="color:inherit">OMDb</a> and <a href="https://www.themoviedb.org" target="_blank" rel="noopener" style="color:inherit">TMDB</a>. This product uses the TMDB API but is not endorsed or certified by TMDB.</p>
   </div>
   <div id="drawerRoot"></div>
   <div class="savebar" id="savebar" hidden><div class="in"><span id="savemsg"></span><button class="btn" id="savebtn">Save to GitHub</button></div></div>`;
-  app.querySelector(".tabs").onclick=e=>{const b=e.target.closest(".tab");if(!b)return;ui.view=b.dataset.v;if(ui.view==="collections")ui.col=null;render()};
+  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";render();window.scrollTo(0,0)};
   $("#savebtn").onclick=save;
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
+const TYPE=f=>f.type||"film";
+const VIEWS=[["films","Films",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"],["watched","Watched",f=>f.w]];
+const NOUN={films:"film",series:"series",shorts:"short",watched:"film",collections:"film"};
+const VTYPE={series:"series",shorts:"short"};
+function viewPred(){const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
 function stats(){
-  const w=films.filter(f=>f.w).length,r=films.filter(f=>f.r!=null);
-  const avg=r.length?(r.reduce((a,f)=>a+f.r,0)/r.length).toFixed(1):"—";
-  $("#stats").innerHTML=`<div><b>${films.length}</b>Films</div><div><b>${w}</b>Watched</div><div><b>${avg}</b>Avg rating</div><div><b>${cols.length}</b>Collections</div>`;
+  $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}"><b>${films.filter(pr).length}</b>${label}</button>`).join("")+
+    `<button class="nt" role="tab" data-v="collections" aria-selected="${ui.view==="collections"}"><b>${cols.length}</b>Collections</button>`;
 }
 function render(){
   stats();
-  app.querySelectorAll(".tab").forEach(t=>t.setAttribute("aria-selected",t.dataset.v===ui.view));
-  if(ui.view==="library")libraryView();else collectionsView();
+  if(ui.view==="collections"&&!ui.col)collectionsView();else libraryView();
   foot();bar();
 }
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
-  $("#view").innerHTML=(c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">All films</button></div>`:`<div class="decades" id="decades" aria-label="Films by decade"></div>`)+
+  $("#view").innerHTML=(c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:`<div class="decades" id="decades" aria-label="Films by decade"></div>`)+
   `<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
     <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
     <select id="colsel" aria-label="Collection"><option value="">All collections</option>${cols.map(x=>`<option value="${x.id}" ${ui.col===x.id?"selected":""}>${esc(x.name)}</option>`).join("")}</select>
-    <select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"],["rated","Rated by me"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>
+    ${ui.view==="watched"?"":`<select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"],["rated","Rated by me"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>`}
     <select id="order" aria-label="Order"><option value="asc" ${ui.order==="asc"?"selected":""}>Oldest first</option><option value="desc" ${ui.order==="desc"?"selected":""}>Newest first</option></select>
     <span class="seg" id="seg"><button data-l="grid" aria-pressed="${ui.layout==="grid"}">Grid</button><button data-l="list" aria-pressed="${ui.layout==="list"}">List</button></span>
-    ${ui.editable?`<button class="btn" id="addbtn">Add film</button>`:""}
+    ${ui.editable?`<button class="btn" id="addbtn">Add ${NOUN[ui.view]}</button>`:""}
   </div><div id="list"></div>`;
   if(!c)decades();
   $("#q").oninput=e=>{ui.q=e.target.value.trim().toLowerCase();list()};
   $("#colsel").onchange=e=>{ui.col=e.target.value||null;libraryView()};
   $("#gensel").onchange=e=>{ui.genre=e.target.value||null;list()};
   $("#seg").onclick=e=>{const b=e.target.closest("button");if(!b)return;ui.layout=b.dataset.l;$("#seg").querySelectorAll("button").forEach(x=>x.setAttribute("aria-pressed",x===b));list()};
-  $("#show").onchange=e=>{ui.show=e.target.value;list()};
+  if($("#show"))$("#show").onchange=e=>{ui.show=e.target.value;list()};
   $("#order").onchange=e=>{ui.order=e.target.value;list()};
-  if($("#clearcol"))$("#clearcol").onclick=()=>{ui.col=null;libraryView()};
+  if($("#clearcol"))$("#clearcol").onclick=()=>{ui.col=null;render()};
   if($("#addbtn"))$("#addbtn").onclick=()=>{ui.adding=true;ui.open=null;drawer()};
   list();
 }
 function decades(){
-  if(!films.length)return;
-  const m={};films.forEach(f=>{const d=Math.floor(f.y/10)*10;m[d]=(m[d]||0)+1});
-  const ys=films.map(f=>f.y),lo=Math.floor(Math.min(...ys)/10)*10,hi=Math.floor(Math.max(...ys)/10)*10,max=Math.max(...Object.values(m));
+  const P=viewPred(),src=films.filter(P);
+  if(!src.length){const el=$("#decades");if(el)el.innerHTML="";return}
+  const m={};src.forEach(f=>{const d=Math.floor(f.y/10)*10;m[d]=(m[d]||0)+1});
+  const ys=src.map(f=>f.y),lo=Math.floor(Math.min(...ys)/10)*10,hi=Math.floor(Math.max(...ys)/10)*10,max=Math.max(...Object.values(m));
   let h="";for(let d=lo;d<=hi;d+=10)h+=`<button data-d="${d}" title="${d}s: ${m[d]||0} films"><span class="bar" style="height:${(m[d]||0)/max*42+1}px"></span>${String(d).slice(2)}</button>`;
   const el=$("#decades");el.innerHTML=h;
   el.onclick=e=>{const b=e.target.closest("button");if(!b)return;const s=document.getElementById("d"+b.dataset.d);if(s)s.scrollIntoView({behavior:matchMedia("(prefers-reduced-motion: reduce)").matches?"auto":"smooth"})};
 }
 function list(){
-  const L=films.filter(f=>(!ui.col||f.c.includes(ui.col))&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
+  const P=viewPred();
+  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)||(ui.show==="rated"&&f.r!=null)))
     .sort((a,b)=>(ui.order==="asc"?a.y-b.y:b.y-a.y)||a.t.localeCompare(b.t));
   const el=$("#list");if(!el)return;
-  if(!L.length){el.innerHTML=`<p class="empty">${films.length?"No films match. Clear the search or filters.":"Loading the library…"}</p>`;return}
+  if(!L.length){const any=films.some(P);el.innerHTML=`<p class="empty">${!films.length?"Loading the library…":any?"Nothing matches. Clear the search or filters.":ui.view==="watched"?"Nothing watched yet.":`No ${ui.view} yet.${ui.editable?` Add one with “Add ${NOUN[ui.view]}”.`:""}`}</p>`;return}
   const G=new Map();
   L.forEach(f=>{const d=Math.floor(f.y/10)*10;if(!G.has(d))G.set(d,new Map());const Y=G.get(d);if(!Y.has(f.y))Y.set(f.y,[]);Y.get(f.y).push(f)});
   let h="";
@@ -247,7 +256,7 @@ function list(){
     h+=`<section class="dec" id="d${d}"><h2>${d}s <small>${n}</small></h2>`;
     if(ui.layout==="grid"){const all=[];Y.forEach(a=>all.push(...a));
       h+=`<div class="grid">`+all.map(f=>`<button class="tile film-t" data-id="${esc(f.id)}">
-        <span class="art${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy">`:""}<span class="ay">${f.y}</span><span class="at">${esc(f.t)}</span><span class="ad">${esc(f.d)}</span>${f.w?`<span class="w">Watched</span>`:""}</span>
+        <span class="art${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="ay">${f.y}</span><span class="at">${esc(f.t)}</span><span class="ad">${esc(f.d)}</span>${f.w?`<span class="w">Watched</span>`:""}</span>
         <span class="cap">${f.r!=null?starsHTML(f.r,12):esc((f.g||[]).slice(0,2).join(", "))}</span></button>`).join("")+`</div></section>`;return}
     Y.forEach((arr,y)=>{h+=`<div class="yr"><div class="y">${y}</div><div class="films">`+arr.map(f=>`
       <button class="film" data-id="${esc(f.id)}">
@@ -269,7 +278,7 @@ function collectionsView(){
     <textarea id="nc-desc" rows="2" placeholder="What mood is it for?" aria-label="Description"></textarea>
     <button class="btn" type="submit">Create</button></form>`;
   $("#view").innerHTML=h+`</div>`;
-  $("#view").querySelector(".cols").onclick=e=>{const b=e.target.closest("button.col");if(!b)return;ui.col=b.dataset.c;ui.view="library";ui.q="";render();window.scrollTo(0,0)};
+  $("#view").querySelector(".cols").onclick=e=>{const b=e.target.closest("button.col");if(!b)return;ui.col=b.dataset.c;ui.q="";render();window.scrollTo(0,0)};
   if($("#newcol"))$("#newcol").onsubmit=e=>{e.preventDefault();const n=$("#nc-name").value.trim();if(!n)return;
     cols.push({id:"c"+Date.now().toString(36),name:n,desc:$("#nc-desc").value.trim()});dirty();render()};
 }
@@ -288,11 +297,12 @@ function drawer(){
   document.body.classList.add("lock");
   const lbUrl=f?(f.tmdbId?"https://letterboxd.com/tmdb/"+f.tmdbId+"/":"https://letterboxd.com/search/films/"+encodeURIComponent(f.t+" "+f.y)+"/"):"";
   const imUrl=f?(f.imdbId?"https://www.imdb.com/title/"+f.imdbId+"/":"https://www.imdb.com/find/?s=tt&q="+encodeURIComponent(f.t+" "+f.y)):"";
-  let h=`<div class="scrim" id="scrim"></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${f?esc(f.t):"Add film"}"><div class="top"><button class="x" id="close">Close</button></div>`;
+  let h=`<div class="scrim" id="scrim"></div><aside class="drawer" role="dialog" aria-modal="true" aria-label="${f?esc(f.t):"Add "+NOUN[ui.view]}"><div class="top"><button class="x" id="close">Close</button></div>`;
   if(ui.adding){
     h+=`<form id="addf" style="display:flex;flex-direction:column;gap:14px">
-      <div class="head"><div class="info"><h2>Add film</h2></div></div>
+      <div class="head"><div class="info"><h2>Add ${NOUN[ui.view]}</h2></div></div>
       <label class="fld"><span class="lbl">Title</span><input type="text" id="a-t" required></label>
+      <label class="fld"><span class="lbl">Type</span><select id="a-type">${[["film","Film"],["series","Series"],["short","Short"]].map(([v,l])=>`<option value="${v}" ${(VTYPE[ui.view]||"film")===v?"selected":""}>${l}</option>`).join("")}</select></label>
       <div class="three"><label class="fld"><span class="lbl">Director</span><input type="text" id="a-d"></label><label class="fld"><span class="lbl">Year</span><input type="number" id="a-y" min="1880" max="2100" required></label></div>
       <label class="fld"><span class="lbl">Genres (up to 3, comma-separated)</span><input type="text" id="a-g" placeholder="Thriller, Sci-Fi"></label>
       <div class="fld"><span class="lbl">Collections</span><div class="mchips" id="a-c">${cols.map(c=>`<button type="button" class="mchip" data-c="${c.id}" aria-pressed="${ui.col===c.id}">${esc(c.name)}</button>`).join("")}</div></div>
@@ -300,7 +310,7 @@ function drawer(){
       <button class="btn" type="submit" style="align-self:flex-start">Add to library</button></form>`;
   }else{
     const E=ui.editable;
-    h+=`<div class="head"><div class="poster${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,500)}" alt="Poster: ${esc(f.t)}">`:""}<span class="py">${f.y}</span><span class="pt">${esc(f.t)}</span><span class="py">${esc(f.d)}</span></div>
+    h+=`<div class="head"><div class="poster${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,500)}" alt="Poster: ${esc(f.t)}" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="py">${f.y}</span><span class="pt">${esc(f.t)}</span><span class="py">${esc(f.d)}</span></div>
       <div class="info"><h2>${esc(f.t)}</h2><span class="d">${esc(f.d)} · ${f.y}</span>${(f.g||[]).length?`<span class="d" style="font-style:italic">${esc(f.g.join(", "))}</span>`:""}${f.runtime?`<span class="d">${f.runtime} min</span>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div></div>
@@ -320,7 +330,8 @@ function drawer(){
           <div style="display:flex;flex-direction:column;gap:10px;margin-top:10px">
           <label class="fld"><span class="lbl">Title</span><input type="text" id="e-t" value="${esc(f.t)}"></label>
           <div class="three"><label class="fld"><span class="lbl">Director</span><input type="text" id="e-d" value="${esc(f.d)}"></label><label class="fld"><span class="lbl">Year</span><input type="number" id="e-y" value="${f.y}"></label></div>
-          <label class="fld"><span class="lbl">Genres (comma-separated)</span><input type="text" id="e-g" value="${esc((f.g||[]).join(", "))}"></label></div></details>`
+          <label class="fld"><span class="lbl">Genres (comma-separated)</span><input type="text" id="e-g" value="${esc((f.g||[]).join(", "))}"></label>
+          <label class="fld"><span class="lbl">Type</span><select id="e-type">${[["film","Film"],["series","Series"],["short","Short"]].map(([v,l])=>`<option value="${v}" ${TYPE(f)===v?"selected":""}>${l}</option>`).join("")}</select></label></div></details>`
         :(f.n?`<div class="note">${esc(f.n)}</div>`:"")}`;
   }
   root.innerHTML=h+`</aside>`;
@@ -331,7 +342,7 @@ function drawer(){
     R("#addf").onsubmit=e=>{e.preventDefault();const t=R("#a-t").value.trim(),y=parseInt(R("#a-y").value,10);if(!t||!y)return;
       const c=[...R("#a-c").querySelectorAll('[aria-pressed="true"]')].map(b=>b.dataset.c);
       const g=R("#a-g").value.split(",").map(x=>x.trim()).filter(Boolean).slice(0,3);
-      const nf={id:uid(),t,y,d:R("#a-d").value.trim(),g,n:R("#a-n").value.trim(),w:false,r:null,lb:null,imdb:null,c};
+      const nf={id:uid(),type:R("#a-type").value,t,y,d:R("#a-d").value.trim(),g,n:R("#a-n").value.trim(),w:false,r:null,lb:null,imdb:null,c};
       films.push(nf);dirty();ui.adding=false;ui.open=nf.id;rerender();drawer()};
     return;
   }
@@ -348,10 +359,11 @@ function drawer(){
   R("#note").onchange=e=>{f.n=e.target.value.trim();dirty()};
   R("#e-t").onchange=e=>{const v=e.target.value.trim();if(v){f.t=v;dirty();rerender()}};
   R("#e-d").onchange=e=>{f.d=e.target.value.trim();dirty();rerender()};
+  R("#e-type").onchange=e=>{f.type=e.target.value;dirty();rerender()};
   R("#e-g").onchange=e=>{f.g=e.target.value.split(",").map(x=>x.trim()).filter(Boolean).slice(0,3);dirty();rerender()};
   R("#e-y").onchange=e=>{const v=parseInt(e.target.value,10);if(v){f.y=v;dirty();rerender()}};
 }
-function rerender(){stats();if(ui.view==="library")list();else collectionsView();bar()}
+function rerender(){stats();if(ui.view==="collections"&&!ui.col)collectionsView();else list();bar()}
 
 /* saving */
 function dirty(){ui.dirty=true;ui.msg="";bar()}
