@@ -1,0 +1,1954 @@
+[
+ {
+  "id": "star trek|2009",
+  "type": "film",
+  "t": "Star Trek",
+  "y": 2009,
+  "d": "J.J. Abrams",
+  "g": [
+   "Sci-Fi",
+   "Adventure"
+  ],
+  "c": [
+   "ep",
+   "lt"
+  ],
+  "n": "Kelvin trilogy: Star Trek → Into Darkness → Beyond",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "star trek into darkness|2013",
+  "type": "film",
+  "t": "Star Trek Into Darkness",
+  "y": 2013,
+  "d": "J.J. Abrams",
+  "g": [
+   "Sci-Fi",
+   "Action"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "star trek beyond|2016",
+  "type": "film",
+  "t": "Star Trek Beyond",
+  "y": 2016,
+  "d": "Justin Lin",
+  "g": [
+   "Sci-Fi",
+   "Action"
+  ],
+  "c": [
+   "ep",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the lord of the rings: the fellowship of the ring|2001",
+  "type": "film",
+  "t": "The Lord of the Rings: The Fellowship of the Ring",
+  "y": 2001,
+  "d": "Peter Jackson",
+  "g": [
+   "Fantasy",
+   "Adventure"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "Watch the Extended Editions",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the lord of the rings: the two towers|2002",
+  "type": "film",
+  "t": "The Lord of the Rings: The Two Towers",
+  "y": 2002,
+  "d": "Peter Jackson",
+  "g": [
+   "Fantasy",
+   "Adventure"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the lord of the rings: the return of the king|2003",
+  "type": "film",
+  "t": "The Lord of the Rings: The Return of the King",
+  "y": 2003,
+  "d": "Peter Jackson",
+  "g": [
+   "Fantasy",
+   "Adventure"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "nightcrawler|2014",
+  "type": "film",
+  "t": "Nightcrawler",
+  "y": 2014,
+  "d": "Dan Gilroy",
+  "g": [
+   "Thriller",
+   "Crime"
+  ],
+  "c": [
+   "nc",
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "blade runner|1982",
+  "type": "film",
+  "t": "Blade Runner",
+  "y": 1982,
+  "d": "Ridley Scott",
+  "g": [
+   "Sci-Fi",
+   "Neo-Noir"
+  ],
+  "c": [
+   "nc",
+   "mb",
+   "ep"
+  ],
+  "n": "The Final Cut (2007) is the definitive version",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "blade runner 2049|2017",
+  "type": "film",
+  "t": "Blade Runner 2049",
+  "y": 2017,
+  "d": "Denis Villeneuve",
+  "g": [
+   "Sci-Fi",
+   "Neo-Noir"
+  ],
+  "c": [
+   "ep",
+   "qc"
+  ],
+  "n": "Sequel to Blade Runner (1982)",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "showgirls|1995",
+  "type": "film",
+  "t": "Showgirls",
+  "y": 1995,
+  "d": "Paul Verhoeven",
+  "g": [
+   "Drama",
+   "Satire"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "robocop|1987",
+  "type": "film",
+  "t": "RoboCop",
+  "y": 1987,
+  "d": "Paul Verhoeven",
+  "g": [
+   "Sci-Fi",
+   "Action",
+   "Satire"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "starship troopers|1997",
+  "type": "film",
+  "t": "Starship Troopers",
+  "y": 1997,
+  "d": "Paul Verhoeven",
+  "g": [
+   "Sci-Fi",
+   "Action",
+   "Satire"
+  ],
+  "c": [
+   "lt",
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the odyssey|2026",
+  "type": "film",
+  "t": "The Odyssey",
+  "y": 2026,
+  "d": "Christopher Nolan",
+  "g": [
+   "Epic",
+   "Adventure",
+   "Fantasy"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "following|1998",
+  "type": "film",
+  "t": "Following",
+  "y": 1998,
+  "d": "Christopher Nolan",
+  "g": [
+   "Neo-Noir",
+   "Crime"
+  ],
+  "c": [
+   "mb",
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "insomnia|2002",
+  "type": "film",
+  "t": "Insomnia",
+  "y": 2002,
+  "d": "Christopher Nolan",
+  "g": [
+   "Thriller",
+   "Crime"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "river of grass|1994",
+  "type": "film",
+  "t": "River of Grass",
+  "y": 1994,
+  "d": "Kelly Reichardt",
+  "g": [
+   "Crime",
+   "Drama"
+  ],
+  "c": [
+   "qc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "under the silver lake|2018",
+  "type": "film",
+  "t": "Under the Silver Lake",
+  "y": 2018,
+  "d": "David Robert Mitchell",
+  "g": [
+   "Neo-Noir",
+   "Mystery"
+  ],
+  "c": [
+   "su",
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the straight story|1999",
+  "type": "film",
+  "t": "The Straight Story",
+  "y": 1999,
+  "d": "David Lynch",
+  "g": [
+   "Drama",
+   "Road Movie"
+  ],
+  "c": [
+   "qc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "zodiac|2007",
+  "type": "film",
+  "t": "Zodiac",
+  "y": 2007,
+  "d": "David Fincher",
+  "g": [
+   "Crime",
+   "Mystery"
+  ],
+  "c": [
+   "cr",
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "minority report|2002",
+  "type": "film",
+  "t": "Minority Report",
+  "y": 2002,
+  "d": "Steven Spielberg",
+  "g": [
+   "Sci-Fi",
+   "Thriller"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible|1996",
+  "type": "film",
+  "t": "Mission: Impossible",
+  "y": 1996,
+  "d": "Brian De Palma",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible 2|2000",
+  "type": "film",
+  "t": "Mission: Impossible 2",
+  "y": 2000,
+  "d": "John Woo",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible iii|2006",
+  "type": "film",
+  "t": "Mission: Impossible III",
+  "y": 2006,
+  "d": "J.J. Abrams",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible – ghost protocol|2011",
+  "type": "film",
+  "t": "Mission: Impossible – Ghost Protocol",
+  "y": 2011,
+  "d": "Brad Bird",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "lt",
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible – rogue nation|2015",
+  "type": "film",
+  "t": "Mission: Impossible – Rogue Nation",
+  "y": 2015,
+  "d": "Christopher McQuarrie",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible – fallout|2018",
+  "type": "film",
+  "t": "Mission: Impossible – Fallout",
+  "y": 2018,
+  "d": "Christopher McQuarrie",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "ep",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible – dead reckoning part one|2023",
+  "type": "film",
+  "t": "Mission: Impossible – Dead Reckoning Part One",
+  "y": 2023,
+  "d": "Christopher McQuarrie",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mission: impossible – the final reckoning|2025",
+  "type": "film",
+  "t": "Mission: Impossible – The Final Reckoning",
+  "y": 2025,
+  "d": "Christopher McQuarrie",
+  "g": [
+   "Action",
+   "Spy"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "vertigo|1958",
+  "type": "film",
+  "t": "Vertigo",
+  "y": 1958,
+  "d": "Alfred Hitchcock",
+  "g": [
+   "Mystery",
+   "Thriller"
+  ],
+  "c": [
+   "mb",
+   "lv"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "burn after reading|2008",
+  "type": "film",
+  "t": "Burn After Reading",
+  "y": 2008,
+  "d": "Joel & Ethan Coen",
+  "g": [
+   "Dark Comedy",
+   "Spy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the girl with the dragon tattoo|2011",
+  "type": "film",
+  "t": "The Girl with the Dragon Tattoo",
+  "y": 2011,
+  "d": "David Fincher",
+  "g": [
+   "Thriller",
+   "Mystery"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "Fincher's version; the Swedish original is from 2009",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the gift|2015",
+  "type": "film",
+  "t": "The Gift",
+  "y": 2015,
+  "d": "Joel Edgerton",
+  "g": [
+   "Psychological Thriller"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the nice guys|2016",
+  "type": "film",
+  "t": "The Nice Guys",
+  "y": 2016,
+  "d": "Shane Black",
+  "g": [
+   "Comedy",
+   "Crime"
+  ],
+  "c": [
+   "lt",
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "reservoir dogs|1992",
+  "type": "film",
+  "t": "Reservoir Dogs",
+  "y": 1992,
+  "d": "Quentin Tarantino",
+  "g": [
+   "Crime",
+   "Heist"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "pulp fiction|1994",
+  "type": "film",
+  "t": "Pulp Fiction",
+  "y": 1994,
+  "d": "Quentin Tarantino",
+  "g": [
+   "Crime"
+  ],
+  "c": [
+   "cr",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "kill bill: vol. 1|2003",
+  "type": "film",
+  "t": "Kill Bill: Vol. 1",
+  "y": 2003,
+  "d": "Quentin Tarantino",
+  "g": [
+   "Action",
+   "Crime"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "Watch Vol. 1 and Vol. 2 back to back",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "kill bill: vol. 2|2004",
+  "type": "film",
+  "t": "Kill Bill: Vol. 2",
+  "y": 2004,
+  "d": "Quentin Tarantino",
+  "g": [
+   "Action",
+   "Crime"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "death proof|2007",
+  "type": "film",
+  "t": "Death Proof",
+  "y": 2007,
+  "d": "Quentin Tarantino",
+  "g": [
+   "Slasher",
+   "Action"
+  ],
+  "c": [
+   "dr",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "inglourious basterds|2009",
+  "type": "film",
+  "t": "Inglourious Basterds",
+  "y": 2009,
+  "d": "Quentin Tarantino",
+  "g": [
+   "War",
+   "Action"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "once upon a time in hollywood|2019",
+  "type": "film",
+  "t": "Once Upon a Time in Hollywood",
+  "y": 2019,
+  "d": "Quentin Tarantino",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "lt",
+   "nc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "phone booth|2002",
+  "type": "film",
+  "t": "Phone Booth",
+  "y": 2002,
+  "d": "Joel Schumacher",
+  "g": [
+   "Thriller"
+  ],
+  "c": [
+   "nc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "mother!|2017",
+  "type": "film",
+  "t": "mother!",
+  "y": 2017,
+  "d": "Darren Aronofsky",
+  "g": [
+   "Psychological Horror"
+  ],
+  "c": [
+   "dr",
+   "su"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "misery|1990",
+  "type": "film",
+  "t": "Misery",
+  "y": 1990,
+  "d": "Rob Reiner",
+  "g": [
+   "Psychological Thriller",
+   "Horror"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "bone tomahawk|2015",
+  "type": "film",
+  "t": "Bone Tomahawk",
+  "y": 2015,
+  "d": "S. Craig Zahler",
+  "g": [
+   "Western",
+   "Horror"
+  ],
+  "c": [
+   "fr",
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "panic room|2002",
+  "type": "film",
+  "t": "Panic Room",
+  "y": 2002,
+  "d": "David Fincher",
+  "g": [
+   "Thriller"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "amélie|2001",
+  "type": "film",
+  "t": "Amélie",
+  "y": 2001,
+  "d": "Jean-Pierre Jeunet",
+  "g": [
+   "Romance",
+   "Comedy"
+  ],
+  "c": [
+   "lt",
+   "lv"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "spirited away|2001",
+  "type": "film",
+  "t": "Spirited Away",
+  "y": 2001,
+  "d": "Hayao Miyazaki",
+  "g": [
+   "Animation",
+   "Fantasy"
+  ],
+  "c": [
+   "lt",
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "princess mononoke|1997",
+  "type": "film",
+  "t": "Princess Mononoke",
+  "y": 1997,
+  "d": "Hayao Miyazaki",
+  "g": [
+   "Animation",
+   "Fantasy"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the secret life of walter mitty|2013",
+  "type": "film",
+  "t": "The Secret Life of Walter Mitty",
+  "y": 2013,
+  "d": "Ben Stiller",
+  "g": [
+   "Adventure",
+   "Comedy"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the hunt|2012",
+  "type": "film",
+  "t": "The Hunt",
+  "y": 2012,
+  "d": "Thomas Vinterberg",
+  "g": [
+   "Drama"
+  ],
+  "c": [
+   "gp",
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the dead don't die|2019",
+  "type": "film",
+  "t": "The Dead Don't Die",
+  "y": 2019,
+  "d": "Jim Jarmusch",
+  "g": [
+   "Comedy",
+   "Horror"
+  ],
+  "c": [
+   "lt",
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "paterson|2016",
+  "type": "film",
+  "t": "Paterson",
+  "y": 2016,
+  "d": "Jim Jarmusch",
+  "g": [
+   "Drama"
+  ],
+  "c": [
+   "qc",
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "train to busan|2016",
+  "type": "film",
+  "t": "Train to Busan",
+  "y": 2016,
+  "d": "Yeon Sang-ho",
+  "g": [
+   "Horror",
+   "Action"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "world war z|2013",
+  "type": "film",
+  "t": "World War Z",
+  "y": 2013,
+  "d": "Marc Forster",
+  "g": [
+   "Action",
+   "Horror"
+  ],
+  "c": [
+   "dr",
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "clean hands|2026",
+  "type": "film",
+  "t": "Clean Hands",
+  "y": 2026,
+  "d": "Jake Allyn",
+  "g": [
+   "Crime",
+   "Biography"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "Zach Braff stars; directed by Jake Allyn",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "garden state|2004",
+  "type": "film",
+  "t": "Garden State",
+  "y": 2004,
+  "d": "Zach Braff",
+  "g": [
+   "Comedy",
+   "Drama",
+   "Romance"
+  ],
+  "c": [
+   "lv",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "wish i was here|2014",
+  "type": "film",
+  "t": "Wish I Was Here",
+  "y": 2014,
+  "d": "Zach Braff",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "lady bird|2017",
+  "type": "film",
+  "t": "Lady Bird",
+  "y": 2017,
+  "d": "Greta Gerwig",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "lt",
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "prisoners|2013",
+  "type": "film",
+  "t": "Prisoners",
+  "y": 2013,
+  "d": "Denis Villeneuve",
+  "g": [
+   "Thriller",
+   "Mystery"
+  ],
+  "c": [
+   "cr",
+   "gp"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "nocturnal animals|2016",
+  "type": "film",
+  "t": "Nocturnal Animals",
+  "y": 2016,
+  "d": "Tom Ford",
+  "g": [
+   "Thriller",
+   "Drama"
+  ],
+  "c": [
+   "gp"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "collateral|2004",
+  "type": "film",
+  "t": "Collateral",
+  "y": 2004,
+  "d": "Michael Mann",
+  "g": [
+   "Crime",
+   "Thriller"
+  ],
+  "c": [
+   "nc",
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the ritual|2017",
+  "type": "film",
+  "t": "The Ritual",
+  "y": 2017,
+  "d": "David Bruckner",
+  "g": [
+   "Folk Horror"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "sicario|2015",
+  "type": "film",
+  "t": "Sicario",
+  "y": 2015,
+  "d": "Denis Villeneuve",
+  "g": [
+   "Crime",
+   "Thriller"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "uncut gems|2019",
+  "type": "film",
+  "t": "Uncut Gems",
+  "y": 2019,
+  "d": "Josh & Benny Safdie",
+  "g": [
+   "Crime",
+   "Thriller"
+  ],
+  "c": [
+   "nc",
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "shame|2011",
+  "type": "film",
+  "t": "Shame",
+  "y": 2011,
+  "d": "Steve McQueen",
+  "g": [
+   "Drama"
+  ],
+  "c": [
+   "pt",
+   "nc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "another round|2020",
+  "type": "film",
+  "t": "Another Round",
+  "y": 2020,
+  "d": "Thomas Vinterberg",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the talented mr. ripley|1999",
+  "type": "film",
+  "t": "The Talented Mr. Ripley",
+  "y": 1999,
+  "d": "Anthony Minghella",
+  "g": [
+   "Thriller",
+   "Crime"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "ex machina|2014",
+  "type": "film",
+  "t": "Ex Machina",
+  "y": 2014,
+  "d": "Alex Garland",
+  "g": [
+   "Sci-Fi",
+   "Thriller"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "civil war|2024",
+  "type": "film",
+  "t": "Civil War",
+  "y": 2024,
+  "d": "Alex Garland",
+  "g": [
+   "War",
+   "Thriller"
+  ],
+  "c": [
+   "gp",
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "falling down|1993",
+  "type": "film",
+  "t": "Falling Down",
+  "y": 1993,
+  "d": "Joel Schumacher",
+  "g": [
+   "Thriller",
+   "Crime"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "cube|1997",
+  "type": "film",
+  "t": "Cube",
+  "y": 1997,
+  "d": "Vincenzo Natali",
+  "g": [
+   "Sci-Fi",
+   "Horror"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "trap|2024",
+  "type": "film",
+  "t": "Trap",
+  "y": 2024,
+  "d": "M. Night Shyamalan",
+  "g": [
+   "Thriller"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "alien|1979",
+  "type": "film",
+  "t": "Alien",
+  "y": 1979,
+  "d": "Ridley Scott",
+  "g": [
+   "Sci-Fi",
+   "Horror"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "prometheus|2012",
+  "type": "film",
+  "t": "Prometheus",
+  "y": 2012,
+  "d": "Ridley Scott",
+  "g": [
+   "Sci-Fi",
+   "Horror"
+  ],
+  "c": [
+   "ep"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "alien: covenant|2017",
+  "type": "film",
+  "t": "Alien: Covenant",
+  "y": 2017,
+  "d": "Ridley Scott",
+  "g": [
+   "Sci-Fi",
+   "Horror"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "american fiction|2023",
+  "type": "film",
+  "t": "American Fiction",
+  "y": 2023,
+  "d": "Cord Jefferson",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "vanilla sky|2001",
+  "type": "film",
+  "t": "Vanilla Sky",
+  "y": 2001,
+  "d": "Cameron Crowe",
+  "g": [
+   "Sci-Fi",
+   "Romance",
+   "Mystery"
+  ],
+  "c": [
+   "mb",
+   "lv"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the guest|2014",
+  "type": "film",
+  "t": "The Guest",
+  "y": 2014,
+  "d": "Adam Wingard",
+  "g": [
+   "Thriller",
+   "Action"
+  ],
+  "c": [
+   "nc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "28 days later|2002",
+  "type": "film",
+  "t": "28 Days Later",
+  "y": 2002,
+  "d": "Danny Boyle",
+  "g": [
+   "Horror",
+   "Sci-Fi"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "28 weeks later|2007",
+  "type": "film",
+  "t": "28 Weeks Later",
+  "y": 2007,
+  "d": "Juan Carlos Fresnadillo",
+  "g": [
+   "Horror",
+   "Sci-Fi"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "true detective|2014",
+  "type": "series",
+  "t": "True Detective",
+  "y": 2014,
+  "d": "Nic Pizzolatto",
+  "g": [
+   "Crime",
+   "Mystery"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "widow's bay|2026",
+  "type": "series",
+  "t": "Widow's Bay",
+  "y": 2026,
+  "d": "Katie Dippold",
+  "g": [
+   "Horror",
+   "Comedy"
+  ],
+  "c": [
+   "dr",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "severance|2022",
+  "type": "series",
+  "t": "Severance",
+  "y": 2022,
+  "d": "Dan Erickson",
+  "g": [
+   "Sci-Fi",
+   "Mystery"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "scrubs|2001",
+  "type": "series",
+  "t": "Scrubs",
+  "y": 2001,
+  "d": "Bill Lawrence",
+  "g": [
+   "Comedy",
+   "Medical"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the pitt|2025",
+  "type": "series",
+  "t": "The Pitt",
+  "y": 2025,
+  "d": "R. Scott Gemmill",
+  "g": [
+   "Drama",
+   "Medical"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "quarry|2016",
+  "type": "series",
+  "t": "Quarry",
+  "y": 2016,
+  "d": "Graham Gordy & Michael D. Fuller",
+  "g": [
+   "Crime",
+   "Drama"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "barry|2018",
+  "type": "series",
+  "t": "Barry",
+  "y": 2018,
+  "d": "Alec Berg & Bill Hader",
+  "g": [
+   "Dark Comedy",
+   "Crime"
+  ],
+  "c": [
+   "cr",
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "twin peaks|1990",
+  "type": "series",
+  "t": "Twin Peaks",
+  "y": 1990,
+  "d": "Mark Frost & David Lynch",
+  "g": [
+   "Mystery",
+   "Surreal"
+  ],
+  "c": [
+   "su",
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "silo|2023",
+  "type": "series",
+  "t": "Silo",
+  "y": 2023,
+  "d": "Graham Yost",
+  "g": [
+   "Sci-Fi",
+   "Mystery"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "alien: earth|2025",
+  "type": "series",
+  "t": "Alien: Earth",
+  "y": 2025,
+  "d": "Noah Hawley",
+  "g": [
+   "Sci-Fi",
+   "Horror"
+  ],
+  "c": [
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the americans|2013",
+  "type": "series",
+  "t": "The Americans",
+  "y": 2013,
+  "d": "Joe Weisberg",
+  "g": [
+   "Spy",
+   "Drama"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "lucky hank|2023",
+  "type": "series",
+  "t": "Lucky Hank",
+  "y": 2023,
+  "d": "Paul Lieberstein & Aaron Zelman",
+  "g": [
+   "Comedy",
+   "Drama"
+  ],
+  "c": [
+   "lt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "breaking bad|2008",
+  "type": "series",
+  "t": "Breaking Bad",
+  "y": 2008,
+  "d": "Vince Gilligan",
+  "g": [
+   "Crime",
+   "Drama"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "better call saul|2015",
+  "type": "series",
+  "t": "Better Call Saul",
+  "y": 2015,
+  "d": "Vince Gilligan & Peter Gould",
+  "g": [
+   "Crime",
+   "Drama"
+  ],
+  "c": [
+   "cr",
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "homeland|2011",
+  "type": "series",
+  "t": "Homeland",
+  "y": 2011,
+  "d": "Howard Gordon & Alex Gansa",
+  "g": [
+   "Spy",
+   "Thriller"
+  ],
+  "c": [
+   "cr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "dexter|2006",
+  "type": "series",
+  "t": "Dexter",
+  "y": 2006,
+  "d": "James Manos Jr.",
+  "g": [
+   "Crime",
+   "Thriller"
+  ],
+  "c": [
+   "cr",
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "house of cards|2013",
+  "type": "series",
+  "t": "House of Cards",
+  "y": 2013,
+  "d": "Beau Willimon",
+  "g": [
+   "Political Drama"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "babylon berlin|2017",
+  "type": "series",
+  "t": "Babylon Berlin",
+  "y": 2017,
+  "d": "Tom Tykwer, Achim von Borries & Henk Handloegten",
+  "g": [
+   "Crime",
+   "Historical"
+  ],
+  "c": [
+   "cr",
+   "nc"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the newsroom|2012",
+  "type": "series",
+  "t": "The Newsroom",
+  "y": 2012,
+  "d": "Aaron Sorkin",
+  "g": [
+   "Drama"
+  ],
+  "c": [
+   "pt"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the x-files|1993",
+  "type": "series",
+  "t": "The X-Files",
+  "y": 1993,
+  "d": "Chris Carter",
+  "g": [
+   "Sci-Fi",
+   "Mystery"
+  ],
+  "c": [
+   "mb",
+   "dr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "fringe|2008",
+  "type": "series",
+  "t": "Fringe",
+  "y": 2008,
+  "d": "J.J. Abrams, Alex Kurtzman & Roberto Orci",
+  "g": [
+   "Sci-Fi",
+   "Mystery"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ }
+]

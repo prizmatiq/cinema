@@ -47,10 +47,10 @@ const yearOf = (s) => parseInt(String(s || "").slice(0, 4)) || 0;
 const nameKeys = (d) => String(d || "").split(/,|&|\band\b/).flatMap((p) => { const w = norm(p).split(" ").filter((x) => x.length > 2); return w.length ? [w[0], w[w.length - 1]] : []; });
 const words = (s) => new Set(norm(s).split(" "));
 
-// A candidate is accepted only when the director matches and the year is within one.
+// A candidate is accepted only when the director (for series: the creator) matches and the year is within one.
 function accept(f, m) {
   if (Math.abs(yearOf(m.Year) - f.y) > 1) return false;
-  const dir = words(m.Director);
+  const dir = words(f.type === "series" ? `${m.Director} ${m.Writer}` : m.Director);
   return nameKeys(f.d).some((k) => dir.has(k));
 }
 
@@ -83,6 +83,18 @@ async function resolve(f) {
 
 const lib = JSON.parse(await fs.readFile(FILE, "utf8"));
 const before = JSON.stringify(lib);
+
+// New titles from data/additions.json are appended once (matched by id = "title|year" in lowercase).
+const additions = JSON.parse(await fs.readFile(new URL("../data/additions.json", import.meta.url), "utf8").catch(() => "[]"));
+const ids = new Set(lib.films.map((f) => f.id));
+let added = 0;
+for (const a of additions) {
+  const id = a.id || `${a.t}|${a.y}`.toLowerCase();
+  if (ids.has(id)) continue;
+  lib.films.push({ w: false, r: null, lb: null, imdb: null, c: [], g: [], n: "", type: "film", ...a, id });
+  ids.add(id); added++;
+}
+if (added) console.log(`Added ${added} new titles from additions.json`);
 
 // Manual corrections from data/fixes.json (this file is never written by the script, so editing it can't clash with its commits).
 const fixes = JSON.parse(await fs.readFile(new URL("../data/fixes.json", import.meta.url), "utf8").catch(() => "{}"));
@@ -169,7 +181,7 @@ try {
 {
   const UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124 Safari/537.36";
   let got = 0, blocked = false;
-  const todo = lib.films.filter((f) => f.imdbId && (f.lb == null || !f.lbUrl || REFRESH));
+  const todo = lib.films.filter((f) => f.imdbId && f.type !== "series" && (f.lb == null || !f.lbUrl || REFRESH));
   for (const f of todo) {
     try {
       const res = await fetch(`https://letterboxd.com/imdb/${f.imdbId}/`, { headers: { "user-agent": UA, accept: "text/html" }, redirect: "follow" });

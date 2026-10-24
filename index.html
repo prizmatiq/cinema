@@ -229,7 +229,7 @@ function shell(){
   </div>
   <div id="drawerRoot"></div>
   <div class="savebar" id="savebar" hidden><div class="in"><span id="savemsg"></span><button class="btn" id="savebtn">Save to GitHub</button></div></div>`;
-  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;render();window.scrollTo(0,0)};
+  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;ui.order="new";render();window.scrollTo(0,0)};
   $("#savebtn").onclick=save;
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
@@ -320,14 +320,14 @@ function list(){
 function collectionsView(){
   let h=`<div class="cols">`+cols.map(c=>{
     const fs=films.filter(f=>f.c.includes(c.id)),w=fs.filter(f=>f.w).length;
-    const peek=fs.slice().sort((a,b)=>a.y-b.y).slice(0,6).map(f=>f.t).join(" · ");
+    const peek=fs.slice().sort((a,b)=>(b.imdb??-1)-(a.imdb??-1)).slice(0,6).map(f=>f.t).join(" · ");
     return `<button class="col" data-c="${c.id}"><span class="cnt">${fs.length} films${w?` · ${w} watched`:""}</span><h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p><span class="peek">${esc(peek)}</span></button>`}).join("");
   if(ui.editable)h+=`<form class="col new" id="newcol"><h3>New collection</h3>
     <input type="text" id="nc-name" placeholder="Name, e.g. Rainy Sunday" required aria-label="Collection name">
     <textarea id="nc-desc" rows="2" placeholder="What mood is it for?" aria-label="Description"></textarea>
     <button class="btn" type="submit">Create</button></form>`;
   $("#view").innerHTML=h+`</div>`;
-  $("#view").querySelector(".cols").onclick=e=>{const b=e.target.closest("button.col");if(!b)return;ui.col=b.dataset.c;ui.q="";render();window.scrollTo(0,0)};
+  $("#view").querySelector(".cols").onclick=e=>{const b=e.target.closest("button.col");if(!b)return;ui.col=b.dataset.c;ui.q="";ui.order="imdb";render();window.scrollTo(0,0)};
   if($("#newcol"))$("#newcol").onsubmit=e=>{e.preventDefault();const n=$("#nc-name").value.trim();if(!n)return;
     cols.push({id:"c"+Date.now().toString(36),name:n,desc:$("#nc-desc").value.trim()});dirty();render()};
 }
@@ -402,7 +402,7 @@ function drawer(){
   const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":TYPE(f)==="short"?"shorts":"films";ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
   if(R("#dirlink"))R("#dirlink").onclick=()=>go(()=>{ui.director=f.d});
   if(R("#glinks"))R("#glinks").onclick=e=>{const b=e.target.closest("[data-g]");if(b)go(()=>{ui.genre=b.dataset.g})};
-  R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.decade=null;ui.director=null;ui.genre=null;render();window.scrollTo(0,0)};
+  R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.order="imdb";ui.decade=null;ui.director=null;ui.genre=null;render();window.scrollTo(0,0)};
   if(!ui.editable)return;
   R("#editc").onclick=()=>{const fc=R("#fc");fc.hidden=!fc.hidden;R("#editc").textContent=fc.hidden?"Edit":"Done"};
   R("#watch").onclick=()=>{f.w=!f.w;dirty();rerender();drawer()};
