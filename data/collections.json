@@ -1,0 +1,15 @@
+{
+ "_help": "Look of each collection on the Collections page, keyed by collection id. name/desc rename it; size = L (2x2), W (wide 2x1), T (tall 1x2) or S (1x1); c1/c2 = the two gradient colours; bg = optional background image URL (otherwise a still from the best-rated film in the collection). Order in this file is the order on the page.",
+ "mb": { "name": "Rabbit Holes", "size": "L", "c1": "#5B2A86", "c2": "#1C8C8C" },
+ "dr": { "name": "Lights Off", "size": "T", "c1": "#1A0B0B", "c2": "#9A1C1C" },
+ "lt": { "name": "Sunny Side", "size": "T", "c1": "#E8B930", "c2": "#E8604C" },
+ "cr": { "name": "Dirty Money", "size": "W", "c1": "#0F3D2A", "c2": "#B8902E" },
+ "pt": { "name": "Up Close", "size": "S", "c1": "#6B6259", "c2": "#B5862F" },
+ "ep": { "name": "Widescreen", "size": "S", "c1": "#13306B", "c2": "#E07A2E" },
+ "nc": { "name": "Night Drive", "size": "W", "c1": "#2A1B6E", "c2": "#E0457B" },
+ "su": { "name": "Fever Dreams", "size": "S", "c1": "#A0287A", "c2": "#D98A1C" },
+ "lv": { "name": "Almost Love", "size": "S", "c1": "#C2577A", "c2": "#5A2147" },
+ "gp": { "name": "Gut Punch", "size": "W", "c1": "#2B2B2E", "c2": "#5A2A6B" },
+ "fr": { "name": "Dust & Lead", "size": "S", "c1": "#8A3B1C", "c2": "#C9A46A" },
+ "qc": { "name": "Quiet Hours", "size": "S", "c1": "#46566B", "c2": "#9AA3AB" }
+}

@@ -92,6 +92,7 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .stars .fill{position:absolute;inset:0 auto 0 0;overflow:hidden;color:var(--fg);white-space:nowrap}
 .empty{color:var(--muted);padding:40px 0;text-align:center}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:18px 14px;margin-top:10px}
+@media (min-width:860px){.grid{grid-template-columns:repeat(5,minmax(0,1fr));gap:22px 16px}}
 .tile{display:flex;flex-direction:column;gap:6px;background:none;border:0;padding:0;text-align:left;cursor:pointer;color:inherit;min-width:0}
 .tile .art{aspect-ratio:2/3;width:100%;max-width:100%;border-radius:5px;background:var(--tile);color:var(--on-tile);padding:10px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden;transition:transform .15s}
 .tile:hover .art{transform:translateY(-2px)}
@@ -110,6 +111,24 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .sech{margin:30px 0 0;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 .sech+.cols,.sech+.frs{margin-top:12px}
 .cols{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-top:22px}
+/* Collections as a bento grid: L = 2x2, W = 2x1, T = 1x2, S = 1x1 */
+.bento{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));grid-auto-rows:210px;grid-auto-flow:dense;gap:12px}
+.bento .col.L{grid-column:span 2;grid-row:span 2}.bento .col.W{grid-column:span 2}.bento .col.T{grid-row:span 2}
+@media (max-width:860px){.bento{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:560px){.bento{grid-template-columns:1fr;grid-auto-rows:200px}.bento .col.W,.bento .col.L{grid-column:span 1}.bento .col.T{grid-row:span 1}}
+.bento .col.cb{position:relative;overflow:hidden;isolation:isolate;padding:18px;justify-content:flex-end;gap:6px;border:0;background:var(--c1)}
+.cb .cbg{position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;filter:saturate(.55) contrast(1.05);transition:transform .5s ease}
+.cb::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(135deg,var(--c1),var(--c2));mix-blend-mode:color;opacity:.75}
+.cb::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 0%,rgba(0,0,0,.25) 40%,rgba(0,0,0,.82) 100%),linear-gradient(135deg,var(--c1),var(--c2));background-blend-mode:normal,normal;opacity:1}
+.cb.has-bg::after{background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.3) 45%,rgba(0,0,0,.9) 100%)}
+.cb:hover .cbg{transform:scale(1.04)}
+.cb h3{font-family:var(--f-display);font-stretch:78%;font-size:26px;line-height:1.05;margin:0;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.5)}
+.cb.L h3{font-size:40px}
+.cb .cnt{color:rgba(255,255,255,.8);text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.cb .mini{display:flex;gap:6px;margin-top:8px}
+.cb .mini span{width:34px;aspect-ratio:2/3;border-radius:3px;background:rgba(255,255,255,.12) center/cover no-repeat;box-shadow:0 2px 8px rgba(0,0,0,.4);flex:none}
+.cb.L .mini span{width:46px}
+.cb .mini span.fade{opacity:.35}
 .col{display:flex;flex-direction:column;gap:8px;text-align:left;padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;color:inherit;min-width:0}
 .col:hover{border-color:var(--muted)}
 .col h3{font-family:var(--f-display);font-stretch:78%;font-size:22px;line-height:1.1;margin:0;color:var(--fg)}
@@ -117,6 +136,7 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .col .cnt{font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted)}
 .col .peek{font-size:13px;color:var(--fg);opacity:.8;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical}
 .col.new{border-style:dashed;cursor:default}
+.bento .col.new{grid-row:span 2}
 .frs{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:14px;margin-top:22px}
 .fr{display:flex;flex-direction:column;gap:10px;text-align:left;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;color:inherit;min-width:0}
 .fr:hover{border-color:var(--muted)}
@@ -138,7 +158,7 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .frl-go{font-size:18px;color:var(--muted)}
 @media (max-width:640px){.frl-strip .frp{width:20px}.frl-strip .frp:nth-child(n+5){display:none}}
 .col.new input,.col.new textarea{width:100%}
-.scrim{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:30}
+.scrim{position:fixed;inset:0;background:rgba(0,0,0,.8);z-index:30}
 .drawer{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(860px,calc(100% - 32px));max-height:calc(100dvh - 48px - env(safe-area-inset-top,0px) - env(safe-area-inset-bottom,0px));z-index:31;
   background:var(--bg);border:1px solid var(--line);border-radius:12px;box-shadow:0 24px 80px rgba(0,0,0,.35);overflow-y:auto;padding:20px 24px 26px;display:flex;flex-direction:column;gap:18px;animation:pop .16s ease-out}
 .drawer.narrow{width:min(520px,calc(100% - 32px))}
@@ -435,11 +455,18 @@ function list(){
   el.innerHTML=h;
   el.onclick=e=>{const b=e.target.closest(".film,.film-t");if(!b)return;ui.open=b.dataset.id;ui.adding=false;drawer()};
 }
+/* Background stills for collections: the manual bg, or a still from the best-rated film not already used by an earlier collection. */
+const thumb=f=>/image\.tmdb\.org\/t\/p\/w\d+/.test(f.poster||"")?f.poster.replace(/\/t\/p\/w\d+\//,"/t/p/w185/"):posterSrc(f,185);
 function collectionsView(){
-  let h=`<h3 class="sech">Collections</h3><div class="cols">`+cols.map(c=>{
-    const fs=films.filter(f=>f.c.includes(c.id)),w=fs.filter(f=>f.w).length;
-    const peek=fs.slice().sort((a,b)=>(b.imdb??-1)-(a.imdb??-1)).slice(0,6).map(f=>f.t).join(" · ");
-    return `<button class="col" data-c="${c.id}"><span class="cnt">${plural(fs.length,"title")}${w?` · ${w} watched`:""}</span><h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p><span class="peek">${esc(peek)}</span></button>`}).join("");
+  const used=new Set();
+  let h=`<h3 class="sech">Collections</h3><div class="cols bento">`+cols.map(c=>{
+    const fs=films.filter(f=>f.c.includes(c.id)).sort((a,b)=>(b.imdb??-1)-(a.imdb??-1));
+    let bg=c.bg||null;if(!bg){const b=fs.find(f=>f.backdrop&&!used.has(f.id));if(b){used.add(b.id);bg=b.backdrop}}
+    const ps=fs.filter(f=>f.poster).slice(0,4),fade=fs.length>=3;
+    return `<button class="col cb ${c.size||"S"}${bg?" has-bg":""}" data-c="${c.id}" style="--c1:${esc(c.c1||"#3A3734")};--c2:${esc(c.c2||"#1B1A19")}" title="${esc(c.desc||"")}">
+      ${bg?`<img class="cbg" src="${esc(bg)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-bg');this.remove()">`:""}
+      <span class="cnt">${plural(fs.length,"title")}</span><h3>${esc(c.name)}</h3>
+      ${ps.length?`<span class="mini">${ps.map((f,i)=>`<span${fade&&i===ps.length-1?' class="fade"':""} style="background-image:url('${esc(thumb(f))}')"></span>`).join("")}</span>`:""}</button>`}).join("");
   if(ui.editable)h+=`<form class="col new" id="newcol"><h3>New collection</h3>
     <input type="text" id="nc-name" placeholder="Name, e.g. Rainy Sunday" required aria-label="Collection name">
     <textarea id="nc-desc" rows="2" placeholder="What mood is it for?" aria-label="Description"></textarea>

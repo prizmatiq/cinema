@@ -105,6 +105,18 @@ for (const f of lib.films) {
   if (x) { f.fr = x.fr; f.frI = x.frI; } else { delete f.fr; delete f.frI; }
 }
 
+// Collection looks from data/collections.json: name, desc, size, colours, background; the file's order is the page order.
+const colLook = JSON.parse(await fs.readFile(new URL("../data/collections.json", import.meta.url), "utf8").catch(() => "{}"));
+if (Array.isArray(lib.cols)) {
+  for (const c of lib.cols) {
+    const x = colLook[c.id];
+    if (!x) continue;
+    for (const k of ["name", "desc", "size", "c1", "c2", "bg"]) if (x[k] !== undefined) c[k] = x[k];
+  }
+  const order = Object.keys(colLook).filter((k) => !k.startsWith("_"));
+  lib.cols.sort((a, b) => { const ia = order.indexOf(a.id), ib = order.indexOf(b.id); return (ia < 0 ? 999 : ia) - (ib < 0 ? 999 : ib); });
+}
+
 // Manual corrections from data/fixes.json (this file is never written by the script, so editing it can't clash with its commits).
 const fixes = JSON.parse(await fs.readFile(new URL("../data/fixes.json", import.meta.url), "utf8").catch(() => "{}"));
 for (const f of lib.films) {
@@ -195,12 +207,14 @@ if (TMDB) {
   const q = (u) => { const url = new URL("https://api.themoviedb.org/3" + u); if (TMDB.length <= 40) url.searchParams.set("api_key", TMDB); else H.Authorization = "Bearer " + TMDB; return url; };
   const get = async (u) => { const r = await fetch(q(u), { headers: H }); if (!r.ok) throw new Error(`TMDB ${r.status}`); await sleep(30); return r.json(); };
   let tr = 0, po = 0;
-  for (const f of lib.films.filter((x) => x.imdbId && (x.trailer === undefined || x.castP === undefined || x.dirP === undefined || (!x.posterLock && !String(x.poster || "").includes("image.tmdb.org"))))) {
+  for (const f of lib.films.filter((x) => x.imdbId && (x.trailer === undefined || x.castP === undefined || x.dirP === undefined || x.backdrop === undefined || (!x.posterLock && !String(x.poster || "").includes("image.tmdb.org"))))) {
     try {
       const j = await get(`/find/${f.imdbId}?external_source=imdb_id`);
       const hit = (j.movie_results || [])[0] ? { ...j.movie_results[0], kind: "movie" } : (j.tv_results || [])[0] ? { ...j.tv_results[0], kind: "tv" } : null;
-      if (!hit) { if (f.trailer === undefined) f.trailer = null; continue; }
+      if (!hit) { if (f.trailer === undefined) f.trailer = null; if (f.backdrop === undefined) f.backdrop = null; continue; }
       f.tmdbId = hit.id;
+      // Wide still / key art, used as collection backgrounds.
+      f.backdrop = hit.backdrop_path ? "https://image.tmdb.org/t/p/w1280" + hit.backdrop_path : null;
       if (!f.posterLock && hit.poster_path) { f.poster = "https://image.tmdb.org/t/p/w500" + hit.poster_path; po++; }
       if (f.trailer === undefined) {
         const v = (await get(`/${hit.kind}/${hit.id}/videos?language=en-US`)).results || [];
