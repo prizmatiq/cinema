@@ -186,7 +186,7 @@ if (TMDB) {
   const q = (u) => { const url = new URL("https://api.themoviedb.org/3" + u); if (TMDB.length <= 40) url.searchParams.set("api_key", TMDB); else H.Authorization = "Bearer " + TMDB; return url; };
   const get = async (u) => { const r = await fetch(q(u), { headers: H }); if (!r.ok) throw new Error(`TMDB ${r.status}`); await sleep(30); return r.json(); };
   let tr = 0, po = 0;
-  for (const f of lib.films.filter((x) => x.imdbId && (x.trailer === undefined || (!x.posterLock && !String(x.poster || "").includes("image.tmdb.org"))))) {
+  for (const f of lib.films.filter((x) => x.imdbId && (x.trailer === undefined || x.castP === undefined || (!x.posterLock && !String(x.poster || "").includes("image.tmdb.org"))))) {
     try {
       const j = await get(`/find/${f.imdbId}?external_source=imdb_id`);
       const hit = (j.movie_results || [])[0] ? { ...j.movie_results[0], kind: "movie" } : (j.tv_results || [])[0] ? { ...j.tv_results[0], kind: "tv" } : null;
@@ -200,9 +200,15 @@ if (TMDB) {
         f.trailer = best ? best.key : null;
         if (best) tr++;
       }
+      if (f.castP === undefined) {
+        // Top-billed cast with photos; TMDB names replace OMDb ones so the same actor links up across titles.
+        const c = ((await get(`/${hit.kind}/${hit.id}/credits?language=en-US`)).cast || []).sort((a, b) => (a.order ?? 99) - (b.order ?? 99)).slice(0, 4);
+        if (c.length) { f.cast = c.map((x) => x.name); f.castP = c.map((x) => x.profile_path ? "https://image.tmdb.org/t/p/w185" + x.profile_path : null); }
+        else f.castP = [];
+      }
     } catch (e) { console.warn(`TMDB ${f.t}: ${e.message}`); if (/401/.test(e.message)) break; }
   }
-  console.log(`TMDB: ${tr} trailers, ${po} posters`);
+  console.log(`TMDB: ${tr} trailers, ${po} posters, cast photos updated`);
 } else console.log("TMDB_TOKEN not set — trailers use YouTube search links, posters come from OMDb.");
 
 // ---- IMDb ratings from IMDb's own public dataset (refreshed daily by IMDb, free for personal use).

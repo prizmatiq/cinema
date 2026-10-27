@@ -161,8 +161,13 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .castl .sep{color:var(--muted);margin:0 8px}
 .castl{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 0;font-size:14px}
 .castl .lbl{font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-right:10px}
-.castl button{background:none;border:0;padding:0;font:14px var(--f-body);color:var(--fg);cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
-.castl button:hover{text-decoration-color:var(--fg)}
+.castl{gap:8px 8px;align-items:center}
+.castl .lbl{flex-basis:100%;margin:0}
+.castl button{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:3px 12px 3px 3px;font:13.5px var(--f-body);color:var(--fg);cursor:pointer}
+.castl button:hover{border-color:var(--muted)}
+.av{position:relative;width:28px;height:28px;border-radius:50%;overflow:hidden;background:var(--tile);color:var(--on-tile);display:grid;place-items:center;flex:none}
+.av i{font:600 10.5px var(--f-mono);font-style:normal;opacity:.75}
+.av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .tbtn{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:99px;background:var(--surface);color:var(--fg);font:500 13px var(--f-body);cursor:pointer;text-decoration:none}
 .tbtn:hover{border-color:var(--muted)}
 .ib.sm{width:34px;height:34px;border-radius:99px}
@@ -445,7 +450,7 @@ function drawer(){
       <div class="mcol"><div class="info">${(()=>{const [a,b]=splitFr(f);return `<h2>${b?`<span class="h2pre">${esc(a)}</span>${esc(b)}`:esc(a)}</h2>`})()}
         ${f.d?`<div class="dlinks" id="dirlinks">${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
         <span class="meta2">${f.y}${f.runtime?` · ${f.runtime} min`:""}</span>
-        ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map(n=>`<button data-a="${esc(n)}" title="All titles with ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">·</span>')}</div>`:""}
+        ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map((n,i)=>{const ph=(f.castP||[])[i];return `<button data-a="${esc(n)}" title="All titles with ${esc(n)}"><span class="av">${ph?`<img src="${esc(ph)}" alt="" loading="lazy" onerror="this.remove()">`:""}<i>${esc(n.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>${esc(n)}</button>`}).join("")}</div>`:""}
         ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} films">${esc(g)}</button>`).join("")}</div>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div>

@@ -334,7 +334,7 @@
   "poster": "https://image.tmdb.org/t/p/w500/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg"
  },
  "x|2022": {
-  "poster": "https://image.tmdb.org/t/p/w500/woTQx9Q4b8aO13jR9dsj8C9JESy.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/lopZSVtXzhFY603E9OqF7O1YKsh.jpg"
  },
  "tár|2022": {
   "poster": "https://image.tmdb.org/t/p/w500/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg"
@@ -344,5 +344,35 @@
  },
  "showgirls|1995": {
   "poster": "https://image.tmdb.org/t/p/w500/o4HT3Ap5c99W4FYpdXUtTvxGgPc.jpg"
+ },
+ "drive my car|2021": {
+  "poster": "https://image.tmdb.org/t/p/w500/tJOEtHbZGyntpOZo1bRE2GsQcW.jpg"
+ },
+ "dune|2021": {
+  "poster": "https://image.tmdb.org/t/p/w500/v1tRXZ4JtD2Iv6fjkPvT4GiwslV.jpg"
+ },
+ "the black phone|2021": {
+  "poster": "https://image.tmdb.org/t/p/w500/p9ZUzCyy9wRTDuuQexkQ78R2BgF.jpg"
+ },
+ "the french dispatch|2021": {
+  "poster": "https://image.tmdb.org/t/p/w500/pMTMSKBEe5sMg1ZxWCy9YWLuyln.jpg"
+ },
+ "another round|2020": {
+  "poster": "https://image.tmdb.org/t/p/w500/aDcIt4NHURLKnAEu7gow51Yd00Q.jpg"
+ },
+ "caveat|2020": {
+  "poster": "https://image.tmdb.org/t/p/w500/it5qGW2iduwKgOo0CFUAcX9DMoT.jpg"
+ },
+ "minari|2020": {
+  "poster": "https://image.tmdb.org/t/p/w500/6mPNdmjdbVKPITv3LLCmQoKs9Zw.jpg"
+ },
+ "doctor sleep|2019": {
+  "poster": "https://image.tmdb.org/t/p/w500/p69QzIBbN06aTYqRRiCOY1emNBh.jpg"
+ },
+ "joker|2019": {
+  "poster": "https://image.tmdb.org/t/p/w500/uStgo04Jrdyjgj7ZpcEpuieeKxD.jpg"
+ },
+ "midsommar|2019": {
+  "poster": "https://image.tmdb.org/t/p/w500/7LEI8ulZzO5gy9Ww2NVCrKmHeDZ.jpg"
  }
 }
