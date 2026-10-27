@@ -115,6 +115,14 @@ for (const f of lib.films) {
   if (fx.trailer !== undefined) f.trailer = fx.trailer;
   if (Array.isArray(fx.cast)) f.cast = fx.cast;
   if (fx.n !== undefined) f.n = fx.n;
+  // Watched / month watched / review. Applied only when the fix itself changes, so later edits made in the web app aren't overwritten.
+  const wk = JSON.stringify([fx.w, fx.wd, fx.rev]);
+  if ((fx.w !== undefined || fx.wd !== undefined || fx.rev !== undefined) && f.fxW !== wk) {
+    if (fx.w !== undefined) f.w = !!fx.w;
+    if (fx.wd !== undefined) f.wd = fx.wd || null;
+    if (fx.rev !== undefined) f.rev = fx.rev;
+    f.fxW = wk;
+  }
   if (fx.imdbId && (fx.imdbId !== f.imdbId || !f.idLock)) {
     Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null, lb: null, lbUrl: null });
     delete f.check;

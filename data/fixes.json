@@ -1,5 +1,5 @@
 {
- "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names, n = note (empty string removes it). The enrich script applies these on every run.",
+ "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names, n = note (empty string removes it). The enrich script applies these on every run. w = watched (true/false), wd = month watched (\"2026-08\"), rev = my review; these three are applied once, so later edits in the web app stay.",
  "onibaba|1964": {
   "imdbId": "tt0058430",
   "poster": "https://image.tmdb.org/t/p/w500/6IuG74QxgELxmJToIfVNJlsTrMp.jpg"
@@ -219,7 +219,8 @@
   "poster": "https://image.tmdb.org/t/p/w500/rrKH3VhHssGTCfPuaEQkxvEoElv.jpg"
  },
  "the odyssey|2026": {
-  "poster": "https://image.tmdb.org/t/p/w500/xbesTZHKudJKmaIXDnHPWcRKKFI.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/xbesTZHKudJKmaIXDnHPWcRKKFI.jpg",
+  "w": true
  },
  "lolita|1962": {
   "poster": "https://image.tmdb.org/t/p/w500/8Puqbeh0D95DpXFWep1rmH78btu.jpg"

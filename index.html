@@ -214,6 +214,9 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .watch{align-self:flex-start}
 .ext{display:flex;gap:14px;font-size:13px}
 .ext a{color:var(--fg);text-underline-offset:3px;text-decoration-color:var(--muted)}
+.myv{display:flex;flex-direction:column;gap:8px;padding:14px 16px;border-radius:8px;background:var(--surface);border:1px solid var(--line)}
+.myv>.lbl{font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.myv p{margin:0;font-size:15px;line-height:1.55;color:var(--fg)}
 .note{font-size:13.5px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
 .savebar{position:fixed;left:0;right:0;bottom:0;z-index:40;background:var(--tile);color:var(--on-tile);
   padding-top:10px;padding-bottom:calc(10px + env(safe-area-inset-bottom,0px));
@@ -310,6 +313,8 @@ const shortT=f=>{const [a,b]=splitFr(f);return b||a};
 /* "Joel & Ethan Coen" → ["Joel Coen","Ethan Coen"] */
 const people=s=>{const p=String(s||"").split(/\s*(?:,|&|\band\b)\s*/).map(x=>x.trim()).filter(Boolean);
   return p.map((x,i)=>{if(!/\s/.test(x)&&i+1<p.length){const n=p[i+1].split(/\s+/);return x+" "+n[n.length-1]}return x})};
+/* "2026-08" → "August 2026" */
+const monthName=v=>{const m=String(v).match(/^(\d{4})-(\d{2})/);return m?new Date(+m[1],+m[2]-1,1).toLocaleString("en-US",{month:"long"})+" "+m[1]:String(v)};
 const slug=id=>String(id).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
 const NOUN={films:"movie",series:"series",shorts:"short",watched:"title",collections:"title",franchises:"title"};
@@ -494,7 +499,7 @@ function drawer(){
         ${f.d?`<div class="dlinks" id="dirlinks"><span class="lbl">${TYPE(f)==="series"?"Created by":"Directed by"}</span>${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
         ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map((n,i)=>{const ph=(f.castP||[])[i];return `<button data-a="${esc(n)}" title="All titles with ${esc(n)}"><span class="av">${ph?`<img src="${esc(ph)}" alt="" loading="lazy" onerror="this.nextElementSibling.hidden=false;this.remove()">`:""}<i${ph?" hidden":""}>${esc(n.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>${esc(n)}</button>`}).join("")}</div>`:""}
         ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} titles">${esc(g)}</button>`).join("")}</div>`:""}
-      ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
+      ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:""}
       </div>
       <div class="scores2">
         <a class="scl" href="${imUrl}" target="_blank" rel="noopener" title="Open on IMDb"><svg class="ico" viewBox="0 0 44 22" aria-hidden="true"><rect width="44" height="22" rx="4" fill="currentColor"/><text x="22" y="15.6" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="12.5" fill="var(--bg)" letter-spacing="-.3">IMDb</text></svg><span class="${f.imdb!=null?"":"muted"}">${f.imdb!=null?Number(f.imdb).toFixed(1):"—"}</span></a>
@@ -502,6 +507,8 @@ function drawer(){
         
       </div>
       ${f.overview?`<p class="ov" style="margin:0">${esc(f.overview)}</p>`:""}
+      ${f.w?(E?`<div class="myv"><div class="three"><label class="fld"><span class="lbl">Watched in</span><input type="month" id="wd" value="${esc(f.wd||"")}"></label></div><label class="fld"><span class="lbl">My review</span><textarea id="rev" rows="4" placeholder="What stayed with you?">${esc(f.rev||"")}</textarea></label></div>`
+        :`<div class="myv"><span class="lbl">Watched${f.wd?" · "+esc(monthName(f.wd)):""}</span>${f.rev?`<p>${esc(f.rev).replace(/\n/g,"<br>")}</p>`:""}</div>`):""}
       ${f.fr?(()=>{const fs=films.filter(x=>x.fr===f.fr).sort((a,b)=>(a.frI??0)-(b.frI??0));const i=fs.findIndex(x=>x.id===f.id);
         return `<button type="button" class="frlink" id="frlink" title="Open franchise"><span class="frl-strip">${fs.slice(0,6).map(x=>`<span class="frp${x.poster?" has-img":""}${x.id===f.id?" cur":""}">${x.poster?`<img src="${posterSrc(x,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}</span>`).join("")}</span>
           <span class="frl-t"><span class="lbl">Franchise</span><b>${esc(f.fr)}</b><span class="frl-n">Part ${i+1} of ${fs.length}</span></span><span class="frl-go" aria-hidden="true">→</span></button>`})():""}
@@ -550,6 +557,8 @@ function drawer(){
     R("#colnav").querySelectorAll("[data-go]").forEach(x=>x.remove());const before=R("#colnav").firstChild;R("#colnav").insertAdjacentHTML("afterbegin",cols.filter(x=>f.c.includes(x.id)).map(x=>`<button type="button" class="mchip" data-go="${x.id}" title="Open collection">${esc(x.name)}</button>`).join(""));
     const none=R("#colnav").querySelector(".rv");if(none&&f.c.length)none.remove();dirty();rerender()};
   R("#note").onchange=e=>{f.n=e.target.value.trim();dirty()};
+  if(R("#wd"))R("#wd").onchange=e=>{f.wd=e.target.value||null;dirty()};
+  if(R("#rev"))R("#rev").onchange=e=>{f.rev=e.target.value.trim();dirty()};
   R("#e-t").onchange=e=>{const v=e.target.value.trim();if(v){f.t=v;dirty();rerender()}};
   R("#e-d").onchange=e=>{f.d=e.target.value.trim();dirty();rerender()};
   R("#e-imdb").onchange=e=>{const m=e.target.value.match(/tt\d{6,}/);if(!m){e.target.setCustomValidity("Paste an IMDb link or an ID like tt0064116");e.target.reportValidity();return}
@@ -593,7 +602,7 @@ async function readRemote(){
 }
 /* Merge on save: the repo copy is the base (it may hold fresh posters from the enrich script);
    only fields changed in this browser since load are laid on top. */
-const PERSONAL=["t","y","d","g","n","w","r","c","type"];
+const PERSONAL=["t","y","d","g","n","w","wd","rev","r","c","type"];
 const MANUAL=["imdbId","idLock","poster","posterLock","v","imdb","runtime","overview","lb","lbUrl"];
 let base=new Map();
 const snap=list=>new Map(list.map(f=>[f.id,JSON.parse(JSON.stringify(f))]));
