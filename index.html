@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Cinema</title>
 <link rel="manifest" href="manifest.webmanifest">
-<meta name="theme-color" content="#131212" media="(prefers-color-scheme: dark)">
-<meta name="theme-color" content="#ECECEB" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#131212">
+<meta name="color-scheme" content="dark">
 <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
@@ -17,18 +17,12 @@
 <style id="css">
 /* Layout: a film shelf — years down the left in mono, titles and ratings to the right; greys throughout, dark brown for small marks, orange only for primary actions */
 :root{
-  --bg:#ECECEB; --surface:#F7F7F6; --fg:#1F1B18; --muted:#6E6A67; --line:#D3D1CF;
-  --brown:#5A3A2A; --brown-soft:#E2D9D3; --orange:#C9581A; --on-orange:#FFFFFF; --tile:#2B2927; --on-tile:#EDEAE7; --star-off:#CFCCC9;
+  --bg:#131212; --surface:#1B1A19; --fg:#EAE7E4; --muted:#9A9591; --line:#2D2A28;
+  --brown:#C8A891; --brown-soft:#2F211A; --orange:#E57E3A; --on-orange:#1A1110; --tile:#2A2826; --on-tile:#E6E2DE; --star-off:#3A3734; color-scheme:dark;
   --f-display:"Archivo","Arial Narrow",system-ui,sans-serif;
   --f-body:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
   --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
 }
-@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#131212; --surface:#1B1A19; --fg:#EAE7E4; --muted:#9A9591; --line:#2D2A28;
-  --brown:#C8A891; --brown-soft:#2F211A; --orange:#E57E3A; --on-orange:#1A1110; --tile:#2A2826; --on-tile:#E6E2DE; --star-off:#3A3734; color-scheme:dark}}
-:root[data-theme="dark"]{
-  --bg:#131212; --surface:#1B1A19; --fg:#EAE7E4; --muted:#9A9591; --line:#2D2A28;
-  --brown:#C8A891; --brown-soft:#2F211A; --orange:#E57E3A; --on-orange:#1A1110; --tile:#2A2826; --on-tile:#E6E2DE; --star-off:#3A3734; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 img{max-width:100%}
@@ -167,7 +161,7 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .castl button:hover{border-color:var(--muted)}
 .av{position:relative;width:28px;height:28px;border-radius:50%;overflow:hidden;background:var(--tile);color:var(--on-tile);display:grid;place-items:center;flex:none}
 .av i{font:600 10.5px var(--f-mono);font-style:normal;opacity:.75}
-.av img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.av img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;background:var(--tile)}
 .tbtn{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:99px;background:var(--surface);color:var(--fg);font:500 13px var(--f-body);cursor:pointer;text-decoration:none}
 .tbtn:hover{border-color:var(--muted)}
 .ib.sm{width:34px;height:34px;border-radius:99px}
@@ -453,7 +447,7 @@ function drawer(){
       <div class="mcol"><div class="info">${(()=>{const [a,b]=splitFr(f);return `<h2>${b?`<span class="h2pre">${esc(a)}</span>${esc(b)}`:esc(a)}</h2>`})()}
         <span class="meta2">${f.y}${f.runtime?` · ${f.runtime} min`:""}</span>
         ${f.d?`<div class="dlinks" id="dirlinks"><span class="lbl">${TYPE(f)==="series"?"Created by":"Directed by"}</span>${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
-        ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map((n,i)=>{const ph=(f.castP||[])[i];return `<button data-a="${esc(n)}" title="All titles with ${esc(n)}"><span class="av">${ph?`<img src="${esc(ph)}" alt="" loading="lazy" onerror="this.remove()">`:""}<i>${esc(n.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>${esc(n)}</button>`}).join("")}</div>`:""}
+        ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map((n,i)=>{const ph=(f.castP||[])[i];return `<button data-a="${esc(n)}" title="All titles with ${esc(n)}"><span class="av">${ph?`<img src="${esc(ph)}" alt="" loading="lazy" onerror="this.nextElementSibling.hidden=false;this.remove()">`:""}<i${ph?" hidden":""}>${esc(n.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>${esc(n)}</button>`}).join("")}</div>`:""}
         ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} titles">${esc(g)}</button>`).join("")}</div>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div>
