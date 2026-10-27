@@ -14,7 +14,8 @@
   "imdbId": "tt1798709"
  },
  "split|2016": {
-  "imdbId": "tt4972582"
+  "imdbId": "tt4972582",
+  "poster": "https://image.tmdb.org/t/p/w500/ow2BSQGKJtZpH2zZY1rmX8eXKAi.jpg"
  },
  "eyimofe (this is my desire)|2020": {
   "poster": "https://m.media-amazon.com/images/M/MV5BYTg5ZDczNTYtZWE1My00MjdiLTk3NzgtOTU1NzkwMjJmZGRkXkEyXkFqcGc@._V1_SX400.jpg"
@@ -23,7 +24,7 @@
   "poster": "https://image.tmdb.org/t/p/w500/nzlv62aC0octS5AklAiWpXLX9Z0.jpg"
  },
  "predestination|2014": {
-  "poster": "https://m.media-amazon.com/images/M/MV5BY2VhODM5OTUtZDJhMi00MTc5LThjNjYtZWY1M2NlNWU0N2NjXkEyXkFqcGc@._V1_SX400.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/38Xr1JnV1ZcLQ55zmdSp6n475cZ.jpg"
  },
  "mission: impossible 2|2000": {
   "imdbId": "tt0120755",
@@ -464,5 +465,59 @@
  },
  "the autopsy of jane doe|2016": {
   "poster": "https://image.tmdb.org/t/p/w500/6K0wjP8kPCiPYy9PtXBGuypyt5I.jpg"
+ },
+ "nocturnal animals|2016": {
+  "poster": "https://image.tmdb.org/t/p/w500/dOBulfUB2KWWWSW3EaCLwxAhG9J.jpg"
+ },
+ "star trek beyond|2016": {
+  "poster": "https://image.tmdb.org/t/p/w500/wI5VghYNYLktDRPUa5rrVcVA1h7.jpg"
+ },
+ "the magnificent seven|2016": {
+  "poster": "https://image.tmdb.org/t/p/w500/hwWfnRWEkeXdJrfpDhRZrxq6hcm.jpg"
+ },
+ "the nice guys|2016": {
+  "poster": "https://image.tmdb.org/t/p/w500/clq4So9spa9cXk3MZy2iMdqkxP2.jpg"
+ },
+ "train to busan|2016": {
+  "poster": "https://image.tmdb.org/t/p/w500/e41IAQWoi4J4HwexBOcfGmzzKRy.jpg"
+ },
+ "bone tomahawk|2015": {
+  "poster": "https://image.tmdb.org/t/p/w500/4MmTHpn2Y8emqvBgvOjufImUmKZ.jpg"
+ },
+ "sicario|2015": {
+  "poster": "https://image.tmdb.org/t/p/w500/lz8vNyXeidqqOdJW9ZjnDAMb5Vr.jpg"
+ },
+ "the gift|2015": {
+  "poster": "https://image.tmdb.org/t/p/w500/kH3qLP8pn68Xq5XwvmPkCyaAU7W.jpg"
+ },
+ "the hateful eight|2015": {
+  "poster": "https://image.tmdb.org/t/p/w500/jIywvdPjia2t3eKYbjVTcwBQlG8.jpg"
+ },
+ "the revenant|2015": {
+  "poster": "https://image.tmdb.org/t/p/w500/ji3ecJphATlVgWNY0B0RVXZizdf.jpg"
+ },
+ "the witch|2015": {
+  "poster": "https://image.tmdb.org/t/p/w500/zap5hpFCWSvdWSuPGAQyjUv2wAC.jpg"
+ },
+ "birdman|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/rHUg2AuIuLSIYMYFgavVwqt1jtc.jpg"
+ },
+ "ex machina|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/dmJW8IAKHKxFNiUnoDR7JfsK7Rp.jpg"
+ },
+ "nightcrawler|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/gYPIRu0jX2CGYdeO422cq3N78ju.jpg"
+ },
+ "the grand budapest hotel|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg"
+ },
+ "the guest|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/4YgdRwJ8pANrooetaaEUxKIXykl.jpg"
+ },
+ "the one i love|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/ewsYTI6KKQw3IDPFmVVbHq89kxv.jpg"
+ },
+ "wish i was here|2014": {
+  "poster": "https://image.tmdb.org/t/p/w500/hDDXIWLBS6rNPJS4tQvEXWxGXjK.jpg"
  }
 }
