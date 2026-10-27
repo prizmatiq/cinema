@@ -156,6 +156,19 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .dlink:hover{text-decoration-color:var(--fg)}
 .meta2{font:13px var(--f-mono);color:var(--muted);font-variant-numeric:tabular-nums}
 .glinks{display:flex;flex-wrap:wrap;gap:4px 12px}
+.dlinks{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 0}
+.dlinks .sep{color:var(--muted);margin:0 8px 0 1px}
+.castl .sep{color:var(--muted);margin:0 8px}
+.castl{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 0;font-size:14px}
+.castl .lbl{font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-right:10px}
+.castl button{background:none;border:0;padding:0;font:14px var(--f-body);color:var(--fg);cursor:pointer;text-decoration:underline;text-decoration-color:var(--line);text-underline-offset:3px}
+.castl button:hover{text-decoration-color:var(--fg)}
+.tbtn{display:inline-flex;align-items:center;gap:6px;padding:6px 12px;border:1px solid var(--line);border-radius:99px;background:var(--surface);color:var(--fg);font:500 13px var(--f-body);cursor:pointer;text-decoration:none}
+.tbtn:hover{border-color:var(--muted)}
+.ib.sm{width:34px;height:34px;border-radius:99px}
+.copied{font:12px var(--f-mono);color:var(--muted)}
+.tframe{position:relative;aspect-ratio:16/9;width:100%;max-width:100%;border-radius:8px;overflow:hidden;background:#000}
+.tframe iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .glinks button{background:none;border:0;padding:0;font:italic 14px var(--f-body);color:var(--muted);cursor:pointer;text-decoration:underline;text-decoration-color:transparent;text-underline-offset:3px}
 .glinks button:hover{color:var(--fg);text-decoration-color:var(--muted)}
 .scores2{display:flex;flex-wrap:wrap;gap:10px 22px;align-items:center}
@@ -235,7 +248,7 @@ const CONFIG={owner:"",repo:"",branch:"main",path:"data/library.json"};
 const IMG="https://image.tmdb.org/t/p/";
 let films=[], cols=[];
 const posterSrc=(f,w)=>f.poster.startsWith("http")?(w>400?f.poster.replace(/\._V1_.*\.jpg$/,"._V1_SX700.jpg"):f.poster):IMG+"w"+w+f.poster;
-const ui={filters:false,fr:null,view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
+const ui={actor:null,filters:false,fr:null,view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
 const app=document.getElementById("app");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const colName=id=>(cols.find(c=>c.id===id)||{}).name||"";
@@ -266,9 +279,9 @@ function shell(){
   </div>
   <div id="drawerRoot"></div>
   <div class="savebar" id="savebar" hidden><div class="in"><span id="savemsg"></span><button class="btn" id="savebtn">Save to GitHub</button></div></div>`;
-  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.fr=null;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;ui.order="new";render();window.scrollTo(0,0)};
+  $("#nav").onclick=e=>{const b=e.target.closest(".nt");if(!b)return;ui.view=b.dataset.v;ui.fr=null;ui.col=null;ui.q="";ui.genre=null;ui.show="all";ui.decade=null;ui.director=null;ui.actor=null;ui.order="new";render();window.scrollTo(0,0)};
   $("#savebtn").onclick=save;
-  $("#home").onclick=e=>{e.preventDefault();closeDrawer();Object.assign(ui,{view:"films",fr:null,col:null,q:"",genre:null,show:"all",decade:null,director:null,order:"new",filters:false});render();window.scrollTo(0,0)};
+  $("#home").onclick=e=>{e.preventDefault();closeDrawer();Object.assign(ui,{view:"films",fr:null,col:null,q:"",genre:null,show:"all",decade:null,director:null,actor:null,order:"new",filters:false});render();window.scrollTo(0,0)};
   $("#fbtn").onclick=()=>{ui.filters=!ui.filters;const p=$("#fpanel");if(p)p.hidden=!ui.filters;acts()};
   $("#addbtn").onclick=()=>{ui.adding=true;ui.open=null;drawer()};
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
@@ -279,6 +292,10 @@ const VIEWS=[["films","Films",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)
 const splitFr=f=>{if(!f.fr)return [f.t,""];const base=f.fr.replace(/\s*\(.*\)$/,"");if(!f.t.startsWith(base))return [f.t,""];
   const m=f.t.slice(base.length).match(/^(?::\s+|\s+[–—-]\s+)(.+)$/);return m?[base,m[1]]:[f.t,""]};
 const shortT=f=>{const [a,b]=splitFr(f);return b||a};
+/* "Joel & Ethan Coen" → ["Joel Coen","Ethan Coen"] */
+const people=s=>{const p=String(s||"").split(/\s*(?:,|&|\band\b)\s*/).map(x=>x.trim()).filter(Boolean);
+  return p.map((x,i)=>{if(!/\s/.test(x)&&i+1<p.length){const n=p[i+1].split(/\s+/);return x+" "+n[n.length-1]}return x})};
+const slug=id=>String(id).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
 const NOUN={films:"film",series:"series",shorts:"short",watched:"film",collections:"film",franchises:"film"};
 const VTYPE={series:"series",shorts:"short"};
@@ -302,11 +319,11 @@ function render(){
 }
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
-  const dn=ui.director?films.filter(f=>f.d===ui.director).length:0;
-  $("#view").innerHTML=(ui.director?`<div class="banner"><div><h2>${esc(ui.director)}</h2><p>${dn} ${dn===1?"title":"titles"} in the library</p></div><button id="cleardir">Clear filter</button></div>`:"")+
+  const who=ui.director||ui.actor,dn=ui.director?films.filter(f=>people(f.d).includes(ui.director)).length:ui.actor?films.filter(f=>(f.cast||[]).includes(ui.actor)).length:0;
+  $("#view").innerHTML=(who?`<div class="banner"><div><h2>${esc(who)}</h2><p>${dn} ${dn===1?"title":"titles"} in the library · ${ui.director?"director":"cast"}</p></div><button id="cleardir">Clear filter</button></div>`:"")+
   (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button id="clearfr">All franchises</button></div>`:"")+
   (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:"")+
-  `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
+  `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director||ui.actor?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
     <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
     <select id="colsel" aria-label="Collection"><option value="">All collections</option>${cols.map(x=>`<option value="${x.id}" ${ui.col===x.id?"selected":""}>${esc(x.name)}</option>`).join("")}</select>
@@ -315,7 +332,7 @@ function libraryView(){
     <span class="seg" id="seg"><button data-l="grid" aria-pressed="${ui.layout==="grid"}">Grid</button><button data-l="list" aria-pressed="${ui.layout==="list"}">List</button></span>
   </div></div><div id="list"></div>`;
   if($("#decades"))decades();
-  if($("#cleardir"))$("#cleardir").onclick=()=>{ui.director=null;render()};
+  if($("#cleardir"))$("#cleardir").onclick=()=>{ui.director=null;ui.actor=null;render()};
   if($("#clearfr"))$("#clearfr").onclick=()=>{ui.fr=null;render()};
   $("#q").oninput=e=>{ui.q=e.target.value.trim().toLowerCase();list()};
   $("#colsel").onchange=e=>{ui.col=e.target.value||null;libraryView()};
@@ -357,7 +374,7 @@ function rowHTML(f,withYear){
 }
 function list(){
   const P=viewPred();
-  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||f.d===ui.director)&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
+  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||people(f.d).includes(ui.director))&&(!ui.actor||(f.cast||[]).includes(ui.actor))&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")+" "+(f.cast||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(ui.fr&&ui.order==="new"?SORT.saga:(SORT[ui.order]||SORT.new));
   const el=$("#list");if(!el)return;acts();
@@ -400,11 +417,12 @@ function foot(){
 }
 
 /* drawer */
-function closeDrawer(){ui.open=null;ui.adding=false;document.getElementById("drawerRoot").innerHTML="";document.body.classList.remove("lock")}
+function closeDrawer(){if(location.hash.startsWith("#film/"))history.replaceState(null,"",location.pathname+location.search);ui.open=null;ui.adding=false;document.getElementById("drawerRoot").innerHTML="";document.body.classList.remove("lock")}
 function drawer(){
   const root=document.getElementById("drawerRoot");
   const f=ui.adding?null:films.find(x=>x.id===ui.open);
   if(!ui.adding&&!f){closeDrawer();return}
+  if(f){const h="#film/"+slug(f.id);if(location.hash!==h)history.replaceState(null,"",h)}
   document.body.classList.add("lock");
   const lbUrl=f?(f.lbUrl||(f.imdbId?"https://letterboxd.com/imdb/"+f.imdbId+"/":f.tmdbId?"https://letterboxd.com/tmdb/"+f.tmdbId+"/":"https://letterboxd.com/search/films/"+encodeURIComponent(f.t+" "+f.y)+"/")):"";
   const imUrl=f?(f.imdbId?"https://www.imdb.com/title/"+f.imdbId+"/":"https://www.imdb.com/find/?s=tt&q="+encodeURIComponent(f.t+" "+f.y)):"";
@@ -423,15 +441,19 @@ function drawer(){
     const E=ui.editable;
     h+=`<div class="mgrid"><div class="poster${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,500)}" alt="Poster: ${esc(f.t)}" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="py">${f.y}</span><span class="pt">${esc(f.t)}</span><span class="py">${esc(f.d)}</span></div>
       <div class="mcol"><div class="info">${(()=>{const [a,b]=splitFr(f);return `<h2>${b?`<span class="h2pre">${esc(a)}</span>${esc(b)}`:esc(a)}</h2>`})()}
-        ${f.d?`<button class="dlink" id="dirlink" title="All films by ${esc(f.d)}">${esc(f.d)}</button>`:""}
+        ${f.d?`<div class="dlinks" id="dirlinks">${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
         <span class="meta2">${f.y}${f.runtime?` · ${f.runtime} min`:""}</span>
+        ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map(n=>`<button data-a="${esc(n)}" title="All titles with ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">·</span>')}</div>`:""}
         ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} films">${esc(g)}</button>`).join("")}</div>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div>
       <div class="scores2">
         <a class="scl" href="${imUrl}" target="_blank" rel="noopener" title="Open on IMDb"><svg class="ico" viewBox="0 0 44 22" aria-hidden="true"><rect width="44" height="22" rx="4" fill="currentColor"/><text x="22" y="15.6" text-anchor="middle" font-family="Arial Black,Arial,Helvetica,sans-serif" font-weight="900" font-size="12.5" fill="var(--bg)" letter-spacing="-.3">IMDb</text></svg><span class="${f.imdb!=null?"":"muted"}">${f.imdb!=null?Number(f.imdb).toFixed(1):"—"}</span></a>
         <span class="scbox"><a class="scl" href="${lbUrl}" target="_blank" rel="noopener" title="Open on Letterboxd"><svg class="ico" viewBox="0 0 40 22" aria-hidden="true"><circle cx="9" cy="11" r="7" fill="currentColor" opacity=".55"/><circle cx="20" cy="11" r="7" fill="currentColor" opacity=".8"/><circle cx="31" cy="11" r="7" fill="currentColor"/></svg><span class="${f.lb!=null?"":"muted"}">${f.lb!=null?Number(f.lb).toFixed(1):"—"}</span></a></span>
+        ${f.trailer?`<button type="button" class="tbtn" id="tbtn"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Trailer</button>`:`<a class="tbtn" href="https://www.youtube.com/results?search_query=${encodeURIComponent(f.t+" "+f.y+" trailer")}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Trailer ↗</a>`}
+        <button type="button" class="ib sm" id="share" title="Copy link to this title" aria-label="Copy link"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L11.6 6M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.6-1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button><span class="copied" id="copied" hidden>Link copied</span>
       </div>
+      <div class="tframe" id="tframe" hidden></div>
       ${f.overview?`<p class="ov" style="margin:0">${esc(f.overview)}</p>`:""}
       ${f.fr?(()=>{const fs=films.filter(x=>x.fr===f.fr).sort((a,b)=>(a.frI??0)-(b.frI??0));const i=fs.findIndex(x=>x.id===f.id);
         return `<button type="button" class="frlink" id="frlink" title="Open franchise"><span class="frl-strip">${fs.slice(0,6).map(x=>`<span class="frp${x.poster?" has-img":""}${x.id===f.id?" cur":""}">${x.poster?`<img src="${posterSrc(x,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}</span>`).join("")}</span>
@@ -464,11 +486,16 @@ function drawer(){
       films.push(nf);dirty();ui.adding=false;ui.open=nf.id;rerender();drawer()};
     return;
   }
-  const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":TYPE(f)==="short"?"shorts":"films";ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
-  if(R("#dirlink"))R("#dirlink").onclick=()=>go(()=>{ui.director=f.d});
+  const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":TYPE(f)==="short"?"shorts":"films";ui.fr=null;ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
+  if(R("#dirlinks"))R("#dirlinks").onclick=e=>{const b=e.target.closest("[data-p]");if(b)go(()=>{ui.director=b.dataset.p})};
+  if(R("#castl"))R("#castl").onclick=e=>{const b=e.target.closest("[data-a]");if(b)go(()=>{ui.actor=b.dataset.a;ui.view="films"})};
+  if(R("#tbtn")&&f.trailer)R("#tbtn").onclick=()=>{const t=R("#tframe");if(t.hidden){t.innerHTML=`<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(f.trailer)}?autoplay=1&rel=0" title="Trailer: ${esc(f.t)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>`;t.hidden=false}else{t.innerHTML="";t.hidden=true}};
+  R("#share").onclick=async()=>{const url=location.href.split("#")[0]+"#film/"+slug(f.id);
+    if(navigator.share&&matchMedia("(pointer:coarse)").matches){try{await navigator.share({title:f.t,url})}catch(e){}return}
+    try{await navigator.clipboard.writeText(url);const c=R("#copied");c.hidden=false;setTimeout(()=>{c.hidden=true},1800)}catch(e){prompt("Copy this link",url)}};
   if(R("#glinks"))R("#glinks").onclick=e=>{const b=e.target.closest("[data-g]");if(b)go(()=>{ui.genre=b.dataset.g})};
-  if(R("#frlink"))R("#frlink").onclick=()=>{const n=f.fr;closeDrawer();Object.assign(ui,{view:"franchises",fr:n,col:null,q:"",order:"new",decade:null,director:null,genre:null,show:"all"});render();window.scrollTo(0,0)};
-  R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.order="imdb";ui.decade=null;ui.director=null;ui.genre=null;render();window.scrollTo(0,0)};
+  if(R("#frlink"))R("#frlink").onclick=()=>{const n=f.fr;closeDrawer();Object.assign(ui,{view:"franchises",fr:n,col:null,q:"",order:"new",decade:null,director:null,actor:null,genre:null,show:"all"});render();window.scrollTo(0,0)};
+  R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.order="imdb";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;render();window.scrollTo(0,0)};
   if(!ui.editable)return;
   R("#editc").onclick=()=>{const fc=R("#fc");fc.hidden=!fc.hidden;R("#editc").textContent=fc.hidden?"Edit":"Done"};
   R("#watch").onclick=()=>{f.w=!f.w;dirty();rerender();drawer()};
@@ -583,7 +610,10 @@ async function load(){
     base=snap(films);
   }catch(e){ui.msg="Couldn't load the library";}
   render();
+  openFromHash();
 }
+function openFromHash(){const m=location.hash.match(/^#film\/(.+)$/);if(!m)return;const f=films.find(x=>slug(x.id)===m[1]);if(f&&ui.open!==f.id){ui.open=f.id;ui.adding=false;drawer()}}
+window.addEventListener("hashchange",openFromHash);
 window.addEventListener("beforeunload",e=>{if(ui.dirty){e.preventDefault();e.returnValue=""}});
 shell();render();load();
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js").catch(()=>{}));

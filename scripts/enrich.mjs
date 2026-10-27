@@ -112,6 +112,8 @@ for (const f of lib.films) {
   if (!fx) continue;
   if (fx.d && fx.d !== f.d) f.d = fx.d;
   if (fx.t && fx.t !== f.t) f.t = fx.t;
+  if (fx.trailer !== undefined) f.trailer = fx.trailer;
+  if (Array.isArray(fx.cast)) f.cast = fx.cast;
   if (fx.imdbId && (fx.imdbId !== f.imdbId || !f.idLock)) {
     Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null, lb: null, lbUrl: null });
     delete f.check;
@@ -163,6 +165,45 @@ for (const f of lib.films) {
     console.warn(`${f.t}: ${e.message}`);
   }
 }
+// ---- Lead actors (top 4 from OMDb), once per title. Stops quietly when the daily OMDb limit is reached.
+{
+  let got = 0;
+  for (const f of lib.films.filter((x) => x.imdbId && x.cast === undefined)) {
+    try {
+      const m = await omdb({ i: f.imdbId });
+      if (!m) { f.cast = []; continue; }
+      f.cast = (m.Actors && m.Actors !== "N/A") ? m.Actors.split(",").map((x) => x.trim()).filter(Boolean).slice(0, 4) : [];
+      got++;
+    } catch (e) { console.warn("Cast: " + e.message); break; }
+  }
+  console.log(`Cast: ${got} titles updated`);
+}
+
+// ---- TMDB (only when TMDB_TOKEN is set): YouTube trailer for every title, sharper posters for ones without a manual poster.
+if (TMDB) {
+  const H = { accept: "application/json" };
+  const q = (u) => { const url = new URL("https://api.themoviedb.org/3" + u); if (TMDB.length <= 40) url.searchParams.set("api_key", TMDB); else H.Authorization = "Bearer " + TMDB; return url; };
+  const get = async (u) => { const r = await fetch(q(u), { headers: H }); if (!r.ok) throw new Error(`TMDB ${r.status}`); await sleep(30); return r.json(); };
+  let tr = 0, po = 0;
+  for (const f of lib.films.filter((x) => x.imdbId && (x.trailer === undefined || (!x.posterLock && !String(x.poster || "").includes("image.tmdb.org"))))) {
+    try {
+      const j = await get(`/find/${f.imdbId}?external_source=imdb_id`);
+      const hit = (j.movie_results || [])[0] ? { ...j.movie_results[0], kind: "movie" } : (j.tv_results || [])[0] ? { ...j.tv_results[0], kind: "tv" } : null;
+      if (!hit) { if (f.trailer === undefined) f.trailer = null; continue; }
+      f.tmdbId = hit.id;
+      if (!f.posterLock && hit.poster_path) { f.poster = "https://image.tmdb.org/t/p/w500" + hit.poster_path; po++; }
+      if (f.trailer === undefined) {
+        const v = (await get(`/${hit.kind}/${hit.id}/videos?language=en-US`)).results || [];
+        const yt = v.filter((x) => x.site === "YouTube");
+        const best = yt.find((x) => x.type === "Trailer" && x.official) || yt.find((x) => x.type === "Trailer") || yt.find((x) => x.type === "Teaser") || null;
+        f.trailer = best ? best.key : null;
+        if (best) tr++;
+      }
+    } catch (e) { console.warn(`TMDB ${f.t}: ${e.message}`); if (/401/.test(e.message)) break; }
+  }
+  console.log(`TMDB: ${tr} trailers, ${po} posters`);
+} else console.log("TMDB_TOKEN not set — trailers use YouTube search links, posters come from OMDb.");
+
 // ---- IMDb ratings from IMDb's own public dataset (refreshed daily by IMDb, free for personal use).
 try {
   const want = new Set(lib.films.map((f) => f.imdbId).filter(Boolean));

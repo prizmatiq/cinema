@@ -1,5 +1,5 @@
 {
- "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director. The enrich script applies these on every run.",
+ "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names. The enrich script applies these on every run.",
  "onibaba|1964": {
   "imdbId": "tt0058430",
   "poster": "https://image.tmdb.org/t/p/w500/6IuG74QxgELxmJToIfVNJlsTrMp.jpg"
@@ -238,5 +238,77 @@
  "interstellar|2014": {
   "poster": "https://image.tmdb.org/t/p/w500/2GqRAbc6Xcak2ZYrIdTQGbHyTsl.jpg",
   "imdbId": "tt0816692"
+ },
+ "clean hands|2026": {
+  "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg"
+ },
+ "hokum|2026": {
+  "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg"
+ },
+ "resident evil|2026": {
+  "poster": "https://image.tmdb.org/t/p/w500/zP83bIkBViw5b1s9bDemYJ3AAgX.jpg"
+ },
+ "no other choice|2025": {
+  "poster": "https://m.media-amazon.com/images/M/MV5BMjg0OTgzMzUtYmM1OC00MDk0LTg2NzAtNWFjZmEyNjM5NWFmXkEyXkFqcGc@._V1_SX400.jpg"
+ },
+ "peter hujar's day|2025": {
+  "poster": "https://image.tmdb.org/t/p/w500/awq1O9RRi6JW74fDmGXJJGD5le8.jpg"
+ },
+ "paterson|2016": {
+  "poster": "https://image.tmdb.org/t/p/w500/AuJ1ZlfqwuAr9H5Qr1U9KILylse.jpg"
+ },
+ "train dreams|2025": {
+  "poster": "https://image.tmdb.org/t/p/w500/dBBzWpXyTPOZtnEyIwCEqUXuDkq.jpg"
+ },
+ "weapons|2025": {
+  "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg"
+ },
+ "a complete unknown|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/llWl3GtNoXosbvYboelmoT459NM.jpg"
+ },
+ "alien: romulus|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg"
+ },
+ "caddo lake|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/86dAl9HAGDOhvOIM8uPVjfk9P1v.jpg"
+ },
+ "challengers|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/eU7eEiaROOvEgUVvVaPVgQw6fMD.jpg"
+ },
+ "civil war|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg"
+ },
+ "it's what's inside|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/6jzwaLoDurD6Jn2ILb42nFcn3xq.jpg"
+ },
+ "marmalade|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/yt66TPbmJn8E4LepeLhBO5V1AED.jpg"
+ },
+ "nosferatu|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg"
+ },
+ "oddity|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg"
+ },
+ "the assessment|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/o1K7be85FAauSbVPzCQ0GjOXUqu.jpg"
+ },
+ "the fall guy|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/euL9dqQjywrQFC7pHK5HdmxzrDf.jpg"
+ },
+ "the substance|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/fer6QYAQENhCTtzJNcV8FGo62zw.jpg"
+ },
+ "trap|2024": {
+  "poster": "https://image.tmdb.org/t/p/w500/mWV2fNBkSTW67dIotVTXDYZhNBj.jpg"
+ },
+ "american fiction|2023": {
+  "poster": "https://image.tmdb.org/t/p/w500/57MFWGHarg9jid7yfDTka4RmcMU.jpg"
+ },
+ "asteroid city|2023": {
+  "poster": "https://image.tmdb.org/t/p/w500/hfo7pvL9Fys7rocfL4VOzw9qDEQ.jpg"
+ },
+ "hearing damage|2026": {
+  "trailer": "wttsG4WB6es"
  }
 }
