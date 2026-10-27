@@ -331,7 +331,10 @@ function shell(){
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
 const TYPE=f=>f.type||"film";
-const VIEWS=[["films","Movies",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"]];
+const VIEWS=[["films","Movies",f=>TYPE(f)!=="series"],["series","Series",f=>TYPE(f)==="series"]];
+/* Short films live in Movies; "Short film" works like a genre tag in the filter and on the title card. */
+const SHORT="Short film";
+const tags=f=>(TYPE(f)==="short"?[SHORT]:[]).concat((f.g||[]).filter(g=>g!=="Short"));
 /* Watched is no longer a tab; the Status filter (Everything / To watch / Watched) covers it. */
 /* "Mission: Impossible – Fallout" → ["Mission: Impossible","Fallout"], only when the title starts with its franchise name */
 const splitFr=f=>{if(!f.fr)return [f.t,""];const base=f.fr.replace(/\s*\(.*\)$/,"");if(!f.t.startsWith(base))return [f.t,""];
@@ -391,7 +394,7 @@ function libraryView(){
   (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button class="x" id="clearcol" aria-label="${ui.view==="collections"?"All collections":"Clear filter"}" title="${ui.view==="collections"?"All collections":"Clear filter"}"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
   `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director||ui.actor?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
-    <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
+    <select id="gensel" aria-label="Genre"><option value="">All genres</option>${(()=>{const P=viewPred(),g=[...new Set(films.filter(P).flatMap(f=>(f.g||[]).filter(g=>g!=="Short")))].sort();return films.some(f=>P(f)&&TYPE(f)==="short")?[SHORT,...g]:g})().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
     <select id="colsel" aria-label="Collection"><option value="">All collections</option>${cols.map(x=>`<option value="${x.id}" ${ui.col===x.id?"selected":""}>${esc(x.name)}</option>`).join("")}</select>
     ${ui.view==="watched"?"":`<select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>`}
     <select id="order" aria-label="Sort">${[["new","Newest first"],["old","Oldest first"],["title","Title A–Z"],["imdb","IMDb rating"]].map(([v,l])=>`<option value="${v}" ${ui.order===v?"selected":""}>${l}</option>`).join("")}</select>
@@ -441,7 +444,7 @@ function rowHTML(f,withYear){
 }
 function list(){
   const P=viewPred();
-  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||people(f.d).includes(ui.director))&&(!ui.actor||(f.cast||[]).includes(ui.actor))&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")+" "+(f.cast||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||(f.g||[]).includes(ui.genre))&&
+  const L=films.filter(f=>P(f)&&(!ui.col||f.c.includes(ui.col))&&(ui.decade==null||Math.floor(f.y/10)*10===ui.decade)&&(!ui.director||people(f.d).includes(ui.director))&&(!ui.actor||(f.cast||[]).includes(ui.actor))&&(!ui.q||(f.t+" "+f.d+" "+(f.g||[]).join(" ")+" "+(f.cast||[]).join(" ")).toLowerCase().includes(ui.q))&&(!ui.genre||tags(f).includes(ui.genre))&&
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(ui.fr&&ui.order==="new"?SORT.saga:(SORT[ui.order]||SORT.new));
   const el=$("#list");if(!el)return;acts();
@@ -534,12 +537,12 @@ function drawer(){
   }else{
     const E=ui.editable;
     h+=`<div class="mgrid"><div class="pcol"><div class="poster${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,500)}" alt="Poster: ${esc(f.t)}" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="py">${f.y}</span><span class="pt">${esc(f.t)}</span><span class="py">${esc(f.d)}</span></div>
-        <div class="prow"><a class="tbtn" href="${f.trailer?"https://www.youtube.com/watch?v="+encodeURIComponent(f.trailer):"https://www.youtube.com/results?search_query="+encodeURIComponent(f.t+" "+f.y+" trailer")}" target="_blank" rel="noopener" title="${f.trailer?"Watch the trailer on YouTube":"Search for the trailer on YouTube"}"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Trailer ↗</a><button type="button" class="ib sq" id="share" title="Copy link to this title" aria-label="Copy link"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L11.6 6M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.6-1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div></div>
+        <div class="prow"><a class="tbtn" href="${f.watch?esc(f.watch):f.trailer?"https://www.youtube.com/watch?v="+encodeURIComponent(f.trailer):"https://www.youtube.com/results?search_query="+encodeURIComponent(f.t+" "+f.y+" trailer")}" target="_blank" rel="noopener" title="${f.watch?"Watch the film":f.trailer?"Watch the trailer on YouTube":"Search for the trailer on YouTube"}"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>${f.watch?"Watch ↗":"Trailer ↗"}</a><button type="button" class="ib sq" id="share" title="Copy link to this title" aria-label="Copy link"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M10 14a4.5 4.5 0 0 0 6.4 0l3.2-3.2a4.5 4.5 0 0 0-6.4-6.4L11.6 6M14 10a4.5 4.5 0 0 0-6.4 0l-3.2 3.2a4.5 4.5 0 0 0 6.4 6.4l1.6-1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div></div>
       <div class="mcol"><div class="info">${(()=>{const [a,b]=splitFr(f);return `<h2>${b?`<span class="h2pre">${esc(a)}</span>${esc(b)}`:esc(a)}</h2>`})()}
         <span class="meta2">${f.y}${f.runtime?` · ${f.runtime} min`:""}</span>
         ${f.d?`<div class="dlinks" id="dirlinks"><span class="lbl">${TYPE(f)==="series"?"Created by":"Directed by"}</span>${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
         ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map((n,i)=>{const ph=(f.castP||[])[i];return `<button data-a="${esc(n)}" title="All titles with ${esc(n)}"><span class="av">${ph?`<img src="${esc(ph)}" alt="" loading="lazy" onerror="this.nextElementSibling.hidden=false;this.remove()">`:""}<i${ph?" hidden":""}>${esc(n.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>${esc(n)}</button>`}).join("")}</div>`:""}
-        ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} titles">${esc(g)}</button>`).join("")}</div>`:""}
+        ${tags(f).length?`<div class="glinks" id="glinks">${tags(f).map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} titles">${esc(g)}</button>`).join("")}</div>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:""}
       </div>
       <div class="scores2">
@@ -581,7 +584,7 @@ function drawer(){
       films.push(nf);dirty();ui.adding=false;ui.open=nf.id;rerender();drawer()};
     return;
   }
-  const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":TYPE(f)==="short"?"shorts":"films";ui.fr=null;ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
+  const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":"films";ui.fr=null;ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
   if(R("#dirlinks"))R("#dirlinks").onclick=e=>{const b=e.target.closest("[data-p]");if(b)go(()=>{ui.director=b.dataset.p})};
   if(R("#castl"))R("#castl").onclick=e=>{const b=e.target.closest("[data-a]");if(b)go(()=>{ui.actor=b.dataset.a})};
   R("#share").onclick=async()=>{const url=location.href.split("#")[0]+"#film/"+slug(f.id);

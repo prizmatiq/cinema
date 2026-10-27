@@ -1,5 +1,5 @@
 {
- "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names, n = note (empty string removes it). The enrich script applies these on every run. w = watched (true/false), wd = month watched (\"2026-08\"), rev = my review, revT = its title; these three are applied once, so later edits in the web app stay.",
+ "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names, n = note (empty string removes it). The enrich script applies these on every run. w = watched (true/false), wd = month watched (\"2026-08\"), rev = my review, revT = its title; these three are applied once, so later edits in the web app stay. watch = link to the full film (shows a Watch button instead of Trailer).",
  "onibaba|1964": {
   "imdbId": "tt0058430",
   "poster": "https://image.tmdb.org/t/p/w500/6IuG74QxgELxmJToIfVNJlsTrMp.jpg"
@@ -315,7 +315,9 @@
   "poster": "https://image.tmdb.org/t/p/w500/hfo7pvL9Fys7rocfL4VOzw9qDEQ.jpg"
  },
  "hearing damage|2026": {
-  "trailer": "wttsG4WB6es"
+  "trailer": "wttsG4WB6es",
+  "poster": "https://prizmatiq.github.io/cinema/posters/hearing-damage.jpg",
+  "watch": "https://youtu.be/wttsG4WB6es"
  },
  "beau is afraid|2023": {
   "poster": "https://image.tmdb.org/t/p/w500/wgVkkjigF31r1nZV80uV0xNIoun.jpg"

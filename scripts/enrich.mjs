@@ -125,6 +125,7 @@ for (const f of lib.films) {
   if (fx.d && fx.d !== f.d) f.d = fx.d;
   if (fx.t && fx.t !== f.t) f.t = fx.t;
   if (fx.trailer !== undefined) f.trailer = fx.trailer;
+  if (fx.watch !== undefined) f.watch = fx.watch || null; // link to the full film (e.g. a short on YouTube) — replaces the Trailer button
   if (Array.isArray(fx.cast)) f.cast = fx.cast;
   if (fx.n !== undefined) f.n = fx.n;
   // Watched / month watched / review (rev) and its title (revT). Applied only when the fix itself changes, so later edits made in the web app aren't overwritten.
