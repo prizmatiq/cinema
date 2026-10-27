@@ -62,10 +62,14 @@ input[type=search]{flex:1 1 200px;min-width:0}
 .btn{padding:8px 14px;border-radius:6px;border:1px solid var(--orange);background:var(--orange);color:var(--on-orange);font-weight:600;cursor:pointer;white-space:nowrap}
 .btn.ghost{background:transparent;color:var(--fg);border-color:var(--line)}
 .btn:disabled{opacity:.5;cursor:default}
-.banner{margin-top:22px;padding:16px 18px;border-radius:8px;background:var(--surface);border:1px solid var(--line);color:var(--fg);display:flex;gap:12px;align-items:flex-start;justify-content:space-between;flex-wrap:wrap}
+.banner{margin-top:22px;padding:16px 18px;border-radius:8px;background:var(--surface);border:1px solid var(--line);color:var(--fg);display:flex;gap:12px;align-items:center;justify-content:space-between}
 .banner h2{font-family:var(--f-display);font-stretch:78%;font-size:26px;margin:0;line-height:1.1}
 .banner p{margin:4px 0 0;color:var(--muted);max-width:60ch}
-.banner button{background:none;border:1px solid currentColor;color:inherit;border-radius:6px;padding:6px 10px;cursor:pointer;font-size:13px}
+.banner .x{flex:none}
+.bwho{display:flex;align-items:center;gap:16px;min-width:0}
+.bav{position:relative;width:64px;height:64px;border-radius:50%;overflow:hidden;background:var(--tile);color:var(--on-tile);display:grid;place-items:center;flex:none}
+.bav i{font:600 18px var(--f-mono);font-style:normal;opacity:.75}
+.bav img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;background:var(--tile)}
 section.dec{margin-top:34px}
 section.dec h2{font-family:var(--f-display);font-stretch:75%;font-weight:700;font-size:28px;margin:0 0 6px;display:flex;align-items:baseline;gap:12px;color:var(--fg)}
 section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;color:var(--muted)}
@@ -137,6 +141,7 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 @keyframes pop{from{opacity:0;transform:translate(-50%,-48%) scale(.98)}to{opacity:1;transform:translate(-50%,-50%)}}
 .drawer .top{display:flex;justify-content:flex-end;align-items:flex-start;position:sticky;top:0;z-index:3;height:0;overflow:visible}
 .drawer .top .x{background:var(--bg)}
+.grab{display:none}
 .mgrid{display:grid;grid-template-columns:minmax(0,260px) minmax(0,1fr);gap:26px;align-items:start}
 .mcol{display:flex;flex-direction:column;gap:18px;min-width:0}
 .mcol .info{display:flex;flex-direction:column;gap:6px;min-width:0;padding-right:72px}
@@ -218,6 +223,8 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
   .drawer{left:0;right:0;top:auto;bottom:0;transform:none;width:100%;max-height:92dvh;border-radius:14px 14px 0 0;border-width:1px 0 0;
     padding-bottom:calc(26px + env(safe-area-inset-bottom,0px));padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));animation:rise .2s ease-out}
   .drawer.narrow{width:100%}
+  .drawer{overscroll-behavior:contain}
+  .grab{display:block;flex:none;width:40px;height:5px;border-radius:3px;background:var(--line);margin:-8px auto -10px}
   .mgrid{grid-template-columns:1fr;gap:18px}
 }
 @keyframes rise{from{transform:translateY(24px);opacity:0}to{transform:none;opacity:1}}
@@ -318,12 +325,21 @@ function render(){
   if(ui.view==="collections"&&!ui.col)collectionsView();else if(ui.view==="franchises"&&!ui.fr)franchisesView();else libraryView();
   foot();bar();acts();
 }
+/* Photo of the actor or director currently filtered by: actor photos come with each title's cast, director/creator photos from dirP (TMDB). */
+const nkey=s=>String(s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase().replace(/[^a-z]/g,"");
+function personPhoto(){
+  if(ui.actor){for(const f of films){const i=(f.cast||[]).indexOf(ui.actor);if(i>=0&&(f.castP||[])[i])return f.castP[i]}return null}
+  if(ui.director){const k=nkey(ui.director);for(const f of films)for(const x of f.dirP||[])if(x.p&&nkey(x.n)===k)return x.p;
+    for(const f of films){const i=(f.cast||[]).findIndex(n=>nkey(n)===k);if(i>=0&&(f.castP||[])[i])return f.castP[i]}}
+  return null;
+}
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
   const who=ui.director||ui.actor,dn=ui.director?films.filter(f=>people(f.d).includes(ui.director)).length:ui.actor?films.filter(f=>(f.cast||[]).includes(ui.actor)).length:0;
-  $("#view").innerHTML=(who?`<div class="banner"><div><h2>${esc(who)}</h2><p>${plural(dn,"title")} in the library · ${ui.director?(()=>{const ts=new Set(films.filter(f=>people(f.d).includes(ui.director)).map(f=>TYPE(f)==="series"?"creator":"director"));return [...ts].sort((a,b)=>a==="director"?-1:1).join(" & ")})():"cast"}</p></div><button id="cleardir">Clear filter</button></div>`:"")+
-  (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button id="clearfr">All franchises</button></div>`:"")+
-  (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:"")+
+  const ph=who?personPhoto():null;
+  $("#view").innerHTML=(who?`<div class="banner"><div class="bwho">${who?`<span class="bav">${ph?`<img src="${esc(ph)}" alt="" onerror="this.nextElementSibling.hidden=false;this.remove()">`:""}<i${ph?" hidden":""}>${esc(who.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>`:""}<div><h2>${esc(who)}</h2><p>${plural(dn,"title")} in the library · ${ui.director?(()=>{const ts=new Set(films.filter(f=>people(f.d).includes(ui.director)).map(f=>TYPE(f)==="series"?"creator":"director"));return [...ts].sort((a,b)=>a==="director"?-1:1).join(" & ")})():"cast"}</p></div></div><button class="x" id="cleardir" aria-label="Clear filter" title="Clear filter"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
+  (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button class="x" id="clearfr" aria-label="All franchises" title="All franchises"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
+  (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button class="x" id="clearcol" aria-label="${ui.view==="collections"?"All collections":"Clear filter"}" title="${ui.view==="collections"?"All collections":"Clear filter"}"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
   `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director||ui.actor?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
     <select id="gensel" aria-label="Genre"><option value="">All genres</option>${[...new Set(films.flatMap(f=>f.g||[]))].sort().map(g=>`<option ${ui.genre===g?"selected":""}>${esc(g)}</option>`).join("")}</select>
@@ -420,6 +436,25 @@ function foot(){
 }
 
 /* drawer */
+/* Mobile: pull the sheet down by its top edge or the poster to close it. */
+function swipeClose(root,onClose){
+  const d=root.querySelector(".drawer"),sc=root.querySelector(".scrim");if(!d)return;
+  d.insertAdjacentHTML("afterbegin",'<div class="grab" aria-hidden="true"></div>');
+  let y0=0,t0=0,dy=0,on=false,drag=false;
+  const anim=(tr,op)=>{d.style.transition="transform .2s ease-out";d.style.transform=tr;if(sc){sc.style.transition="opacity .2s";sc.style.opacity=op}};
+  d.addEventListener("touchstart",e=>{
+    if(!matchMedia("(max-width:640px)").matches||e.touches.length>1||d.scrollTop>0){on=false;return}
+    const t=e.touches[0];on=!!e.target.closest(".grab,.poster")||t.clientY-d.getBoundingClientRect().top<72;
+    y0=t.clientY;t0=e.timeStamp;dy=0;drag=false},{passive:true});
+  d.addEventListener("touchmove",e=>{
+    if(!on)return;dy=e.touches[0].clientY-y0;
+    if(!drag){if(dy>6){drag=true;d.style.animation="none";d.style.transition="none"}else{if(dy<-6)on=false;return}}
+    e.preventDefault();const y=Math.max(0,dy);d.style.transform=`translateY(${y}px)`;if(sc)sc.style.opacity=String(1-Math.min(1,y/d.offsetHeight))},{passive:false});
+  const end=e=>{if(!on)return;on=false;if(!drag)return;
+    const fast=dy/Math.max(1,e.timeStamp-t0)>.5;
+    if(dy>Math.min(140,d.offsetHeight*.25)||(fast&&dy>40)){anim("translateY(100%)","0");setTimeout(onClose,200)}else anim("","")};
+  d.addEventListener("touchend",end);d.addEventListener("touchcancel",end);
+}
 function closeDrawer(){if(location.hash.startsWith("#film/"))history.replaceState(null,"",location.pathname+location.search);ui.open=null;ui.adding=false;document.getElementById("drawerRoot").innerHTML="";document.body.classList.remove("lock")}
 function drawer(){
   const root=document.getElementById("drawerRoot");
@@ -479,7 +514,7 @@ function drawer(){
   }
   root.innerHTML=h+`</aside>`;
   const R=s=>root.querySelector(s);
-  R("#close").onclick=closeDrawer;R("#scrim").onclick=closeDrawer;R("#close").focus();
+  R("#close").onclick=closeDrawer;R("#scrim").onclick=closeDrawer;R("#close").focus();swipeClose(root,closeDrawer);
   if(ui.adding){
     R("#a-c").onclick=e=>{const b=e.target.closest(".mchip");if(b)b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")!=="true")};
     R("#addf").onsubmit=e=>{e.preventDefault();const t=R("#a-t").value.trim(),y=parseInt(R("#a-y").value,10);if(!t||!y)return;
@@ -596,7 +631,7 @@ function accessDrawer(){
     <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="btn" id="tsave">Save token</button>${has?`<button class="btn ghost" id="tclear">Sign out</button>`:""}</div>
     <span class="rv" id="tmsg" style="margin:0"></span></aside>`;
   const R=s=>root.querySelector(s),close=()=>{ui.access=false;closeDrawer()};
-  R("#close").onclick=close;R("#scrim").onclick=close;
+  R("#close").onclick=close;R("#scrim").onclick=close;swipeClose(root,close);
   R("#tsave").onclick=async()=>{const v=R("#tok").value.trim();if(!v||v.startsWith("•"))return;setToken(v);R("#tmsg").textContent="Checking…";
     try{const j=await gh("");if(!j.permissions||!j.permissions.push)throw Object.assign(new Error(),{status:403});ui.editable=true;R("#tmsg").textContent="Connected. You can edit now.";render()}
     catch(e){setToken("");ui.editable=false;R("#tmsg").textContent=e.status===404?"Repository not found for this token.":"This token can't write to the repository.";render()}};
