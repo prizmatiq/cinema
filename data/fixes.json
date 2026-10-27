@@ -1,5 +1,5 @@
 {
- "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names. The enrich script applies these on every run.",
+ "_help": "Manual corrections. Key = film id (title|year in lowercase, as first added). imdbId fixes a wrong match, poster sets a picture, t renames, d corrects the director, trailer = YouTube video id, cast = list of names, n = note (empty string removes it). The enrich script applies these on every run.",
  "onibaba|1964": {
   "imdbId": "tt0058430",
   "poster": "https://image.tmdb.org/t/p/w500/6IuG74QxgELxmJToIfVNJlsTrMp.jpg"
@@ -240,7 +240,8 @@
   "imdbId": "tt0816692"
  },
  "clean hands|2026": {
-  "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg"
+  "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
+  "n": ""
  },
  "hokum|2026": {
   "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg"
@@ -310,5 +311,32 @@
  },
  "hearing damage|2026": {
   "trailer": "wttsG4WB6es"
+ },
+ "beau is afraid|2023": {
+  "poster": "https://image.tmdb.org/t/p/w500/wgVkkjigF31r1nZV80uV0xNIoun.jpg"
+ },
+ "killers of the flower moon|2023": {
+  "poster": "https://image.tmdb.org/t/p/w500/gYlVyXcILx3eY2EbrK7yuC3Lx8D.jpg"
+ },
+ "past lives|2023": {
+  "poster": "https://image.tmdb.org/t/p/w500/k3waqVXSnvCZWfJYNtdamTgTtTA.jpg"
+ },
+ "barbarian|2022": {
+  "poster": "https://image.tmdb.org/t/p/w500/idT5mnqPcJgSkvpDX7pJffBzdVH.jpg"
+ },
+ "everything everywhere all at once|2022": {
+  "poster": "https://image.tmdb.org/t/p/w500/u68AjlvlutfEIcpmbYpKcdi09ut.jpg"
+ },
+ "nope|2022": {
+  "poster": "https://image.tmdb.org/t/p/w500/AcKVlWaNVVVFQwro3nLXqPljcYA.jpg"
+ },
+ "pearl|2022": {
+  "poster": "https://image.tmdb.org/t/p/w500/z5uIG81pXyHKg7cUFIu84Wjn4NS.jpg"
+ },
+ "x|2022": {
+  "poster": "https://image.tmdb.org/t/p/w500/woTQx9Q4b8aO13jR9dsj8C9JESy.jpg"
+ },
+ "tár|2022": {
+  "poster": "https://image.tmdb.org/t/p/w500/dRVAlaU0vbG6hMf2K45NSiIyoUe.jpg"
  }
 }

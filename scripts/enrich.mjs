@@ -114,6 +114,7 @@ for (const f of lib.films) {
   if (fx.t && fx.t !== f.t) f.t = fx.t;
   if (fx.trailer !== undefined) f.trailer = fx.trailer;
   if (Array.isArray(fx.cast)) f.cast = fx.cast;
+  if (fx.n !== undefined) f.n = fx.n;
   if (fx.imdbId && (fx.imdbId !== f.imdbId || !f.idLock)) {
     Object.assign(f, { imdbId: fx.imdbId, idLock: true, v: 0, imdb: null, runtime: null, overview: null, lb: null, lbUrl: null });
     delete f.check;
