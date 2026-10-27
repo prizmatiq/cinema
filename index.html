@@ -214,7 +214,14 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .watch{align-self:flex-start}
 .ext{display:flex;gap:14px;font-size:13px}
 .ext a{color:var(--fg);text-underline-offset:3px;text-decoration-color:var(--muted)}
-.myv{display:flex;flex-direction:column;gap:8px;padding:14px 16px;border-radius:8px;background:var(--surface);border:1px solid var(--line)}
+.myv{display:flex;flex-direction:column;gap:14px;padding:16px 18px;border-radius:8px;background:var(--surface);border:1px solid var(--line)}
+.rvh{display:flex;align-items:center;gap:12px}
+.rva{width:40px;height:40px;border-radius:50%;object-fit:cover;flex:none;background:var(--tile)}
+.rvh b{display:block;font:600 16px var(--f-body);line-height:1.25}
+.rvh span{font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.rbody{display:flex;flex-direction:column;gap:10px}
+.rbody.clip{max-height:15.5em;overflow:hidden;-webkit-mask-image:linear-gradient(#000 60%,transparent);mask-image:linear-gradient(#000 60%,transparent)}
+.rmore{align-self:flex-start;background:none;border:0;padding:0;color:var(--fg);font:500 13px var(--f-body);text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--line);cursor:pointer}
 .myv>.lbl{font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
 .myv p{margin:0;font-size:15px;line-height:1.55;color:var(--fg)}
 .note{font-size:13.5px;color:var(--muted);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:8px 10px}
@@ -315,6 +322,12 @@ const people=s=>{const p=String(s||"").split(/\s*(?:,|&|\band\b)\s*/).map(x=>x.t
   return p.map((x,i)=>{if(!/\s/.test(x)&&i+1<p.length){const n=p[i+1].split(/\s+/);return x+" "+n[n.length-1]}return x})};
 /* "2026-08" → "August 2026" */
 const monthName=v=>{const m=String(v).match(/^(\d{4})-(\d{2})/);return m?new Date(+m[1],+m[2]-1,1).toLocaleString("en-US",{month:"long"})+" "+m[1]:String(v)};
+/* My review in the title card: avatar, title, month, text (long reviews fold after a few paragraphs). */
+function reviewHTML(f){
+  const ps=String(f.rev).split(/\n\s*\n|\n/).map(x=>x.trim()).filter(Boolean),long=ps.length>3||f.rev.length>900;
+  return `<section class="myv"><div class="rvh"><img class="rva" src="icons/avatar.png" alt=""><div><b>${esc(f.revT||"My review")}</b><span>${f.wd?esc(monthName(f.wd)):"Review"}</span></div></div>
+    <div class="rbody${long?" clip":""}" id="rbody">${ps.map(x=>`<p>${esc(x)}</p>`).join("")}</div>${long?`<button type="button" class="rmore" id="rmore">Read the full review</button>`:""}</section>`;
+}
 const slug=id=>String(id).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
 const NOUN={films:"movie",series:"series",shorts:"short",watched:"title",collections:"title",franchises:"title"};
@@ -395,12 +408,12 @@ const SORT={
   imdb:(a,b)=>(b.imdb??-1)-(a.imdb??-1)||b.y-a.y};
 function tileHTML(f){
   return `<button class="tile film-t" data-id="${esc(f.id)}">
-    <span class="art${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="ay">${f.y}</span><span class="at">${esc(f.t)}</span><span class="ad">${esc(f.d)}</span>${f.w?`<span class="w">Watched</span>`:""}</span>
+    <span class="art${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="ay">${f.y}</span><span class="at">${esc(f.t)}</span><span class="ad">${esc(f.d)}</span></span>
     <span class="cap"><span class="ct" title="${esc(f.t)}">${esc(shortT(f))}</span><span class="cy">${f.y}${f.imdb!=null?" · "+Number(f.imdb).toFixed(1):""}</span></span></button>`;
 }
 function rowHTML(f,withYear){
   return `<button class="film" data-id="${esc(f.id)}">
-    <span><span class="t">${esc(f.t)}</span>${f.w?`<span class="seen">Watched</span>`:""}
+    <span><span class="t">${esc(f.t)}</span>
     <span class="meta" style="display:block">${withYear?f.y+" · ":""}${esc(f.d)}${(f.g||[]).length?` · <span class="gen">${esc(f.g.join(", "))}</span>`:""}</span></span>
     ${ratingsRow(f)}
   </button>`;
@@ -507,8 +520,8 @@ function drawer(){
         
       </div>
       ${f.overview?`<p class="ov" style="margin:0">${esc(f.overview)}</p>`:""}
-      ${f.w?(E?`<div class="myv"><div class="three"><label class="fld"><span class="lbl">Watched in</span><input type="month" id="wd" value="${esc(f.wd||"")}"></label></div><label class="fld"><span class="lbl">My review</span><textarea id="rev" rows="4" placeholder="What stayed with you?">${esc(f.rev||"")}</textarea></label></div>`
-        :`<div class="myv"><span class="lbl">Watched${f.wd?" · "+esc(monthName(f.wd)):""}</span>${f.rev?`<p>${esc(f.rev).replace(/\n/g,"<br>")}</p>`:""}</div>`):""}
+      ${f.w?(E?`<div class="myv"><div class="three"><label class="fld"><span class="lbl">Watched in</span><input type="month" id="wd" value="${esc(f.wd||"")}"></label></div><label class="fld"><span class="lbl">Review title</span><input type="text" id="revT" value="${esc(f.revT||"")}" placeholder="First impressions"></label><label class="fld"><span class="lbl">My review</span><textarea id="rev" rows="6" placeholder="What stayed with you?">${esc(f.rev||"")}</textarea></label></div>`
+        :(f.rev?reviewHTML(f):"")):""}
       ${f.fr?(()=>{const fs=films.filter(x=>x.fr===f.fr).sort((a,b)=>(a.frI??0)-(b.frI??0));const i=fs.findIndex(x=>x.id===f.id);
         return `<button type="button" class="frlink" id="frlink" title="Open franchise"><span class="frl-strip">${fs.slice(0,6).map(x=>`<span class="frp${x.poster?" has-img":""}${x.id===f.id?" cur":""}">${x.poster?`<img src="${posterSrc(x,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}</span>`).join("")}</span>
           <span class="frl-t"><span class="lbl">Franchise</span><b>${esc(f.fr)}</b><span class="frl-n">Part ${i+1} of ${fs.length}</span></span><span class="frl-go" aria-hidden="true">→</span></button>`})():""}
@@ -549,6 +562,7 @@ function drawer(){
   if(R("#glinks"))R("#glinks").onclick=e=>{const b=e.target.closest("[data-g]");if(b)go(()=>{ui.genre=b.dataset.g})};
   if(R("#frlink"))R("#frlink").onclick=()=>{const n=f.fr;closeDrawer();Object.assign(ui,{view:"collections",fr:n,col:null,q:"",order:"new",decade:null,director:null,actor:null,genre:null,show:"all"});render();window.scrollTo(0,0)};
   R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.order="imdb";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;render();window.scrollTo(0,0)};
+  if(R("#rmore"))R("#rmore").onclick=()=>{R("#rbody").classList.remove("clip");R("#rmore").remove()};
   if(!ui.editable)return;
   R("#editc").onclick=()=>{const fc=R("#fc");fc.hidden=!fc.hidden;R("#editc").textContent=fc.hidden?"Edit":"Done"};
   R("#watch").onclick=()=>{f.w=!f.w;dirty();rerender();drawer()};
@@ -559,6 +573,7 @@ function drawer(){
   R("#note").onchange=e=>{f.n=e.target.value.trim();dirty()};
   if(R("#wd"))R("#wd").onchange=e=>{f.wd=e.target.value||null;dirty()};
   if(R("#rev"))R("#rev").onchange=e=>{f.rev=e.target.value.trim();dirty()};
+  if(R("#revT"))R("#revT").onchange=e=>{f.revT=e.target.value.trim();dirty()};
   R("#e-t").onchange=e=>{const v=e.target.value.trim();if(v){f.t=v;dirty();rerender()}};
   R("#e-d").onchange=e=>{f.d=e.target.value.trim();dirty();rerender()};
   R("#e-imdb").onchange=e=>{const m=e.target.value.match(/tt\d{6,}/);if(!m){e.target.setCustomValidity("Paste an IMDb link or an ID like tt0064116");e.target.reportValidity();return}
@@ -602,7 +617,7 @@ async function readRemote(){
 }
 /* Merge on save: the repo copy is the base (it may hold fresh posters from the enrich script);
    only fields changed in this browser since load are laid on top. */
-const PERSONAL=["t","y","d","g","n","w","wd","rev","r","c","type"];
+const PERSONAL=["t","y","d","g","n","w","wd","rev","revT","r","c","type"];
 const MANUAL=["imdbId","idLock","poster","posterLock","v","imdb","runtime","overview","lb","lbUrl"];
 let base=new Map();
 const snap=list=>new Map(list.map(f=>[f.id,JSON.parse(JSON.stringify(f))]));
