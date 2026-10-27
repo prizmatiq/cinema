@@ -5701,7 +5701,7 @@
     "Psychological Horror"
    ],
    "imdbId": "tt7984734",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMTI4MjFhMjAtNmQxYi00N2IxLWJjMGEtYWY1YmU3OTQ0Zjk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/3aiCg3PtMNgzCog2cCWCKNjJoAu.jpg",
    "runtime": 109,
    "overview": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
    "v": 3,
@@ -5711,7 +5711,8 @@
     "Robert Pattinson",
     "Willem Dafoe",
     "Valeriia Karaman"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "id": "joker|2019",
@@ -5763,7 +5764,7 @@
     "Epic"
    ],
    "imdbId": "tt1302006",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMTY2YThkNmQtOWJhYy00ZDc3LWEzOGEtMmQwNzM0YjFmZWIyXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/mbm8k3GFhXS0ROd9AD1gqYbIFbM.jpg",
    "runtime": 209,
    "overview": "An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa.",
    "v": 3,
@@ -5773,7 +5774,8 @@
     "Robert De Niro",
     "Al Pacino",
     "Joe Pesci"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "id": "midsommar|2019",
@@ -5823,7 +5825,7 @@
     "Thriller"
    ],
    "imdbId": "tt6857112",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMzhkMjFkN2YtODU2Ni00YWYwLWExN2MtOWNjZmQxM2U4YTM5XkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/ux2dU1jQ2ACIMShzB3yP93Udpzc.jpg",
    "runtime": 116,
    "overview": "In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look lik...",
    "v": 3,
@@ -5833,7 +5835,8 @@
     "Lupita Nyong&apos;o",
     "Winston Duke",
     "Elisabeth Moss"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "id": "doctor sleep|2019",
@@ -8356,7 +8359,7 @@
    "imdbId": "tt7131622",
    "runtime": 161,
    "overview": "As Hollywood's Golden Age is winding down, a television actor and his stunt double endeavor to achieve lasting success.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMzMzNmViNjYtN2ViNi00NDM3LWFlMmItNDYyMGIzY2EzZjE2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/wQKeS2JrsRF8XSfd9zqflrc5gad.jpg",
    "v": 3,
    "imdbVotes": 984204,
    "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-hollywood/",
@@ -8364,7 +8367,8 @@
     "Leonardo DiCaprio",
     "Brad Pitt",
     "Margot Robbie"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "w": false,
@@ -8701,7 +8705,7 @@
    "imdbId": "tt8695030",
    "runtime": 104,
    "overview": "The focus is on the sleepy small town of Centerville where the dead become undead.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMGQzMTFkM2UtZDhmOC00OGY4LWFjYzctMjljZDkzYTAxN2VmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/ndvOjo7Nfk8ULnFLMXthPzhI62L.jpg",
    "v": 3,
    "imdbVotes": 104304,
    "lbUrl": "https://letterboxd.com/film/the-dead-dont-die-2019/",
@@ -8709,7 +8713,8 @@
     "Bill Murray",
     "Adam Driver",
     "Tilda Swinton"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "w": false,
@@ -9112,7 +9117,7 @@
    "imdbId": "tt5727208",
    "runtime": 135,
    "overview": "With his debts mounting and angry collectors closing in, a fast-talking New York City jeweler risks everything in hope of staying afloat and alive.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNmI0YjA5NjItYzExYi00NzkxLTkxNDctNGJjYTZhM2M0NDQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/sg0xxJeb3u1C4kAxhSuTwTNpEDt.jpg",
    "v": 3,
    "imdbVotes": 363855,
    "lbUrl": "https://letterboxd.com/film/uncut-gems/",
@@ -9120,7 +9125,8 @@
     "Adam Sandler",
     "Julia Fox",
     "Idina Menzel"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "w": false,
