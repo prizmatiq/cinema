@@ -353,11 +353,12 @@ const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
 const NOUN={films:"movie",series:"series",shorts:"short",watched:"title",collections:"title",franchises:"title"};
 const plural=(n,w)=>n+" "+(n===1||w==="series"?w:w+"s");
 const VTYPE={series:"series",shorts:"short"};
-function viewPred(){if(ui.fr)return f=>f.fr===ui.fr;if(ui.view==="franchises")return f=>!!f.fr&&(!ui.fr||f.fr===ui.fr);const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
+/* A person filter (actor / director) shows all their titles: movies, series and shorts together. */
+function viewPred(){if(ui.actor||ui.director)return ()=>true;if(ui.fr)return f=>f.fr===ui.fr;if(ui.view==="franchises")return f=>!!f.fr&&(!ui.fr||f.fr===ui.fr);const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
 function stats(){
-  const tab=(id,label,n,w)=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}" title="${plural(n,w)}">${label}</button>`;
+  const tab=(id,label,n,w)=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${!ui.actor&&!ui.director&&ui.view===id}" title="${plural(n,w)}">${label}</button>`;
   $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>tab(id,label,films.filter(pr).length,NOUN[id])).join("")+
-    `<button class="nt" role="tab" data-v="collections" aria-selected="${ui.view==="collections"}" title="${plural(cols.length,"collection")} · ${plural(frNames().length,"franchise")}">Collections</button>`;
+    `<button class="nt" role="tab" data-v="collections" aria-selected="${!ui.actor&&!ui.director&&ui.view==="collections"}" title="${plural(cols.length,"collection")} · ${plural(frNames().length,"franchise")}">Collections</button>`;
 }
 function filtersActive(){return !!(ui.q||ui.genre||ui.decade!=null||ui.show==="todo"||(ui.col&&ui.view!=="collections")||(ui.order!=="new"&&!(ui.col&&ui.order==="imdb"))||ui.layout!=="grid")}
 function acts(){
@@ -444,7 +445,7 @@ function list(){
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(ui.fr&&ui.order==="new"?SORT.saga:(SORT[ui.order]||SORT.new));
   const el=$("#list");if(!el)return;acts();
-  const tot=films.filter(P).length,fc=$("#fcount");if(fc)fc.textContent=(L.length<tot?L.length+" of ":"")+plural(tot,NOUN[ui.view]||"title");
+  const tot=ui.actor||ui.director?films.filter(f=>ui.actor?(f.cast||[]).includes(ui.actor):people(f.d).includes(ui.director)).length:films.filter(P).length,fc=$("#fcount");if(fc)fc.textContent=(L.length<tot?L.length+" of ":"")+plural(tot,ui.actor||ui.director?"title":NOUN[ui.view]||"title");
   if(!L.length){const any=films.some(P);el.innerHTML=`<p class="empty">${!films.length?"Loading the library…":ui.show==="seen"&&!ui.q&&!ui.genre&&ui.decade==null?"Nothing watched here yet.":any?"Nothing matches. Clear the search or filters.":ui.view==="watched"?"Nothing watched yet.":`No ${ui.view} yet.${ui.editable?` Add one with “Add ${NOUN[ui.view]}”.`:""}`}</p>`;return}
   let h="";
   if(ui.layout==="grid")h=`<div class="grid" style="margin-top:22px">${L.map(tileHTML).join("")}</div>`;
@@ -582,7 +583,7 @@ function drawer(){
   }
   const go=fn=>{closeDrawer();ui.view=TYPE(f)==="series"?"series":TYPE(f)==="short"?"shorts":"films";ui.fr=null;ui.col=null;ui.q="";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;ui.show="all";fn();render();window.scrollTo(0,0)};
   if(R("#dirlinks"))R("#dirlinks").onclick=e=>{const b=e.target.closest("[data-p]");if(b)go(()=>{ui.director=b.dataset.p})};
-  if(R("#castl"))R("#castl").onclick=e=>{const b=e.target.closest("[data-a]");if(b)go(()=>{ui.actor=b.dataset.a;ui.view="films"})};
+  if(R("#castl"))R("#castl").onclick=e=>{const b=e.target.closest("[data-a]");if(b)go(()=>{ui.actor=b.dataset.a})};
   R("#share").onclick=async()=>{const url=location.href.split("#")[0]+"#film/"+slug(f.id);
     if(navigator.share&&matchMedia("(pointer:coarse)").matches){try{await navigator.share({title:f.t,url})}catch(e){}return}
     try{await navigator.clipboard.writeText(url);const b=R("#share"),old=b.innerHTML;b.innerHTML='<svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>';b.title="Link copied";setTimeout(()=>{b.innerHTML=old;b.title="Copy link to this title"},1600)}catch(e){prompt("Copy this link",url)}};
