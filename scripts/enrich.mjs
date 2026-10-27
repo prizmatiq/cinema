@@ -200,7 +200,7 @@ if (TMDB) {
         f.trailer = best ? best.key : null;
         if (best) tr++;
       }
-      if (f.castP === undefined) {
+      if (f.castP === undefined && !Array.isArray(fixes[f.id]?.cast)) {
         // Top-billed cast with photos; TMDB names replace OMDb ones so the same actor links up across titles.
         const c = ((await get(`/${hit.kind}/${hit.id}/credits?language=en-US`)).cast || []).sort((a, b) => (a.order ?? 99) - (b.order ?? 99)).slice(0, 4);
         if (c.length) { f.cast = c.map((x) => x.name); f.castP = c.map((x) => x.profile_path ? "https://image.tmdb.org/t/p/w185" + x.profile_path : null); }
@@ -259,5 +259,11 @@ console.log(`OMDb requests: ${calls}`);
 console.log(`With posters: ${lib.films.filter((f) => f.poster).length} of ${lib.films.length}`);
 if (unsure.length) console.log("Director doesn't match — open these on the site and check the IMDb link:\n  " + unsure.join("\n  "));
 if (missed.length) console.log("Check these on the site → open the film → Edit details (IMDb link or poster URL):\n  " + missed.join("\n  "));
+// OMDb sometimes returns HTML entities ("O&apos;Brien") — turn them back into plain characters.
+const unent = (x) => typeof x === "string" ? x.replace(/&(apos|#39|quot|amp|lt|gt);/g, (_, e) => ({ apos: "'", "#39": "'", quot: '"', amp: "&", lt: "<", gt: ">" })[e]) : x;
+for (const f of lib.films) {
+  for (const k of ["t", "d", "overview"]) if (typeof f[k] === "string") f[k] = unent(f[k]);
+  if (Array.isArray(f.cast)) f.cast = f.cast.map(unent);
+}
 if (JSON.stringify(lib) !== before) { await fs.writeFile(FILE, JSON.stringify(lib, null, 1) + "\n"); console.log("Library updated."); }
 else console.log("Nothing changed.");

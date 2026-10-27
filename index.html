@@ -50,16 +50,15 @@ h1{font-family:var(--f-display);font-stretch:78%;font-weight:800;font-size:clamp
 .logo svg{width:40px;height:40px;display:block}
 .nav{display:flex;gap:4px 28px;overflow-x:auto;max-width:100%;scrollbar-width:none}
 .nav::-webkit-scrollbar{display:none}
-.nt{background:none;border:0;padding:6px 0 8px;text-align:left;cursor:pointer;color:var(--muted);font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid transparent;white-space:nowrap;flex:none}
-.nt b{display:block;font-size:22px;font-weight:500;color:var(--muted);font-variant-numeric:tabular-nums;letter-spacing:0;text-transform:none;line-height:1.2}
-.nt:hover b,.nt:hover{color:var(--fg)}
+.nt{background:none;border:0;padding:8px 0 9px;text-align:left;cursor:pointer;color:var(--muted);font:500 12.5px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;border-bottom:2px solid transparent;white-space:nowrap;flex:none}
+.nt:hover{color:var(--fg)}
 .nt[aria-selected=true]{color:var(--fg);border-bottom-color:var(--fg)}
-.nt[aria-selected=true] b{color:var(--fg)}
 @media (max-width:640px){.nav{margin-left:0;width:100%;gap:4px 22px;order:3}.acts{margin-left:auto}}
 .decades{display:flex;align-items:flex-end;gap:4px;height:60px;margin:22px 0 0}
 .decades button{flex:1;min-width:0;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;gap:4px;height:100%;background:none;border:0;padding:0;cursor:pointer;color:var(--muted);font-family:var(--f-mono);font-size:10px}
 .decades .bar{width:100%;background:var(--muted);opacity:.55;border-radius:2px 2px 0 0}
 .decades button:hover .bar{background:var(--fg);opacity:1}
+.fcount{margin-left:auto;align-self:center;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--muted);white-space:nowrap}
 .tools{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding-block:12px;margin-top:16px;border-bottom:1px solid var(--line);display:flex;gap:8px;flex-wrap:wrap}
 body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
 input,select,button,textarea{font:inherit;color:var(--fg)}
@@ -158,11 +157,12 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .glinks{display:flex;flex-wrap:wrap;gap:4px 12px}
 .dlinks{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 0}
 .dlinks .sep{color:var(--muted);margin:0 8px 0 1px}
+.dlinks .lbl{flex-basis:100%;font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin:8px 0 3px}
 .castl .sep{color:var(--muted);margin:0 8px}
 .castl{display:flex;flex-wrap:wrap;align-items:baseline;gap:2px 0;font-size:14px}
 .castl .lbl{font:500 10.5px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted);margin-right:10px}
 .castl{gap:8px 8px;align-items:center}
-.castl .lbl{flex-basis:100%;margin:0}
+.castl .lbl{flex-basis:100%;margin:6px 0 0}
 .castl button{display:inline-flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:99px;padding:3px 12px 3px 3px;font:13.5px var(--f-body);color:var(--fg);cursor:pointer}
 .castl button:hover{border-color:var(--muted)}
 .av{position:relative;width:28px;height:28px;border-radius:50%;overflow:hidden;background:var(--tile);color:var(--on-tile);display:grid;place-items:center;flex:none}
@@ -293,7 +293,7 @@ function shell(){
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
 const TYPE=f=>f.type||"film";
-const VIEWS=[["films","Films",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"],["watched","Watched",f=>f.w]];
+const VIEWS=[["films","Movies",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"],["watched","Watched",f=>f.w]];
 /* "Mission: Impossible – Fallout" → ["Mission: Impossible","Fallout"], only when the title starts with its franchise name */
 const splitFr=f=>{if(!f.fr)return [f.t,""];const base=f.fr.replace(/\s*\(.*\)$/,"");if(!f.t.startsWith(base))return [f.t,""];
   const m=f.t.slice(base.length).match(/^(?::\s+|\s+[–—-]\s+)(.+)$/);return m?[base,m[1]]:[f.t,""]};
@@ -303,13 +303,14 @@ const people=s=>{const p=String(s||"").split(/\s*(?:,|&|\band\b)\s*/).map(x=>x.t
   return p.map((x,i)=>{if(!/\s/.test(x)&&i+1<p.length){const n=p[i+1].split(/\s+/);return x+" "+n[n.length-1]}return x})};
 const slug=id=>String(id).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9]+/g,"-").replace(/^-|-$/g,"");
 const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
-const NOUN={films:"film",series:"series",shorts:"short",watched:"film",collections:"film",franchises:"film"};
+const NOUN={films:"movie",series:"series",shorts:"short",watched:"title",collections:"title",franchises:"title"};
+const plural=(n,w)=>n+" "+(n===1||w==="series"?w:w+"s");
 const VTYPE={series:"series",shorts:"short"};
 function viewPred(){if(ui.view==="franchises")return f=>!!f.fr&&(!ui.fr||f.fr===ui.fr);const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
 function stats(){
-  $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}"><b>${films.filter(pr).length}</b>${label}</button>`).join("")+
-    `<button class="nt" role="tab" data-v="franchises" aria-selected="${ui.view==="franchises"}"><b>${frNames().length}</b>Franchises</button>`+
-    `<button class="nt" role="tab" data-v="collections" aria-selected="${ui.view==="collections"}"><b>${cols.length}</b>Collections</button>`;
+  const tab=(id,label,n,w)=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}" title="${plural(n,w)}">${label}</button>`;
+  $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>tab(id,label,films.filter(pr).length,NOUN[id])).join("")+
+    tab("franchises","Franchises",frNames().length,"franchise")+tab("collections","Collections",cols.length,"collection");
 }
 function filtersActive(){return !!(ui.q||ui.genre||ui.decade!=null||ui.show!=="all"||(ui.col&&ui.view!=="collections")||(ui.order!=="new"&&!(ui.col&&ui.order==="imdb"))||ui.layout!=="grid")}
 function acts(){
@@ -326,7 +327,7 @@ function render(){
 function libraryView(){
   const c=ui.col?cols.find(x=>x.id===ui.col):null;
   const who=ui.director||ui.actor,dn=ui.director?films.filter(f=>people(f.d).includes(ui.director)).length:ui.actor?films.filter(f=>(f.cast||[]).includes(ui.actor)).length:0;
-  $("#view").innerHTML=(who?`<div class="banner"><div><h2>${esc(who)}</h2><p>${dn} ${dn===1?"title":"titles"} in the library · ${ui.director?"director":"cast"}</p></div><button id="cleardir">Clear filter</button></div>`:"")+
+  $("#view").innerHTML=(who?`<div class="banner"><div><h2>${esc(who)}</h2><p>${plural(dn,"title")} in the library · ${ui.director?(()=>{const ts=new Set(films.filter(f=>people(f.d).includes(ui.director)).map(f=>TYPE(f)==="series"?"creator":"director"));return [...ts].sort((a,b)=>a==="director"?-1:1).join(" & ")})():"cast"}</p></div><button id="cleardir">Clear filter</button></div>`:"")+
   (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button id="clearfr">All franchises</button></div>`:"")+
   (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button id="clearcol">${ui.view==="collections"?"All collections":"Clear filter"}</button></div>`:"")+
   `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director||ui.actor?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
@@ -336,6 +337,7 @@ function libraryView(){
     ${ui.view==="watched"?"":`<select id="show" aria-label="Status">${[["all","Everything"],["todo","To watch"],["seen","Watched"]].map(([v,l])=>`<option value="${v}" ${ui.show===v?"selected":""}>${l}</option>`).join("")}</select>`}
     <select id="order" aria-label="Sort">${[["new","Newest first"],["old","Oldest first"],["title","Title A–Z"],["imdb","IMDb rating"]].map(([v,l])=>`<option value="${v}" ${ui.order===v?"selected":""}>${l}</option>`).join("")}</select>
     <span class="seg" id="seg"><button data-l="grid" aria-pressed="${ui.layout==="grid"}">Grid</button><button data-l="list" aria-pressed="${ui.layout==="list"}">List</button></span>
+    <span class="fcount" id="fcount"></span>
   </div></div><div id="list"></div>`;
   if($("#decades"))decades();
   if($("#cleardir"))$("#cleardir").onclick=()=>{ui.director=null;ui.actor=null;render()};
@@ -384,6 +386,7 @@ function list(){
     (ui.show==="all"||(ui.show==="seen"&&f.w)||(ui.show==="todo"&&!f.w)))
     .sort(ui.fr&&ui.order==="new"?SORT.saga:(SORT[ui.order]||SORT.new));
   const el=$("#list");if(!el)return;acts();
+  const tot=films.filter(P).length,fc=$("#fcount");if(fc)fc.textContent=(L.length<tot?L.length+" of ":"")+plural(tot,NOUN[ui.view]||"title");
   if(!L.length){const any=films.some(P);el.innerHTML=`<p class="empty">${!films.length?"Loading the library…":any?"Nothing matches. Clear the search or filters.":ui.view==="watched"?"Nothing watched yet.":`No ${ui.view} yet.${ui.editable?` Add one with “Add ${NOUN[ui.view]}”.`:""}`}</p>`;return}
   let h="";
   if(ui.layout==="grid")h=`<div class="grid" style="margin-top:22px">${L.map(tileHTML).join("")}</div>`;
@@ -398,7 +401,7 @@ function collectionsView(){
   let h=`<div class="cols">`+cols.map(c=>{
     const fs=films.filter(f=>f.c.includes(c.id)),w=fs.filter(f=>f.w).length;
     const peek=fs.slice().sort((a,b)=>(b.imdb??-1)-(a.imdb??-1)).slice(0,6).map(f=>f.t).join(" · ");
-    return `<button class="col" data-c="${c.id}"><span class="cnt">${fs.length} films${w?` · ${w} watched`:""}</span><h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p><span class="peek">${esc(peek)}</span></button>`}).join("");
+    return `<button class="col" data-c="${c.id}"><span class="cnt">${plural(fs.length,"title")}${w?` · ${w} watched`:""}</span><h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p><span class="peek">${esc(peek)}</span></button>`}).join("");
   if(ui.editable)h+=`<form class="col new" id="newcol"><h3>New collection</h3>
     <input type="text" id="nc-name" placeholder="Name, e.g. Rainy Sunday" required aria-label="Collection name">
     <textarea id="nc-desc" rows="2" placeholder="What mood is it for?" aria-label="Description"></textarea>
@@ -437,7 +440,7 @@ function drawer(){
     h+=`<form id="addf" style="display:flex;flex-direction:column;gap:14px">
       <div class="head"><div class="info"><h2>Add ${NOUN[ui.view]}</h2></div></div>
       <label class="fld"><span class="lbl">Title</span><input type="text" id="a-t" required></label>
-      <label class="fld"><span class="lbl">Type</span><select id="a-type">${[["film","Film"],["series","Series"],["short","Short"]].map(([v,l])=>`<option value="${v}" ${(VTYPE[ui.view]||"film")===v?"selected":""}>${l}</option>`).join("")}</select></label>
+      <label class="fld"><span class="lbl">Type</span><select id="a-type">${[["film","Movie"],["series","Series"],["short","Short"]].map(([v,l])=>`<option value="${v}" ${(VTYPE[ui.view]||"film")===v?"selected":""}>${l}</option>`).join("")}</select></label>
       <div class="three"><label class="fld"><span class="lbl">Director</span><input type="text" id="a-d"></label><label class="fld"><span class="lbl">Year</span><input type="number" id="a-y" min="1880" max="2100" required></label></div>
       <label class="fld"><span class="lbl">Genres (up to 3, comma-separated)</span><input type="text" id="a-g" placeholder="Thriller, Sci-Fi"></label>
       <div class="fld"><span class="lbl">Collections</span><div class="mchips" id="a-c">${cols.map(c=>`<button type="button" class="mchip" data-c="${c.id}" aria-pressed="${ui.col===c.id}">${esc(c.name)}</button>`).join("")}</div></div>
@@ -448,10 +451,10 @@ function drawer(){
     h+=`<div class="mgrid"><div class="pcol"><div class="poster${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,500)}" alt="Poster: ${esc(f.t)}" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}<span class="py">${f.y}</span><span class="pt">${esc(f.t)}</span><span class="py">${esc(f.d)}</span></div>
         ${f.trailer?`<button type="button" class="tbtn" id="tbtn"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Trailer</button>`:`<a class="tbtn" href="https://www.youtube.com/results?search_query=${encodeURIComponent(f.t+" "+f.y+" trailer")}" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M8 5.5v13l11-6.5z" fill="currentColor"/></svg>Trailer ↗</a>`}</div>
       <div class="mcol"><div class="info">${(()=>{const [a,b]=splitFr(f);return `<h2>${b?`<span class="h2pre">${esc(a)}</span>${esc(b)}`:esc(a)}</h2>`})()}
-        ${f.d?`<div class="dlinks" id="dirlinks">${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
         <span class="meta2">${f.y}${f.runtime?` · ${f.runtime} min`:""}</span>
+        ${f.d?`<div class="dlinks" id="dirlinks"><span class="lbl">${TYPE(f)==="series"?"Created by":"Directed by"}</span>${people(f.d).map(n=>`<button class="dlink" data-p="${esc(n)}" title="All titles by ${esc(n)}">${esc(n)}</button>`).join('<span class="sep">,</span>')}</div>`:""}
         ${(f.cast||[]).length?`<div class="castl" id="castl"><span class="lbl">Starring</span>${f.cast.map((n,i)=>{const ph=(f.castP||[])[i];return `<button data-a="${esc(n)}" title="All titles with ${esc(n)}"><span class="av">${ph?`<img src="${esc(ph)}" alt="" loading="lazy" onerror="this.remove()">`:""}<i>${esc(n.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>${esc(n)}</button>`}).join("")}</div>`:""}
-        ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} films">${esc(g)}</button>`).join("")}</div>`:""}
+        ${(f.g||[]).length?`<div class="glinks" id="glinks">${f.g.map(g=>`<button data-g="${esc(g)}" title="All ${esc(g)} titles">${esc(g)}</button>`).join("")}</div>`:""}
       ${E?`<button class="btn ${f.w?"":"ghost"} watch" id="watch">${f.w?"Watched ✓":"Mark as watched"}</button>`:(f.w?`<span class="seen" style="margin:0;align-self:flex-start;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.06em;color:var(--brown);border:1px solid currentColor;border-radius:3px;padding:3px 6px">Watched</span>`:"")}
       </div>
       <div class="scores2">
@@ -477,7 +480,7 @@ function drawer(){
           <label class="fld"><span class="lbl">IMDb link or ID</span><input type="text" id="e-imdb" placeholder="https://www.imdb.com/title/tt0064116/" value="${esc(f.imdbId||"")}"></label>
           <label class="fld"><span class="lbl">Poster image URL (optional)</span><input type="text" id="e-poster" placeholder="Right-click a poster → Copy Image Address" value="${esc(f.posterLock?f.poster:"")}"></label>
           <span class="rv" style="margin:0;font-size:12px">After Save to GitHub, the poster and IMDb data refresh in a few minutes.</span>
-          <label class="fld"><span class="lbl">Type</span><select id="e-type">${[["film","Film"],["series","Series"],["short","Short"]].map(([v,l])=>`<option value="${v}" ${TYPE(f)===v?"selected":""}>${l}</option>`).join("")}</select></label></div></details>`
+          <label class="fld"><span class="lbl">Type</span><select id="e-type">${[["film","Movie"],["series","Series"],["short","Short"]].map(([v,l])=>`<option value="${v}" ${TYPE(f)===v?"selected":""}>${l}</option>`).join("")}</select></label></div></details>`
         :(f.n?`<div class="note">${esc(f.n)}</div>`:"")}</div></div>`;
   }
   root.innerHTML=h+`</aside>`;
