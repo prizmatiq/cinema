@@ -23,8 +23,13 @@
    "runtime": 150,
    "overview": "In a futuristic city sharply divided between the working class and the city planners, the son of the city's mastermind falls in love with a working-class prophet who predicts the coming of a savior to mediate their differences.",
    "v": 3,
-   "imdbVotes": 203809,
-   "lbUrl": "https://letterboxd.com/film/metropolis/"
+   "imdbVotes": 203824,
+   "lbUrl": "https://letterboxd.com/film/metropolis/",
+   "cast": [
+    "Brigitte Helm",
+    "Alfred Abel",
+    "Gustav Fröhlich"
+   ]
   },
   {
    "id": "citizen kane|1941",
@@ -48,9 +53,14 @@
    "runtime": 119,
    "overview": "Following the death of publishing tycoon Charles Foster Kane, reporters scramble to uncover the meaning of his final utterance: 'Rosebud.'",
    "v": 3,
-   "imdbVotes": 498080,
+   "imdbVotes": 498096,
    "lbUrl": "https://letterboxd.com/film/citizen-kane/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Orson Welles",
+    "Joseph Cotten",
+    "Dorothy Comingore"
+   ]
   },
   {
    "id": "stromboli|1950",
@@ -73,11 +83,16 @@
    "runtime": 81,
    "overview": "Karin, a young woman from the Baltic countries, marries fisherman Antonio to escape from a prison camp. But she cannot get used to the tough life in Antonio's volcano-threatened village, Stromboli.",
    "v": 3,
-   "imdbVotes": 9137,
+   "imdbVotes": 9141,
    "lbUrl": "https://letterboxd.com/film/stromboli/",
    "fr": "Rossellini–Bergman",
    "frI": 0,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Ingrid Bergman",
+    "Mario Vitale",
+    "Renzo Cesana"
+   ]
   },
   {
    "id": "europe '51|1952",
@@ -101,11 +116,16 @@
    "runtime": 118,
    "overview": "A wealthy woman becomes obsessed with humanitarianism when her young son dies after committing suicide.",
    "v": 3,
-   "imdbVotes": 5588,
+   "imdbVotes": 5590,
    "lbUrl": "https://letterboxd.com/film/europa-51/",
    "fr": "Rossellini–Bergman",
    "frI": 1,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Ingrid Bergman",
+    "Alexander Knox",
+    "Ettore Giannini"
+   ]
   },
   {
    "id": "journey to italy|1954",
@@ -134,7 +154,12 @@
    "lbUrl": "https://letterboxd.com/film/journey-to-italy/",
    "fr": "Rossellini–Bergman",
    "frI": 2,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Ingrid Bergman",
+    "George Sanders",
+    "Maria Mauban"
+   ]
   },
   {
    "id": "the searchers|1956",
@@ -158,9 +183,14 @@
    "runtime": 119,
    "overview": "An American Civil War veteran embarks on a years-long journey to rescue his niece from the Comanches after the rest of his brother's family is massacred in a raid on their Texas farm.",
    "v": 3,
-   "imdbVotes": 104259,
+   "imdbVotes": 104267,
    "lbUrl": "https://letterboxd.com/film/the-searchers/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "John Wayne",
+    "Jeffrey Hunter",
+    "Vera Miles"
+   ]
   },
   {
    "id": "ashes and diamonds|1958",
@@ -185,9 +215,14 @@
    "overview": "As World War II and the German occupation ends, the Polish resistance and the Soviet forces turn on each other in an attempt to take over leadership in Communist Poland.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 15314,
+   "imdbVotes": 15318,
    "lbUrl": "https://letterboxd.com/film/ashes-and-diamonds/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Zbigniew Cybulski",
+    "Ewa Krzyzewska",
+    "Waclaw Zastrzezynski"
+   ]
   },
   {
    "id": "psycho|1960",
@@ -211,9 +246,14 @@
    "runtime": 109,
    "overview": "A secretary on the run for embezzlement takes refuge at a secluded California motel owned by a repressed man and his overbearing mother.",
    "v": 3,
-   "imdbVotes": 798311,
+   "imdbVotes": 798416,
    "lbUrl": "https://letterboxd.com/film/psycho/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Anthony Perkins",
+    "Janet Leigh",
+    "Vera Miles"
+   ]
   },
   {
    "id": "ivan's childhood|1962",
@@ -238,9 +278,14 @@
    "runtime": 95,
    "overview": "During WWII, Soviet orphan Ivan Bondarev strikes up a friendship with three sympathetic Soviet officers while working as a scout behind the German lines.",
    "v": 3,
-   "imdbVotes": 44252,
+   "imdbVotes": 44255,
    "lbUrl": "https://letterboxd.com/film/ivans-childhood/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Nikolay Burlyaev",
+    "Valentin Zubkov",
+    "Evgeniy Zharikov"
+   ]
   },
   {
    "id": "carnival of souls|1962",
@@ -265,9 +310,14 @@
    "runtime": 78,
    "overview": "After a traumatic accident, a woman becomes drawn to a mysterious abandoned carnival.",
    "v": 3,
-   "imdbVotes": 31942,
+   "imdbVotes": 31950,
    "lbUrl": "https://letterboxd.com/film/carnival-of-souls/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Candace Hilligoss",
+    "Frances Feist",
+    "Sidney Berger"
+   ]
   },
   {
    "id": "lolita|1962",
@@ -291,9 +341,14 @@
    "runtime": 153,
    "overview": "A middle-aged college professor becomes infatuated with a 14-year-old girl.",
    "v": 3,
-   "imdbVotes": 117656,
+   "imdbVotes": 117673,
    "lbUrl": "https://letterboxd.com/film/lolita/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "James Mason",
+    "Shelley Winters",
+    "Sue Lyon"
+   ]
   },
   {
    "id": "8½|1963",
@@ -318,9 +373,14 @@
    "runtime": 138,
    "overview": "Guido seeks peace after his success but faces pressure from past collaborators. As he struggles with creativity, he reflects on his life and past romances.",
    "v": 3,
-   "imdbVotes": 134165,
+   "imdbVotes": 134176,
    "lbUrl": "https://letterboxd.com/film/8-half/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Marcello Mastroianni",
+    "Anouk Aimée",
+    "Claudia Cardinale"
+   ]
   },
   {
    "id": "the leopard|1963",
@@ -344,9 +404,14 @@
    "runtime": 186,
    "overview": "The Prince of Salina, a noble aristocrat of impeccable integrity, tries to preserve his family and class amid the tumultuous social upheavals of 1860s Sicily.",
    "v": 3,
-   "imdbVotes": 35188,
+   "imdbVotes": 35194,
    "lbUrl": "https://letterboxd.com/film/the-leopard/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Burt Lancaster",
+    "Alain Delon",
+    "Claudia Cardinale"
+   ]
   },
   {
    "id": "onibaba|1964",
@@ -371,9 +436,14 @@
    "overview": "Two women kill samurai and sell their belongings for a living. While one of them is having an affair with their neighbor, the other woman meets a mysterious samurai wearing a bizarre mask.",
    "v": 3,
    "idLock": true,
-   "imdbVotes": 26390,
+   "imdbVotes": 26399,
    "lbUrl": "https://letterboxd.com/film/onibaba/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Nobuko Otowa",
+    "Jitsuko Yoshimura",
+    "Kei Sato"
+   ]
   },
   {
    "id": "gate of flesh|1964",
@@ -397,7 +467,12 @@
    "overview": "An injured thief on the run finds sanctuary within a brothel of united, ruthless women.",
    "v": 3,
    "imdbVotes": 3776,
-   "lbUrl": "https://letterboxd.com/film/gate-of-flesh/"
+   "lbUrl": "https://letterboxd.com/film/gate-of-flesh/",
+   "cast": [
+    "Jô Shishido",
+    "Kôji Wada",
+    "Yumiko Nogawa"
+   ]
   },
   {
    "id": "a fistful of dollars|1964",
@@ -421,10 +496,15 @@
    "overview": "A wandering gunfighter plays two rival families against each other in a town torn apart by greed, pride, and revenge.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 257715,
+   "imdbVotes": 257739,
    "lbUrl": "https://letterboxd.com/film/a-fistful-of-dollars/",
    "fr": "Dollars Trilogy",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Clint Eastwood",
+    "Gian Maria Volontè",
+    "Marianne Koch"
+   ]
   },
   {
    "id": "for a few dollars more|1965",
@@ -448,10 +528,15 @@
    "overview": "Two bounty killers with similar intentions but different motivations team up to take down a psychotic Mexican outlaw before he and his gang can carry out an audacious bank robbery.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 305120,
+   "imdbVotes": 305141,
    "lbUrl": "https://letterboxd.com/film/for-a-few-dollars-more/",
    "fr": "Dollars Trilogy",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Clint Eastwood",
+    "Lee Van Cleef",
+    "Gian Maria Volontè"
+   ]
   },
   {
    "id": "persona|1966",
@@ -476,8 +561,13 @@
    "runtime": 83,
    "overview": "A nurse is put in charge of a mute actress and finds that their personae are melding together.",
    "v": 3,
-   "imdbVotes": 142705,
-   "lbUrl": "https://letterboxd.com/film/persona/"
+   "imdbVotes": 142712,
+   "lbUrl": "https://letterboxd.com/film/persona/",
+   "cast": [
+    "Bibi Andersson",
+    "Liv Ullmann",
+    "Margaretha Krook"
+   ]
   },
   {
    "id": "the good, the bad and the ugly|1966",
@@ -502,10 +592,15 @@
    "runtime": 178,
    "overview": "A bounty-hunting scam joins two men in an uneasy alliance against a third in a race to find a fortune in gold buried in a remote cemetery.",
    "v": 3,
-   "imdbVotes": 905444,
+   "imdbVotes": 905543,
    "lbUrl": "https://letterboxd.com/film/the-good-the-bad-and-the-ugly/",
    "fr": "Dollars Trilogy",
-   "frI": 2
+   "frI": 2,
+   "cast": [
+    "Clint Eastwood",
+    "Eli Wallach",
+    "Lee Van Cleef"
+   ]
   },
   {
    "id": "2001: a space odyssey|1968",
@@ -529,8 +624,13 @@
    "runtime": 149,
    "overview": "When a mysterious artifact is uncovered on the Moon, a spacecraft manned by two scientists and one supercomputer is dispatched to Jupiter to find its origins.",
    "v": 3,
-   "imdbVotes": 795921,
-   "lbUrl": "https://letterboxd.com/film/2001-a-space-odyssey/"
+   "imdbVotes": 795962,
+   "lbUrl": "https://letterboxd.com/film/2001-a-space-odyssey/",
+   "cast": [
+    "Keir Dullea",
+    "Gary Lockwood",
+    "William Sylvester"
+   ]
   },
   {
    "id": "rosemary's baby|1968",
@@ -554,8 +654,13 @@
    "runtime": 137,
    "overview": "A young woman suspects her neighbors have sinister plans for her pregnancy.",
    "v": 3,
-   "imdbVotes": 262433,
-   "lbUrl": "https://letterboxd.com/film/rosemarys-baby/"
+   "imdbVotes": 262480,
+   "lbUrl": "https://letterboxd.com/film/rosemarys-baby/",
+   "cast": [
+    "Mia Farrow",
+    "John Cassavetes",
+    "Ruth Gordon"
+   ]
   },
   {
    "id": "once upon a time in the west|1968",
@@ -580,8 +685,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZjYyNGY1MDEtN2I1MC00MGVhLTljZTYtODQ1NzQ0ODc2NzZlXkEyXkFqcGc@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "runtime": 145,
    "overview": "A mysterious stranger with a harmonica teams up with a notorious desperado to protect a beautiful widow and her land from a ruthless assassin in the employ of a railroad tycoon.",
-   "imdbVotes": 388894,
-   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-the-west/"
+   "imdbVotes": 388925,
+   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-the-west/",
+   "cast": [
+    "Henry Fonda",
+    "Charles Bronson",
+    "Claudia Cardinale"
+   ]
   },
   {
    "id": "a clockwork orange|1971",
@@ -606,8 +716,13 @@
    "runtime": 136,
    "overview": "Alex DeLarge and his droogs barbarize a decaying near-future.",
    "v": 3,
-   "imdbVotes": 948330,
-   "lbUrl": "https://letterboxd.com/film/a-clockwork-orange/"
+   "imdbVotes": 948411,
+   "lbUrl": "https://letterboxd.com/film/a-clockwork-orange/",
+   "cast": [
+    "Malcolm McDowell",
+    "Patrick Magee",
+    "Michael Bates"
+   ]
   },
   {
    "id": "the devil|1972",
@@ -632,8 +747,13 @@
    "runtime": 125,
    "overview": "Young Polish noble Jakub, freed during 1793 Prussian invasion, experiences father's death, betrayal. Traumatized, he follows his savior, committing brutal murders across the country.",
    "v": 3,
-   "imdbVotes": 3730,
-   "lbUrl": "https://letterboxd.com/film/the-devil-1972/"
+   "imdbVotes": 3734,
+   "lbUrl": "https://letterboxd.com/film/the-devil-1972/",
+   "cast": [
+    "Leszek Teleszynski",
+    "Wojciech Pszoniak",
+    "Malgorzata Braunek"
+   ]
   },
   {
    "id": "the godfather|1972",
@@ -658,10 +778,15 @@
    "runtime": 175,
    "overview": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
    "v": 3,
-   "imdbVotes": 2268233,
+   "imdbVotes": 2268532,
    "lbUrl": "https://letterboxd.com/film/the-godfather/",
    "fr": "The Godfather",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Marlon Brando",
+    "Al Pacino",
+    "James Caan"
+   ]
   },
   {
    "id": "serpico|1973",
@@ -686,8 +811,13 @@
    "runtime": 130,
    "overview": "An honest New York cop named Frank Serpico blows the whistle on rampant corruption in the force only to have his comrades turn against him.",
    "v": 3,
-   "imdbVotes": 149421,
-   "lbUrl": "https://letterboxd.com/film/serpico/"
+   "imdbVotes": 149468,
+   "lbUrl": "https://letterboxd.com/film/serpico/",
+   "cast": [
+    "Al Pacino",
+    "John Randolph",
+    "Jack Kehoe"
+   ]
   },
   {
    "id": "don't look now|1973",
@@ -711,8 +841,13 @@
    "runtime": 110,
    "overview": "A married couple grieving the recent death of their young daughter are in Venice when they encounter two elderly sisters with a warning from beyond.",
    "v": 3,
-   "imdbVotes": 69744,
-   "lbUrl": "https://letterboxd.com/film/dont-look-now/"
+   "imdbVotes": 69764,
+   "lbUrl": "https://letterboxd.com/film/dont-look-now/",
+   "cast": [
+    "Julie Christie",
+    "Donald Sutherland",
+    "Hilary Mason"
+   ]
   },
   {
    "id": "the exorcist|1973",
@@ -735,8 +870,13 @@
    "runtime": 122,
    "overview": "When a mysterious entity possesses a young girl, her mother seeks the help of two Catholic priests to save her life.",
    "v": 3,
-   "imdbVotes": 508101,
-   "lbUrl": "https://letterboxd.com/film/the-exorcist/"
+   "imdbVotes": 508209,
+   "lbUrl": "https://letterboxd.com/film/the-exorcist/",
+   "cast": [
+    "Ellen Burstyn",
+    "Max von Sydow",
+    "Linda Blair"
+   ]
   },
   {
    "id": "the godfather part ii|1974",
@@ -761,10 +901,15 @@
    "runtime": 202,
    "overview": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
    "v": 3,
-   "imdbVotes": 1521224,
+   "imdbVotes": 1521445,
    "lbUrl": "https://letterboxd.com/film/the-godfather-part-ii/",
    "fr": "The Godfather",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Al Pacino",
+    "Robert De Niro",
+    "Robert Duvall"
+   ]
   },
   {
    "id": "chinatown|1974",
@@ -788,8 +933,13 @@
    "runtime": 130,
    "overview": "A private detective hired to expose an adulterer in 1930s Los Angeles finds himself caught up in a web of deceit, corruption, and murder.",
    "v": 3,
-   "imdbVotes": 381556,
-   "lbUrl": "https://letterboxd.com/film/chinatown/"
+   "imdbVotes": 381599,
+   "lbUrl": "https://letterboxd.com/film/chinatown/",
+   "cast": [
+    "Jack Nicholson",
+    "Faye Dunaway",
+    "John Huston"
+   ]
   },
   {
    "id": "barry lyndon|1975",
@@ -814,8 +964,13 @@
    "runtime": 185,
    "overview": "An Irish rogue wins the heart of a rich widow and assumes her dead husband's aristocratic position in 18th-century England.",
    "v": 3,
-   "imdbVotes": 209609,
-   "lbUrl": "https://letterboxd.com/film/barry-lyndon/"
+   "imdbVotes": 209656,
+   "lbUrl": "https://letterboxd.com/film/barry-lyndon/",
+   "cast": [
+    "Ryan O&apos;Neal",
+    "Marisa Berenson",
+    "Patrick Magee"
+   ]
   },
   {
    "id": "taxi driver|1976",
@@ -840,8 +995,13 @@
    "runtime": 114,
    "overview": "A mentally unstable veteran works as a nighttime taxi driver in New York City, where the perceived decadence and sleaze fuels his urge for violent action.",
    "v": 3,
-   "imdbVotes": 1046674,
-   "lbUrl": "https://letterboxd.com/film/taxi-driver/"
+   "imdbVotes": 1046780,
+   "lbUrl": "https://letterboxd.com/film/taxi-driver/",
+   "cast": [
+    "Robert De Niro",
+    "Jodie Foster",
+    "Cybill Shepherd"
+   ]
   },
   {
    "id": "saturday night fever|1977",
@@ -866,8 +1026,13 @@
    "runtime": 119,
    "overview": "Anxious about his future after high school, a 19-year-old Italian-American from Brooklyn tries to escape the harsh reality of his bleak family life by dominating the dance floor at the local disco.",
    "v": 3,
-   "imdbVotes": 96292,
-   "lbUrl": "https://letterboxd.com/film/saturday-night-fever/"
+   "imdbVotes": 96302,
+   "lbUrl": "https://letterboxd.com/film/saturday-night-fever/",
+   "cast": [
+    "John Travolta",
+    "Karen Lynn Gorney",
+    "Barry Miller"
+   ]
   },
   {
    "id": "house|1977",
@@ -894,8 +1059,13 @@
    "runtime": 88,
    "overview": "A schoolgirl and six of her classmates travel to her aunt's country home, which turns out to be haunted.",
    "v": 3,
-   "imdbVotes": 40978,
-   "lbUrl": "https://letterboxd.com/film/house/"
+   "imdbVotes": 40998,
+   "lbUrl": "https://letterboxd.com/film/house/",
+   "cast": [
+    "Kimiko Ikegami",
+    "Miki Jinbo",
+    "Kumiko Ôba"
+   ]
   },
   {
    "id": "apocalypse now|1979",
@@ -920,8 +1090,13 @@
    "runtime": 147,
    "overview": "A U.S. Army officer serving in Vietnam is tasked with assassinating a renegade Special Forces Colonel who sees himself as a god.",
    "v": 3,
-   "imdbVotes": 780880,
-   "lbUrl": "https://letterboxd.com/film/apocalypse-now/"
+   "imdbVotes": 780959,
+   "lbUrl": "https://letterboxd.com/film/apocalypse-now/",
+   "cast": [
+    "Martin Sheen",
+    "Marlon Brando",
+    "Robert Duvall"
+   ]
   },
   {
    "id": "demon pond|1979",
@@ -946,7 +1121,12 @@
    "overview": "Mysterious pond near Japanese village inhabited by mythical beings. Their narrative revolves around vengeance, heartbreak, and the strength of genuine affection.",
    "v": 3,
    "imdbVotes": 1325,
-   "lbUrl": "https://letterboxd.com/film/demon-pond-1979/"
+   "lbUrl": "https://letterboxd.com/film/demon-pond-1979/",
+   "cast": [
+    "Tamasaburo Bando",
+    "Gô Katô",
+    "Tsutomu Yamazaki"
+   ]
   },
   {
    "id": "the shining|1980",
@@ -970,10 +1150,15 @@
    "runtime": 146,
    "overview": "A family heads to an isolated hotel for the winter, where a sinister presence influences the father into violence. At the same time, his psychic son sees horrifying forebodings from both the past and the future.",
    "v": 3,
-   "imdbVotes": 1250325,
+   "imdbVotes": 1250561,
    "lbUrl": "https://letterboxd.com/film/the-shining/",
    "fr": "The Shining",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Jack Nicholson",
+    "Shelley Duvall",
+    "Danny Lloyd"
+   ]
   },
   {
    "id": "raging bull|1980",
@@ -997,8 +1182,13 @@
    "runtime": 129,
    "overview": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
    "v": 3,
-   "imdbVotes": 415724,
-   "lbUrl": "https://letterboxd.com/film/raging-bull/"
+   "imdbVotes": 415773,
+   "lbUrl": "https://letterboxd.com/film/raging-bull/",
+   "cast": [
+    "Robert De Niro",
+    "Cathy Moriarty",
+    "Joe Pesci"
+   ]
   },
   {
    "id": "altered states|1980",
@@ -1023,8 +1213,13 @@
    "runtime": 102,
    "overview": "A maverick psychology professor decides to combine his experiments in sensory deprivation tanks with powerful hallucinogenic mushrooms, and begins to experience altered mental and physical states.",
    "v": 3,
-   "imdbVotes": 43358,
-   "lbUrl": "https://letterboxd.com/film/altered-states/"
+   "imdbVotes": 43367,
+   "lbUrl": "https://letterboxd.com/film/altered-states/",
+   "cast": [
+    "William Hurt",
+    "Blair Brown",
+    "Bob Balaban"
+   ]
   },
   {
    "id": "thief|1981",
@@ -1049,8 +1244,13 @@
    "runtime": 123,
    "overview": "After years in prison, ace safe-cracker Frank owns a car dealership and a cocktail lounge, which are fronts for high-stakes jewelry heists. He wants to complete one last big heist for the Mob before he goes straight.",
    "v": 3,
-   "imdbVotes": 52263,
-   "lbUrl": "https://letterboxd.com/film/thief/"
+   "imdbVotes": 52277,
+   "lbUrl": "https://letterboxd.com/film/thief/",
+   "cast": [
+    "James Caan",
+    "Tuesday Weld",
+    "Willie Nelson"
+   ]
   },
   {
    "id": "pennies from heaven|1981",
@@ -1075,8 +1275,13 @@
    "runtime": 108,
    "overview": "During the Great Depression, a sheet-music salesman seeks to escape his dreary life through popular music and a love affair with an innocent schoolteacher.",
    "v": 3,
-   "imdbVotes": 6934,
-   "lbUrl": "https://letterboxd.com/film/pennies-from-heaven/"
+   "imdbVotes": 6937,
+   "lbUrl": "https://letterboxd.com/film/pennies-from-heaven/",
+   "cast": [
+    "Steve Martin",
+    "Bernadette Peters",
+    "Jessica Harper"
+   ]
   },
   {
    "id": "the king of comedy|1982",
@@ -1100,8 +1305,13 @@
    "runtime": 109,
    "overview": "Rupert is an aspiring stand-up comedian, who is willing to go the extra mile in his attempt to appear in the late night show hosted by his idol.",
    "v": 3,
-   "imdbVotes": 136357,
-   "lbUrl": "https://letterboxd.com/film/the-king-of-comedy/"
+   "imdbVotes": 136367,
+   "lbUrl": "https://letterboxd.com/film/the-king-of-comedy/",
+   "cast": [
+    "Robert De Niro",
+    "Jerry Lewis",
+    "Diahnne Abbott"
+   ]
   },
   {
    "id": "scarface|1983",
@@ -1125,8 +1335,13 @@
    "runtime": 170,
    "overview": "In the 1980s, a determined criminal-minded Cuban immigrant becomes the biggest drug smuggler in Miami, and is eventually undone by his own drug addiction.",
    "v": 3,
-   "imdbVotes": 1040016,
-   "lbUrl": "https://letterboxd.com/film/scarface-1983/"
+   "imdbVotes": 1040174,
+   "lbUrl": "https://letterboxd.com/film/scarface-1983/",
+   "cast": [
+    "Al Pacino",
+    "Michelle Pfeiffer",
+    "Steven Bauer"
+   ]
   },
   {
    "id": "paris, texas|1984",
@@ -1151,8 +1366,13 @@
    "runtime": 145,
    "overview": "After missing for 4 years, aimless drifter Travis Henderson wanders out of the desert and slowly begins to reconnect with his brother's family and his young son while examining his past and attempting to reconcile with his estrang...",
    "v": 3,
-   "imdbVotes": 145984,
-   "lbUrl": "https://letterboxd.com/film/paris-texas/"
+   "imdbVotes": 146001,
+   "lbUrl": "https://letterboxd.com/film/paris-texas/",
+   "cast": [
+    "Harry Dean Stanton",
+    "Nastassja Kinski",
+    "Dean Stockwell"
+   ]
   },
   {
    "id": "once upon a time in america|1984",
@@ -1177,8 +1397,13 @@
    "runtime": 229,
    "overview": "A former New York gangster returns after decades in exile, confronting the friendships, dreams, and regrets that shaped his rise from street kid to Prohibition-era mobster.",
    "v": 3,
-   "imdbVotes": 413598,
-   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-america/"
+   "imdbVotes": 413621,
+   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-america/",
+   "cast": [
+    "Robert De Niro",
+    "James Woods",
+    "Elizabeth McGovern"
+   ]
   },
   {
    "id": "ran|1985",
@@ -1203,8 +1428,13 @@
    "runtime": 160,
    "overview": "In Medieval Japan, an elderly warlord retires, handing over his empire to his three sons. However, he vastly underestimates how the new-found power will corrupt them and cause them to turn on each other...and him.",
    "v": 3,
-   "imdbVotes": 155565,
-   "lbUrl": "https://letterboxd.com/film/ran/"
+   "imdbVotes": 155589,
+   "lbUrl": "https://letterboxd.com/film/ran/",
+   "cast": [
+    "Tatsuya Nakadai",
+    "Akira Terao",
+    "Jinpachi Nezu"
+   ]
   },
   {
    "id": "after hours|1985",
@@ -1229,8 +1459,13 @@
    "runtime": 97,
    "overview": "Ordinary word processor Paul Hackett experiences the worst night of his life after he agrees to visit Marcy, a Soho resident that he met that evening at a coffee shop.",
    "v": 3,
-   "imdbVotes": 101599,
-   "lbUrl": "https://letterboxd.com/film/after-hours/"
+   "imdbVotes": 101616,
+   "lbUrl": "https://letterboxd.com/film/after-hours/",
+   "cast": [
+    "Griffin Dunne",
+    "Rosanna Arquette",
+    "Verna Bloom"
+   ]
   },
   {
    "id": "blue velvet|1986",
@@ -1255,8 +1490,13 @@
    "runtime": 120,
    "overview": "A young man finds a severed human ear that is somehow connected to a mysterious lounge singer and a group of psychopathic criminals who have kidnapped her child.",
    "v": 3,
-   "imdbVotes": 250558,
-   "lbUrl": "https://letterboxd.com/film/blue-velvet/"
+   "imdbVotes": 250580,
+   "lbUrl": "https://letterboxd.com/film/blue-velvet/",
+   "cast": [
+    "Isabella Rossellini",
+    "Kyle MacLachlan",
+    "Dennis Hopper"
+   ]
   },
   {
    "id": "the untouchables|1987",
@@ -1280,8 +1520,13 @@
    "runtime": 119,
    "overview": "During Prohibition, Treasury agent Eliot Ness sets out to stop ruthless Chicago gangster Al Capone, and assembles a small, incorruptible team to help him.",
    "v": 3,
-   "imdbVotes": 358203,
-   "lbUrl": "https://letterboxd.com/film/the-untouchables/"
+   "imdbVotes": 358235,
+   "lbUrl": "https://letterboxd.com/film/the-untouchables/",
+   "cast": [
+    "Kevin Costner",
+    "Sean Connery",
+    "Robert De Niro"
+   ]
   },
   {
    "id": "dead ringers|1988",
@@ -1306,8 +1551,13 @@
    "runtime": 116,
    "overview": "Twin gynecologists take full advantage of the fact that nobody can tell them apart, until their relationship begins to deteriorate over a woman.",
    "v": 3,
-   "imdbVotes": 59947,
-   "lbUrl": "https://letterboxd.com/film/dead-ringers/"
+   "imdbVotes": 59960,
+   "lbUrl": "https://letterboxd.com/film/dead-ringers/",
+   "cast": [
+    "Jeremy Irons",
+    "Geneviève Bujold",
+    "Heidi von Palleske"
+   ]
   },
   {
    "id": "mo' better blues|1990",
@@ -1333,7 +1583,12 @@
    "overview": "Jazz trumpeter Bleek Gilliam makes questionable decisions in his professional and romantic lives.",
    "v": 3,
    "imdbVotes": 15224,
-   "lbUrl": "https://letterboxd.com/film/mo-better-blues/"
+   "lbUrl": "https://letterboxd.com/film/mo-better-blues/",
+   "cast": [
+    "Denzel Washington",
+    "Spike Lee",
+    "Wesley Snipes"
+   ]
   },
   {
    "id": "goodfellas|1990",
@@ -1357,8 +1612,13 @@
    "runtime": 145,
    "overview": "The story of Henry Hill and his life in the mafia, covering his relationship with his wife Karen and his mob partners Jimmy Conway and Tommy DeVito.",
    "v": 3,
-   "imdbVotes": 1420939,
-   "lbUrl": "https://letterboxd.com/film/goodfellas/"
+   "imdbVotes": 1421167,
+   "lbUrl": "https://letterboxd.com/film/goodfellas/",
+   "cast": [
+    "Robert De Niro",
+    "Ray Liotta",
+    "Joe Pesci"
+   ]
   },
   {
    "id": "king of new york|1990",
@@ -1383,8 +1643,13 @@
    "runtime": 103,
    "overview": "A drug kingpin is released from prison and seeks to take total control of the criminal underworld in order to give back to the community.",
    "v": 3,
-   "imdbVotes": 50286,
-   "lbUrl": "https://letterboxd.com/film/king-of-new-york/"
+   "imdbVotes": 50294,
+   "lbUrl": "https://letterboxd.com/film/king-of-new-york/",
+   "cast": [
+    "Christopher Walken",
+    "David Caruso",
+    "Laurence Fishburne"
+   ]
   },
   {
    "id": "dreams|1990",
@@ -1409,8 +1674,13 @@
    "runtime": 119,
    "overview": "A collection of tales based upon eight of director Akira Kurosawa's recurring dreams.",
    "v": 3,
-   "imdbVotes": 33519,
-   "lbUrl": "https://letterboxd.com/film/dreams/"
+   "imdbVotes": 33525,
+   "lbUrl": "https://letterboxd.com/film/dreams/",
+   "cast": [
+    "Akira Terao",
+    "Mitsuko Baisho",
+    "Toshie Negishi"
+   ]
   },
   {
    "id": "tie me up! tie me down!|1990",
@@ -1435,8 +1705,13 @@
    "runtime": 101,
    "overview": "An unbalanced but alluring former mental patient takes a porn star prisoner in the hopes of convincing her to marry him.",
    "v": 3,
-   "imdbVotes": 34051,
-   "lbUrl": "https://letterboxd.com/film/tie-me-up-tie-me-down/"
+   "imdbVotes": 34056,
+   "lbUrl": "https://letterboxd.com/film/tie-me-up-tie-me-down/",
+   "cast": [
+    "Victoria Abril",
+    "Antonio Banderas",
+    "Loles León"
+   ]
   },
   {
    "id": "the silence of the lambs|1991",
@@ -1461,8 +1736,13 @@
    "runtime": 118,
    "overview": "A young FBI cadet is aided by a manipulative cannibal killer in her pursuit of a madman who skins his victims.",
    "v": 3,
-   "imdbVotes": 1761918,
-   "lbUrl": "https://letterboxd.com/film/the-silence-of-the-lambs/"
+   "imdbVotes": 1762249,
+   "lbUrl": "https://letterboxd.com/film/the-silence-of-the-lambs/",
+   "cast": [
+    "Jodie Foster",
+    "Anthony Hopkins",
+    "Scott Glenn"
+   ]
   },
   {
    "id": "unforgiven|1992",
@@ -1485,8 +1765,13 @@
    "runtime": 130,
    "overview": "Retired Old West gunslinger Will Munny reluctantly takes on one last job to avenge an injustice with the help of his old partner and a young would-be gunman calling himself \"The Schofield Kid\".",
    "v": 3,
-   "imdbVotes": 474346,
-   "lbUrl": "https://letterboxd.com/film/unforgiven/"
+   "imdbVotes": 474385,
+   "lbUrl": "https://letterboxd.com/film/unforgiven/",
+   "cast": [
+    "Clint Eastwood",
+    "Gene Hackman",
+    "Morgan Freeman"
+   ]
   },
   {
    "id": "malcolm x|1992",
@@ -1511,8 +1796,13 @@
    "runtime": 202,
    "overview": "Biographical epic of the controversial and influential Black Nationalist leader, from his early life and career as a small-time gangster, to his ministry as a member of the Nation of Islam and his eventual assassination.",
    "v": 3,
-   "imdbVotes": 112962,
-   "lbUrl": "https://letterboxd.com/film/malcolm-x-1992/"
+   "imdbVotes": 112972,
+   "lbUrl": "https://letterboxd.com/film/malcolm-x-1992/",
+   "cast": [
+    "Denzel Washington",
+    "Angela Bassett",
+    "Delroy Lindo"
+   ]
   },
   {
    "id": "naked|1993",
@@ -1537,8 +1827,13 @@
    "overview": "An unemployed Mancunian vents his rage on unsuspecting strangers as he embarks on a nocturnal London odyssey.",
    "v": 3,
    "idLock": true,
-   "imdbVotes": 49625,
-   "lbUrl": "https://letterboxd.com/film/naked/"
+   "imdbVotes": 49627,
+   "lbUrl": "https://letterboxd.com/film/naked/",
+   "cast": [
+    "David Thewlis",
+    "Lesley Sharp",
+    "Katrin Cartlidge"
+   ]
   },
   {
    "id": "tombstone|1993",
@@ -1563,8 +1858,13 @@
    "runtime": 130,
    "overview": "A successful lawman's plans to retire anonymously in Tombstone, Arizona, are disrupted by the kind of outlaws he was famous for eliminating.",
    "v": 3,
-   "imdbVotes": 196362,
-   "lbUrl": "https://letterboxd.com/film/tombstone/"
+   "imdbVotes": 196383,
+   "lbUrl": "https://letterboxd.com/film/tombstone/",
+   "cast": [
+    "Kurt Russell",
+    "Val Kilmer",
+    "Sam Elliott"
+   ]
   },
   {
    "id": "chungking express|1994",
@@ -1590,8 +1890,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDQ4ZmYxODctZDVlZC00OTcxLWJjOGItZjRlMzk4MDA1Yjg1XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "runtime": 102,
    "overview": "Two melancholic Hong Kong policemen fall in love: one with a mysterious female underworld figure, the other with a beautiful and ethereal waitress at a late-night restaurant he frequents.",
-   "imdbVotes": 114739,
-   "lbUrl": "https://letterboxd.com/film/chungking-express/"
+   "imdbVotes": 114755,
+   "lbUrl": "https://letterboxd.com/film/chungking-express/",
+   "cast": [
+    "Brigitte Lin",
+    "Takeshi Kaneshiro",
+    "Tony Leung Chiu-wai"
+   ]
   },
   {
    "id": "fallen angels|1995",
@@ -1617,8 +1922,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BNDI1MThjODYtZjQyZi00ZWU0LWI4OTItODlhN2ZjYzI3ODAwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 61782,
-   "lbUrl": "https://letterboxd.com/film/fallen-angels/"
+   "imdbVotes": 61787,
+   "lbUrl": "https://letterboxd.com/film/fallen-angels/",
+   "cast": [
+    "Leon Lai",
+    "Michelle Reis",
+    "Takeshi Kaneshiro"
+   ]
   },
   {
    "id": "la haine|1995",
@@ -1643,8 +1953,13 @@
    "runtime": 98,
    "overview": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
    "v": 3,
-   "imdbVotes": 233265,
-   "lbUrl": "https://letterboxd.com/film/la-haine/"
+   "imdbVotes": 233313,
+   "lbUrl": "https://letterboxd.com/film/la-haine/",
+   "cast": [
+    "Vincent Cassel",
+    "Hubert Koundé",
+    "Saïd Taghmaoui"
+   ]
   },
   {
    "id": "hackers|1995",
@@ -1669,8 +1984,13 @@
    "runtime": 105,
    "overview": "Teenage hackers discover a criminal conspiracy with plans to use a computer virus that will capsize five oil tankers.",
    "v": 3,
-   "imdbVotes": 83337,
-   "lbUrl": "https://letterboxd.com/film/hackers/"
+   "imdbVotes": 83343,
+   "lbUrl": "https://letterboxd.com/film/hackers/",
+   "cast": [
+    "Jonny Lee Miller",
+    "Angelina Jolie",
+    "Jesse Bradford"
+   ]
   },
   {
    "id": "heat|1995",
@@ -1695,8 +2015,13 @@
    "runtime": 170,
    "overview": "A group of high-end professional thieves start to feel the heat from the LAPD when they unknowingly leave a verbal clue at their latest heist.",
    "v": 3,
-   "imdbVotes": 822483,
-   "lbUrl": "https://letterboxd.com/film/heat-1995/"
+   "imdbVotes": 822591,
+   "lbUrl": "https://letterboxd.com/film/heat-1995/",
+   "cast": [
+    "Al Pacino",
+    "Robert De Niro",
+    "Val Kilmer"
+   ]
   },
   {
    "id": "12 monkeys|1995",
@@ -1721,8 +2046,13 @@
    "overview": "In a future world devastated by disease, a convict is sent back in time to gather information about the man-made virus that wiped out most of the human population on the planet.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 686259,
-   "lbUrl": "https://letterboxd.com/film/twelve-monkeys/"
+   "imdbVotes": 686310,
+   "lbUrl": "https://letterboxd.com/film/twelve-monkeys/",
+   "cast": [
+    "Bruce Willis",
+    "Madeleine Stowe",
+    "Brad Pitt"
+   ]
   },
   {
    "id": "the quick and the dead|1995",
@@ -1747,8 +2077,13 @@
    "runtime": 108,
    "overview": "A female gunfighter returns to a frontier town where a dueling tournament is being held, which she enters in an effort to avenge her father's death.",
    "v": 3,
-   "imdbVotes": 115354,
-   "lbUrl": "https://letterboxd.com/film/the-quick-and-the-dead-1995/"
+   "imdbVotes": 115369,
+   "lbUrl": "https://letterboxd.com/film/the-quick-and-the-dead-1995/",
+   "cast": [
+    "Sharon Stone",
+    "Gene Hackman",
+    "Russell Crowe"
+   ]
   },
   {
    "id": "casino|1995",
@@ -1772,8 +2107,13 @@
    "runtime": 178,
    "overview": "In Las Vegas, two best friends--a casino executive and a Mafia enforcer--compete for a gambling empire and a fast-living, fast-loving socialite.",
    "v": 3,
-   "imdbVotes": 630629,
-   "lbUrl": "https://letterboxd.com/film/casino/"
+   "imdbVotes": 630660,
+   "lbUrl": "https://letterboxd.com/film/casino/",
+   "cast": [
+    "Robert De Niro",
+    "Sharon Stone",
+    "Joe Pesci"
+   ]
   },
   {
    "id": "the usual suspects|1995",
@@ -1798,8 +2138,13 @@
    "runtime": 106,
    "overview": "The sole survivor of a pier shoot-out tells the story of how a notorious criminal influenced the events that began with five criminals meeting in a seemingly random police lineup.",
    "v": 3,
-   "imdbVotes": 1260246,
-   "lbUrl": "https://letterboxd.com/film/the-usual-suspects/"
+   "imdbVotes": 1260406,
+   "lbUrl": "https://letterboxd.com/film/the-usual-suspects/",
+   "cast": [
+    "Kevin Spacey",
+    "Gabriel Byrne",
+    "Chazz Palminteri"
+   ]
   },
   {
    "id": "bottle rocket|1996",
@@ -1823,8 +2168,13 @@
    "runtime": 91,
    "overview": "Three friends plan to pull off a simple robbery and go on the run.",
    "v": 3,
-   "imdbVotes": 89296,
-   "lbUrl": "https://letterboxd.com/film/bottle-rocket-1996/"
+   "imdbVotes": 89302,
+   "lbUrl": "https://letterboxd.com/film/bottle-rocket-1996/",
+   "cast": [
+    "Luke Wilson",
+    "Owen Wilson",
+    "Ned Dowd"
+   ]
   },
   {
    "id": "primal fear|1996",
@@ -1849,8 +2199,13 @@
    "runtime": 129,
    "overview": "A high-profile murder intrigues a publicity hungry lawyer.",
    "v": 3,
-   "imdbVotes": 300746,
-   "lbUrl": "https://letterboxd.com/film/primal-fear/"
+   "imdbVotes": 300806,
+   "lbUrl": "https://letterboxd.com/film/primal-fear/",
+   "cast": [
+    "Richard Gere",
+    "Laura Linney",
+    "Edward Norton"
+   ]
   },
   {
    "id": "perfect blue|1997",
@@ -1876,8 +2231,13 @@
    "idLock": true,
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BYjkyZjY1OWItNjYyNC00ZjlhLTgwOTAtMGNiYTFmYTNmZDI3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-   "imdbVotes": 128622,
-   "lbUrl": "https://letterboxd.com/film/perfect-blue/"
+   "imdbVotes": 128645,
+   "lbUrl": "https://letterboxd.com/film/perfect-blue/",
+   "cast": [
+    "Junko Iwao",
+    "Rica Matsumoto",
+    "Shinpachi Tsuji"
+   ]
   },
   {
    "id": "good will hunting|1997",
@@ -1901,8 +2261,13 @@
    "idLock": true,
    "v": 3,
    "overview": "A therapist counsels Will Hunting, a janitor with a genius IQ.",
-   "imdbVotes": 1250280,
-   "lbUrl": "https://letterboxd.com/film/good-will-hunting/"
+   "imdbVotes": 1250472,
+   "lbUrl": "https://letterboxd.com/film/good-will-hunting/",
+   "cast": [
+    "Robin Williams",
+    "Matt Damon",
+    "Ben Affleck"
+   ]
   },
   {
    "id": "lost highway|1997",
@@ -1927,8 +2292,13 @@
    "runtime": 134,
    "overview": "Anonymous videotapes presage a musician's murder conviction, and a gangster's girlfriend leads a mechanic astray.",
    "v": 3,
-   "imdbVotes": 174204,
-   "lbUrl": "https://letterboxd.com/film/lost-highway/"
+   "imdbVotes": 174213,
+   "lbUrl": "https://letterboxd.com/film/lost-highway/",
+   "cast": [
+    "Bill Pullman",
+    "Patricia Arquette",
+    "John Roselius"
+   ]
   },
   {
    "id": "the game|1997",
@@ -1952,8 +2322,13 @@
    "runtime": 129,
    "overview": "An arrogant, isolated investment banker is targeted by an enigmatic entertainment company, plunging into an escalating, reality-bending conspiracy orchestrated by his estranged brother to shatter his emotional detachment.",
    "v": 3,
-   "imdbVotes": 479579,
-   "lbUrl": "https://letterboxd.com/film/the-game/"
+   "imdbVotes": 479614,
+   "lbUrl": "https://letterboxd.com/film/the-game/",
+   "cast": [
+    "Michael Douglas",
+    "Deborah Kara Unger",
+    "Sean Penn"
+   ]
   },
   {
    "id": "l.a. confidential|1997",
@@ -1977,8 +2352,13 @@
    "runtime": 138,
    "overview": "As corruption grows in 1950s Los Angeles, three policemen - one strait-laced, one brutal, and one sleazy - investigate a series of murders with their own brand of justice.",
    "v": 3,
-   "imdbVotes": 665832,
-   "lbUrl": "https://letterboxd.com/film/la-confidential/"
+   "imdbVotes": 665885,
+   "lbUrl": "https://letterboxd.com/film/la-confidential/",
+   "cast": [
+    "Kevin Spacey",
+    "Russell Crowe",
+    "Guy Pearce"
+   ]
   },
   {
    "id": "the truman show|1998",
@@ -2003,8 +2383,13 @@
    "runtime": 103,
    "overview": "An insurance salesman begins to suspect that his whole life is actually some sort of reality TV show.",
    "v": 3,
-   "imdbVotes": 1415443,
-   "lbUrl": "https://letterboxd.com/film/the-truman-show/"
+   "imdbVotes": 1415676,
+   "lbUrl": "https://letterboxd.com/film/the-truman-show/",
+   "cast": [
+    "Jim Carrey",
+    "Ed Harris",
+    "Laura Linney"
+   ]
   },
   {
    "id": "rushmore|1998",
@@ -2029,8 +2414,13 @@
    "runtime": 93,
    "overview": "A teenager at Rushmore Academy falls for a much older teacher and befriends a middle-aged industrialist. Later, he finds out that his love interest and his friend are having an affair, which prompts him to begin a vendetta.",
    "v": 3,
-   "imdbVotes": 210116,
-   "lbUrl": "https://letterboxd.com/film/rushmore/"
+   "imdbVotes": 210124,
+   "lbUrl": "https://letterboxd.com/film/rushmore/",
+   "cast": [
+    "Jason Schwartzman",
+    "Bill Murray",
+    "Olivia Williams"
+   ]
   },
   {
    "id": "american history x|1998",
@@ -2055,8 +2445,13 @@
    "runtime": 119,
    "overview": "A neo-Nazi is released from prison a changed man and hopes to prevent his younger brother from following in his footsteps.",
    "v": 3,
-   "imdbVotes": 1291216,
-   "lbUrl": "https://letterboxd.com/film/american-history-x/"
+   "imdbVotes": 1291357,
+   "lbUrl": "https://letterboxd.com/film/american-history-x/",
+   "cast": [
+    "Edward Norton",
+    "Edward Furlong",
+    "Beverly D&apos;Angelo"
+   ]
   },
   {
    "id": "rounders|1998",
@@ -2081,8 +2476,13 @@
    "runtime": 121,
    "overview": "A law student and his recently paroled pal gamble for high stakes in the legal and illegal poker parlors in the tri-state area of New York.",
    "v": 3,
-   "imdbVotes": 174311,
-   "lbUrl": "https://letterboxd.com/film/rounders/"
+   "imdbVotes": 174319,
+   "lbUrl": "https://letterboxd.com/film/rounders/",
+   "cast": [
+    "Matt Damon",
+    "Edward Norton",
+    "Gretchen Mol"
+   ]
   },
   {
    "id": "pi|1998",
@@ -2105,8 +2505,13 @@
    "runtime": 84,
    "overview": "A paranoid mathematician searches for a key number that will unlock the universal patterns found in nature.",
    "v": 3,
-   "imdbVotes": 194185,
-   "lbUrl": "https://letterboxd.com/film/pi/"
+   "imdbVotes": 194192,
+   "lbUrl": "https://letterboxd.com/film/pi/",
+   "cast": [
+    "Sean Gullette",
+    "Mark Margolis",
+    "Ben Shenkman"
+   ]
   },
   {
    "id": "dark city|1998",
@@ -2131,8 +2536,13 @@
    "runtime": 100,
    "overview": "A man struggles with memories of his past, which include a wife he cannot remember and a nightmarish world no one else ever seems to wake up from.",
    "v": 3,
-   "imdbVotes": 229464,
-   "lbUrl": "https://letterboxd.com/film/dark-city-1998/"
+   "imdbVotes": 229485,
+   "lbUrl": "https://letterboxd.com/film/dark-city-1998/",
+   "cast": [
+    "Rufus Sewell",
+    "Kiefer Sutherland",
+    "Jennifer Connelly"
+   ]
   },
   {
    "id": "fight club|1999",
@@ -2156,8 +2566,13 @@
    "runtime": 139,
    "overview": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
    "v": 3,
-   "imdbVotes": 2677122,
-   "lbUrl": "https://letterboxd.com/film/fight-club/"
+   "imdbVotes": 2677513,
+   "lbUrl": "https://letterboxd.com/film/fight-club/",
+   "cast": [
+    "Brad Pitt",
+    "Edward Norton",
+    "Meat Loaf"
+   ]
   },
   {
    "id": "bleeder|1999",
@@ -2182,8 +2597,13 @@
    "runtime": 98,
    "overview": "Two stories for the price of one: Lenny works in a video shop and tries to get acquainted with Lea. Leo beats his pregnant wife, Louise, which is a VERY bad idea, as her brother, Louis, is a violent racist.",
    "v": 3,
-   "imdbVotes": 11822,
-   "lbUrl": "https://letterboxd.com/film/bleeder/"
+   "imdbVotes": 11827,
+   "lbUrl": "https://letterboxd.com/film/bleeder/",
+   "cast": [
+    "Kim Bodnia",
+    "Mads Mikkelsen",
+    "Rikke Louise Andersson"
+   ]
   },
   {
    "id": "being john malkovich|1999",
@@ -2208,8 +2628,13 @@
    "runtime": 113,
    "overview": "A puppeteer discovers a portal that leads literally into the head of movie star John Malkovich.",
    "v": 3,
-   "imdbVotes": 372179,
-   "lbUrl": "https://letterboxd.com/film/being-john-malkovich/"
+   "imdbVotes": 372191,
+   "lbUrl": "https://letterboxd.com/film/being-john-malkovich/",
+   "cast": [
+    "John Cusack",
+    "Cameron Diaz",
+    "Catherine Keener"
+   ]
   },
   {
    "id": "the sixth sense|1999",
@@ -2234,8 +2659,13 @@
    "runtime": 107,
    "overview": "After being shot by a resentful former patient whom he failed to help, a Philadelphia child psychologist seeks redemption by treating a young boy with a disturbing secret.",
    "v": 3,
-   "imdbVotes": 1172918,
-   "lbUrl": "https://letterboxd.com/film/the-sixth-sense/"
+   "imdbVotes": 1173201,
+   "lbUrl": "https://letterboxd.com/film/the-sixth-sense/",
+   "cast": [
+    "Bruce Willis",
+    "Haley Joel Osment",
+    "Toni Collette"
+   ]
   },
   {
    "id": "sleepy hollow|1999",
@@ -2260,8 +2690,13 @@
    "runtime": 105,
    "overview": "Ichabod Crane is sent to Sleepy Hollow to investigate the decapitations of three people; the culprit is legendary apparition The Headless Horseman.",
    "v": 3,
-   "imdbVotes": 418962,
-   "lbUrl": "https://letterboxd.com/film/sleepy-hollow/"
+   "imdbVotes": 419078,
+   "lbUrl": "https://letterboxd.com/film/sleepy-hollow/",
+   "cast": [
+    "Johnny Depp",
+    "Christina Ricci",
+    "Miranda Richardson"
+   ]
   },
   {
    "id": "eyes wide shut|1999",
@@ -2286,8 +2721,13 @@
    "runtime": 159,
    "overview": "A Manhattan doctor embarks on a bizarre, night-long odyssey after his wife's admission of unfulfilled longing.",
    "v": 3,
-   "imdbVotes": 442997,
-   "lbUrl": "https://letterboxd.com/film/eyes-wide-shut/"
+   "imdbVotes": 443134,
+   "lbUrl": "https://letterboxd.com/film/eyes-wide-shut/",
+   "cast": [
+    "Tom Cruise",
+    "Nicole Kidman",
+    "Todd Field"
+   ]
   },
   {
    "id": "requiem for a dream|2000",
@@ -2310,8 +2750,13 @@
    "runtime": 102,
    "overview": "Four Coney Island dreamers chase love, fame, and escape, but addiction and obsession begin to distort their hopes for a better life.",
    "v": 3,
-   "imdbVotes": 988415,
-   "lbUrl": "https://letterboxd.com/film/requiem-for-a-dream/"
+   "imdbVotes": 988491,
+   "lbUrl": "https://letterboxd.com/film/requiem-for-a-dream/",
+   "cast": [
+    "Ellen Burstyn",
+    "Jared Leto",
+    "Jennifer Connelly"
+   ]
   },
   {
    "id": "american psycho|2000",
@@ -2336,8 +2781,13 @@
    "runtime": 102,
    "overview": "A wealthy New York City investment banking executive, Patrick Bateman, hides his alternate psychopathic ego from his co-workers and friends as he delves deeper into his violent, hedonistic fantasies.",
    "v": 3,
-   "imdbVotes": 862445,
-   "lbUrl": "https://letterboxd.com/film/american-psycho/"
+   "imdbVotes": 862595,
+   "lbUrl": "https://letterboxd.com/film/american-psycho/",
+   "cast": [
+    "Christian Bale",
+    "Justin Theroux",
+    "Josh Lucas"
+   ]
   },
   {
    "id": "memento|2000",
@@ -2362,8 +2812,13 @@
    "overview": null,
    "v": 3,
    "posterLock": true,
-   "imdbVotes": 1464719,
-   "lbUrl": "https://letterboxd.com/film/memento/"
+   "imdbVotes": 1464852,
+   "lbUrl": "https://letterboxd.com/film/memento/",
+   "cast": [
+    "Guy Pearce",
+    "Carrie-Anne Moss",
+    "Joe Pantoliano"
+   ]
   },
   {
    "id": "mulholland drive|2001",
@@ -2388,8 +2843,13 @@
    "runtime": 147,
    "overview": "After a car wreck on Mulholland Drive renders a woman amnesiac, she and a Hollywood-hopeful search for clues and answers across Los Angeles in a twisting venture beyond dreams and reality.",
    "v": 3,
-   "imdbVotes": 436447,
-   "lbUrl": "https://letterboxd.com/film/mulholland-drive/"
+   "imdbVotes": 436483,
+   "lbUrl": "https://letterboxd.com/film/mulholland-drive/",
+   "cast": [
+    "Naomi Watts",
+    "Laura Harring",
+    "Justin Theroux"
+   ]
   },
   {
    "id": "ocean's eleven|2001",
@@ -2414,8 +2874,13 @@
    "runtime": 116,
    "overview": "A thief and his team of associates plan a sophisticated heist to rob three Las Vegas casinos at the same time.",
    "v": 3,
-   "imdbVotes": 687132,
-   "lbUrl": "https://letterboxd.com/film/oceans-eleven-2001/"
+   "imdbVotes": 687226,
+   "lbUrl": "https://letterboxd.com/film/oceans-eleven-2001/",
+   "cast": [
+    "George Clooney",
+    "Brad Pitt",
+    "Julia Roberts"
+   ]
   },
   {
    "id": "the royal tenenbaums|2001",
@@ -2440,8 +2905,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BZTc1MzFlMjEtMzkyNC00NDgyLThjMjMtMzQzZGI5YjUyNzU5XkEyXkFqcGc@._V1_QL75_UX380_CR0,25,380,562_.jpg",
    "runtime": 110,
    "overview": "The eccentric members of a dysfunctional family reluctantly gather under the same roof for various reasons.",
-   "imdbVotes": 339820,
-   "lbUrl": "https://letterboxd.com/film/the-royal-tenenbaums/"
+   "imdbVotes": 339841,
+   "lbUrl": "https://letterboxd.com/film/the-royal-tenenbaums/",
+   "cast": [
+    "Gene Hackman",
+    "Gwyneth Paltrow",
+    "Anjelica Huston"
+   ]
   },
   {
    "id": "the devil's backbone|2001",
@@ -2465,8 +2935,13 @@
    "runtime": 106,
    "overview": "After Carlos - a 12-year-old whose father has died in the Spanish Civil War - arrives at an ominous boys' orphanage, he discovers the school is haunted and has many dark secrets which he must uncover.",
    "v": 3,
-   "imdbVotes": 76533,
-   "lbUrl": "https://letterboxd.com/film/the-devils-backbone/"
+   "imdbVotes": 76546,
+   "lbUrl": "https://letterboxd.com/film/the-devils-backbone/",
+   "cast": [
+    "Marisa Paredes",
+    "Eduardo Noriega",
+    "Federico Luppi"
+   ]
   },
   {
    "id": "the piano teacher|2001",
@@ -2491,8 +2966,13 @@
    "runtime": 131,
    "overview": "A young man romantically pursues his masochistic piano teacher.",
    "v": 3,
-   "imdbVotes": 83491,
-   "lbUrl": "https://letterboxd.com/film/the-piano-teacher/"
+   "imdbVotes": 83505,
+   "lbUrl": "https://letterboxd.com/film/the-piano-teacher/",
+   "cast": [
+    "Isabelle Huppert",
+    "Annie Girardot",
+    "Benoît Magimel"
+   ]
   },
   {
    "id": "donnie darko|2001",
@@ -2516,8 +2996,13 @@
    "runtime": 113,
    "overview": "After narrowly escaping a bizarre accident, a troubled teenager is plagued by visions of a man in a large rabbit suit who manipulates him to commit a series of crimes.",
    "v": 3,
-   "imdbVotes": 923818,
-   "lbUrl": "https://letterboxd.com/film/donnie-darko/"
+   "imdbVotes": 923914,
+   "lbUrl": "https://letterboxd.com/film/donnie-darko/",
+   "cast": [
+    "Jake Gyllenhaal",
+    "Jena Malone",
+    "Mary McDonnell"
+   ]
   },
   {
    "id": "a beautiful mind|2001",
@@ -2541,8 +3026,13 @@
    "runtime": 135,
    "overview": "A mathematical genius, John Nash made an astonishing discovery early in his career and stood on the brink of international acclaim. But Nash soon found himself on a harrowing journey of self-discovery.",
    "v": 3,
-   "imdbVotes": 1067055,
-   "lbUrl": "https://letterboxd.com/film/a-beautiful-mind/"
+   "imdbVotes": 1067147,
+   "lbUrl": "https://letterboxd.com/film/a-beautiful-mind/",
+   "cast": [
+    "Russell Crowe",
+    "Ed Harris",
+    "Jennifer Connelly"
+   ]
   },
   {
    "id": "training day|2001",
@@ -2566,8 +3056,13 @@
    "runtime": 122,
    "overview": "A rookie cop spends his first day as a Los Angeles narcotics officer with a rogue detective who isn't what he appears to be.",
    "v": 3,
-   "imdbVotes": 528414,
-   "lbUrl": "https://letterboxd.com/film/training-day/"
+   "imdbVotes": 528486,
+   "lbUrl": "https://letterboxd.com/film/training-day/",
+   "cast": [
+    "Denzel Washington",
+    "Ethan Hawke",
+    "Scott Glenn"
+   ]
   },
   {
    "id": "the others|2001",
@@ -2592,8 +3087,13 @@
    "runtime": 104,
    "overview": "In 1945, immediately following the end of Second World War, a woman who lives with her two photosensitive children on her darkened old family estate in the Channel Islands becomes convinced that the home is haunted.",
    "v": 3,
-   "imdbVotes": 434733,
-   "lbUrl": "https://letterboxd.com/film/the-others/"
+   "imdbVotes": 434815,
+   "lbUrl": "https://letterboxd.com/film/the-others/",
+   "cast": [
+    "Nicole Kidman",
+    "Christopher Eccleston",
+    "Fionnula Flanagan"
+   ]
   },
   {
    "id": "25th hour|2002",
@@ -2618,8 +3118,13 @@
    "runtime": 135,
    "overview": "Cornered by the DEA, convicted New York drug dealer Montgomery Brogan reevaluates his life in the 24 remaining hours before facing a seven-year jail term.",
    "v": 3,
-   "imdbVotes": 192026,
-   "lbUrl": "https://letterboxd.com/film/25th-hour/"
+   "imdbVotes": 192035,
+   "lbUrl": "https://letterboxd.com/film/25th-hour/",
+   "cast": [
+    "Edward Norton",
+    "Barry Pepper",
+    "Philip Seymour Hoffman"
+   ]
   },
   {
    "id": "city of god|2002",
@@ -2645,8 +3150,13 @@
    "overview": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 885889,
-   "lbUrl": "https://letterboxd.com/film/city-of-god/"
+   "imdbVotes": 885979,
+   "lbUrl": "https://letterboxd.com/film/city-of-god/",
+   "cast": [
+    "Alexandre Rodrigues",
+    "Leandro Firmino",
+    "Matheus Nachtergaele"
+   ]
   },
   {
    "id": "signs|2002",
@@ -2670,8 +3180,13 @@
    "runtime": 106,
    "overview": "A widowed former reverend living with his children and brother on a Pennsylvania farm finds mysterious crop circles in their fields, which suggests something more frightening to come.",
    "v": 3,
-   "imdbVotes": 420339,
-   "lbUrl": "https://letterboxd.com/film/signs/"
+   "imdbVotes": 420402,
+   "lbUrl": "https://letterboxd.com/film/signs/",
+   "cast": [
+    "Mel Gibson",
+    "Joaquin Phoenix",
+    "Rory Culkin"
+   ]
   },
   {
    "id": "japón|2002",
@@ -2696,7 +3211,12 @@
    "runtime": 122,
    "overview": "A painter from the big city goes to a remote canyon to commit suicide. To reach some calmness, he stays at the farmstead of Ascen, an old, religious woman. Although but a few words are spoken, love grows.",
    "imdbVotes": 4240,
-   "lbUrl": "https://letterboxd.com/film/japon/"
+   "lbUrl": "https://letterboxd.com/film/japon/",
+   "cast": [
+    "Alejandro Ferretis",
+    "Magdalena Flores",
+    "Yolanda Villa"
+   ]
   },
   {
    "id": "memories of murder|2003",
@@ -2720,8 +3240,13 @@
    "runtime": 131,
    "overview": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",
    "v": 3,
-   "imdbVotes": 277658,
-   "lbUrl": "https://letterboxd.com/film/memories-of-murder/"
+   "imdbVotes": 277721,
+   "lbUrl": "https://letterboxd.com/film/memories-of-murder/",
+   "cast": [
+    "Song Kang-ho",
+    "Kim Sang-kyung",
+    "Kim Roe-ha"
+   ]
   },
   {
    "id": "lost in translation|2003",
@@ -2747,8 +3272,13 @@
    "runtime": 102,
    "overview": "A fading movie star and a neglected married young woman come to be unlikely soulmates in Tokyo.",
    "v": 3,
-   "imdbVotes": 536340,
-   "lbUrl": "https://letterboxd.com/film/lost-in-translation/"
+   "imdbVotes": 536392,
+   "lbUrl": "https://letterboxd.com/film/lost-in-translation/",
+   "cast": [
+    "Bill Murray",
+    "Scarlett Johansson",
+    "Giovanni Ribisi"
+   ]
   },
   {
    "id": "oldboy|2003",
@@ -2773,8 +3303,13 @@
    "runtime": 120,
    "overview": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must track down his captor in five days.",
    "v": 3,
-   "imdbVotes": 736681,
-   "lbUrl": "https://letterboxd.com/film/oldboy/"
+   "imdbVotes": 736736,
+   "lbUrl": "https://letterboxd.com/film/oldboy/",
+   "cast": [
+    "Choi Min-sik",
+    "Yoo Ji-tae",
+    "Kang Hye-jeong"
+   ]
   },
   {
    "id": "girl with a pearl earring|2003",
@@ -2798,8 +3333,13 @@
    "runtime": 100,
    "overview": "A young peasant maid working in the house of painter Johannes Vermeer becomes his talented assistant and the model for one of his most famous works.",
    "v": 3,
-   "imdbVotes": 85028,
-   "lbUrl": "https://letterboxd.com/film/girl-with-a-pearl-earring/"
+   "imdbVotes": 85030,
+   "lbUrl": "https://letterboxd.com/film/girl-with-a-pearl-earring/",
+   "cast": [
+    "Scarlett Johansson",
+    "Colin Firth",
+    "Tom Wilkinson"
+   ]
   },
   {
    "id": "the life aquatic with steve zissou|2004",
@@ -2823,8 +3363,13 @@
    "runtime": 119,
    "overview": "With a plan to exact revenge on a legendary shark that killed his partner, oceanographer Steve Zissou rallies a crew that includes his estranged wife, a journalist, and a man who may or may not be his son.",
    "v": 3,
-   "imdbVotes": 222759,
-   "lbUrl": "https://letterboxd.com/film/the-life-aquatic-with-steve-zissou/"
+   "imdbVotes": 222771,
+   "lbUrl": "https://letterboxd.com/film/the-life-aquatic-with-steve-zissou/",
+   "cast": [
+    "Bill Murray",
+    "Owen Wilson",
+    "Anjelica Huston"
+   ]
   },
   {
    "id": "primer|2004",
@@ -2849,8 +3394,13 @@
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BZTRmZDlmNzUtNjM2NS00MjBjLWFmNjQtMTczMWNkZTdiOGZmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "overview": "Four friends/fledgling entrepreneurs, knowing that there's something bigger and more innovative than the different error-checking devices they've built, wrestle over their new invention.",
-   "imdbVotes": 123475,
-   "lbUrl": "https://letterboxd.com/film/primer/"
+   "imdbVotes": 123485,
+   "lbUrl": "https://letterboxd.com/film/primer/",
+   "cast": [
+    "Shane Carruth",
+    "David Sullivan",
+    "Casey Gooden"
+   ]
   },
   {
    "id": "saw|2004",
@@ -2874,8 +3424,13 @@
    "runtime": 103,
    "overview": "Two men awaken to find themselves on the opposite sides of a dead body, each with specific instructions to kill the other, escape or face the consequences. These two are the latest contestants in Jigsaw's games.",
    "v": 3,
-   "imdbVotes": 519214,
-   "lbUrl": "https://letterboxd.com/film/saw/"
+   "imdbVotes": 519286,
+   "lbUrl": "https://letterboxd.com/film/saw/",
+   "cast": [
+    "Cary Elwes",
+    "Leigh Whannell",
+    "Danny Glover"
+   ]
   },
   {
    "id": "kingdom of heaven|2005",
@@ -2900,8 +3455,13 @@
    "runtime": 144,
    "overview": "Balian of Ibelin travels to Jerusalem during the Crusades of the 12th century, and there he finds himself as the defender of the city and its people.",
    "v": 3,
-   "imdbVotes": 363665,
-   "lbUrl": "https://letterboxd.com/film/kingdom-of-heaven/"
+   "imdbVotes": 363731,
+   "lbUrl": "https://letterboxd.com/film/kingdom-of-heaven/",
+   "cast": [
+    "Orlando Bloom",
+    "Eva Green",
+    "Liam Neeson"
+   ]
   },
   {
    "id": "capote|2005",
@@ -2925,8 +3485,13 @@
    "runtime": 114,
    "overview": "In 1959, Truman Capote learns of the murder of a Kansas family and decides to write a book about the case. While researching for his novel In Cold Blood, Capote forms a relationship with one of the killers, Perry Smith, who is on ...",
    "v": 3,
-   "imdbVotes": 150958,
-   "lbUrl": "https://letterboxd.com/film/capote/"
+   "imdbVotes": 150969,
+   "lbUrl": "https://letterboxd.com/film/capote/",
+   "cast": [
+    "Philip Seymour Hoffman",
+    "Clifton Collins Jr.",
+    "Catherine Keener"
+   ]
   },
   {
    "id": "the exorcism of emily rose|2005",
@@ -2950,8 +3515,13 @@
    "runtime": 119,
    "overview": "A lawyer takes on a negligent homicide case involving a priest who performed an exorcism on a young girl.",
    "v": 3,
-   "imdbVotes": 151410,
-   "lbUrl": "https://letterboxd.com/film/the-exorcism-of-emily-rose/"
+   "imdbVotes": 151438,
+   "lbUrl": "https://letterboxd.com/film/the-exorcism-of-emily-rose/",
+   "cast": [
+    "Laura Linney",
+    "Tom Wilkinson",
+    "Shohreh Aghdashloo"
+   ]
   },
   {
    "id": "grizzly man|2005",
@@ -2974,8 +3544,13 @@
    "runtime": 103,
    "overview": "A devastating and heart-rending take on grizzly bear activists Timothy Treadwell and Amie Huguenard, who were killed in October of 2003 while living among grizzly bears in Alaska.",
    "v": 3,
-   "imdbVotes": 68757,
-   "lbUrl": "https://letterboxd.com/film/grizzly-man/"
+   "imdbVotes": 68767,
+   "lbUrl": "https://letterboxd.com/film/grizzly-man/",
+   "cast": [
+    "Timothy Treadwell",
+    "Amie Huguenard",
+    "Werner Herzog"
+   ]
   },
   {
    "id": "the illusionist|2006",
@@ -3000,8 +3575,13 @@
    "runtime": 110,
    "overview": "In turn-of-the-century Vienna, a magician uses his abilities to secure the love of a woman far above his social standing.",
    "v": 3,
-   "imdbVotes": 407751,
-   "lbUrl": "https://letterboxd.com/film/the-illusionist/"
+   "imdbVotes": 407762,
+   "lbUrl": "https://letterboxd.com/film/the-illusionist/",
+   "cast": [
+    "Edward Norton",
+    "Jessica Biel",
+    "Paul Giamatti"
+   ]
   },
   {
    "id": "the prestige|2006",
@@ -3025,9 +3605,14 @@
    "runtime": 130,
    "overview": "Two magicians dismantle their lives to outmaneuver each other following a shared tragedy. They chase the ultimate illusion across Victorian London, sacrificing sanity and safety to master a teleportation feat that defies all logic.",
    "v": 3,
-   "imdbVotes": 1636951,
+   "imdbVotes": 1637286,
    "lbUrl": "https://letterboxd.com/film/the-prestige/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Christian Bale",
+    "Hugh Jackman",
+    "Scarlett Johansson"
+   ]
   },
   {
    "id": "the departed|2006",
@@ -3051,8 +3636,13 @@
    "runtime": 151,
    "overview": "An undercover cop and a mole in the police attempt to identify each other while infiltrating an Irish gang in South Boston.",
    "v": 3,
-   "imdbVotes": 1587073,
-   "lbUrl": "https://letterboxd.com/film/the-departed/"
+   "imdbVotes": 1587213,
+   "lbUrl": "https://letterboxd.com/film/the-departed/",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Matt Damon",
+    "Jack Nicholson"
+   ]
   },
   {
    "id": "marie antoinette|2006",
@@ -3076,8 +3666,13 @@
    "runtime": 123,
    "overview": "The retelling of France's iconic but ill-fated queen, Marie Antoinette. From her betrothal and marriage to Louis XVI at 14 to her reign as queen at 19 and to the end of her reign as queen, and ultimately the fall of Versailles.",
    "v": 3,
-   "imdbVotes": 134234,
-   "lbUrl": "https://letterboxd.com/film/marie-antoinette-2006/"
+   "imdbVotes": 134262,
+   "lbUrl": "https://letterboxd.com/film/marie-antoinette-2006/",
+   "cast": [
+    "Kirsten Dunst",
+    "Jason Schwartzman",
+    "Rip Torn"
+   ]
   },
   {
    "id": "the darjeeling limited|2007",
@@ -3101,8 +3696,13 @@
    "runtime": 91,
    "overview": "A year after their father's funeral, three brothers travel across India by train in an attempt to bond with each other.",
    "v": 3,
-   "imdbVotes": 239343,
-   "lbUrl": "https://letterboxd.com/film/the-darjeeling-limited/"
+   "imdbVotes": 239358,
+   "lbUrl": "https://letterboxd.com/film/the-darjeeling-limited/",
+   "cast": [
+    "Owen Wilson",
+    "Adrien Brody",
+    "Jason Schwartzman"
+   ]
   },
   {
    "id": "no country for old men|2007",
@@ -3127,8 +3727,13 @@
    "runtime": 122,
    "overview": "Violence and mayhem ensue after a hunter stumbles upon the aftermath of a drug deal gone wrong and over two million dollars in cash near the Rio Grande.",
    "v": 3,
-   "imdbVotes": 1219909,
-   "lbUrl": "https://letterboxd.com/film/no-country-for-old-men/"
+   "imdbVotes": 1220062,
+   "lbUrl": "https://letterboxd.com/film/no-country-for-old-men/",
+   "cast": [
+    "Tommy Lee Jones",
+    "Javier Bardem",
+    "Josh Brolin"
+   ]
   },
   {
    "id": "3:10 to yuma|2007",
@@ -3151,8 +3756,13 @@
    "runtime": 122,
    "overview": "A small-time solely rancher agrees to hold a captured outlaw who's awaiting a train to go to court in Yuma. A battle of wills ensues as the outlaw tries to psych out the rancher.",
    "v": 3,
-   "imdbVotes": 354726,
-   "lbUrl": "https://letterboxd.com/film/310-to-yuma-2007/"
+   "imdbVotes": 354752,
+   "lbUrl": "https://letterboxd.com/film/310-to-yuma-2007/",
+   "cast": [
+    "Russell Crowe",
+    "Christian Bale",
+    "Ben Foster"
+   ]
   },
   {
    "id": "the assassination of jesse james by the coward robert ford|2007",
@@ -3177,8 +3787,13 @@
    "runtime": 160,
    "overview": "Robert Ford, who has idolized Jesse James since childhood, tries hard to join the resurgent gang of the Missouri outlaw, but gradually becomes resentful of the bandit leader.",
    "v": 3,
-   "imdbVotes": 207026,
-   "lbUrl": "https://letterboxd.com/film/the-assassination-of-jesse-james-by-the-coward-robert-ford/"
+   "imdbVotes": 207041,
+   "lbUrl": "https://letterboxd.com/film/the-assassination-of-jesse-james-by-the-coward-robert-ford/",
+   "cast": [
+    "Brad Pitt",
+    "Casey Affleck",
+    "Sam Shepard"
+   ]
   },
   {
    "id": "there will be blood|2007",
@@ -3203,8 +3818,13 @@
    "runtime": 158,
    "overview": "A story of family, religion, hatred, oil and madness, focusing on a turn-of-the-century prospector in the early days of the business.",
    "v": 3,
-   "imdbVotes": 722531,
-   "lbUrl": "https://letterboxd.com/film/there-will-be-blood/"
+   "imdbVotes": 722613,
+   "lbUrl": "https://letterboxd.com/film/there-will-be-blood/",
+   "cast": [
+    "Daniel Day-Lewis",
+    "Paul Dano",
+    "Ciarán Hinds"
+   ]
   },
   {
    "id": "american gangster|2007",
@@ -3228,8 +3848,13 @@
    "runtime": 157,
    "overview": "An outcast New York City cop is charged with bringing down Harlem drug lord Frank Lucas.",
    "v": 3,
-   "imdbVotes": 495944,
-   "lbUrl": "https://letterboxd.com/film/american-gangster/"
+   "imdbVotes": 495988,
+   "lbUrl": "https://letterboxd.com/film/american-gangster/",
+   "cast": [
+    "Denzel Washington",
+    "Russell Crowe",
+    "Chiwetel Ejiofor"
+   ]
   },
   {
    "id": "eastern promises|2007",
@@ -3253,8 +3878,13 @@
    "runtime": 100,
    "overview": "A teenager who dies during childbirth leaves clues in her journal that could tie her child to a rape involving a violent Russian mob family.",
    "v": 3,
-   "imdbVotes": 281007,
-   "lbUrl": "https://letterboxd.com/film/eastern-promises/"
+   "imdbVotes": 281023,
+   "lbUrl": "https://letterboxd.com/film/eastern-promises/",
+   "cast": [
+    "Naomi Watts",
+    "Viggo Mortensen",
+    "Armin Mueller-Stahl"
+   ]
   },
   {
    "id": "secret sunshine|2007",
@@ -3278,8 +3908,13 @@
    "overview": "A woman moves to the town where her dead husband was born. As she tries to fit in, another tragic event overturns her life.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 11107,
-   "lbUrl": "https://letterboxd.com/film/secret-sunshine/"
+   "imdbVotes": 11113,
+   "lbUrl": "https://letterboxd.com/film/secret-sunshine/",
+   "cast": [
+    "Jeon Do-yeon",
+    "Song Kang-ho",
+    "Lee Dong-yong"
+   ]
   },
   {
    "id": "4 months, 3 weeks and 2 days|2007",
@@ -3302,8 +3937,13 @@
    "runtime": 113,
    "overview": "A woman assists her friend in arranging an illegal abortion in 1980s Romania.",
    "v": 3,
-   "imdbVotes": 66749,
-   "lbUrl": "https://letterboxd.com/film/4-months-3-weeks-and-2-days/"
+   "imdbVotes": 66753,
+   "lbUrl": "https://letterboxd.com/film/4-months-3-weeks-and-2-days/",
+   "cast": [
+    "Anamaria Marinca",
+    "Laura Vasiliu",
+    "Vlad Ivanov"
+   ]
   },
   {
    "id": "the dark knight|2008",
@@ -3328,9 +3968,14 @@
    "runtime": 152,
    "overview": "When a menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman, James Gordon and Harvey Dent must work together to put an end to the madness.",
    "v": 3,
-   "imdbVotes": 3243887,
+   "imdbVotes": 3244088,
    "lbUrl": "https://letterboxd.com/film/the-dark-knight/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Christian Bale",
+    "Heath Ledger",
+    "Aaron Eckhart"
+   ]
   },
   {
    "id": "the wrestler|2008",
@@ -3356,8 +4001,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTc5MjYyOTg4MF5BMl5BanBnXkFtZTcwNDc2MzQwMg@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 109,
    "overview": "A faded professional wrestler must retire, but finds his quest for a new life outside the ring a dispiriting struggle.",
-   "imdbVotes": 333314,
-   "lbUrl": "https://letterboxd.com/film/the-wrestler/"
+   "imdbVotes": 333323,
+   "lbUrl": "https://letterboxd.com/film/the-wrestler/",
+   "cast": [
+    "Mickey Rourke",
+    "Marisa Tomei",
+    "Evan Rachel Wood"
+   ]
   },
   {
    "id": "enter the void|2009",
@@ -3382,8 +4032,13 @@
    "runtime": 161,
    "overview": "An American drug dealer living in Tokyo is betrayed by his best friend and killed in a drug deal. His soul, observing the repercussions of his death, seeks resurrection.",
    "v": 3,
-   "imdbVotes": 95950,
-   "lbUrl": "https://letterboxd.com/film/enter-the-void/"
+   "imdbVotes": 95959,
+   "lbUrl": "https://letterboxd.com/film/enter-the-void/",
+   "cast": [
+    "Nathaniel Brown",
+    "Paz de la Huerta",
+    "Cyril Roy"
+   ]
   },
   {
    "id": "fantastic mr. fox|2009",
@@ -3407,8 +4062,13 @@
    "runtime": 87,
    "overview": "An urbane fox cannot resist returning to his farm raiding ways and then must help his community survive the farmers' retaliation.",
    "v": 3,
-   "imdbVotes": 312564,
-   "lbUrl": "https://letterboxd.com/film/fantastic-mr-fox/"
+   "imdbVotes": 312595,
+   "lbUrl": "https://letterboxd.com/film/fantastic-mr-fox/",
+   "cast": [
+    "George Clooney",
+    "Meryl Streep",
+    "Bill Murray"
+   ]
   },
   {
    "id": "moon|2009",
@@ -3433,8 +4093,13 @@
    "runtime": 97,
    "overview": "Astronaut Sam Bell has a personal encounter toward the end of his three-year stint on the Moon, where he, working alongside his computer, GERTY, sends home a resource that has helped diminish Earth's power problems.",
    "v": 3,
-   "imdbVotes": 399475,
-   "lbUrl": "https://letterboxd.com/film/moon/"
+   "imdbVotes": 399492,
+   "lbUrl": "https://letterboxd.com/film/moon/",
+   "cast": [
+    "Sam Rockwell",
+    "Kevin Spacey",
+    "Dominique McElligott"
+   ]
   },
   {
    "id": "the house of the devil|2009",
@@ -3457,8 +4122,13 @@
    "runtime": 95,
    "overview": "In 1983, financially struggling college student Samantha Hughes takes a strange babysitting job that coincides with a full lunar eclipse. She slowly realizes her clients harbor a terrifying secret, putting her life in mortal danger.",
    "v": 3,
-   "imdbVotes": 56550,
-   "lbUrl": "https://letterboxd.com/film/the-house-of-the-devil/"
+   "imdbVotes": 56571,
+   "lbUrl": "https://letterboxd.com/film/the-house-of-the-devil/",
+   "cast": [
+    "Jocelin Donahue",
+    "Tom Noonan",
+    "Mary Woronov"
+   ]
   },
   {
    "id": "the social network|2010",
@@ -3482,8 +4152,13 @@
    "runtime": 120,
    "overview": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea and by the co-founder who was later squeezed out of the business.",
    "v": 3,
-   "imdbVotes": 833645,
-   "lbUrl": "https://letterboxd.com/film/the-social-network/"
+   "imdbVotes": 833735,
+   "lbUrl": "https://letterboxd.com/film/the-social-network/",
+   "cast": [
+    "Jesse Eisenberg",
+    "Andrew Garfield",
+    "Justin Timberlake"
+   ]
   },
   {
    "id": "blue valentine|2010",
@@ -3508,8 +4183,13 @@
    "runtime": 112,
    "overview": "A couple cannot halt the downward spiral of their marriage.",
    "v": 3,
-   "imdbVotes": 229196,
-   "lbUrl": "https://letterboxd.com/film/blue-valentine/"
+   "imdbVotes": 229213,
+   "lbUrl": "https://letterboxd.com/film/blue-valentine/",
+   "cast": [
+    "Ryan Gosling",
+    "Michelle Williams",
+    "John Doman"
+   ]
   },
   {
    "id": "inception|2010",
@@ -3534,9 +4214,14 @@
    "runtime": 148,
    "overview": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a CEO, but his tragic past may doom the project and his team to disaster.",
    "v": 3,
-   "imdbVotes": 2883612,
+   "imdbVotes": 2884015,
    "lbUrl": "https://letterboxd.com/film/inception/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Leonardo DiCaprio",
+    "Joseph Gordon-Levitt",
+    "Elliot Page"
+   ]
   },
   {
    "id": "shutter island|2010",
@@ -3560,8 +4245,13 @@
    "runtime": 138,
    "overview": "Two US marshals are sent to a mental institution on an inhospitable island in order to investigate the disappearance of a patient.",
    "v": 3,
-   "imdbVotes": 1693675,
-   "lbUrl": "https://letterboxd.com/film/shutter-island/"
+   "imdbVotes": 1693944,
+   "lbUrl": "https://letterboxd.com/film/shutter-island/",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Emily Mortimer",
+    "Mark Ruffalo"
+   ]
   },
   {
    "id": "true grit|2010",
@@ -3584,8 +4274,13 @@
    "runtime": 110,
    "overview": "A stubborn teenager enlists the help of a tough U.S. Marshal to track down her father's murderer.",
    "v": 3,
-   "imdbVotes": 380229,
-   "lbUrl": "https://letterboxd.com/film/true-grit-2010/"
+   "imdbVotes": 380250,
+   "lbUrl": "https://letterboxd.com/film/true-grit-2010/",
+   "cast": [
+    "Jeff Bridges",
+    "Matt Damon",
+    "Hailee Steinfeld"
+   ]
   },
   {
    "id": "black swan|2010",
@@ -3609,8 +4304,13 @@
    "runtime": 108,
    "overview": "An insecure ballerina finally gets the role she has always dreamed of, but as the pressures mount her line between reality and illusion starts to blur.",
    "v": 3,
-   "imdbVotes": 900502,
-   "lbUrl": "https://letterboxd.com/film/black-swan/"
+   "imdbVotes": 900593,
+   "lbUrl": "https://letterboxd.com/film/black-swan/",
+   "cast": [
+    "Natalie Portman",
+    "Mila Kunis",
+    "Vincent Cassel"
+   ]
   },
   {
    "id": "the town|2010",
@@ -3634,8 +4334,13 @@
    "runtime": 125,
    "overview": "A proficient group of thieves rob a bank and hold the manager hostage. Things begin to get complicated when one of the crew members falls in love with her.",
    "v": 3,
-   "imdbVotes": 456696,
-   "lbUrl": "https://letterboxd.com/film/the-town/"
+   "imdbVotes": 456759,
+   "lbUrl": "https://letterboxd.com/film/the-town/",
+   "cast": [
+    "Ben Affleck",
+    "Rebecca Hall",
+    "Jon Hamm"
+   ]
   },
   {
    "id": "insidious|2010",
@@ -3660,8 +4365,13 @@
    "overview": "A family looks to prevent evil spirits from trapping their comatose child in a realm called The Further.",
    "v": 3,
    "idLock": true,
-   "imdbVotes": 375923,
-   "lbUrl": "https://letterboxd.com/film/insidious/"
+   "imdbVotes": 376006,
+   "lbUrl": "https://letterboxd.com/film/insidious/",
+   "cast": [
+    "Patrick Wilson",
+    "Rose Byrne",
+    "Ty Simpkins"
+   ]
   },
   {
    "id": "incendies|2010",
@@ -3687,8 +4397,13 @@
    "overview": "Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 261980,
-   "lbUrl": "https://letterboxd.com/film/incendies/"
+   "imdbVotes": 262036,
+   "lbUrl": "https://letterboxd.com/film/incendies/",
+   "cast": [
+    "Lubna Azabal",
+    "Mélissa Désormeaux-Poulin",
+    "Maxim Gaudette"
+   ]
   },
   {
    "id": "the tree of life|2011",
@@ -3711,8 +4426,13 @@
    "runtime": 139,
    "overview": "The story of a family in Waco, Texas in 1956. The eldest son witnesses the loss of innocence and struggles with his parents' conflicting teachings.",
    "v": 3,
-   "imdbVotes": 193844,
-   "lbUrl": "https://letterboxd.com/film/the-tree-of-life-2011/"
+   "imdbVotes": 193852,
+   "lbUrl": "https://letterboxd.com/film/the-tree-of-life-2011/",
+   "cast": [
+    "Brad Pitt",
+    "Sean Penn",
+    "Jessica Chastain"
+   ]
   },
   {
    "id": "rango|2011",
@@ -3738,8 +4458,13 @@
    "runtime": 107,
    "overview": "Rango is an ordinary chameleon who accidentally winds up in the town of Dirt, a lawless outpost in the Wild West in desperate need of a new sheriff.",
    "v": 3,
-   "imdbVotes": 325632,
-   "lbUrl": "https://letterboxd.com/film/rango/"
+   "imdbVotes": 325659,
+   "lbUrl": "https://letterboxd.com/film/rango/",
+   "cast": [
+    "Johnny Depp",
+    "Isla Fisher",
+    "Timothy Olyphant"
+   ]
   },
   {
    "id": "drive|2011",
@@ -3764,8 +4489,13 @@
    "runtime": 100,
    "overview": "A mysterious Hollywood action film stuntman gets in trouble with gangsters when he tries to help his neighbor's husband rob a pawn shop while serving as his getaway driver.",
    "v": 3,
-   "imdbVotes": 777325,
-   "lbUrl": "https://letterboxd.com/film/drive-2011/"
+   "imdbVotes": 777406,
+   "lbUrl": "https://letterboxd.com/film/drive-2011/",
+   "cast": [
+    "Ryan Gosling",
+    "Carey Mulligan",
+    "Bryan Cranston"
+   ]
   },
   {
    "id": "melancholia|2011",
@@ -3790,8 +4520,13 @@
    "runtime": 135,
    "overview": "Two sisters find their already strained relationship challenged as a mysterious new planet threatens to collide with Earth.",
    "v": 3,
-   "imdbVotes": 210608,
-   "lbUrl": "https://letterboxd.com/film/melancholia/"
+   "imdbVotes": 210623,
+   "lbUrl": "https://letterboxd.com/film/melancholia/",
+   "cast": [
+    "Kirsten Dunst",
+    "Charlotte Gainsbourg",
+    "Kiefer Sutherland"
+   ]
   },
   {
    "id": "weekend|2011",
@@ -3815,8 +4550,13 @@
    "runtime": 97,
    "overview": "After a drunken house party with his straight mates, Russell heads out to a gay club. Just before closing time he picks up Glen but what's expected to be just a one-night stand becomes something else, something special.",
    "v": 3,
-   "imdbVotes": 34986,
-   "lbUrl": "https://letterboxd.com/film/weekend-2011/"
+   "imdbVotes": 34987,
+   "lbUrl": "https://letterboxd.com/film/weekend-2011/",
+   "cast": [
+    "Tom Cullen",
+    "Chris New",
+    "Jonathan Race"
+   ]
   },
   {
    "id": "the master|2012",
@@ -3839,8 +4579,13 @@
    "runtime": 138,
    "overview": "A Naval veteran arrives home from war unsettled and uncertain of his future - until he is tantalized by a cult and its charismatic leader.",
    "v": 3,
-   "imdbVotes": 204215,
-   "lbUrl": "https://letterboxd.com/film/the-master-2012/"
+   "imdbVotes": 204230,
+   "lbUrl": "https://letterboxd.com/film/the-master-2012/",
+   "cast": [
+    "Joaquin Phoenix",
+    "Philip Seymour Hoffman",
+    "Amy Adams"
+   ]
   },
   {
    "id": "moonrise kingdom|2012",
@@ -3865,8 +4610,13 @@
    "runtime": 94,
    "overview": "Two 12-year-olds, who live on an island, fall in love with each other and elope into the wilderness. While people set out on a search mission, a violent storm approaching them catches their attention.",
    "v": 3,
-   "imdbVotes": 385756,
-   "lbUrl": "https://letterboxd.com/film/moonrise-kingdom/"
+   "imdbVotes": 385778,
+   "lbUrl": "https://letterboxd.com/film/moonrise-kingdom/",
+   "cast": [
+    "Jared Gilman",
+    "Kara Hayward",
+    "Bruce Willis"
+   ]
   },
   {
    "id": "django unchained|2012",
@@ -3889,8 +4639,13 @@
    "runtime": 165,
    "overview": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
    "v": 3,
-   "imdbVotes": 1922969,
-   "lbUrl": "https://letterboxd.com/film/django-unchained/"
+   "imdbVotes": 1923231,
+   "lbUrl": "https://letterboxd.com/film/django-unchained/",
+   "cast": [
+    "Jamie Foxx",
+    "Christoph Waltz",
+    "Leonardo DiCaprio"
+   ]
   },
   {
    "id": "sinister|2012",
@@ -3914,8 +4669,13 @@
    "runtime": 110,
    "overview": "A controversial true-crime writer finds a box of Super 8 home movies in his new home, revealing that the murder case he is currently researching could be the work of an unknown serial killer whose legacy dates back to the 1960s.",
    "v": 3,
-   "imdbVotes": 325911,
-   "lbUrl": "https://letterboxd.com/film/sinister/"
+   "imdbVotes": 326024,
+   "lbUrl": "https://letterboxd.com/film/sinister/",
+   "cast": [
+    "Ethan Hawke",
+    "Juliet Rylance",
+    "James Ransone"
+   ]
   },
   {
    "id": "her|2013",
@@ -3940,8 +4700,13 @@
    "overview": "In the near future, a lonely writer develops an unlikely relationship with an operating system designed to meet his every need.",
    "v": 3,
    "idLock": true,
-   "imdbVotes": 736546,
-   "lbUrl": "https://letterboxd.com/film/her/"
+   "imdbVotes": 736618,
+   "lbUrl": "https://letterboxd.com/film/her/",
+   "cast": [
+    "Joaquin Phoenix",
+    "Amy Adams",
+    "Scarlett Johansson"
+   ]
   },
   {
    "id": "enemy|2013",
@@ -3966,8 +4731,13 @@
    "overview": "A mild-mannered college professor investigates the life of an actor who looks exactly like him.",
    "v": 3,
    "idLock": true,
-   "imdbVotes": 245728,
-   "lbUrl": "https://letterboxd.com/film/enemy/"
+   "imdbVotes": 245765,
+   "lbUrl": "https://letterboxd.com/film/enemy/",
+   "cast": [
+    "Jake Gyllenhaal",
+    "Mélanie Laurent",
+    "Sarah Gadon"
+   ]
   },
   {
    "id": "inside llewyn davis|2013",
@@ -3991,8 +4761,13 @@
    "runtime": 104,
    "overview": "A week in the life of a young singer as he navigates the Greenwich Village folk scene of 1961.",
    "v": 3,
-   "imdbVotes": 173699,
-   "lbUrl": "https://letterboxd.com/film/inside-llewyn-davis/"
+   "imdbVotes": 173704,
+   "lbUrl": "https://letterboxd.com/film/inside-llewyn-davis/",
+   "cast": [
+    "Oscar Isaac",
+    "Carey Mulligan",
+    "John Goodman"
+   ]
   },
   {
    "id": "evil dead|2013",
@@ -4015,8 +4790,13 @@
    "runtime": 91,
    "overview": "Five friends head to a remote cabin, where the discovery of a Book of the Dead leads them to unwittingly summon up demons living in the nearby woods.",
    "v": 3,
-   "imdbVotes": 220662,
-   "lbUrl": "https://letterboxd.com/film/evil-dead/"
+   "imdbVotes": 220710,
+   "lbUrl": "https://letterboxd.com/film/evil-dead/",
+   "cast": [
+    "Jane Levy",
+    "Shiloh Fernandez",
+    "Jessica Lucas"
+   ]
   },
   {
    "id": "the conjuring|2013",
@@ -4040,8 +4820,13 @@
    "runtime": 112,
    "overview": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
    "v": 3,
-   "imdbVotes": 636555,
-   "lbUrl": "https://letterboxd.com/film/the-conjuring/"
+   "imdbVotes": 636632,
+   "lbUrl": "https://letterboxd.com/film/the-conjuring/",
+   "cast": [
+    "Patrick Wilson",
+    "Vera Farmiga",
+    "Ron Livingston"
+   ]
   },
   {
    "id": "oculus|2013",
@@ -4066,8 +4851,13 @@
    "idLock": true,
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BMzE1NzM4MjEyNV5BMl5BanBnXkFtZTgwMjYzMjMzMTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-   "imdbVotes": 153251,
-   "lbUrl": "https://letterboxd.com/film/oculus/"
+   "imdbVotes": 153312,
+   "lbUrl": "https://letterboxd.com/film/oculus/",
+   "cast": [
+    "Karen Gillan",
+    "Brenton Thwaites",
+    "Katee Sackhoff"
+   ]
   },
   {
    "id": "coherence|2013",
@@ -4091,8 +4881,13 @@
    "runtime": 89,
    "overview": "Strange things begin to happen when a group of friends gather for a dinner party on an evening when a comet is passing overhead.",
    "v": 3,
-   "imdbVotes": 180669,
-   "lbUrl": "https://letterboxd.com/film/coherence/"
+   "imdbVotes": 180722,
+   "lbUrl": "https://letterboxd.com/film/coherence/",
+   "cast": [
+    "Emily Baldoni",
+    "Maury Sterling",
+    "Nicholas Brendon"
+   ]
   },
   {
    "id": "birdman|2014",
@@ -4118,8 +4913,13 @@
    "idLock": true,
    "v": 3,
    "poster": "https://m.media-amazon.com/images/M/MV5BODAzNDMxMzAxOV5BMl5BanBnXkFtZTgwMDMxMjA4MjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
-   "imdbVotes": 705545,
-   "lbUrl": "https://letterboxd.com/film/birdman-or-the-unexpected-virtue-of-ignorance/"
+   "imdbVotes": 705593,
+   "lbUrl": "https://letterboxd.com/film/birdman-or-the-unexpected-virtue-of-ignorance/",
+   "cast": [
+    "Michael Keaton",
+    "Zach Galifianakis",
+    "Edward Norton"
+   ]
   },
   {
    "id": "the grand budapest hotel|2014",
@@ -4143,8 +4943,13 @@
    "runtime": 99,
    "overview": "The owner of an aging high-class hotel regales a writer with tales of serving as a lobby boy under an exceptional concierge in the hotel's glory years.",
    "v": 3,
-   "imdbVotes": 990526,
-   "lbUrl": "https://letterboxd.com/film/the-grand-budapest-hotel/"
+   "imdbVotes": 990653,
+   "lbUrl": "https://letterboxd.com/film/the-grand-budapest-hotel/",
+   "cast": [
+    "Ralph Fiennes",
+    "F. Murray Abraham",
+    "Mathieu Amalric"
+   ]
   },
   {
    "id": "predestination|2014",
@@ -4169,8 +4974,13 @@
    "overview": null,
    "v": 3,
    "posterLock": true,
-   "imdbVotes": 342646,
-   "lbUrl": "https://letterboxd.com/film/predestination/"
+   "imdbVotes": 342675,
+   "lbUrl": "https://letterboxd.com/film/predestination/",
+   "cast": [
+    "Ethan Hawke",
+    "Sarah Snook",
+    "Noah Taylor"
+   ]
   },
   {
    "id": "the one i love|2014",
@@ -4195,8 +5005,13 @@
    "runtime": 91,
    "overview": "A troubled couple vacate to a beautiful getaway, but bizarre circumstances further complicate their situation.",
    "v": 3,
-   "imdbVotes": 48291,
-   "lbUrl": "https://letterboxd.com/film/the-one-i-love-2014/"
+   "imdbVotes": 48307,
+   "lbUrl": "https://letterboxd.com/film/the-one-i-love-2014/",
+   "cast": [
+    "Mark Duplass",
+    "Elisabeth Moss",
+    "Ted Danson"
+   ]
   },
   {
    "id": "the revenant|2015",
@@ -4221,8 +5036,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BYTgwNmQzZDctMjNmOS00OTExLTkwM2UtNzJmOTJhODFjOTdlXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "runtime": 156,
    "overview": "A frontiersman on a fur trading expedition in the 1820s fights for survival after being mauled by a bear and left for dead by members of his own hunting team.",
-   "imdbVotes": 966391,
-   "lbUrl": "https://letterboxd.com/film/the-revenant-2015/"
+   "imdbVotes": 966507,
+   "lbUrl": "https://letterboxd.com/film/the-revenant-2015/",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Tom Hardy",
+    "Will Poulter"
+   ]
   },
   {
    "id": "the hateful eight|2015",
@@ -4246,8 +5066,13 @@
    "runtime": 168,
    "overview": "In the dead of a Wyoming winter, a bounty hunter and his prisoner find shelter in a cabin currently inhabited by a collection of nefarious characters.",
    "v": 3,
-   "imdbVotes": 733937,
-   "lbUrl": "https://letterboxd.com/film/the-hateful-eight/"
+   "imdbVotes": 734033,
+   "lbUrl": "https://letterboxd.com/film/the-hateful-eight/",
+   "cast": [
+    "Samuel L. Jackson",
+    "Kurt Russell",
+    "Jennifer Jason Leigh"
+   ]
   },
   {
    "id": "the witch|2015",
@@ -4271,8 +5096,13 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUyNzkwMzAxOF5BMl5BanBnXkFtZTgwMzc1OTk1NjE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "runtime": 92,
    "overview": "An isolated Puritan family in 1630s New England comes unraveled by the forces of witchcraft and possession.",
-   "imdbVotes": 362892,
-   "lbUrl": "https://letterboxd.com/film/the-witch-2015/"
+   "imdbVotes": 362991,
+   "lbUrl": "https://letterboxd.com/film/the-witch-2015/",
+   "cast": [
+    "Anya Taylor-Joy",
+    "Ralph Ineson",
+    "Kate Dickie"
+   ]
   },
   {
    "id": "20th century women|2016",
@@ -4297,8 +5127,13 @@
    "runtime": 119,
    "overview": "In 1979 Santa Barbara, Dorothea is a determined single mother who is raising her son, Jamie. Dorothea enlists the help of two women -- Abbie, a free-spirited punk artist and Julie, a savvy teenager -- to help with Jamie's upbringing.",
    "v": 3,
-   "imdbVotes": 52985,
-   "lbUrl": "https://letterboxd.com/film/20th-century-women/"
+   "imdbVotes": 52991,
+   "lbUrl": "https://letterboxd.com/film/20th-century-women/",
+   "cast": [
+    "Annette Bening",
+    "Elle Fanning",
+    "Greta Gerwig"
+   ]
   },
   {
    "id": "moonlight|2016",
@@ -4322,8 +5157,13 @@
    "runtime": 111,
    "overview": "A young African-American man grapples with his identity and sexuality while experiencing the everyday struggles of childhood, adolescence, and burgeoning adulthood.",
    "v": 3,
-   "imdbVotes": 357186,
-   "lbUrl": "https://letterboxd.com/film/moonlight-2016/"
+   "imdbVotes": 357212,
+   "lbUrl": "https://letterboxd.com/film/moonlight-2016/",
+   "cast": [
+    "Mahershala Ali",
+    "Naomie Harris",
+    "Trevante Rhodes"
+   ]
   },
   {
    "id": "captain fantastic|2016",
@@ -4347,8 +5187,13 @@
    "runtime": 118,
    "overview": "A widower who lives in the forest takes his six children into the outside world for the first time.",
    "v": 3,
-   "imdbVotes": 254189,
-   "lbUrl": "https://letterboxd.com/film/captain-fantastic/"
+   "imdbVotes": 254213,
+   "lbUrl": "https://letterboxd.com/film/captain-fantastic/",
+   "cast": [
+    "Viggo Mortensen",
+    "George MacKay",
+    "Samantha Isler"
+   ]
   },
   {
    "id": "hell or high water|2016",
@@ -4373,8 +5218,13 @@
    "runtime": 102,
    "overview": "A divorced father and his ex-con brother plan a series of heists against the bank that's about to foreclose on their family ranch.",
    "v": 3,
-   "imdbVotes": 283063,
-   "lbUrl": "https://letterboxd.com/film/hell-or-high-water/"
+   "imdbVotes": 283082,
+   "lbUrl": "https://letterboxd.com/film/hell-or-high-water/",
+   "cast": [
+    "Chris Pine",
+    "Ben Foster",
+    "Jeff Bridges"
+   ]
   },
   {
    "id": "the magnificent seven|2016",
@@ -4398,8 +5248,13 @@
    "runtime": 132,
    "overview": "Seven gunmen from a variety of backgrounds are brought together by a vengeful young widow to protect her town from the private army of a destructive industrialist.",
    "v": 3,
-   "imdbVotes": 250170,
-   "lbUrl": "https://letterboxd.com/film/the-magnificent-seven-2016/"
+   "imdbVotes": 250183,
+   "lbUrl": "https://letterboxd.com/film/the-magnificent-seven-2016/",
+   "cast": [
+    "Denzel Washington",
+    "Chris Pratt",
+    "Ethan Hawke"
+   ]
   },
   {
    "id": "manchester by the sea|2016",
@@ -4422,8 +5277,13 @@
    "runtime": 137,
    "overview": "A depressed uncle is asked to take care of his teenage nephew after the boy's father dies.",
    "v": 3,
-   "imdbVotes": 365338,
-   "lbUrl": "https://letterboxd.com/film/manchester-by-the-sea/"
+   "imdbVotes": 365380,
+   "lbUrl": "https://letterboxd.com/film/manchester-by-the-sea/",
+   "cast": [
+    "Casey Affleck",
+    "Michelle Williams",
+    "Kyle Chandler"
+   ]
   },
   {
    "id": "don't breathe|2016",
@@ -4447,8 +5307,13 @@
    "runtime": 88,
    "overview": "Three delinquents break into the house of a war veteran who is blind to steal his money. However, they discover that the man is not as defenseless as he seems.",
    "v": 3,
-   "imdbVotes": 336854,
-   "lbUrl": "https://letterboxd.com/film/dont-breathe-2016/"
+   "imdbVotes": 336881,
+   "lbUrl": "https://letterboxd.com/film/dont-breathe-2016/",
+   "cast": [
+    "Stephen Lang",
+    "Jane Levy",
+    "Dylan Minnette"
+   ]
   },
   {
    "id": "hush|2016",
@@ -4472,8 +5337,13 @@
    "runtime": 82,
    "overview": "A deaf mute European-American writer in her 20's who retreated to the woods to live in solitude must fight for her life in silence when a masked serial killer appears at her window.",
    "v": 3,
-   "imdbVotes": 173414,
-   "lbUrl": "https://letterboxd.com/film/hush-2016/"
+   "imdbVotes": 173457,
+   "lbUrl": "https://letterboxd.com/film/hush-2016/",
+   "cast": [
+    "John Gallagher Jr.",
+    "Kate Siegel",
+    "Michael Trucco"
+   ]
   },
   {
    "id": "split|2016",
@@ -4499,8 +5369,13 @@
    "overview": "Three girls are kidnapped by a man with a diagnosed 23 distinct personalities. They must try to escape before the apparent emergence of a frightful new 24th.",
    "v": 3,
    "idLock": true,
-   "imdbVotes": 634243,
-   "lbUrl": "https://letterboxd.com/film/split-2016/"
+   "imdbVotes": 634347,
+   "lbUrl": "https://letterboxd.com/film/split-2016/",
+   "cast": [
+    "James McAvoy",
+    "Anya Taylor-Joy",
+    "Haley Lu Richardson"
+   ]
   },
   {
    "id": "song to song|2017",
@@ -4526,8 +5401,13 @@
    "runtime": 129,
    "overview": "Two intersecting love triangles. Obsession and betrayal set against the music scene in Austin, Texas.",
    "v": 3,
-   "imdbVotes": 24567,
-   "lbUrl": "https://letterboxd.com/film/song-to-song/"
+   "imdbVotes": 24569,
+   "lbUrl": "https://letterboxd.com/film/song-to-song/",
+   "cast": [
+    "Ryan Gosling",
+    "Rooney Mara",
+    "Michael Fassbender"
+   ]
   },
   {
    "id": "phantom thread|2017",
@@ -4551,8 +5431,13 @@
    "runtime": 130,
    "overview": "Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose fastidious life is disrupted by a young, strong-willed woman, Alma, who becomes his muse and lover.",
    "v": 3,
-   "imdbVotes": 164927,
-   "lbUrl": "https://letterboxd.com/film/phantom-thread/"
+   "imdbVotes": 164938,
+   "lbUrl": "https://letterboxd.com/film/phantom-thread/",
+   "cast": [
+    "Vicky Krieps",
+    "Daniel Day-Lewis",
+    "Lesley Manville"
+   ]
   },
   {
    "id": "a ghost story|2017",
@@ -4576,8 +5461,13 @@
    "runtime": 92,
    "overview": "In this singular exploration of legacy, love, loss, and the enormity of existence, a recently deceased, white-sheeted ghost returns to his suburban home to try to reconnect with his bereft wife.",
    "v": 3,
-   "imdbVotes": 87903,
-   "lbUrl": "https://letterboxd.com/film/a-ghost-story-2017/"
+   "imdbVotes": 87917,
+   "lbUrl": "https://letterboxd.com/film/a-ghost-story-2017/",
+   "cast": [
+    "Casey Affleck",
+    "Rooney Mara",
+    "McColm Cephas Jr."
+   ]
   },
   {
    "id": "get out|2017",
@@ -4601,8 +5491,13 @@
    "runtime": 104,
    "overview": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him eventually reaches a boiling point.",
    "v": 3,
-   "imdbVotes": 843625,
-   "lbUrl": "https://letterboxd.com/film/get-out-2017/"
+   "imdbVotes": 843823,
+   "lbUrl": "https://letterboxd.com/film/get-out-2017/",
+   "cast": [
+    "Daniel Kaluuya",
+    "Allison Williams",
+    "Bradley Whitford"
+   ]
   },
   {
    "id": "the endless|2017",
@@ -4627,8 +5522,13 @@
    "overview": "As kids, they escaped a UFO death cult. Now, two adult brothers seek answers after an old videotape surfaces and brings them back to where they began.",
    "idLock": true,
    "v": 3,
-   "imdbVotes": 59062,
-   "lbUrl": "https://letterboxd.com/film/the-endless/"
+   "imdbVotes": 59081,
+   "lbUrl": "https://letterboxd.com/film/the-endless/",
+   "cast": [
+    "Aaron Moorhead",
+    "Justin Benson",
+    "Callie Hernandez"
+   ]
   },
   {
    "id": "burning|2018",
@@ -4653,8 +5553,13 @@
    "runtime": 148,
    "overview": "Jong-su bumps into a girl who used to live in the same neighborhood, who asks him to look after her cat while she's on a trip to Africa. When back, she introduces Ben, a mysterious guy she met there, who confesses his secret hobby.",
    "v": 3,
-   "imdbVotes": 88004,
-   "lbUrl": "https://letterboxd.com/film/burning-2018/"
+   "imdbVotes": 88024,
+   "lbUrl": "https://letterboxd.com/film/burning-2018/",
+   "cast": [
+    "Yoo Ah-in",
+    "Steven Yeun",
+    "Jeon Jong-seo"
+   ]
   },
   {
    "id": "isle of dogs|2018",
@@ -4678,8 +5583,13 @@
    "runtime": 101,
    "overview": "Set in Japan, Isle of Dogs follows a boy's odyssey in search of his lost dog.",
    "v": 3,
-   "imdbVotes": 215599,
-   "lbUrl": "https://letterboxd.com/film/isle-of-dogs-2018/"
+   "imdbVotes": 215630,
+   "lbUrl": "https://letterboxd.com/film/isle-of-dogs-2018/",
+   "cast": [
+    "Bryan Cranston",
+    "Koyu Rankin",
+    "Edward Norton"
+   ]
   },
   {
    "id": "annihilation|2018",
@@ -4704,8 +5614,13 @@
    "runtime": 115,
    "overview": "A biologist signs up for a dangerous, secret expedition in which the laws of nature don't apply.",
    "v": 3,
-   "imdbVotes": 399923,
-   "lbUrl": "https://letterboxd.com/film/annihilation/"
+   "imdbVotes": 399959,
+   "lbUrl": "https://letterboxd.com/film/annihilation/",
+   "cast": [
+    "Natalie Portman",
+    "Jennifer Jason Leigh",
+    "Tessa Thompson"
+   ]
   },
   {
    "id": "the ballad of buster scruggs|2018",
@@ -4729,8 +5644,13 @@
    "runtime": 133,
    "overview": "Six tales of life and violence in the Old West, following a singing gunslinger, a bank robber, a traveling impresario, an elderly prospector, a wagon train and a perverse pair of bounty hunters.",
    "v": 3,
-   "imdbVotes": 187991,
-   "lbUrl": "https://letterboxd.com/film/the-ballad-of-buster-scruggs/"
+   "imdbVotes": 188006,
+   "lbUrl": "https://letterboxd.com/film/the-ballad-of-buster-scruggs/",
+   "cast": [
+    "Tim Blake Nelson",
+    "Willie Watson",
+    "Clancy Brown"
+   ]
   },
   {
    "id": "hereditary|2018",
@@ -4755,8 +5675,13 @@
    "runtime": 127,
    "overview": "A grieving family is haunted by tragic and disturbing occurrences.",
    "v": 3,
-   "imdbVotes": 474980,
-   "lbUrl": "https://letterboxd.com/film/hereditary/"
+   "imdbVotes": 475194,
+   "lbUrl": "https://letterboxd.com/film/hereditary/",
+   "cast": [
+    "Toni Collette",
+    "Milly Shapiro",
+    "Gabriel Byrne"
+   ]
   },
   {
    "id": "the lighthouse|2019",
@@ -4780,8 +5705,13 @@
    "runtime": 109,
    "overview": "Two lighthouse keepers try to maintain their sanity while living on a remote and mysterious New England island in the 1890s.",
    "v": 3,
-   "imdbVotes": 312317,
-   "lbUrl": "https://letterboxd.com/film/the-lighthouse-2019/"
+   "imdbVotes": 312387,
+   "lbUrl": "https://letterboxd.com/film/the-lighthouse-2019/",
+   "cast": [
+    "Robert Pattinson",
+    "Willem Dafoe",
+    "Valeriia Karaman"
+   ]
   },
   {
    "id": "joker|2019",
@@ -4805,8 +5735,13 @@
    "runtime": 122,
    "overview": "Arthur Fleck, a party clown and a failed stand-up comedian, leads an impoverished life with his ailing mother. However, when society shuns him and brands him as a freak, he decides to embrace the life of chaos in Gotham City.",
    "v": 3,
-   "imdbVotes": 1733451,
-   "lbUrl": "https://letterboxd.com/film/joker-2019/"
+   "imdbVotes": 1733699,
+   "lbUrl": "https://letterboxd.com/film/joker-2019/",
+   "cast": [
+    "Joaquin Phoenix",
+    "Robert De Niro",
+    "Zazie Beetz"
+   ]
   },
   {
    "id": "the irishman|2019",
@@ -4831,8 +5766,13 @@
    "runtime": 209,
    "overview": "An illustration of Frank Sheeran's life, from W.W.II veteran to hit-man for the Bufalino crime family and his alleged assassination of his close friend Jimmy Hoffa.",
    "v": 3,
-   "imdbVotes": 481857,
-   "lbUrl": "https://letterboxd.com/film/the-irishman-2019/"
+   "imdbVotes": 481908,
+   "lbUrl": "https://letterboxd.com/film/the-irishman-2019/",
+   "cast": [
+    "Robert De Niro",
+    "Al Pacino",
+    "Joe Pesci"
+   ]
   },
   {
    "id": "midsommar|2019",
@@ -4855,8 +5795,13 @@
    "runtime": 148,
    "overview": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult.",
    "v": 3,
-   "imdbVotes": 502646,
-   "lbUrl": "https://letterboxd.com/film/midsommar/"
+   "imdbVotes": 502812,
+   "lbUrl": "https://letterboxd.com/film/midsommar/",
+   "cast": [
+    "Florence Pugh",
+    "Jack Reynor",
+    "Vilhelm Blomgren"
+   ]
   },
   {
    "id": "us|2019",
@@ -4880,8 +5825,13 @@
    "runtime": 116,
    "overview": "In order to get away from their busy lives, the Wilson family takes a vacation to Santa Cruz, California. At night, four strangers break into Adelaide's childhood home. The family is shocked to find out that the intruders look lik...",
    "v": 3,
-   "imdbVotes": 402387,
-   "lbUrl": "https://letterboxd.com/film/us-2019/"
+   "imdbVotes": 402478,
+   "lbUrl": "https://letterboxd.com/film/us-2019/",
+   "cast": [
+    "Lupita Nyong&apos;o",
+    "Winston Duke",
+    "Elisabeth Moss"
+   ]
   },
   {
    "id": "doctor sleep|2019",
@@ -4905,10 +5855,15 @@
    "runtime": 152,
    "overview": "Years following the events of The Shining (1980), a now-adult Dan Torrance must protect a young girl with similar powers from a cult known as The True Knot, who prey on children with powers to remain immortal.",
    "v": 3,
-   "imdbVotes": 250603,
+   "imdbVotes": 250713,
    "lbUrl": "https://letterboxd.com/film/doctor-sleep/",
    "fr": "The Shining",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Ewan McGregor",
+    "Rebecca Ferguson",
+    "Kyliegh Curran"
+   ]
   },
   {
    "id": "minari|2020",
@@ -4931,8 +5886,13 @@
    "runtime": 115,
    "overview": "A Korean American family moves to an Arkansas farm in search of its own American dream. Amidst the challenges of new life in the strange and rugged Ozarks, they discover the undeniable resilience of family and what really makes a ...",
    "v": 3,
-   "imdbVotes": 127891,
-   "lbUrl": "https://letterboxd.com/film/minari/"
+   "imdbVotes": 127905,
+   "lbUrl": "https://letterboxd.com/film/minari/",
+   "cast": [
+    "Steven Yeun",
+    "Han Ye-ri",
+    "Alan Kim"
+   ]
   },
   {
    "id": "tenet|2020",
@@ -4957,9 +5917,14 @@
    "runtime": 150,
    "overview": "Armed with only the word \"Tenet,\" and fighting for the survival of the entire world, CIA operative, The Protagonist, journeys through a twilight world of international espionage on a global mission that unfolds beyond real time.",
    "v": 3,
-   "imdbVotes": 714708,
+   "imdbVotes": 714795,
    "lbUrl": "https://letterboxd.com/film/tenet/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "John David Washington",
+    "Robert Pattinson",
+    "Elizabeth Debicki"
+   ]
   },
   {
    "id": "caveat|2020",
@@ -4982,8 +5947,13 @@
    "runtime": 88,
    "overview": "A drifter with missing memories takes a strange care-taking job on an isolated island, only to find himself chained inside a decaying house with a dangerous woman and secrets that may involve him.",
    "v": 3,
-   "imdbVotes": 17004,
-   "lbUrl": "https://letterboxd.com/film/caveat-2020/"
+   "imdbVotes": 17025,
+   "lbUrl": "https://letterboxd.com/film/caveat-2020/",
+   "cast": [
+    "Ben Caplan",
+    "Johnny French",
+    "Leila Sykes"
+   ]
   },
   {
    "id": "eyimofe (this is my desire)|2020",
@@ -5009,7 +5979,12 @@
    "v": 3,
    "posterLock": true,
    "imdbVotes": 747,
-   "lbUrl": "https://letterboxd.com/film/eyimofe-this-is-my-desire/"
+   "lbUrl": "https://letterboxd.com/film/eyimofe-this-is-my-desire/",
+   "cast": [
+    "Jude Akuwudike",
+    "Kemi Lala Akindoju",
+    "Kelechi Udegbe"
+   ]
   },
   {
    "id": "dune|2021",
@@ -5033,8 +6008,13 @@
    "runtime": 155,
    "overview": "Paul Atreides arrives on Arrakis after his father accepts the stewardship of the dangerous planet. However, chaos ensues after a betrayal as forces clash to control melange, a precious resource.",
    "v": 3,
-   "imdbVotes": 1097973,
-   "lbUrl": "https://letterboxd.com/film/dune-2021/"
+   "imdbVotes": 1098101,
+   "lbUrl": "https://letterboxd.com/film/dune-2021/",
+   "cast": [
+    "Timothée Chalamet",
+    "Rebecca Ferguson",
+    "Zendaya"
+   ]
   },
   {
    "id": "the french dispatch|2021",
@@ -5058,8 +6038,13 @@
    "runtime": 107,
    "overview": "A collection of stories published in \"The French Dispatch Magazine\" comes to life in a fictional twentieth century French city.",
    "v": 3,
-   "imdbVotes": 171192,
-   "lbUrl": "https://letterboxd.com/film/the-french-dispatch-of-the-liberty-kansas/"
+   "imdbVotes": 171204,
+   "lbUrl": "https://letterboxd.com/film/the-french-dispatch-of-the-liberty-kansas/",
+   "cast": [
+    "Benicio Del Toro",
+    "Adrien Brody",
+    "Tilda Swinton"
+   ]
   },
   {
    "id": "the black phone|2021",
@@ -5083,8 +6068,13 @@
    "runtime": 103,
    "overview": "After being abducted and locked in a basement, a boy starts receiving calls on a disconnected phone from the killer's previous victims.",
    "v": 3,
-   "imdbVotes": 274311,
-   "lbUrl": "https://letterboxd.com/film/the-black-phone/"
+   "imdbVotes": 274394,
+   "lbUrl": "https://letterboxd.com/film/the-black-phone/",
+   "cast": [
+    "Mason Thames",
+    "Madeleine McGraw",
+    "Ethan Hawke"
+   ]
   },
   {
    "id": "drive my car|2021",
@@ -5108,8 +6098,13 @@
    "runtime": 179,
    "overview": "A renowned stage actor and director learns to cope with a big personal loss when he receives an offer to direct a production of Uncle Vanya in Hiroshima.",
    "v": 3,
-   "imdbVotes": 78509,
-   "lbUrl": "https://letterboxd.com/film/drive-my-car/"
+   "imdbVotes": 78517,
+   "lbUrl": "https://letterboxd.com/film/drive-my-car/",
+   "cast": [
+    "Hidetoshi Nishijima",
+    "Tôko Miura",
+    "Reika Kirishima"
+   ]
   },
   {
    "id": "x|2022",
@@ -5133,10 +6128,15 @@
    "runtime": 105,
    "overview": "In 1979, a group of young filmmakers set out to make an adult film in a rural Texas farm, but when their reclusive, elderly hosts catch them in the act, the crew find themselves fighting for their lives.",
    "v": 3,
-   "imdbVotes": 231426,
+   "imdbVotes": 231478,
    "lbUrl": "https://letterboxd.com/film/x-2022/",
    "fr": "X Trilogy",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Mia Goth",
+    "Jenna Ortega",
+    "Brittany Snow"
+   ]
   },
   {
    "id": "pearl|2022",
@@ -5161,10 +6161,15 @@
    "runtime": 103,
    "overview": "In 1918, a young woman on the brink of madness pursues stardom in a desperate attempt to escape the drudgery, isolation, and lovelessness of life on her parents' farm.",
    "v": 3,
-   "imdbVotes": 166803,
+   "imdbVotes": 166882,
    "lbUrl": "https://letterboxd.com/film/pearl-2022/",
    "fr": "X Trilogy",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Mia Goth",
+    "David Corenswet",
+    "Tandi Wright"
+   ]
   },
   {
    "id": "everything everywhere all at once|2022",
@@ -5190,8 +6195,13 @@
    "runtime": 139,
    "overview": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
    "v": 3,
-   "imdbVotes": 664719,
-   "lbUrl": "https://letterboxd.com/film/everything-everywhere-all-at-once/"
+   "imdbVotes": 664764,
+   "lbUrl": "https://letterboxd.com/film/everything-everywhere-all-at-once/",
+   "cast": [
+    "Michelle Yeoh",
+    "Stephanie Hsu",
+    "Jamie Lee Curtis"
+   ]
   },
   {
    "id": "tár|2022",
@@ -5215,8 +6225,13 @@
    "runtime": 158,
    "overview": "Set in the international world of Western classical music, the film centers on Lydia Tár, widely considered one of the greatest living composer-conductors and the very first female director of a major German orchestra.",
    "v": 3,
-   "imdbVotes": 111498,
-   "lbUrl": "https://letterboxd.com/film/tar-2022/"
+   "imdbVotes": 111512,
+   "lbUrl": "https://letterboxd.com/film/tar-2022/",
+   "cast": [
+    "Cate Blanchett",
+    "Noémie Merlant",
+    "Nina Hoss"
+   ]
   },
   {
    "id": "barbarian|2022",
@@ -5240,8 +6255,13 @@
    "runtime": 102,
    "overview": "A woman staying at an Airbnb discovers that the house she has rented is not what it seems.",
    "v": 3,
-   "imdbVotes": 278715,
-   "lbUrl": "https://letterboxd.com/film/barbarian-2022/"
+   "imdbVotes": 278890,
+   "lbUrl": "https://letterboxd.com/film/barbarian-2022/",
+   "cast": [
+    "Georgina Campbell",
+    "Bill Skarsgård",
+    "Justin Long"
+   ]
   },
   {
    "id": "nope|2022",
@@ -5266,8 +6286,13 @@
    "runtime": 130,
    "overview": "The residents of a lonely gulch in inland California bear witness to an uncanny and chilling phenomenon.",
    "v": 3,
-   "imdbVotes": 325107,
-   "lbUrl": "https://letterboxd.com/film/nope/"
+   "imdbVotes": 325176,
+   "lbUrl": "https://letterboxd.com/film/nope/",
+   "cast": [
+    "Daniel Kaluuya",
+    "Keke Palmer",
+    "Brandon Perea"
+   ]
   },
   {
    "id": "past lives|2023",
@@ -5292,8 +6317,13 @@
    "runtime": 105,
    "overview": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Twenty years later, they are reunited for one fateful week as they confront notions of love and destiny.",
    "v": 3,
-   "imdbVotes": 179478,
-   "lbUrl": "https://letterboxd.com/film/past-lives/"
+   "imdbVotes": 179531,
+   "lbUrl": "https://letterboxd.com/film/past-lives/",
+   "cast": [
+    "Greta Lee",
+    "Teo Yoo",
+    "John Magaro"
+   ]
   },
   {
    "id": "asteroid city|2023",
@@ -5313,12 +6343,18 @@
     "Sci-Fi"
    ],
    "imdbId": "tt14230388",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZjY2YjYxNjEtNDJkYi00ZmJjLWIwYTEtNjEyZDgzY2M5ZDc3XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/hfo7pvL9Fys7rocfL4VOzw9qDEQ.jpg",
    "runtime": 105,
    "overview": "World-changing events spectacularly disrupt the annual Asteroid Day celebration in an American desert town.",
    "v": 3,
-   "imdbVotes": 147727,
-   "lbUrl": "https://letterboxd.com/film/asteroid-city/"
+   "imdbVotes": 147740,
+   "lbUrl": "https://letterboxd.com/film/asteroid-city/",
+   "posterLock": true,
+   "cast": [
+    "Jason Schwartzman",
+    "Scarlett Johansson",
+    "Tom Hanks"
+   ]
   },
   {
    "id": "killers of the flower moon|2023",
@@ -5344,8 +6380,13 @@
    "runtime": 206,
    "overview": "When oil is discovered in 1920s Oklahoma under Osage Nation land, the Osage people are murdered one by one - until the FBI steps in to unravel the mystery.",
    "v": 3,
-   "imdbVotes": 315667,
-   "lbUrl": "https://letterboxd.com/film/killers-of-the-flower-moon/"
+   "imdbVotes": 315725,
+   "lbUrl": "https://letterboxd.com/film/killers-of-the-flower-moon/",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Robert De Niro",
+    "Lily Gladstone"
+   ]
   },
   {
    "id": "beau is afraid|2023",
@@ -5369,8 +6410,13 @@
    "runtime": 179,
    "overview": "Following the sudden death of his mother, a mild-mannered but anxiety-ridden man confronts his darkest fears as he embarks on an epic odyssey back home.",
    "v": 3,
-   "imdbVotes": 80907,
-   "lbUrl": "https://letterboxd.com/film/beau-is-afraid/"
+   "imdbVotes": 80923,
+   "lbUrl": "https://letterboxd.com/film/beau-is-afraid/",
+   "cast": [
+    "Joaquin Phoenix",
+    "Patti LuPone",
+    "Amy Ryan"
+   ]
   },
   {
    "id": "challengers|2024",
@@ -5390,12 +6436,18 @@
     "Romance"
    ],
    "imdbId": "tt16426418",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZTcyZGIyODctZGJhOS00MWUyLWI5ZWEtMjg4YzhkMDczMDBhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/eU7eEiaROOvEgUVvVaPVgQw6fMD.jpg",
    "runtime": 131,
    "overview": "Tashi, a former tennis prodigy-turned-coach, transformed her husband into a champion. But to overcome a recent losing streak and redeem himself, he'll need to face off against his former best friend--Tashi's ex-boyfriend.",
    "v": 3,
-   "imdbVotes": 186066,
-   "lbUrl": "https://letterboxd.com/film/challengers/"
+   "imdbVotes": 186099,
+   "lbUrl": "https://letterboxd.com/film/challengers/",
+   "posterLock": true,
+   "cast": [
+    "Mike Faist",
+    "Josh O&apos;Connor",
+    "Zendaya"
+   ]
   },
   {
    "id": "the substance|2024",
@@ -5416,12 +6468,18 @@
     "Satire"
    ],
    "imdbId": "tt17526714",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZDQ1NGE5MGMtYzdlZC00ODExLWJlMDMtNWU4NjA5OWYwMDEwXkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/fer6QYAQENhCTtzJNcV8FGo62zw.jpg",
    "runtime": 141,
    "overview": "A fading celebrity takes a black-market drug: a cell-replicating substance that helps her create a younger, better version of herself.",
    "v": 3,
-   "imdbVotes": 471904,
-   "lbUrl": "https://letterboxd.com/film/the-substance/"
+   "imdbVotes": 472174,
+   "lbUrl": "https://letterboxd.com/film/the-substance/",
+   "posterLock": true,
+   "cast": [
+    "Demi Moore",
+    "Margaret Qualley",
+    "Dennis Quaid"
+   ]
   },
   {
    "id": "the fall guy|2024",
@@ -5441,12 +6499,18 @@
     "Comedy"
    ],
    "imdbId": "tt1684562",
-   "poster": "https://m.media-amazon.com/images/M/MV5BM2U0MTJiYTItMjNiZS00MzU4LTkxYTAtYTU0ZGY1ODJhMjRhXkEyXkFqcGc@._V1_QL75_UX380_CR0,20,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/euL9dqQjywrQFC7pHK5HdmxzrDf.jpg",
    "runtime": 126,
    "overview": "A stuntman, fresh off an almost career-ending accident, has to track down a missing movie star, solve a conspiracy and try to win back the love of his life while still doing his day job.",
    "v": 3,
-   "imdbVotes": 276443,
-   "lbUrl": "https://letterboxd.com/film/the-fall-guy-2024/"
+   "imdbVotes": 276505,
+   "lbUrl": "https://letterboxd.com/film/the-fall-guy-2024/",
+   "posterLock": true,
+   "cast": [
+    "Ryan Gosling",
+    "Emily Blunt",
+    "Aaron Taylor-Johnson"
+   ]
   },
   {
    "id": "marmalade|2024",
@@ -5467,12 +6531,18 @@
     "Romance"
    ],
    "imdbId": "tt21275544",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNzlhNTYzM2UtZDI3Ni00ODRiLThiNWYtN2NmYzg2OGNiMGQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/yt66TPbmJn8E4LepeLhBO5V1AED.jpg",
    "runtime": 99,
    "overview": "Baron teams up with his cellmate Otis to plan an escape, all while remembering how he fell for Marmalade and joined her in a risky bank robbery to support his sick mother and pursue a better future.",
    "v": 3,
-   "imdbVotes": 5036,
-   "lbUrl": "https://letterboxd.com/film/marmalade-2024/"
+   "imdbVotes": 5037,
+   "lbUrl": "https://letterboxd.com/film/marmalade-2024/",
+   "posterLock": true,
+   "cast": [
+    "Joe Keery",
+    "Hans Christopher",
+    "Aldis Hodge"
+   ]
   },
   {
    "id": "the assessment|2024",
@@ -5492,12 +6562,18 @@
     "Drama"
    ],
    "imdbId": "tt32768323",
-   "poster": "https://m.media-amazon.com/images/M/MV5BOWFjMGIwNDgtODE5MS00ZWVkLTlhNzgtMDI1ZDM1OWMyYzY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/o1K7be85FAauSbVPzCQ0GjOXUqu.jpg",
    "runtime": 114,
    "overview": "In the near future where parenthood is strictly controlled, a couple's seven-day assessment for the right to have a child unravels into a psychological nightmare.",
    "v": 3,
-   "imdbVotes": 25980,
-   "lbUrl": "https://letterboxd.com/film/the-assessment-2024/"
+   "imdbVotes": 25995,
+   "lbUrl": "https://letterboxd.com/film/the-assessment-2024/",
+   "posterLock": true,
+   "cast": [
+    "Alicia Vikander",
+    "Elizabeth Olsen",
+    "Himesh Patel"
+   ]
   },
   {
    "id": "caddo lake|2024",
@@ -5517,12 +6593,18 @@
     "Sci-Fi"
    ],
    "imdbId": "tt15552142",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZmIyOGI3NjgtZWJlYS00NzQ0LWJkMDUtNjhlYmFkYjI3NTM5XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/86dAl9HAGDOhvOIM8uPVjfk9P1v.jpg",
    "runtime": 103,
    "overview": "When an 8-year-old girl disappears on Caddo Lake, a series of past deaths and disappearances begin to link together, altering a broken family's history.",
    "v": 3,
-   "imdbVotes": 61017,
-   "lbUrl": "https://letterboxd.com/film/caddo-lake/"
+   "imdbVotes": 61050,
+   "lbUrl": "https://letterboxd.com/film/caddo-lake/",
+   "posterLock": true,
+   "cast": [
+    "Dylan O&apos;Brien",
+    "Eliza Scanlen",
+    "Caroline Falk"
+   ]
   },
   {
    "id": "it's what's inside|2024",
@@ -5543,12 +6625,18 @@
     "Comedy"
    ],
    "imdbId": "tt14577874",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNDkxOTZmZTYtYTNmNS00MDk3LWE0MDAtMzY5M2Y5YmU1MmI2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/6jzwaLoDurD6Jn2ILb42nFcn3xq.jpg",
    "runtime": 103,
    "overview": "A group of friends gather for a pre-wedding party that descends into an existential nightmare when an estranged friend arrives with a mysterious game that awakens long-hidden secrets, desires and grudges.",
    "v": 3,
-   "imdbVotes": 54915,
-   "lbUrl": "https://letterboxd.com/film/its-whats-inside/"
+   "imdbVotes": 54933,
+   "lbUrl": "https://letterboxd.com/film/its-whats-inside/",
+   "posterLock": true,
+   "cast": [
+    "Brittany O&apos;Grady",
+    "James Morosini",
+    "Gavin Leatherwood"
+   ]
   },
   {
    "id": "a complete unknown|2024",
@@ -5568,12 +6656,18 @@
     "Music"
    ],
    "imdbId": "tt11563598",
-   "poster": "https://m.media-amazon.com/images/M/MV5BYTA2NTA5NDYtMzlkOC00MTQxLWI0NDQtMzk2M2YzMGE4MTkxXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/llWl3GtNoXosbvYboelmoT459NM.jpg",
    "runtime": 141,
    "overview": "In 1961, an unknown 19-year-old Bob Dylan arrives in New York City with his guitar and forges relationships with musical icons on his meteoric rise, culminating in a groundbreaking performance that reverberates around the world.",
    "v": 3,
-   "imdbVotes": 123472,
-   "lbUrl": "https://letterboxd.com/film/a-complete-unknown/"
+   "imdbVotes": 123505,
+   "lbUrl": "https://letterboxd.com/film/a-complete-unknown/",
+   "posterLock": true,
+   "cast": [
+    "Timothée Chalamet",
+    "Edward Norton",
+    "Elle Fanning"
+   ]
   },
   {
    "id": "alien: romulus|2024",
@@ -5593,14 +6687,20 @@
     "Horror"
    ],
    "imdbId": "tt18412256",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMDU0NjcwOGQtNjNjOS00NzQ3LWIwM2YtYWVmODZjMzQzN2ExXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/b33nnKl1GSFbao4l3fZDDqsMx0F.jpg",
    "runtime": 119,
    "overview": "While scavenging the deep ends of a derelict space station, a group of young space colonists come face to face with the most terrifying life form in the universe.",
    "v": 3,
-   "imdbVotes": 297256,
+   "imdbVotes": 297319,
    "lbUrl": "https://letterboxd.com/film/alien-romulus/",
    "fr": "Alien",
-   "frI": 3
+   "frI": 3,
+   "posterLock": true,
+   "cast": [
+    "Cailee Spaeny",
+    "David Jonsson",
+    "Archie Renaux"
+   ]
   },
   {
    "id": "oddity|2024",
@@ -5620,12 +6720,18 @@
     "Horror"
    ],
    "imdbId": "tt26470109",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMWU5Yjc0N2MtZjhlYS00MTM3LWI5YWUtZDg5MzcxZjEyZWJmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/3Z9c1tbUhP0QruRjczPHnbx3U2D.jpg",
    "runtime": 98,
    "overview": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime.",
    "v": 3,
-   "imdbVotes": 64359,
-   "lbUrl": "https://letterboxd.com/film/oddity-2024/"
+   "imdbVotes": 64416,
+   "lbUrl": "https://letterboxd.com/film/oddity-2024/",
+   "posterLock": true,
+   "cast": [
+    "Carolyn Bracken",
+    "Gwilym Lee",
+    "Steve Wall"
+   ]
   },
   {
    "id": "nosferatu|2024",
@@ -5644,12 +6750,18 @@
     "Gothic Horror"
    ],
    "imdbId": "tt5040012",
-   "poster": "https://m.media-amazon.com/images/M/MV5BY2FhZGE3NmEtNWJjOC00NDI1LWFhMTQtMjcxNmQzZmEwNGIzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/5qGIxdEO841C0tdY8vOdLoRVrr0.jpg",
    "runtime": 132,
    "overview": "A gothic tale of obsession between a haunted young woman and the terrifying vampire infatuated with her, causing untold horror in its wake.",
    "v": 3,
-   "imdbVotes": 281015,
-   "lbUrl": "https://letterboxd.com/film/nosferatu-2024/"
+   "imdbVotes": 281146,
+   "lbUrl": "https://letterboxd.com/film/nosferatu-2024/",
+   "posterLock": true,
+   "cast": [
+    "Lily-Rose Depp",
+    "Nicholas Hoult",
+    "Bill Skarsgård"
+   ]
   },
   {
    "id": "no other choice|2025",
@@ -5670,12 +6782,18 @@
     "Dark Comedy"
    ],
    "imdbId": "tt1527793",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMjg3NzY0N2ItZGFlMy00NzAzLTk2NjItMDk2YTU3ZWU0MDA1XkEyXkFqcGc@._V1_QL75_UY562_CR7,0,380,562_.jpg",
+   "poster": "https://m.media-amazon.com/images/M/MV5BMjg0OTgzMzUtYmM1OC00MDk0LTg2NzAtNWFjZmEyNjM5NWFmXkEyXkFqcGc@._V1_SX400.jpg",
    "runtime": 139,
    "overview": "After being fired, a man devises a unique plan to secure a new job: eliminate his competition.",
    "v": 3,
-   "imdbVotes": 78061,
-   "lbUrl": "https://letterboxd.com/film/no-other-choice-2025/"
+   "imdbVotes": 78137,
+   "lbUrl": "https://letterboxd.com/film/no-other-choice-2025/",
+   "posterLock": true,
+   "cast": [
+    "Lee Byung-hun",
+    "Son Ye-jin",
+    "Woo Seung Kim"
+   ]
   },
   {
    "id": "the phoenician scheme|2025",
@@ -5699,8 +6817,13 @@
    "runtime": 101,
    "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists and determined assassins.",
    "v": 3,
-   "imdbVotes": 74621,
-   "lbUrl": "https://letterboxd.com/film/the-phoenician-scheme/"
+   "imdbVotes": 74643,
+   "lbUrl": "https://letterboxd.com/film/the-phoenician-scheme/",
+   "cast": [
+    "Benicio Del Toro",
+    "Mia Threapleton",
+    "Michael Cera"
+   ]
   },
   {
    "id": "train dreams|2025",
@@ -5719,12 +6842,18 @@
     "Drama"
    ],
    "imdbId": "tt29768334",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZDkzNzkyNTktYzNhMi00YjhiLWI5YmUtZjliMTY0ZDc5NmMyXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/dBBzWpXyTPOZtnEyIwCEqUXuDkq.jpg",
    "runtime": 102,
    "overview": "A logger leads a life of unexpected depth and beauty in the rapidly-changing America of the early 1900s.",
    "v": 3,
-   "imdbVotes": 118112,
-   "lbUrl": "https://letterboxd.com/film/train-dreams/"
+   "imdbVotes": 118176,
+   "lbUrl": "https://letterboxd.com/film/train-dreams/",
+   "posterLock": true,
+   "cast": [
+    "Joel Edgerton",
+    "Clifton Collins Jr.",
+    "Felicity Jones"
+   ]
   },
   {
    "id": "weapons|2025",
@@ -5745,12 +6874,18 @@
     "Mystery"
    ],
    "imdbId": "tt26581740",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNTBhNWJjZWItYzY3NS00M2NkLThmOWYtYTlmNzBmN2UxZWFjXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/cpf7vsRZ0MYRQcnLWteD5jK9ymT.jpg",
    "runtime": 128,
    "overview": "When all but one child from the same class mysteriously vanish on the same night at exactly the same time, a community is left questioning who or what is behind their disappearance.",
    "v": 3,
-   "imdbVotes": 416559,
-   "lbUrl": "https://letterboxd.com/film/weapons-2025/"
+   "imdbVotes": 417221,
+   "lbUrl": "https://letterboxd.com/film/weapons-2025/",
+   "posterLock": true,
+   "cast": [
+    "Julia Garner",
+    "Josh Brolin",
+    "Alden Ehrenreich"
+   ]
   },
   {
    "id": "peter hujar's day|2025",
@@ -5770,12 +6905,17 @@
     "Biography"
    ],
    "imdbId": "tt34250044",
-   "poster": "https://m.media-amazon.com/images/M/MV5BY2Q1ZWNiZGUtZTMyZi00OGZiLWJmMGMtYjg0NjM3NDZmNTBmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/awq1O9RRi6JW74fDmGXJJGD5le8.jpg",
    "runtime": 76,
    "overview": "Conversation between photographer Peter Hujar and Linda Rosenkrantz from 1974 sheds light on New York's vibrant downtown art world and the introspective journey of an artist's life.",
    "v": 3,
-   "imdbVotes": 1985,
-   "lbUrl": "https://letterboxd.com/film/peter-hujars-day/"
+   "imdbVotes": 1991,
+   "lbUrl": "https://letterboxd.com/film/peter-hujars-day/",
+   "posterLock": true,
+   "cast": [
+    "Rebecca Hall",
+    "Ben Whishaw"
+   ]
   },
   {
    "id": "project hail mary|2026",
@@ -5800,9 +6940,14 @@
    "runtime": 156,
    "overview": "A science teacher wakes up alone on a spaceship. As his memory returns, he uncovers a mission to stop a mysterious substance killing Earth's sun, and realizes that an unexpected friendship may be the key.",
    "v": 3,
-   "imdbVotes": 586602,
+   "imdbVotes": 587480,
    "lbUrl": "https://letterboxd.com/film/project-hail-mary/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Ryan Gosling",
+    "Sandra Hüller",
+    "James Ortiz"
+   ]
   },
   {
    "id": "resident evil|2026",
@@ -5822,12 +6967,18 @@
     "Action"
    ],
    "imdbId": "tt35538033",
-   "poster": "https://m.media-amazon.com/images/M/MV5BODIwYTk4MWYtMGUxYS00OWUzLTg5MDYtNzg5MmYyNzcyNThkXkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/zP83bIkBViw5b1s9bDemYJ3AAgX.jpg",
    "runtime": 90,
    "overview": "Follows a hapless courier tasked with delivering a package to a remote hospital. He soon finds himself caught in the middle of an outbreak and must fight through hordes of mutated creatures to survive.",
    "v": 3,
-   "imdbVotes": 115818,
-   "lbUrl": "https://letterboxd.com/film/resident-evil-2026/"
+   "imdbVotes": 116738,
+   "lbUrl": "https://letterboxd.com/film/resident-evil-2026/",
+   "posterLock": true,
+   "cast": [
+    "Austin Abrams",
+    "Paul Walter Hauser",
+    "Zach Cherry"
+   ]
   },
   {
    "id": "hokum|2026",
@@ -5846,12 +6997,18 @@
     "Horror"
    ],
    "imdbId": "tt35672862",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZjA1ZjFlZGItNTVjZC00NTFhLTg2YTEtODMzODRmNGFiNTdmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/x6rHcQFiYcczLQPrmxXPAicm54E.jpg",
    "runtime": 107,
    "overview": "A horror writer visits an Irish inn to scatter his parents' ashes, unaware the property is said to be haunted by a witch.",
    "v": 3,
-   "imdbVotes": 73751,
-   "lbUrl": "https://letterboxd.com/film/hokum/"
+   "imdbVotes": 74122,
+   "lbUrl": "https://letterboxd.com/film/hokum/",
+   "posterLock": true,
+   "cast": [
+    "Adam Scott",
+    "Peter Coonan",
+    "David Wilmot"
+   ]
   },
   {
    "id": "hearing damage|2026",
@@ -5874,7 +7031,8 @@
    "imdbId": null,
    "runtime": null,
    "overview": null,
-   "poster": null
+   "poster": null,
+   "trailer": "wttsG4WB6es"
   },
   {
    "w": false,
@@ -5900,10 +7058,15 @@
    "overview": "The brash James T. Kirk tries to live up to his father's legacy with Mr. Spock keeping him in check as a vengeful Romulan from the future creates black holes to destroy the Federation one planet at a time.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjE5NDQ5OTE4Ml5BMl5BanBnXkFtZTcwOTE3NDIzMw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 642381,
+   "imdbVotes": 642417,
    "lbUrl": "https://letterboxd.com/film/star-trek/",
    "fr": "Star Trek (Kelvin)",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Chris Pine",
+    "Zachary Quinto",
+    "Simon Pegg"
+   ]
   },
   {
    "w": false,
@@ -5928,10 +7091,15 @@
    "overview": "After the crew of the Enterprise find an unstoppable force of terror from within their own organization, Captain Kirk leads a manhunt to a war-zone world to capture a one-man weapon of mass destruction.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTk2NzczOTgxNF5BMl5BanBnXkFtZTcwODQ5ODczOQ@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 513410,
+   "imdbVotes": 513435,
    "lbUrl": "https://letterboxd.com/film/star-trek-into-darkness/",
    "fr": "Star Trek (Kelvin)",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Chris Pine",
+    "Zachary Quinto",
+    "Zoe Saldaña"
+   ]
   },
   {
    "w": false,
@@ -5957,10 +7125,15 @@
    "overview": "The crew of the USS Enterprise explores the furthest reaches of uncharted space, where they encounter a new ruthless enemy, who puts them, and everything the Federation stands for, to the test.",
    "poster": "https://m.media-amazon.com/images/M/MV5BN2FhNDI1YTYtNWI0OC00ZjYxLWJlYWEtN2ZiZjRmZDY1MWJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 272662,
+   "imdbVotes": 272688,
    "lbUrl": "https://letterboxd.com/film/star-trek-beyond/",
    "fr": "Star Trek (Kelvin)",
-   "frI": 2
+   "frI": 2,
+   "cast": [
+    "Chris Pine",
+    "Zachary Quinto",
+    "Karl Urban"
+   ]
   },
   {
    "w": false,
@@ -5985,10 +7158,15 @@
    "overview": "A meek Hobbit from the Shire and eight companions set out on a journey to destroy the powerful One Ring and save Middle-earth from the Dark Lord Sauron.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNzIxMDQ2YTctNDY4MC00ZTRhLTk4ODQtMTVlOWY4NTdiYmMwXkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 2247969,
+   "imdbVotes": 2248294,
    "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-fellowship-of-the-ring/",
    "fr": "The Lord of the Rings",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Orlando Bloom"
+   ]
   },
   {
    "w": false,
@@ -6013,10 +7191,15 @@
    "overview": "While Frodo and Sam edge closer to Mordor with the help of the shifty Gollum, the divided fellowship makes a stand against Sauron's new ally, Saruman, and his hordes of Isengard.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMGQxMDdiOWUtYjc1Ni00YzM1LWE2NjMtZTg3Y2JkMjEzMTJjXkEyXkFqcGc@._V1_QL75_UX380_CR0,14,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 1993359,
+   "imdbVotes": 1993655,
    "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-two-towers/",
    "fr": "The Lord of the Rings",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Elijah Wood",
+    "Ian McKellen",
+    "Viggo Mortensen"
+   ]
   },
   {
    "w": false,
@@ -6041,10 +7224,15 @@
    "overview": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTZkMjBjNWMtZGI5OC00MGU0LTk4ZTItODg2NWM3NTVmNWQ4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 2203925,
+   "imdbVotes": 2204232,
    "lbUrl": "https://letterboxd.com/film/the-lord-of-the-rings-the-return-of-the-king/",
    "fr": "The Lord of the Rings",
-   "frI": 2
+   "frI": 2,
+   "cast": [
+    "Elijah Wood",
+    "Viggo Mortensen",
+    "Ian McKellen"
+   ]
   },
   {
    "w": false,
@@ -6070,8 +7258,13 @@
    "overview": "A petty thief desperate for work muscles into the world of crime journalism and becomes the star of his own story as he blurs the line between observer and participant.",
    "poster": "https://m.media-amazon.com/images/M/MV5BYjMwMmI5MWQtOTU4OS00OTAyLTg0OTYtNmQ5YzExZTQ3ZWJhXkEyXkFqcGc@._V1_QL75_UY562_CR5,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 685604,
-   "lbUrl": "https://letterboxd.com/film/nightcrawler/"
+   "imdbVotes": 685717,
+   "lbUrl": "https://letterboxd.com/film/nightcrawler/",
+   "cast": [
+    "Jake Gyllenhaal",
+    "Rene Russo",
+    "Bill Paxton"
+   ]
   },
   {
    "w": false,
@@ -6098,10 +7291,15 @@
    "overview": "A blade runner must pursue and terminate four replicants who stole a ship in space and have returned to Earth to find their creator.",
    "poster": "https://m.media-amazon.com/images/M/MV5BOWQ4YTBmNTQtMDYxMC00NGFjLTkwOGQtNzdhNmY1Nzc1MzUxXkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 895076,
+   "imdbVotes": 895127,
    "lbUrl": "https://letterboxd.com/film/blade-runner/",
    "fr": "Blade Runner",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Harrison Ford",
+    "Rutger Hauer",
+    "Sean Young"
+   ]
   },
   {
    "w": false,
@@ -6127,10 +7325,15 @@
    "overview": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNzA1Njg4NzYxOV5BMl5BanBnXkFtZTgwODk5NjU3MzI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 773809,
+   "imdbVotes": 773969,
    "lbUrl": "https://letterboxd.com/film/blade-runner-2049/",
    "fr": "Blade Runner",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Harrison Ford",
+    "Ryan Gosling",
+    "Ana de Armas"
+   ]
   },
   {
    "w": false,
@@ -6155,8 +7358,13 @@
    "overview": "A mysterious young drifter who calls herself Nomi Malone hitches a ride to Las Vegas, where she finds work as a stripper and sets about clawing her way to the top of the Vegas showgirls.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNzcyMjExNjg3OF5BMl5BanBnXkFtZTgwOTY4Mjc1MDE@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 83648,
-   "lbUrl": "https://letterboxd.com/film/showgirls/"
+   "imdbVotes": 83659,
+   "lbUrl": "https://letterboxd.com/film/showgirls/",
+   "cast": [
+    "Elizabeth Berkley",
+    "Kyle MacLachlan",
+    "Gina Gershon"
+   ]
   },
   {
    "w": false,
@@ -6182,8 +7390,13 @@
    "overview": "Corporate interests resurrect a murdered police officer as a cybernetic enforcer to privatize security in a decaying Detroit. He executes lethal justice while flickering memories of his former life trigger a hunt for his killers.",
    "poster": "https://m.media-amazon.com/images/M/MV5BZWM1YzRhODktZDE1MC00NzBlLTk0NGMtOGNhZDQyMmJiZGFiXkEyXkFqcGc@._V1_QL75_UX380_CR0,13,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 313810,
-   "lbUrl": "https://letterboxd.com/film/robocop/"
+   "imdbVotes": 313852,
+   "lbUrl": "https://letterboxd.com/film/robocop/",
+   "cast": [
+    "Peter Weller",
+    "Nancy Allen",
+    "Dan O&apos;Herlihy"
+   ]
   },
   {
    "w": false,
@@ -6210,8 +7423,13 @@
    "overview": "Humans, in a fascist militaristic future, wage war with giant alien bugs.",
    "poster": "https://m.media-amazon.com/images/M/MV5BZTNiOGM1ZWUtZTZjZC00OWJmLWE2YzUtZjQ4ODZjZmVlMDU3XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 351129,
-   "lbUrl": "https://letterboxd.com/film/starship-troopers/"
+   "imdbVotes": 351157,
+   "lbUrl": "https://letterboxd.com/film/starship-troopers/",
+   "cast": [
+    "Casper Van Dien",
+    "Denise Richards",
+    "Dina Meyer"
+   ]
   },
   {
    "w": false,
@@ -6237,9 +7455,14 @@
    "overview": "After the Trojan War, Odysseus faces a dangerous voyage back to Ithaca, meeting creatures like the Cyclops Polyphemus, Sirens, and Calypso along the way.",
    "poster": "https://image.tmdb.org/t/p/w500/xbesTZHKudJKmaIXDnHPWcRKKFI.jpg",
    "v": 3,
-   "imdbVotes": 537242,
+   "imdbVotes": 537745,
    "lbUrl": "https://letterboxd.com/film/the-odyssey-2026/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Matt Damon",
+    "Tom Holland",
+    "Anne Hathaway"
+   ]
   },
   {
    "w": false,
@@ -6265,9 +7488,14 @@
    "overview": "A young writer who follows strangers for material meets a thief who takes him under his wing.",
    "poster": "https://image.tmdb.org/t/p/w500/3bX6VVSMf0dvzk5pMT4ALG5A92d.jpg",
    "v": 3,
-   "imdbVotes": 115034,
+   "imdbVotes": 115047,
    "lbUrl": "https://letterboxd.com/film/following/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Jeremy Theobald",
+    "Alex Haw",
+    "Lucy Russell"
+   ]
   },
   {
    "w": false,
@@ -6292,9 +7520,14 @@
    "overview": "A Los Angeles detective chases a murder suspect in a remote Alaskan town.",
    "poster": "https://image.tmdb.org/t/p/w500/riVXh3EimGO0y5dgQxEWPRy5Itg.jpg",
    "v": 3,
-   "imdbVotes": 353588,
+   "imdbVotes": 353635,
    "lbUrl": "https://letterboxd.com/film/insomnia-2002/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Al Pacino",
+    "Robin Williams",
+    "Hilary Swank"
+   ]
   },
   {
    "w": false,
@@ -6320,7 +7553,12 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMTYxNTY0MTcwN15BMl5BanBnXkFtZTgwNjkxODY5NjE@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 3193,
-   "lbUrl": "https://letterboxd.com/film/river-of-grass/"
+   "lbUrl": "https://letterboxd.com/film/river-of-grass/",
+   "cast": [
+    "Lisa Donaldson",
+    "Larry Fessenden",
+    "Dick Russell"
+   ]
   },
   {
    "w": false,
@@ -6346,8 +7584,13 @@
    "overview": "Sam, a disenchanted young man, finds a mysterious woman swimming in his apartment's pool one night. The next morning, she disappears. Sam sets off across LA to find her, and along the way he uncovers a conspiracy far more bizarre.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTMzN2JkZDAtYjgyMy00M2QxLWE2NWItNTEyZGVlNTgyYTViXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 63409,
-   "lbUrl": "https://letterboxd.com/film/under-the-silver-lake/"
+   "imdbVotes": 63425,
+   "lbUrl": "https://letterboxd.com/film/under-the-silver-lake/",
+   "cast": [
+    "Andrew Garfield",
+    "Riley Keough",
+    "Topher Grace"
+   ]
   },
   {
    "w": false,
@@ -6372,8 +7615,13 @@
    "overview": "Alvin Straight, a 73-year-old, learns that his estranged brother, Lyle is critically ill. Unable to drive, Alvin embarks on a journey from Iowa to Mt. Zion by riding a lawn mower.",
    "poster": "https://m.media-amazon.com/images/M/MV5BZjdjNWZhY2UtMDRiYS00M2NhLThiZmQtYTA0MzI4ZWIyYzY4XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 110401,
-   "lbUrl": "https://letterboxd.com/film/the-straight-story/"
+   "imdbVotes": 110412,
+   "lbUrl": "https://letterboxd.com/film/the-straight-story/",
+   "cast": [
+    "Richard Farnsworth",
+    "Sissy Spacek",
+    "Jane Galloway Heitz"
+   ]
   },
   {
    "w": false,
@@ -6399,8 +7647,13 @@
    "overview": "Between 1968 and 1983, a San Francisco cartoonist becomes an amateur detective obsessed with tracking down the Zodiac Killer, an unidentified individual who terrorizes Northern California with a killing spree.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNDFkMTRkZmQtM2I0NC00NjJjLWJlMDctNTNiZWYxYzhjZDZiXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 695324,
-   "lbUrl": "https://letterboxd.com/film/zodiac/"
+   "imdbVotes": 695482,
+   "lbUrl": "https://letterboxd.com/film/zodiac/",
+   "cast": [
+    "Jake Gyllenhaal",
+    "Robert Downey Jr.",
+    "Mark Ruffalo"
+   ]
   },
   {
    "w": false,
@@ -6425,8 +7678,13 @@
    "overview": "The chief of a police unit that can accurately predict and prevent crimes goes on the run after he's accused of a future murder himself.",
    "poster": "https://m.media-amazon.com/images/M/MV5BYTdmNzM3YzItZTRkYS00MTY5LTg4ZmItNjFmNTk2N2Q2NmNlXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 629238,
-   "lbUrl": "https://letterboxd.com/film/minority-report/"
+   "imdbVotes": 629301,
+   "lbUrl": "https://letterboxd.com/film/minority-report/",
+   "cast": [
+    "Tom Cruise",
+    "Colin Farrell",
+    "Samantha Morton"
+   ]
   },
   {
    "w": false,
@@ -6451,11 +7709,16 @@
    "overview": "An American agent, under false suspicion of disloyalty, must discover and expose the real spy without the help of his organization.",
    "poster": "https://image.tmdb.org/t/p/w500/l5uxY5m5OInWpcExIpKG6AR3rgL.jpg",
    "v": 3,
-   "imdbVotes": 525281,
+   "imdbVotes": 525330,
    "lbUrl": "https://letterboxd.com/film/mission-impossible/",
    "fr": "Mission: Impossible",
    "frI": 0,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Tom Cruise",
+    "Jon Voight",
+    "Emmanuelle Béart"
+   ]
   },
   {
    "w": false,
@@ -6482,10 +7745,15 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-ii/",
-   "imdbVotes": 419747,
+   "imdbVotes": 419767,
    "fr": "Mission: Impossible",
    "frI": 1,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Tom Cruise",
+    "Dougray Scott",
+    "Thandiwe Newton"
+   ]
   },
   {
    "w": false,
@@ -6510,11 +7778,16 @@
    "overview": "IMF agent Ethan Hunt comes into conflict with a dangerous and sadistic arms dealer who threatens his life and his fiancée in response.",
    "poster": "https://image.tmdb.org/t/p/w500/vKGYCpmQyV9uHybWDzXuII8Los5.jpg",
    "v": 3,
-   "imdbVotes": 430090,
+   "imdbVotes": 430111,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-iii/",
    "fr": "Mission: Impossible",
    "frI": 2,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Tom Cruise",
+    "Michelle Monaghan",
+    "Ving Rhames"
+   ]
   },
   {
    "w": false,
@@ -6542,10 +7815,15 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-ghost-protocol/",
-   "imdbVotes": 570987,
+   "imdbVotes": 571022,
    "fr": "Mission: Impossible",
    "frI": 3,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Tom Cruise",
+    "Jeremy Renner",
+    "Simon Pegg"
+   ]
   },
   {
    "w": false,
@@ -6572,10 +7850,15 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-rogue-nation/",
-   "imdbVotes": 451359,
+   "imdbVotes": 451375,
    "fr": "Mission: Impossible",
    "frI": 4,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Tom Cruise",
+    "Rebecca Ferguson",
+    "Jeremy Renner"
+   ]
   },
   {
    "w": false,
@@ -6603,10 +7886,15 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-fallout/",
-   "imdbVotes": 426408,
+   "imdbVotes": 426454,
    "fr": "Mission: Impossible",
    "frI": 5,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Tom Cruise",
+    "Henry Cavill",
+    "Ving Rhames"
+   ]
   },
   {
    "w": false,
@@ -6636,7 +7924,12 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-dead-reckoning/",
-   "imdbVotes": 334572
+   "imdbVotes": 334614,
+   "cast": [
+    "Tom Cruise",
+    "Hayley Atwell",
+    "Ving Rhames"
+   ]
   },
   {
    "w": false,
@@ -6666,7 +7959,12 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/mission-impossible-the-final-reckoning/",
-   "imdbVotes": 243370
+   "imdbVotes": 243412,
+   "cast": [
+    "Tom Cruise",
+    "Hayley Atwell",
+    "Ving Rhames"
+   ]
   },
   {
    "w": false,
@@ -6692,9 +7990,14 @@
    "overview": "A former San Francisco police detective juggles wrestling with his personal demons and becoming obsessed with the hauntingly beautiful woman he has been hired to trail, who may be deeply disturbed.",
    "poster": "https://image.tmdb.org/t/p/w500/dg9escdBIAAATxlUeTya9gurTtI.jpg",
    "v": 3,
-   "imdbVotes": 464383,
+   "imdbVotes": 464403,
    "lbUrl": "https://letterboxd.com/film/vertigo/",
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "James Stewart",
+    "Kim Novak",
+    "Barbara Bel Geddes"
+   ]
   },
   {
    "w": false,
@@ -6719,8 +8022,13 @@
    "overview": "A disc containing mysterious information from a CIA agent ends up in the hands of two unscrupulous and daft gym employees who attempt to sell it.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjdmNjJjMzAtMmJkMy00MDJlLTgxYjctNDU3YjBkMmJhM2M5XkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 381529,
-   "lbUrl": "https://letterboxd.com/film/burn-after-reading/"
+   "imdbVotes": 381548,
+   "lbUrl": "https://letterboxd.com/film/burn-after-reading/",
+   "cast": [
+    "Brad Pitt",
+    "Frances McDormand",
+    "George Clooney"
+   ]
   },
   {
    "w": false,
@@ -6745,8 +8053,13 @@
    "overview": "Journalist Mikael Blomkvist is aided by eccentric hacker Lisbeth Salander in his search for a woman who has been missing for 40 years.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 535618,
-   "lbUrl": "https://letterboxd.com/film/the-girl-with-the-dragon-tattoo-2011/"
+   "imdbVotes": 535672,
+   "lbUrl": "https://letterboxd.com/film/the-girl-with-the-dragon-tattoo-2011/",
+   "cast": [
+    "Daniel Craig",
+    "Rooney Mara",
+    "Christopher Plummer"
+   ]
   },
   {
    "w": false,
@@ -6770,8 +8083,13 @@
    "overview": "A married couple, Simon and Robyn, run into Gordo, an old classmate. Things take a turn when Gordo begins to drop in unannounced at their house and inundates them with mysterious gifts.",
    "poster": "https://m.media-amazon.com/images/M/MV5BOTNlZmJiNGUtZGEwNC00MzE1LTkzNTItNGQ0NGRkYjhiYTNmXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 188787,
-   "lbUrl": "https://letterboxd.com/film/the-gift-2015-1/"
+   "imdbVotes": 188820,
+   "lbUrl": "https://letterboxd.com/film/the-gift-2015-1/",
+   "cast": [
+    "Jason Bateman",
+    "Rebecca Hall",
+    "Joel Edgerton"
+   ]
   },
   {
    "w": false,
@@ -6797,8 +8115,13 @@
    "overview": "In 1970s Los Angeles, a mismatched pair of private eyes investigate a missing girl and the mysterious death of a porn star.",
    "poster": "https://m.media-amazon.com/images/M/MV5BM2YwNWZlZGEtYTEyZi00NjdjLWEwM2ItM2Q2MDMwZjkzMjk0XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 427232,
-   "lbUrl": "https://letterboxd.com/film/the-nice-guys/"
+   "imdbVotes": 427300,
+   "lbUrl": "https://letterboxd.com/film/the-nice-guys/",
+   "cast": [
+    "Russell Crowe",
+    "Ryan Gosling",
+    "Angourie Rice"
+   ]
   },
   {
    "w": false,
@@ -6823,8 +8146,13 @@
    "overview": "When a simple jewelry heist goes horribly wrong, the surviving criminals begin to suspect that one of them is a police informant.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMmMzYjg4NDctYWY0Mi00OGViLWIzMTMtYWNlZGY5ZDJmYjk3XkEyXkFqcGc@._V1_QL75_UX380_CR0,2,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 1185646,
-   "lbUrl": "https://letterboxd.com/film/reservoir-dogs/"
+   "imdbVotes": 1185733,
+   "lbUrl": "https://letterboxd.com/film/reservoir-dogs/",
+   "cast": [
+    "Harvey Keitel",
+    "Tim Roth",
+    "Michael Madsen"
+   ]
   },
   {
    "w": false,
@@ -6849,8 +8177,13 @@
    "overview": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
    "poster": "https://m.media-amazon.com/images/M/MV5BYTViYTE3ZGQtNDBlMC00ZTAyLTkyODMtZGRiZDg0MjA2YThkXkEyXkFqcGc@._V1_QL75_UY562_CR3,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 2479211,
-   "lbUrl": "https://letterboxd.com/film/pulp-fiction/"
+   "imdbVotes": 2479518,
+   "lbUrl": "https://letterboxd.com/film/pulp-fiction/",
+   "cast": [
+    "John Travolta",
+    "Uma Thurman",
+    "Samuel L. Jackson"
+   ]
   },
   {
    "w": false,
@@ -6875,10 +8208,15 @@
    "overview": "After waking from a four-year coma, a former assassin wreaks vengeance on the team of assassins who betrayed her.",
    "poster": "https://m.media-amazon.com/images/M/MV5BZmMyYzJlZmYtY2I3NC00NjAyLTkyZWItZjdjZDI1YTYyYTEwXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 1330329,
+   "imdbVotes": 1330475,
    "lbUrl": "https://letterboxd.com/film/kill-bill-vol-1/",
    "fr": "Kill Bill",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Uma Thurman",
+    "David Carradine",
+    "Daryl Hannah"
+   ]
   },
   {
    "w": false,
@@ -6903,10 +8241,15 @@
    "overview": "The Bride continues her quest for vengeance, tracking the remaining Deadly Viper assassins and closing in on the man who betrayed her.",
    "poster": "https://m.media-amazon.com/images/M/MV5BY2FiNzhiZTctNzU1Mi00NDkwLWExNDMtZTg0MjYyNzhkNWNkXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 883576,
+   "imdbVotes": 883661,
    "lbUrl": "https://letterboxd.com/film/kill-bill-vol-2/",
    "fr": "Kill Bill",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Uma Thurman",
+    "David Carradine",
+    "Michael Madsen"
+   ]
   },
   {
    "w": false,
@@ -6932,8 +8275,13 @@
    "overview": "Two separate sets of voluptuous women are stalked at different times by a scarred stuntman who uses his \"death proof\" cars to execute his murderous plans.",
    "poster": "https://m.media-amazon.com/images/M/MV5BYjRlOTM0OTktZTBjNi00ZjZiLWJkMzktMmU2ZDBkMTQxN2FmXkEyXkFqcGc@._V1_QL75_UY562_CR9,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 337866,
-   "lbUrl": "https://letterboxd.com/film/death-proof/"
+   "imdbVotes": 337887,
+   "lbUrl": "https://letterboxd.com/film/death-proof/",
+   "cast": [
+    "Kurt Russell",
+    "Zoë Bell",
+    "Rosario Dawson"
+   ]
   },
   {
    "w": false,
@@ -6958,8 +8306,13 @@
    "overview": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
    "poster": "https://m.media-amazon.com/images/M/MV5BODZhMWJlNjYtNDExNC00MTIzLTllM2ItOGQ2NGVjNDQ3MzkzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 1826452,
-   "lbUrl": "https://letterboxd.com/film/inglourious-basterds/"
+   "imdbVotes": 1826671,
+   "lbUrl": "https://letterboxd.com/film/inglourious-basterds/",
+   "cast": [
+    "Brad Pitt",
+    "Diane Kruger",
+    "Eli Roth"
+   ]
   },
   {
    "w": false,
@@ -6985,8 +8338,13 @@
    "overview": "As Hollywood's Golden Age is winding down, a television actor and his stunt double endeavor to achieve lasting success.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMzMzNmViNjYtN2ViNi00NDM3LWFlMmItNDYyMGIzY2EzZjE2XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 984032,
-   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-hollywood/"
+   "imdbVotes": 984204,
+   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-hollywood/",
+   "cast": [
+    "Leonardo DiCaprio",
+    "Brad Pitt",
+    "Margot Robbie"
+   ]
   },
   {
    "w": false,
@@ -7010,8 +8368,13 @@
    "overview": "Publicist Stuart Shepard finds himself trapped in a phone booth, pinned down by an extortionist's sniper rifle. Unable to leave or receive outside help, Stuart's negotiation with the caller leads to a jaw-dropping climax.",
    "poster": "https://m.media-amazon.com/images/M/MV5BYjJhYTNhYmEtODcyOS00ZGEwLWEwZTYtNzlkMmY0MjQ1OWQwXkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 304892,
-   "lbUrl": "https://letterboxd.com/film/phone-booth/"
+   "imdbVotes": 304901,
+   "lbUrl": "https://letterboxd.com/film/phone-booth/",
+   "cast": [
+    "Colin Farrell",
+    "Kiefer Sutherland",
+    "Forest Whitaker"
+   ]
   },
   {
    "w": false,
@@ -7036,8 +8399,13 @@
    "overview": "A couple's relationship is tested when uninvited guests arrive at their home, disrupting their tranquil existence.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMzc5ODExODE0MV5BMl5BanBnXkFtZTgwNDkzNDUxMzI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 271680,
-   "lbUrl": "https://letterboxd.com/film/mother-2017/"
+   "imdbVotes": 271713,
+   "lbUrl": "https://letterboxd.com/film/mother-2017/",
+   "cast": [
+    "Jennifer Lawrence",
+    "Javier Bardem",
+    "Ed Harris"
+   ]
   },
   {
    "w": false,
@@ -7062,8 +8430,13 @@
    "overview": "After a famous author is rescued from a car crash by a fan of his novels, he comes to realize that the care he is receiving is only the beginning of a nightmare of captivity and abuse.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNzY0ODQ3MTMxN15BMl5BanBnXkFtZTgwMDkwNTg4NjE@._V1_QL75_UX380_CR0,3,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 271065,
-   "lbUrl": "https://letterboxd.com/film/misery/"
+   "imdbVotes": 271105,
+   "lbUrl": "https://letterboxd.com/film/misery/",
+   "cast": [
+    "James Caan",
+    "Kathy Bates",
+    "Richard Farnsworth"
+   ]
   },
   {
    "w": false,
@@ -7089,8 +8462,13 @@
    "overview": "In the Old West, a small-town sheriff and his rag-tag posse set out to rescue several townspeople from a brutal cave-dwelling, cannibalistic Indian tribe.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMzQ0MzE4OTUzMF5BMl5BanBnXkFtZTgwODAyNzI3NjE@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 143282,
-   "lbUrl": "https://letterboxd.com/film/bone-tomahawk/"
+   "imdbVotes": 143303,
+   "lbUrl": "https://letterboxd.com/film/bone-tomahawk/",
+   "cast": [
+    "Kurt Russell",
+    "Patrick Wilson",
+    "Matthew Fox"
+   ]
   },
   {
    "w": false,
@@ -7114,8 +8492,13 @@
    "overview": "A divorced woman and her diabetic daughter take refuge in their newly-purchased house's safe room when three men break-in, searching for a missing fortune.",
    "poster": "https://m.media-amazon.com/images/M/MV5BODU0ZGM0MjctM2YxYy00OWY1LTk2N2YtNWE4ZWQ2ODQwMTI5XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 317918,
-   "lbUrl": "https://letterboxd.com/film/panic-room/"
+   "imdbVotes": 317936,
+   "lbUrl": "https://letterboxd.com/film/panic-room/",
+   "cast": [
+    "Jodie Foster",
+    "Kristen Stewart",
+    "Forest Whitaker"
+   ]
   },
   {
    "w": false,
@@ -7141,8 +8524,13 @@
    "overview": "Despite being caught in her imaginative world, young waitress Amelie decides to help people find happiness. Her quest to spread joy leads her on a journey during which she finds true love.",
    "poster": "https://m.media-amazon.com/images/M/MV5BOTNmYzY0MWQtZGZmNy00Y2Y4LWFmMDQtMTZjYTdiYzEwZGQ2XkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 849353,
-   "lbUrl": "https://letterboxd.com/film/amelie/"
+   "imdbVotes": 849404,
+   "lbUrl": "https://letterboxd.com/film/amelie/",
+   "cast": [
+    "Audrey Tautou",
+    "Mathieu Kassovitz",
+    "Rufus"
+   ]
   },
   {
    "w": false,
@@ -7170,8 +8558,13 @@
    "idLock": true,
    "v": 3,
    "lbUrl": "https://letterboxd.com/film/spirited-away/",
-   "imdbVotes": 991141,
-   "posterLock": true
+   "imdbVotes": 991331,
+   "posterLock": true,
+   "cast": [
+    "Miyu Irino",
+    "Rumi Hiiragi",
+    "Mari Natsuki"
+   ]
   },
   {
    "w": false,
@@ -7196,8 +8589,13 @@
    "overview": "After a deadly curse forces him from home, young warrior Ashitaka journeys west and is drawn into a conflict between ancient forest spirits, an iron town, and a wolf-raised girl.",
    "poster": "https://m.media-amazon.com/images/M/MV5BZTcyN2Y0MDYtMGI1NC00MWQ1LWFhZGMtN2U4NTcxZGYyNjljXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 493383,
-   "lbUrl": "https://letterboxd.com/film/princess-mononoke/"
+   "imdbVotes": 493444,
+   "lbUrl": "https://letterboxd.com/film/princess-mononoke/",
+   "cast": [
+    "Yôji Matsuda",
+    "Yuriko Ishida",
+    "Yûko Tanaka"
+   ]
   },
   {
    "w": false,
@@ -7222,8 +8620,13 @@
    "overview": "When both he and a colleague are about to lose their job, Walter takes action by embarking on an adventure more extraordinary than anything he ever imagined.",
    "poster": "https://m.media-amazon.com/images/M/MV5BODYwNDYxNDk1Nl5BMl5BanBnXkFtZTgwOTAwMTk2MDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 379497,
-   "lbUrl": "https://letterboxd.com/film/the-secret-life-of-walter-mitty-2013/"
+   "imdbVotes": 379534,
+   "lbUrl": "https://letterboxd.com/film/the-secret-life-of-walter-mitty-2013/",
+   "cast": [
+    "Ben Stiller",
+    "Kristen Wiig",
+    "Jon Daly"
+   ]
   },
   {
    "w": false,
@@ -7248,8 +8651,13 @@
    "overview": "A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent li...",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_QL75_UY562_CR7,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 421380,
-   "lbUrl": "https://letterboxd.com/film/the-hunt-2012/"
+   "imdbVotes": 421420,
+   "lbUrl": "https://letterboxd.com/film/the-hunt-2012/",
+   "cast": [
+    "Mads Mikkelsen",
+    "Thomas Bo Larsen",
+    "Annika Wedderkopp"
+   ]
   },
   {
    "w": false,
@@ -7275,8 +8683,13 @@
    "overview": "The focus is on the sleepy small town of Centerville where the dead become undead.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMGQzMTFkM2UtZDhmOC00OGY4LWFjYzctMjljZDkzYTAxN2VmXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 104291,
-   "lbUrl": "https://letterboxd.com/film/the-dead-dont-die-2019/"
+   "imdbVotes": 104304,
+   "lbUrl": "https://letterboxd.com/film/the-dead-dont-die-2019/",
+   "cast": [
+    "Bill Murray",
+    "Adam Driver",
+    "Tilda Swinton"
+   ]
   },
   {
    "w": false,
@@ -7299,10 +8712,16 @@
    "imdbId": "tt5247022",
    "runtime": 118,
    "overview": "A quiet observation of the triumphs and defeats of daily life, along with the poetry evident in its smallest details.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMTUzODA4Nzk0OF5BMl5BanBnXkFtZTgwNzE1MDIwMDI@._V1_QL75_UX380_CR0,2,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/AuJ1ZlfqwuAr9H5Qr1U9KILylse.jpg",
    "v": 3,
-   "imdbVotes": 96870,
-   "lbUrl": "https://letterboxd.com/film/paterson/"
+   "imdbVotes": 96877,
+   "lbUrl": "https://letterboxd.com/film/paterson/",
+   "posterLock": true,
+   "cast": [
+    "Adam Driver",
+    "Golshifteh Farahani",
+    "Nellie"
+   ]
   },
   {
    "w": false,
@@ -7327,8 +8746,13 @@
    "overview": "While a zombie virus breaks out in South Korea, passengers struggle to survive on the train from Seoul to Busan.",
    "poster": "https://m.media-amazon.com/images/M/MV5BODA3OTM4NWQtMjU1OS00NzA2LTlhZDAtYjU2YjM5MWUxNTdiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 317761,
-   "lbUrl": "https://letterboxd.com/film/train-to-busan/"
+   "imdbVotes": 317829,
+   "lbUrl": "https://letterboxd.com/film/train-to-busan/",
+   "cast": [
+    "Gong Yoo",
+    "Jung Yu-mi",
+    "Ma Dong-seok"
+   ]
   },
   {
    "w": false,
@@ -7354,8 +8778,13 @@
    "overview": "Former United Nations employee Gerry Lane traverses the world in a race against time to stop a zombie pandemic that is toppling armies and governments and threatens to destroy humanity itself.",
    "poster": "https://m.media-amazon.com/images/M/MV5BODg3ZTM2YWQtZDE5Ny00NGNiLTkzYjgtYWVlYjNkOTg5NDI1XkEyXkFqcGc@._V1_QL75_UX380_CR0,11,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 798496,
-   "lbUrl": "https://letterboxd.com/film/world-war-z/"
+   "imdbVotes": 798589,
+   "lbUrl": "https://letterboxd.com/film/world-war-z/",
+   "cast": [
+    "Brad Pitt",
+    "Mireille Enos",
+    "Daniella Kertesz"
+   ]
   },
   {
    "w": false,
@@ -7378,10 +8807,16 @@
    "imdbId": "tt36271247",
    "runtime": 108,
    "overview": "The inspirational true story of hero drug cop turned recovery advocate Kevin Simmers and his daughter Brooke. The film examines the American drug crisis from the opposing eyes of cop and addict who were also father and daughter.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BZWU2OTFkNDItZWQ5Yy00YjRiLTk4NjMtMTA3YThiN2JlZWQ2XkEyXkFqcGc@._V1_QL75_UY562_CR35,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/szIEtkFLOMsPX6AVQSfzalNEEDd.jpg",
    "v": 3,
-   "imdbVotes": 513,
-   "lbUrl": "https://letterboxd.com/film/clean-hands-2026/"
+   "imdbVotes": 545,
+   "lbUrl": "https://letterboxd.com/film/clean-hands-2026/",
+   "posterLock": true,
+   "cast": [
+    "Zach Braff",
+    "Esther McGregor",
+    "Abigail Spencer"
+   ]
   },
   {
    "w": false,
@@ -7408,8 +8843,13 @@
    "overview": "A quietly troubled young man returns home for his mother's funeral after being estranged from his family for a decade.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjc5MDE0NjkxOF5BMl5BanBnXkFtZTcwNzA0NTkyMw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 228821,
-   "lbUrl": "https://letterboxd.com/film/garden-state/"
+   "imdbVotes": 228831,
+   "lbUrl": "https://letterboxd.com/film/garden-state/",
+   "cast": [
+    "Zach Braff",
+    "Peter Sarsgaard",
+    "Natalie Portman"
+   ]
   },
   {
    "w": false,
@@ -7435,7 +8875,12 @@
    "poster": "https://m.media-amazon.com/images/M/MV5BMjI1MTM5NTY2Nl5BMl5BanBnXkFtZTgwODE4OTk4MTE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
    "imdbVotes": 39954,
-   "lbUrl": "https://letterboxd.com/film/wish-i-was-here/"
+   "lbUrl": "https://letterboxd.com/film/wish-i-was-here/",
+   "cast": [
+    "Zach Braff",
+    "Joey King",
+    "Pierce Gagnon"
+   ]
   },
   {
    "w": false,
@@ -7461,8 +8906,13 @@
    "overview": "A fiercely independent teenager tries to make her own way in the world while wanting to get out of her hometown of Sacramento, California, and to get away from her complicated mother and recently-unemployed father.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNjk5MzcyOWQtNzE1Mi00NzdmLTlkM2QtOTdjZThhMDc2Y2NjXkEyXkFqcGc@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 370623,
-   "lbUrl": "https://letterboxd.com/film/lady-bird/"
+   "imdbVotes": 370654,
+   "lbUrl": "https://letterboxd.com/film/lady-bird/",
+   "cast": [
+    "Saoirse Ronan",
+    "Laurie Metcalf",
+    "Tracy Letts"
+   ]
   },
   {
    "w": false,
@@ -7488,8 +8938,13 @@
    "overview": "A desperate father takes the law into his own hands after police fail to find two kidnapped girls.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTg0NTIzMjQ1NV5BMl5BanBnXkFtZTcwNDc3MzM5OQ@@._V1_QL75_UY562_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 965231,
-   "lbUrl": "https://letterboxd.com/film/prisoners/"
+   "imdbVotes": 965377,
+   "lbUrl": "https://letterboxd.com/film/prisoners/",
+   "cast": [
+    "Hugh Jackman",
+    "Jake Gyllenhaal",
+    "Viola Davis"
+   ]
   },
   {
    "w": false,
@@ -7514,8 +8969,13 @@
    "overview": "A wealthy art gallery owner is haunted by her ex-husband's novel, her memories of their relationship, and her regrets about her life.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTYwMzMwMzgxNl5BMl5BanBnXkFtZTgwMTA0MTUzMDI@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 347125,
-   "lbUrl": "https://letterboxd.com/film/nocturnal-animals/"
+   "imdbVotes": 347216,
+   "lbUrl": "https://letterboxd.com/film/nocturnal-animals/",
+   "cast": [
+    "Amy Adams",
+    "Jake Gyllenhaal",
+    "Michael Shannon"
+   ]
   },
   {
    "w": false,
@@ -7541,8 +9001,13 @@
    "overview": "A cab driver finds himself the hostage of an engaging contract killer as he makes his rounds from hit to hit during one night in Los Angeles.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjE3NjM5OTMxMV5BMl5BanBnXkFtZTcwOTIzMTQyMw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 476295,
-   "lbUrl": "https://letterboxd.com/film/collateral/"
+   "imdbVotes": 476347,
+   "lbUrl": "https://letterboxd.com/film/collateral/",
+   "cast": [
+    "Tom Cruise",
+    "Jamie Foxx",
+    "Jada Pinkett Smith"
+   ]
   },
   {
    "w": false,
@@ -7566,8 +9031,13 @@
    "overview": "A group of old college friends reunite for a hiking trip in a remote area of Sweden. A wrong turn leads them into a forest of Norse legend where ancient evil exists.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjAzMzAyMDI4Ml5BMl5BanBnXkFtZTgwODMwOTY2NDM@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 149785,
-   "lbUrl": "https://letterboxd.com/film/the-ritual-2017/"
+   "imdbVotes": 149829,
+   "lbUrl": "https://letterboxd.com/film/the-ritual-2017/",
+   "cast": [
+    "Rafe Spall",
+    "Arsher Ali",
+    "Robert James-Collier"
+   ]
   },
   {
    "w": false,
@@ -7592,8 +9062,13 @@
    "overview": "An FBI agent joins a covert DoD task force targeting a Mexican cartel. Operating outside legal boundaries with a CIA handler and a mysterious fixer, she discovers the mission's true purpose goes far beyond what she was told.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjA5NjM3NTk1M15BMl5BanBnXkFtZTgwMzg1MzU2NjE@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 553405,
-   "lbUrl": "https://letterboxd.com/film/sicario-2015/"
+   "imdbVotes": 553489,
+   "lbUrl": "https://letterboxd.com/film/sicario-2015/",
+   "cast": [
+    "Emily Blunt",
+    "Josh Brolin",
+    "Benicio Del Toro"
+   ]
   },
   {
    "w": false,
@@ -7619,8 +9094,13 @@
    "overview": "With his debts mounting and angry collectors closing in, a fast-talking New York City jeweler risks everything in hope of staying afloat and alive.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNmI0YjA5NjItYzExYi00NzkxLTkxNDctNGJjYTZhM2M0NDQ0XkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 363828,
-   "lbUrl": "https://letterboxd.com/film/uncut-gems/"
+   "imdbVotes": 363855,
+   "lbUrl": "https://letterboxd.com/film/uncut-gems/",
+   "cast": [
+    "Adam Sandler",
+    "Julia Fox",
+    "Idina Menzel"
+   ]
   },
   {
    "w": false,
@@ -7645,8 +9125,13 @@
    "overview": "A nymphomaniac's carefully cultivated private life falls apart after his sister arrives for an indefinite stay.",
    "poster": "https://m.media-amazon.com/images/M/MV5BM2I4YjYzYmQtNGM4Yy00NmYwLWEzYjUtMDBmNjYzZmViZWE3XkEyXkFqcGc@._V1_QL75_UY562_CR2,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 219324,
-   "lbUrl": "https://letterboxd.com/film/shame-2011/"
+   "imdbVotes": 219338,
+   "lbUrl": "https://letterboxd.com/film/shame-2011/",
+   "cast": [
+    "Michael Fassbender",
+    "Carey Mulligan",
+    "James Badge Dale"
+   ]
   },
   {
    "w": false,
@@ -7671,8 +9156,13 @@
    "overview": "Four high-school teachers consume alcohol on a daily basis to see how it affects their social and professional lives.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNjYxN2EwYjUtNzdiOS00NTgwLTgwNzMtZmE1NGMzYTYxNzBjXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 232206,
-   "lbUrl": "https://letterboxd.com/film/another-round/"
+   "imdbVotes": 232249,
+   "lbUrl": "https://letterboxd.com/film/another-round/",
+   "cast": [
+    "Mads Mikkelsen",
+    "Thomas Bo Larsen",
+    "Magnus Millang"
+   ]
   },
   {
    "w": false,
@@ -7697,8 +9187,13 @@
    "overview": "In late 1950s New York, a young underachiever named Tom Ripley is sent to Italy to retrieve Dickie Greenleaf, a rich and spoiled millionaire playboy. But when the errand fails, Ripley takes extreme measures.",
    "poster": "https://m.media-amazon.com/images/M/MV5BYzI2ZmU3MWMtZmRlMi00ZmVlLTkwMDMtZmI1YTg4YzcwMDE0XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 277035,
-   "lbUrl": "https://letterboxd.com/film/the-talented-mr-ripley/"
+   "imdbVotes": 277050,
+   "lbUrl": "https://letterboxd.com/film/the-talented-mr-ripley/",
+   "cast": [
+    "Matt Damon",
+    "Gwyneth Paltrow",
+    "Jude Law"
+   ]
   },
   {
    "w": false,
@@ -7723,8 +9218,13 @@
    "overview": "A young programmer is selected to participate in a ground-breaking experiment in synthetic intelligence by evaluating the human qualities of a highly advanced humanoid A.I.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUxNzc0OTIxMV5BMl5BanBnXkFtZTgwNDI3NzU2NDE@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 648013,
-   "lbUrl": "https://letterboxd.com/film/ex-machina-2015/"
+   "imdbVotes": 648080,
+   "lbUrl": "https://letterboxd.com/film/ex-machina-2015/",
+   "cast": [
+    "Alicia Vikander",
+    "Domhnall Gleeson",
+    "Oscar Isaac"
+   ]
   },
   {
    "w": false,
@@ -7748,10 +9248,16 @@
    "imdbId": "tt17279496",
    "runtime": 109,
    "overview": "In the midst of a U.S. civil war, four reporters make the dangerous trip to the capital to interview the president before he is overthrown.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BYTkzMjc0YzgtY2E0Yi00NDBlLWI0MWUtODY1ZjExMDAyOWZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/sh7Rg8Er3tFcN9BpKIPOMvALgZd.jpg",
    "v": 3,
-   "imdbVotes": 275822,
-   "lbUrl": "https://letterboxd.com/film/civil-war-2024/"
+   "imdbVotes": 275874,
+   "lbUrl": "https://letterboxd.com/film/civil-war-2024/",
+   "posterLock": true,
+   "cast": [
+    "Kirsten Dunst",
+    "Wagner Moura",
+    "Cailee Spaeny"
+   ]
   },
   {
    "w": false,
@@ -7776,8 +9282,13 @@
    "overview": "An ordinary man reaches his breaking point and starts lashing out against the various flaws he sees in society.",
    "poster": "https://m.media-amazon.com/images/M/MV5BZmE2MGQ4OWEtMmUzYS00ZDBhLTg4ZDAtZGRhYWNkOTAzYWQyXkEyXkFqcGc@._V1_QL75_UY562_CR1,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 230388,
-   "lbUrl": "https://letterboxd.com/film/falling-down/"
+   "imdbVotes": 230425,
+   "lbUrl": "https://letterboxd.com/film/falling-down/",
+   "cast": [
+    "Michael Douglas",
+    "Robert Duvall",
+    "Barbara Hershey"
+   ]
   },
   {
    "w": false,
@@ -7802,8 +9313,13 @@
    "overview": "A group of strangers awaken to find themselves placed in a giant cube. Each one of them is gifted with a special skill and they must work together to escape an endless maze of deadly traps.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMzcyOTE5YTItM2I4OC00MTc0LTkyNWUtMWZmYmY1MWVhNmZiXkEyXkFqcGc@._V1_QL75_UX380_CR0,4,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 264653,
-   "lbUrl": "https://letterboxd.com/film/cube/"
+   "imdbVotes": 264665,
+   "lbUrl": "https://letterboxd.com/film/cube/",
+   "cast": [
+    "Nicole de Boer",
+    "Maurice Dean Wint",
+    "David Hewlett"
+   ]
   },
   {
    "w": false,
@@ -7825,10 +9341,16 @@
    "imdbId": "tt26753003",
    "runtime": 105,
    "overview": "A father and his teen daughter attend a pop concert only to realize they've entered the center of a dark and sinister event.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BMzJiN2UyZjgtMjQ3MS00MDhhLTg5ZDItZmVjMTU3MTcwNzE4XkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/mWV2fNBkSTW67dIotVTXDYZhNBj.jpg",
    "v": 3,
-   "imdbVotes": 174411,
-   "lbUrl": "https://letterboxd.com/film/trap-2024/"
+   "imdbVotes": 174466,
+   "lbUrl": "https://letterboxd.com/film/trap-2024/",
+   "posterLock": true,
+   "cast": [
+    "Josh Hartnett",
+    "Ariel Donoghue",
+    "Saleka Shyamalan"
+   ]
   },
   {
    "w": false,
@@ -7853,10 +9375,15 @@
    "overview": "After investigating a mysterious transmission of unknown origin, the crew of a commercial spacecraft encounters a deadly lifeform.",
    "poster": "https://m.media-amazon.com/images/M/MV5BN2NhMDk2MmEtZDQzOC00MmY5LThhYzAtMDdjZGFjOGZjMjdjXkEyXkFqcGc@._V1_QL75_UX380_CR0,6,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 1081329,
+   "imdbVotes": 1081496,
    "lbUrl": "https://letterboxd.com/film/alien/",
    "fr": "Alien",
-   "frI": 0
+   "frI": 0,
+   "cast": [
+    "Sigourney Weaver",
+    "Tom Skerritt",
+    "John Hurt"
+   ]
   },
   {
    "w": false,
@@ -7881,10 +9408,15 @@
    "overview": "Following clues to the origin of mankind, a team finds a structure on a distant moon, but they soon realize they are not alone.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTY3NzIyNTA2NV5BMl5BanBnXkFtZTcwNzE2NjI4Nw@@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 709327,
+   "imdbVotes": 709391,
    "lbUrl": "https://letterboxd.com/film/prometheus/",
    "fr": "Alien",
-   "frI": 1
+   "frI": 1,
+   "cast": [
+    "Noomi Rapace",
+    "Logan Marshall-Green",
+    "Michael Fassbender"
+   ]
   },
   {
    "w": false,
@@ -7909,10 +9441,15 @@
    "overview": "The crew of a colony ship, bound for a remote planet, discover an uncharted paradise with a threat beyond their imagination, and must attempt a harrowing escape.",
    "poster": "https://m.media-amazon.com/images/M/MV5BMjhiYWQ4MTAtOGY1Zi00ZjcyLTk1ZDYtODI3ODRhNjE4MzZhXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 350462,
+   "imdbVotes": 350497,
    "lbUrl": "https://letterboxd.com/film/alien-covenant/",
    "fr": "Alien",
-   "frI": 2
+   "frI": 2,
+   "cast": [
+    "Michael Fassbender",
+    "Katherine Waterston",
+    "Billy Crudup"
+   ]
   },
   {
    "w": false,
@@ -7935,10 +9472,16 @@
    "imdbId": "tt23561236",
    "runtime": 117,
    "overview": "A novelist who's fed up with the establishment profiting from Black entertainment uses a pen name to write a book that propels him into the heart of the hypocrisy and madness he claims to disdain.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BM2I4ZTZhOTMtZDQ0Ni00MzI5LWE2YjktNzc0NjdkOGJiZjYzXkEyXkFqcGc@._V1_QL75_UX380_CR0,0,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/57MFWGHarg9jid7yfDTka4RmcMU.jpg",
    "v": 3,
-   "imdbVotes": 157902,
-   "lbUrl": "https://letterboxd.com/film/american-fiction/"
+   "imdbVotes": 157924,
+   "lbUrl": "https://letterboxd.com/film/american-fiction/",
+   "posterLock": true,
+   "cast": [
+    "Jeffrey Wright",
+    "Skyler Wright",
+    "John Ales"
+   ]
   },
   {
    "w": false,
@@ -7965,8 +9508,13 @@
    "overview": "A self-indulgent and vain publishing magnate finds his privileged life upended after a vehicular accident with a resentful lover.",
    "poster": "https://m.media-amazon.com/images/M/MV5BNTg5YmYyMzAtYmEzZi00MzA2LWIxMTMtZTc1N2ZjNTA3ZDU2XkEyXkFqcGc@._V1_QL75_UX380_CR0,1,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 313232,
-   "lbUrl": "https://letterboxd.com/film/vanilla-sky/"
+   "imdbVotes": 313261,
+   "lbUrl": "https://letterboxd.com/film/vanilla-sky/",
+   "cast": [
+    "Tom Cruise",
+    "Penélope Cruz",
+    "Cameron Diaz"
+   ]
   },
   {
    "w": false,
@@ -7991,8 +9539,13 @@
    "overview": "A soldier introduces himself to the Peterson family, claiming to be a friend of their son who died in action. After the young man is welcomed into their home, a series of accidental deaths seem to be connected to his presence.",
    "poster": "https://m.media-amazon.com/images/M/MV5BOTQyODc5MTAwM15BMl5BanBnXkFtZTgwNjMwMjA1MjE@._V1_QL75_UX380_CR0,16,380,562_.jpg",
    "v": 3,
-   "imdbVotes": 116287,
-   "lbUrl": "https://letterboxd.com/film/the-guest-2014/"
+   "imdbVotes": 116312,
+   "lbUrl": "https://letterboxd.com/film/the-guest-2014/",
+   "cast": [
+    "Dan Stevens",
+    "Sheila Kelley",
+    "Maika Monroe"
+   ]
   },
   {
    "w": false,
@@ -8019,10 +9572,15 @@
    "overview": "Four weeks after a mysterious, incurable virus spreads throughout the United Kingdom, a handful of survivors try to find sanctuary.",
    "lbUrl": "https://letterboxd.com/film/28-days-later/",
    "poster": "https://m.media-amazon.com/images/M/MV5BYTU3MDQxN2EtNjI5ZC00NDAyLTgwMTctODgxYjRlNWFmOGQyXkEyXkFqcGc@._V1_SX400.jpg",
-   "imdbVotes": 558806,
+   "imdbVotes": 558842,
    "fr": "28 Days Later",
    "frI": 0,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Cillian Murphy",
+    "Naomie Harris",
+    "Christopher Eccleston"
+   ]
   },
   {
    "w": false,
@@ -8049,10 +9607,15 @@
    "overview": "Six months after the rage virus was inflicted on the population of Great Britain, the US Army helps to secure a small area of London for the survivors to repopulate and start again. But not everything goes according to plan.",
    "lbUrl": "https://letterboxd.com/film/28-weeks-later/",
    "poster": "https://m.media-amazon.com/images/M/MV5BMTUxMjc2MTcxNV5BMl5BanBnXkFtZTcwMzgzOTY0MQ@@._V1_SX400.jpg",
-   "imdbVotes": 369987,
+   "imdbVotes": 370023,
    "fr": "28 Days Later",
    "frI": 1,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Jeremy Renner",
+    "Rose Byrne",
+    "Robert Carlyle"
+   ]
   },
   {
    "w": false,
@@ -8079,8 +9642,13 @@
    "overview": "Anthology series in which police investigations unearth the personal and professional secrets of those involved, both within and outside the law.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/mV16EBXQ6kDWpj31P6BEhmzTTkd.jpg",
-   "imdbVotes": 777056,
-   "posterLock": true
+   "imdbVotes": 777217,
+   "posterLock": true,
+   "cast": [
+    "Vince Vaughn",
+    "Colin Farrell",
+    "Rachel McAdams"
+   ]
   },
   {
    "w": false,
@@ -8108,8 +9676,13 @@
    "overview": "A skeptical mayor leads the superstitious residents of a cursed New England island.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/5lcxWLVAEICkFpuAiV1aMy7ZZj3.jpg",
-   "imdbVotes": 99718,
-   "posterLock": true
+   "imdbVotes": 100156,
+   "posterLock": true,
+   "cast": [
+    "Matthew Rhys",
+    "Kate O&apos;Flynn",
+    "Kevin Carroll"
+   ]
   },
   {
    "w": false,
@@ -8136,8 +9709,13 @@
    "overview": "Mark leads a team of office workers whose memories have been surgically divided between their work and personal lives. When a mysterious colleague appears outside of work, it begins a journey to discover the truth about their jobs.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/pPHpeI2X1qEd1CS1SeyrdhZ4qnT.jpg",
-   "imdbVotes": 413395,
-   "posterLock": true
+   "imdbVotes": 413543,
+   "posterLock": true,
+   "cast": [
+    "Adam Scott",
+    "Britt Lower",
+    "Zach Cherry"
+   ]
   },
   {
    "w": false,
@@ -8164,8 +9742,13 @@
    "overview": "In the unreal world of Sacred Heart Hospital, intern John \"J.D.\" Dorian learns the ways of medicine, friendship and life.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/w7ri7byEYLdciSZOwWHj6TUAX7j.jpg",
-   "imdbVotes": 288360,
-   "posterLock": true
+   "imdbVotes": 288377,
+   "posterLock": true,
+   "cast": [
+    "Zach Braff",
+    "Donald Faison",
+    "Sarah Chalke"
+   ]
   },
   {
    "w": false,
@@ -8192,8 +9775,13 @@
    "overview": "The daily lives of healthcare professionals in a Pittsburgh hospital as they juggle personal crises, workplace politics, and the emotional toll of treating critically ill patients, revealing the resilience required in their noble ...",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/kvFSpESyBZMjaeOJDx7RS3P1jey.jpg",
-   "imdbVotes": 177710,
-   "posterLock": true
+   "imdbVotes": 177859,
+   "posterLock": true,
+   "cast": [
+    "Noah Wyle",
+    "Patrick Ball",
+    "Katherine LaNasa"
+   ]
   },
   {
    "w": false,
@@ -8221,7 +9809,12 @@
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/iRv9QhsnNVwMKJ7Xqmmh4PXWSej.jpg",
    "imdbVotes": 15791,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Logan Marshall-Green",
+    "Jodi Balfour",
+    "Damon Herriman"
+   ]
   },
   {
    "w": false,
@@ -8249,8 +9842,13 @@
    "overview": "A hitman from the Midwest moves to Los Angeles and gets caught up in the city's theatre arts scene.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/j1XpwD11f0BAEI7pX6UdMhUVX2F.jpg",
-   "imdbVotes": 146808,
-   "posterLock": true
+   "imdbVotes": 146814,
+   "posterLock": true,
+   "cast": [
+    "Bill Hader",
+    "Stephen Root",
+    "Sarah Goldberg"
+   ]
   },
   {
    "w": false,
@@ -8278,8 +9876,13 @@
    "overview": "An idiosyncratic FBI agent investigates the murder of a young woman in the even more idiosyncratic town of Twin Peaks.",
    "lbUrl": null,
    "poster": "https://a.ltrbxd.com/resized/sm/upload/lw/ov/gp/bp/show_05a97018a0f211322ea43b839a1dce82-0-460-0-690-crop.jpg?v=3e428bc912",
-   "imdbVotes": 252215,
-   "posterLock": true
+   "imdbVotes": 252256,
+   "posterLock": true,
+   "cast": [
+    "Kyle MacLachlan",
+    "Michael Ontkean",
+    "Mädchen Amick"
+   ]
   },
   {
    "w": false,
@@ -8306,8 +9909,13 @@
    "overview": "Men and women live in a giant silo underground with several regulations which they believe are in place to protect them from the toxic and ruined world on the surface.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/xcCCQKnJqxkjDoDSMz4LmbKhCRP.jpg",
-   "imdbVotes": 252057,
-   "posterLock": true
+   "imdbVotes": 252199,
+   "posterLock": true,
+   "cast": [
+    "Rebecca Ferguson",
+    "Shane McRae",
+    "Common"
+   ]
   },
   {
    "w": false,
@@ -8337,7 +9945,12 @@
    "runtime": null,
    "overview": "When a mysterious space vessel crash-lands on Earth, a young woman and a ragtag group of tactical soldiers make a fateful discovery that puts them face-to-face with the planet's greatest threat.",
    "lbUrl": null,
-   "imdbVotes": 111282
+   "imdbVotes": 111309,
+   "cast": [
+    "Sydney Chandler",
+    "Alex Lawther",
+    "Essie Davis"
+   ]
   },
   {
    "w": false,
@@ -8364,8 +9977,13 @@
    "overview": "At the height of the Cold War, married KGB spies pose as Americans in Washington, D.C.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/lD4gTLrI81Crs6CDwwjQrnkJrUm.jpg",
-   "imdbVotes": 127600,
-   "posterLock": true
+   "imdbVotes": 127619,
+   "posterLock": true,
+   "cast": [
+    "Keri Russell",
+    "Matthew Rhys",
+    "Keidrich Sellati"
+   ]
   },
   {
    "w": false,
@@ -8392,8 +10010,13 @@
    "overview": "An English department chairman at an underfunded college, Professor Hank Devereaux toes the line between midlife crisis and full-blown meltdown, navigating the offbeat chaos in his personal and professional life.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/eKYPaXerPYUhmCsGlk8KlGkrIc9.jpg",
-   "imdbVotes": 7887,
-   "posterLock": true
+   "imdbVotes": 7889,
+   "posterLock": true,
+   "cast": [
+    "Bob Odenkirk",
+    "Mireille Enos",
+    "Cedric Yarbrough"
+   ]
   },
   {
    "w": false,
@@ -8420,10 +10043,15 @@
    "overview": "A chemistry teacher diagnosed with inoperable lung cancer turns to manufacturing and selling methamphetamine with a former student to secure his family's future.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/anFx9aTOOYqgS3v7x3R84Kz67ly.jpg",
-   "imdbVotes": 2697144,
+   "imdbVotes": 2697689,
    "fr": "Breaking Bad",
    "frI": 0,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Bryan Cranston",
+    "Aaron Paul",
+    "Anna Gunn"
+   ]
   },
   {
    "w": false,
@@ -8451,10 +10079,15 @@
    "overview": "Albuquerque lawyer Jimmy McGill scrapes for clients and respect, but every win drags him closer to shady deals, dangerous players, and the alter ego Saul Goodman.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/fIBGC36eUyaQvjZ6XqZo3NEXpoR.jpg",
-   "imdbVotes": 873671,
+   "imdbVotes": 873832,
    "fr": "Breaking Bad",
    "frI": 1,
-   "posterLock": true
+   "posterLock": true,
+   "cast": [
+    "Bob Odenkirk",
+    "Rhea Seehorn",
+    "Jonathan Banks"
+   ]
   },
   {
    "w": false,
@@ -8481,8 +10114,13 @@
    "overview": "A bipolar CIA Case Officer conducts covert operations to protect her nation from terrorist acts.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/lT8o38ubu9uzcjZbkDtwsVizDeQ.jpg",
-   "imdbVotes": 389709,
-   "posterLock": true
+   "imdbVotes": 389750,
+   "posterLock": true,
+   "cast": [
+    "Claire Danes",
+    "Mandy Patinkin",
+    "Damian Lewis"
+   ]
   },
   {
    "w": false,
@@ -8510,8 +10148,13 @@
    "overview": "He's smart. He's lovable. He's Dexter Morgan, America's favorite serial killer, who spends his days solving crimes and his nights committing them.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/i8ORB1biusVy703lGxUi5Rle6zA.jpg",
-   "imdbVotes": 961172,
-   "posterLock": true
+   "imdbVotes": 961357,
+   "posterLock": true,
+   "cast": [
+    "Michael C. Hall",
+    "Jennifer Carpenter",
+    "David Zayas"
+   ]
   },
   {
    "w": false,
@@ -8537,8 +10180,13 @@
    "overview": "A Congressman works with his equally conniving wife to exact revenge on the people who betrayed him.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/wQrJngleXiFpkYfLkSpqP1YvQOW.jpg",
-   "imdbVotes": 564839,
-   "posterLock": true
+   "imdbVotes": 564889,
+   "posterLock": true,
+   "cast": [
+    "Kevin Spacey",
+    "Michel Gill",
+    "Robin Wright"
+   ]
   },
   {
    "w": false,
@@ -8567,7 +10215,12 @@
    "runtime": 45,
    "overview": "Colognian commissioner Gereon Rath moves to Berlin, the epicenter of political and social changes in the Golden Twenties.",
    "lbUrl": null,
-   "imdbVotes": 34710
+   "imdbVotes": 34732,
+   "cast": [
+    "Volker Bruch",
+    "Liv Lisa Fries",
+    "Lars Eidinger"
+   ]
   },
   {
    "w": false,
@@ -8593,8 +10246,13 @@
    "overview": "A newsroom undergoes some changes in its workings and morals as a new team is brought in, bringing unexpected results for its existing news anchor.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/pOC3DmU47X98Sv5vaPnmgjG30eY.jpg",
-   "imdbVotes": 137062,
-   "posterLock": true
+   "imdbVotes": 137077,
+   "posterLock": true,
+   "cast": [
+    "Jeff Daniels",
+    "Emily Mortimer",
+    "John Gallagher Jr."
+   ]
   },
   {
    "w": false,
@@ -8622,8 +10280,13 @@
    "overview": "FBI Special Agents Fox Mulder and Dana Scully investigate unsolved unexplained cases known as X-Files.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/ondt1gkeBvU6Y5h1wwxfarT6807.jpg",
-   "imdbVotes": 278556,
-   "posterLock": true
+   "imdbVotes": 278620,
+   "posterLock": true,
+   "cast": [
+    "David Duchovny",
+    "Gillian Anderson",
+    "Mitch Pileggi"
+   ]
   },
   {
    "w": false,
@@ -8650,8 +10313,13 @@
    "overview": "An F.B.I. agent is forced to work with an institutionalized scientist and his son in order to rationalize a brewing storm of unexplained phenomena.",
    "lbUrl": null,
    "poster": "https://image.tmdb.org/t/p/w500/lwYqYpCndDbf4tLm73tCmedh63l.jpg",
-   "imdbVotes": 273370,
-   "posterLock": true
+   "imdbVotes": 273390,
+   "posterLock": true,
+   "cast": [
+    "Anna Torv",
+    "Joshua Jackson",
+    "John Noble"
+   ]
   },
   {
    "w": false,
@@ -8679,7 +10347,12 @@
    "runtime": null,
    "overview": "A grieving therapist starts to tell his clients exactly what he thinks. Ignoring his training and ethics, he finds himself making huge changes to people's lives - including his own.",
    "lbUrl": null,
-   "imdbVotes": 133161
+   "imdbVotes": 133218,
+   "cast": [
+    "Jason Segel",
+    "Jessica Williams",
+    "Harrison Ford"
+   ]
   },
   {
    "w": false,
@@ -8707,7 +10380,12 @@
    "runtime": 31,
    "overview": "The story of Marty and the therapist who turned his life around - then took it over. When he meets Dr. Ike, Marty just wants to get better at boundaries. Over 30 years, he'll learn all about them - and what happens when they get c...",
    "lbUrl": null,
-   "imdbVotes": 17758
+   "imdbVotes": 17760,
+   "cast": [
+    "Will Ferrell",
+    "Paul Rudd",
+    "Kathryn Hahn"
+   ]
   },
   {
    "w": false,
@@ -8732,7 +10410,12 @@
    "runtime": null,
    "overview": "Former childhood best friends reconnect as adults and try to get past the rift that led to their falling out.",
    "v": 3,
-   "imdbVotes": 28768
+   "imdbVotes": 28774,
+   "cast": [
+    "Seth Rogen",
+    "Rose Byrne",
+    "Luke Macfarlane"
+   ]
   },
   {
    "w": false,
@@ -8760,7 +10443,12 @@
    "runtime": null,
    "overview": "Follows a legacy Hollywood movie studio striving to survive in a world where it is increasingly difficult for art and business to live together.",
    "lbUrl": null,
-   "imdbVotes": 71358
+   "imdbVotes": 71382,
+   "cast": [
+    "Seth Rogen",
+    "Ike Barinholtz",
+    "Chase Sui Wonders"
+   ]
   },
   {
    "w": false,
@@ -8789,7 +10477,12 @@
    "runtime": 149,
    "overview": "The husband of a missing woman becomes the main suspect in her disappearance.",
    "lbUrl": "https://letterboxd.com/film/gone-girl/",
-   "imdbVotes": 1193346
+   "imdbVotes": 1193501,
+   "cast": [
+    "Ben Affleck",
+    "Rosamund Pike",
+    "Neil Patrick Harris"
+   ]
   },
   {
    "w": false,
@@ -8818,7 +10511,12 @@
    "lbUrl": "https://letterboxd.com/film/interstellar/",
    "poster": "https://image.tmdb.org/t/p/w500/2GqRAbc6Xcak2ZYrIdTQGbHyTsl.jpg",
    "posterLock": true,
-   "imdbVotes": 2626040
+   "imdbVotes": 2626519,
+   "cast": [
+    "Matthew McConaughey",
+    "Anne Hathaway",
+    "Jessica Chastain"
+   ]
   }
  ],
  "cols": [
