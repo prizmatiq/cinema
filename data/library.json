@@ -10763,8 +10763,10 @@
    "imdbId": null,
    "runtime": null,
    "overview": null,
-   "poster": null,
-   "trailer": "wttsG4WB6es"
+   "poster": "https://prizmatiq.github.io/cinema/posters/hearing-damage.jpg",
+   "trailer": "wttsG4WB6es",
+   "watch": "https://youtu.be/wttsG4WB6es",
+   "posterLock": true
   },
   {
    "w": false,
