@@ -105,6 +105,8 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 .seg button{background:var(--surface);border:0;padding:8px 12px;cursor:pointer;color:var(--muted);font-size:13px}
 .seg button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
 @media (prefers-reduced-motion: reduce){.tile .art{transition:none}}
+.sech{margin:30px 0 0;font:500 11px var(--f-mono);text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.sech+.cols,.sech+.frs{margin-top:12px}
 .cols{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px;margin-top:22px}
 .col{display:flex;flex-direction:column;gap:8px;text-align:left;padding:16px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;color:inherit;min-width:0}
 .col:hover{border-color:var(--muted)}
@@ -294,7 +296,8 @@ function shell(){
   document.addEventListener("keydown",e=>{if(e.key==="Escape"&&(ui.open||ui.adding||ui.access)){ui.access=false;closeDrawer()}});
 }
 const TYPE=f=>f.type||"film";
-const VIEWS=[["films","Movies",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"],["watched","Watched",f=>f.w]];
+const VIEWS=[["films","Movies",f=>TYPE(f)==="film"],["series","Series",f=>TYPE(f)==="series"],["shorts","Shorts",f=>TYPE(f)==="short"]];
+/* Watched is no longer a tab; the Status filter (Everything / To watch / Watched) covers it. */
 /* "Mission: Impossible – Fallout" → ["Mission: Impossible","Fallout"], only when the title starts with its franchise name */
 const splitFr=f=>{if(!f.fr)return [f.t,""];const base=f.fr.replace(/\s*\(.*\)$/,"");if(!f.t.startsWith(base))return [f.t,""];
   const m=f.t.slice(base.length).match(/^(?::\s+|\s+[–—-]\s+)(.+)$/);return m?[base,m[1]]:[f.t,""]};
@@ -307,22 +310,22 @@ const frNames=()=>[...new Set(films.filter(f=>f.fr).map(f=>f.fr))];
 const NOUN={films:"movie",series:"series",shorts:"short",watched:"title",collections:"title",franchises:"title"};
 const plural=(n,w)=>n+" "+(n===1||w==="series"?w:w+"s");
 const VTYPE={series:"series",shorts:"short"};
-function viewPred(){if(ui.view==="franchises")return f=>!!f.fr&&(!ui.fr||f.fr===ui.fr);const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
+function viewPred(){if(ui.fr)return f=>f.fr===ui.fr;if(ui.view==="franchises")return f=>!!f.fr&&(!ui.fr||f.fr===ui.fr);const v=VIEWS.find(x=>x[0]===ui.view);return v?v[2]:()=>true}
 function stats(){
   const tab=(id,label,n,w)=>`<button class="nt" role="tab" data-v="${id}" aria-selected="${ui.view===id}" title="${plural(n,w)}">${label}</button>`;
   $("#nav").innerHTML=VIEWS.map(([id,label,pr])=>tab(id,label,films.filter(pr).length,NOUN[id])).join("")+
-    tab("franchises","Franchises",frNames().length,"franchise")+tab("collections","Collections",cols.length,"collection");
+    `<button class="nt" role="tab" data-v="collections" aria-selected="${ui.view==="collections"}" title="${plural(cols.length,"collection")} · ${plural(frNames().length,"franchise")}">Collections</button>`;
 }
 function filtersActive(){return !!(ui.q||ui.genre||ui.decade!=null||ui.show!=="all"||(ui.col&&ui.view!=="collections")||(ui.order!=="new"&&!(ui.col&&ui.order==="imdb"))||ui.layout!=="grid")}
 function acts(){
-  const grid=(ui.view==="collections"&&!ui.col)||(ui.view==="franchises"&&!ui.fr);
+  const grid=ui.view==="collections"&&!ui.col&&!ui.fr;
   $("#fbtn").hidden=grid;$("#fbtn").setAttribute("aria-expanded",ui.filters&&!grid);
   $("#fbtn .dot").hidden=!filtersActive();
   $("#addbtn").hidden=!ui.editable||grid;$("#addbtn").setAttribute("aria-label","Add "+NOUN[ui.view]);$("#addbtn").title="Add "+NOUN[ui.view];
 }
 function render(){
   stats();
-  if(ui.view==="collections"&&!ui.col)collectionsView();else if(ui.view==="franchises"&&!ui.fr)franchisesView();else libraryView();
+  if(ui.view==="collections"&&!ui.col&&!ui.fr)collectionsView();else libraryView();
   foot();bar();acts();
 }
 /* Photo of the actor or director currently filtered by: actor photos come with each title's cast, director/creator photos from dirP (TMDB). */
@@ -338,7 +341,7 @@ function libraryView(){
   const who=ui.director||ui.actor,dn=ui.director?films.filter(f=>people(f.d).includes(ui.director)).length:ui.actor?films.filter(f=>(f.cast||[]).includes(ui.actor)).length:0;
   const ph=who?personPhoto():null;
   $("#view").innerHTML=(who?`<div class="banner"><div class="bwho">${who?`<span class="bav">${ph?`<img src="${esc(ph)}" alt="" onerror="this.nextElementSibling.hidden=false;this.remove()">`:""}<i${ph?" hidden":""}>${esc(who.split(/\s+/).map(w=>w[0]).slice(0,2).join(""))}</i></span>`:""}<div><h2>${esc(who)}</h2><p>${plural(dn,"title")} in the library · ${ui.director?(()=>{const ts=new Set(films.filter(f=>people(f.d).includes(ui.director)).map(f=>TYPE(f)==="series"?"creator":"director"));return [...ts].sort((a,b)=>a==="director"?-1:1).join(" & ")})():"cast"}</p></div></div><button class="x" id="cleardir" aria-label="Clear filter" title="Clear filter"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
-  (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button class="x" id="clearfr" aria-label="All franchises" title="All franchises"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
+  (ui.fr?`<div class="banner"><div><h2>${esc(ui.fr)}</h2><p>${films.filter(f=>f.fr===ui.fr).length} titles · in watch order</p></div><button class="x" id="clearfr" aria-label="Back to collections" title="Back to collections"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
   (c?`<div class="banner"><div><h2>${esc(c.name)}</h2><p>${esc(c.desc)}</p></div><button class="x" id="clearcol" aria-label="${ui.view==="collections"?"All collections":"Clear filter"}" title="${ui.view==="collections"?"All collections":"Clear filter"}"><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></div>`:"")+
   `<div class="fpanel" id="fpanel" ${ui.filters?"":"hidden"}>${c||ui.director||ui.actor?"":`<div class="decades" id="decades" aria-label="Films by decade"></div>`}<div class="tools">
     <input type="search" id="q" placeholder="Search title, director, genre" aria-label="Search" value="${esc(ui.q)}">
@@ -408,7 +411,7 @@ function list(){
   el.onclick=e=>{const b=e.target.closest(".film,.film-t");if(!b)return;ui.open=b.dataset.id;ui.adding=false;drawer()};
 }
 function collectionsView(){
-  let h=`<div class="cols">`+cols.map(c=>{
+  let h=`<h3 class="sech">Collections</h3><div class="cols">`+cols.map(c=>{
     const fs=films.filter(f=>f.c.includes(c.id)),w=fs.filter(f=>f.w).length;
     const peek=fs.slice().sort((a,b)=>(b.imdb??-1)-(a.imdb??-1)).slice(0,6).map(f=>f.t).join(" · ");
     return `<button class="col" data-c="${c.id}"><span class="cnt">${plural(fs.length,"title")}${w?` · ${w} watched`:""}</span><h3>${esc(c.name)}</h3><p>${esc(c.desc)}</p><span class="peek">${esc(peek)}</span></button>`}).join("");
@@ -416,18 +419,18 @@ function collectionsView(){
     <input type="text" id="nc-name" placeholder="Name, e.g. Rainy Sunday" required aria-label="Collection name">
     <textarea id="nc-desc" rows="2" placeholder="What mood is it for?" aria-label="Description"></textarea>
     <button class="btn" type="submit">Create</button></form>`;
-  $("#view").innerHTML=h+`</div>`;
+  $("#view").innerHTML=h+`</div>`+franchisesHTML();
+  $("#view").querySelector(".frs").onclick=e=>{const b=e.target.closest("button.fr");if(!b)return;ui.fr=b.dataset.fr;ui.q="";ui.order="new";render();window.scrollTo(0,0)};
   $("#view").querySelector(".cols").onclick=e=>{const b=e.target.closest("button.col");if(!b)return;ui.col=b.dataset.c;ui.q="";ui.order="imdb";render();window.scrollTo(0,0)};
   if($("#newcol"))$("#newcol").onsubmit=e=>{e.preventDefault();const n=$("#nc-name").value.trim();if(!n)return;
     cols.push({id:"c"+Date.now().toString(36),name:n,desc:$("#nc-desc").value.trim()});dirty();render()};
 }
-function franchisesView(){
+function franchisesHTML(){
   const names=frNames().sort((a,b)=>{const ya=Math.min(...films.filter(f=>f.fr===a).map(f=>f.y)),yb=Math.min(...films.filter(f=>f.fr===b).map(f=>f.y));return yb-ya});
-  $("#view").innerHTML=`<div class="frs">`+names.map(n=>{
+  return `<h3 class="sech">Franchises</h3><div class="frs">`+names.map(n=>{
     const fs=films.filter(f=>f.fr===n).sort((a,b)=>(a.frI??0)-(b.frI??0)),ys=fs.map(f=>f.y),w=fs.filter(f=>f.w).length;
     return `<button class="fr" data-fr="${esc(n)}"><span class="frstrip">${fs.slice(0,5).map(f=>`<span class="frp${f.poster?" has-img":""}">${f.poster?`<img src="${posterSrc(f,342)}" alt="" loading="lazy" onerror="this.parentNode.classList.remove('has-img');this.remove()">`:""}</span>`).join("")}</span>
       <span class="frt"><b>${esc(n)}</b><span>${fs.length} titles · ${Math.min(...ys)}–${Math.max(...ys)}${w?` · ${w} watched`:""}</span></span></button>`}).join("")+`</div>`;
-  $("#view").querySelector(".frs").onclick=e=>{const b=e.target.closest("button.fr");if(!b)return;ui.fr=b.dataset.fr;ui.q="";ui.order="new";render();window.scrollTo(0,0)};
 }
 function foot(){
   $("#foot").innerHTML=`<button class="btn ghost" id="access">${ui.editable?"Editor access ✓":"Editor access"}</button>${ui.editable?`<button class="btn ghost" id="export">Export data (JSON)</button>`:""}`;
@@ -532,7 +535,7 @@ function drawer(){
     if(navigator.share&&matchMedia("(pointer:coarse)").matches){try{await navigator.share({title:f.t,url})}catch(e){}return}
     try{await navigator.clipboard.writeText(url);const c=R("#copied");c.hidden=false;setTimeout(()=>{c.hidden=true},1800)}catch(e){prompt("Copy this link",url)}};
   if(R("#glinks"))R("#glinks").onclick=e=>{const b=e.target.closest("[data-g]");if(b)go(()=>{ui.genre=b.dataset.g})};
-  if(R("#frlink"))R("#frlink").onclick=()=>{const n=f.fr;closeDrawer();Object.assign(ui,{view:"franchises",fr:n,col:null,q:"",order:"new",decade:null,director:null,actor:null,genre:null,show:"all"});render();window.scrollTo(0,0)};
+  if(R("#frlink"))R("#frlink").onclick=()=>{const n=f.fr;closeDrawer();Object.assign(ui,{view:"collections",fr:n,col:null,q:"",order:"new",decade:null,director:null,actor:null,genre:null,show:"all"});render();window.scrollTo(0,0)};
   R("#colnav").onclick=e=>{const b=e.target.closest("[data-go]");if(!b)return;const id=b.dataset.go;closeDrawer();ui.view="collections";ui.col=id;ui.q="";ui.order="imdb";ui.decade=null;ui.director=null;ui.actor=null;ui.genre=null;render();window.scrollTo(0,0)};
   if(!ui.editable)return;
   R("#editc").onclick=()=>{const fc=R("#fc");fc.hidden=!fc.hidden;R("#editc").textContent=fc.hidden?"Edit":"Done"};
@@ -552,7 +555,7 @@ function drawer(){
   R("#e-g").onchange=e=>{f.g=e.target.value.split(",").map(x=>x.trim()).filter(Boolean).slice(0,3);dirty();rerender()};
   R("#e-y").onchange=e=>{const v=parseInt(e.target.value,10);if(v){f.y=v;dirty();rerender()}};
 }
-function rerender(){stats();if(ui.view==="collections"&&!ui.col)collectionsView();else if(ui.view==="franchises"&&!ui.fr)franchisesView();else list();bar()}
+function rerender(){stats();if(ui.view==="collections"&&!ui.col&&!ui.fr)collectionsView();else list();bar()}
 
 /* saving */
 function dirty(){ui.dirty=true;ui.msg="";bar()}
