@@ -6822,7 +6822,7 @@
     "Adventure"
    ],
    "imdbId": "tt30840798",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNTJmODQzYmItNTZlMy00Mjg0LTk1NjctYjM4ZGI0NTM3ZTVjXkEyXkFqcGc@._V1_QL75_UX380_CR0,15,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/iXxIUVqpQAlyy98UjUlzjkMYuj6.jpg",
    "runtime": 101,
    "overview": "Wealthy businessman Zsa-zsa Korda appoints his only daughter, a nun, as sole heir to his estate. As Korda embarks on a new enterprise, they soon become the target of scheming tycoons, foreign terrorists and determined assassins.",
    "v": 3,
@@ -6832,7 +6832,8 @@
     "Benicio Del Toro",
     "Mia Threapleton",
     "Michael Cera"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "id": "train dreams|2025",
@@ -7365,7 +7366,7 @@
    "imdbId": "tt0114436",
    "runtime": 131,
    "overview": "A mysterious young drifter who calls herself Nomi Malone hitches a ride to Las Vegas, where she finds work as a stripper and sets about clawing her way to the top of the Vegas showgirls.",
-   "poster": "https://m.media-amazon.com/images/M/MV5BNzcyMjExNjg3OF5BMl5BanBnXkFtZTgwOTY4Mjc1MDE@._V1_QL75_UX380_CR0,1,380,562_.jpg",
+   "poster": "https://image.tmdb.org/t/p/w500/o4HT3Ap5c99W4FYpdXUtTvxGgPc.jpg",
    "v": 3,
    "imdbVotes": 83659,
    "lbUrl": "https://letterboxd.com/film/showgirls/",
@@ -7373,7 +7374,8 @@
     "Elizabeth Berkley",
     "Kyle MacLachlan",
     "Gina Gershon"
-   ]
+   ],
+   "posterLock": true
   },
   {
    "w": false,
