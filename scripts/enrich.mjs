@@ -108,6 +108,12 @@ for (const f of lib.films) {
 // Collection looks from data/collections.json: name, desc, size, colours, background; the file's order is the page order.
 const colLook = JSON.parse(await fs.readFile(new URL("../data/collections.json", import.meta.url), "utf8").catch(() => "{}"));
 if (Array.isArray(lib.cols)) {
+  // A collection that exists only in collections.json is created here; "ids" puts those films into it (idempotent).
+  for (const [id, x] of Object.entries(colLook)) {
+    if (id.startsWith("_")) continue;
+    if (!lib.cols.some((c) => c.id === id)) lib.cols.push({ id, name: x.name || id, desc: x.desc || "", size: x.size || "S", c1: x.c1, c2: x.c2 });
+    if (Array.isArray(x.ids)) for (const f of lib.films) if (x.ids.includes(f.id) && !(f.c || []).includes(id)) f.c = [...(f.c || []), id];
+  }
   for (const c of lib.cols) {
     const x = colLook[c.id];
     if (!x) continue;

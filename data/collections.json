@@ -1,15 +1,378 @@
 {
  "_help": "Look of each collection on the Collections page, keyed by collection id. name/desc rename it; size = L (2x2), W (wide 2x1), T (tall 1x2) or S (1x1); c1/c2 = the two gradient colours; bg = optional background image URL (otherwise a still from the best-rated film in the collection). Order in this file is the order on the page.",
- "mb": { "name": "Rabbit Holes", "size": "L", "c1": "#5B2A86", "c2": "#1C8C8C" },
- "dr": { "name": "Lights Off", "size": "T", "c1": "#1A0B0B", "c2": "#9A1C1C" },
- "lt": { "name": "Sunny Side", "size": "T", "c1": "#E8B930", "c2": "#E8604C" },
- "cr": { "name": "Dirty Money", "size": "W", "c1": "#0F3D2A", "c2": "#B8902E" },
- "pt": { "name": "Up Close", "size": "S", "c1": "#6B6259", "c2": "#B5862F" },
- "ep": { "name": "Widescreen", "size": "S", "c1": "#13306B", "c2": "#E07A2E" },
- "nc": { "name": "Night Drive", "size": "W", "c1": "#2A1B6E", "c2": "#E0457B" },
- "su": { "name": "Fever Dreams", "size": "S", "c1": "#A0287A", "c2": "#D98A1C" },
- "lv": { "name": "Almost Love", "size": "S", "c1": "#C2577A", "c2": "#5A2147" },
- "gp": { "name": "Gut Punch", "size": "W", "c1": "#2B2B2E", "c2": "#5A2A6B" },
- "fr": { "name": "Dust & Lead", "size": "S", "c1": "#8A3B1C", "c2": "#C9A46A" },
- "qc": { "name": "Quiet Hours", "size": "S", "c1": "#46566B", "c2": "#9AA3AB" }
+ "mb": {
+  "name": "Rabbit Holes",
+  "size": "L",
+  "c1": "#5B2A86",
+  "c2": "#1C8C8C"
+ },
+ "dr": {
+  "name": "Lights Off",
+  "size": "T",
+  "c1": "#1A0B0B",
+  "c2": "#9A1C1C"
+ },
+ "lt": {
+  "name": "Sunny Side",
+  "size": "T",
+  "c1": "#E8B930",
+  "c2": "#E8604C"
+ },
+ "cr": {
+  "name": "Dirty Money",
+  "size": "W",
+  "c1": "#0F3D2A",
+  "c2": "#B8902E"
+ },
+ "pt": {
+  "name": "Up Close",
+  "size": "S",
+  "c1": "#6B6259",
+  "c2": "#B5862F"
+ },
+ "ep": {
+  "name": "Widescreen",
+  "size": "S",
+  "c1": "#13306B",
+  "c2": "#E07A2E"
+ },
+ "nc": {
+  "name": "Night Drive",
+  "size": "W",
+  "c1": "#2A1B6E",
+  "c2": "#E0457B"
+ },
+ "su": {
+  "name": "Fever Dreams",
+  "size": "S",
+  "c1": "#A0287A",
+  "c2": "#D98A1C",
+  "ids": [
+   "fando and lis|1968",
+   "only god forgives|2013",
+   "sorry to bother you|2018",
+   "the wolf house|2018",
+   "vivarium|2019",
+   "greener grass|2019",
+   "after hours|1985",
+   "perfect blue|1997"
+  ]
+ },
+ "lv": {
+  "name": "Almost Love",
+  "size": "S",
+  "c1": "#C2577A",
+  "c2": "#5A2147"
+ },
+ "gp": {
+  "name": "Gut Punch",
+  "size": "W",
+  "c1": "#2B2B2E",
+  "c2": "#5A2A6B"
+ },
+ "fr": {
+  "name": "Dust & Lead",
+  "size": "S",
+  "c1": "#8A3B1C",
+  "c2": "#C9A46A"
+ },
+ "qc": {
+  "name": "Quiet Hours",
+  "size": "S",
+  "c1": "#46566B",
+  "c2": "#9AA3AB"
+ },
+ "nw": {
+  "name": "On Air",
+  "desc": "Newsrooms, cameras and people who will do anything for the story.",
+  "size": "W",
+  "c1": "#0B2A5B",
+  "c2": "#C0392B",
+  "ids": [
+   "the social network|2010",
+   "nightcrawler|2014",
+   "the king of comedy|1982",
+   "ace in the hole|1951",
+   "network|1976",
+   "man bites dog|1992",
+   "christine|2016",
+   "money monster|2016",
+   "bombshell|2019",
+   "the beta test|2021",
+   "she said|2022",
+   "boston strangler|2023",
+   "ink|2026"
+  ]
+ },
+ "fw": {
+  "name": "Flesh & Wire",
+  "desc": "Bodies fused with machines, and bodies that fail. Not for dinner.",
+  "size": "S",
+  "c1": "#2F3B45",
+  "c2": "#C4574D",
+  "ids": [
+   "videodrome|1983",
+   "the fly|1986",
+   "tetsuo: the iron man|1989",
+   "rubber's lover|1996",
+   "existenz|1999",
+   "titane|2021",
+   "crimes of the future|2022",
+   "the substance|2024"
+  ]
+ },
+ "wp": {
+  "name": "Wrong Places",
+  "desc": "Houses, corridors and towns where the place itself is the threat.",
+  "size": "W",
+  "c1": "#B9B04A",
+  "c2": "#1F4E5A",
+  "ids": [
+   "the shining|1980",
+   "the reflecting skin|1990",
+   "the truman show|1998",
+   "silent hill|2006",
+   "it follows|2014",
+   "vivarium|2019",
+   "the platform|2019",
+   "barbarian|2022",
+   "backrooms|2026"
+  ]
+ },
+ "ft": {
+  "name": "Fake Truth",
+  "desc": "Documentaries that bend the truth, and the people who stage it.",
+  "size": "S",
+  "c1": "#1F3A5F",
+  "c2": "#E0B04A",
+  "ids": [
+   "sherman's march|1985",
+   "stories we tell|2012",
+   "f for fake|1973",
+   "the thin blue line|1988",
+   "bloody nose, empty pockets|2020",
+   "close-up|1990",
+   "casting jonbenet|2017",
+   "the act of killing|2012",
+   "symbiopsychotaxiplasm: take one|1968",
+   "exit through the gift shop|2010"
+  ]
+ },
+ "ll": {
+  "name": "Last Light",
+  "desc": "The end of the world from every angle: quiet, loud, funny, unbearable.",
+  "size": "W",
+  "c1": "#E2542A",
+  "c2": "#2A0F3A",
+  "ids": [
+   "testament|1983",
+   "picnic|1996",
+   "children of men|2006",
+   "the day the earth stood still|1951",
+   "don't look up|2021",
+   "take shelter|2011",
+   "wall·e|2008",
+   "war of the worlds|2005",
+   "sunshine|2007",
+   "snowpiercer|2013",
+   "the road|2009",
+   "melancholia|2011",
+   "they live|1988",
+   "dr. strangelove|1964",
+   "independence day|1996",
+   "contagion|2011",
+   "10 cloverfield lane|2016",
+   "the sacrifice|1986",
+   "28 days later|2002"
+  ]
+ },
+ "jp": {
+  "name": "Weird Japan",
+  "desc": "The strangest Japanese films, from anime to splatter.",
+  "size": "S",
+  "c1": "#B3202A",
+  "c2": "#2B2B2B",
+  "ids": [
+   "battle royale|2000",
+   "your name|2016",
+   "audition|1999",
+   "one cut of the dead|2017",
+   "perfect blue|1997",
+   "tag|2015",
+   "as the gods will|2014",
+   "spirited away|2001",
+   "akira|1988",
+   "symbol|2009",
+   "paprika|2006",
+   "house|1977"
+  ]
+ },
+ "ed": {
+  "name": "Essential Docs",
+  "desc": "The documentaries everyone says you must see.",
+  "size": "S",
+  "c1": "#2E4A3A",
+  "c2": "#B7A36A",
+  "ids": [
+   "man with a movie camera|1929",
+   "f for fake|1973",
+   "koyaanisqatsi|1982",
+   "shoah|1985",
+   "for all mankind|1989",
+   "hearts of darkness: a filmmaker's apocalypse|1991",
+   "lessons of darkness|1992",
+   "hoop dreams|1994",
+   "grizzly man|2005",
+   "dear zachary: a letter to a son about his father|2008",
+   "senna|2010",
+   "the act of killing|2012",
+   "13th|2016",
+   "won't you be my neighbor?|2018",
+   "the fire within: a requiem for katia and maurice krafft|2022",
+   "no other land|2024",
+   "you can see everything|2026"
+  ]
+ },
+ "fl": {
+  "name": "Flanagan",
+  "desc": "Haunted houses and slow dread by one director.",
+  "size": "S",
+  "c1": "#14202B",
+  "c2": "#8FA8B8",
+  "ids": [
+   "oculus|2013",
+   "hush|2016",
+   "ouija: origin of evil|2016",
+   "gerald's game|2017",
+   "the haunting of hill house|2018",
+   "doctor sleep|2019",
+   "midnight mass|2021",
+   "the life of chuck|2024",
+   "carrie|2026",
+   "the exorcist|2027"
+  ]
+ },
+ "ff": {
+  "name": "Свежее фестивальное кино",
+  "desc": "Новое с фестивалей 2026: пока без оценок и постеров, но уже на полке.",
+  "size": "W",
+  "c1": "#7A1E3A",
+  "c2": "#E8A33D",
+  "ids": [
+   "once upon a time in harlem|2026",
+   "fatherland|2026",
+   "the liberation|2026",
+   "la bola negra|2026",
+   "carl sagan: we are made of star stuff|2026",
+   "minotaur|2026",
+   "i play rocky|2026",
+   "being heumann|2026",
+   "la gradiva|2026",
+   "smudge the blades|2026",
+   "ink|2026"
+  ]
+ },
+ "bc": {
+  "name": "Behind the Camera",
+  "desc": "Films about making films, and the people who can't stop.",
+  "size": "S",
+  "c1": "#3A2A1A",
+  "c2": "#E0B04A",
+  "ids": [
+   "contempt|1963",
+   "8½|1963",
+   "ed wood|1994",
+   "mulholland drive|2001",
+   "sunset boulevard|1950",
+   "hail, caesar!|2016",
+   "the disaster artist|2017",
+   "the fabelmans|2022",
+   "babylon|2022",
+   "the studio|2025"
+  ]
+ },
+ "cf": {
+  "name": "Case Files",
+  "desc": "Murders, missing people and the detectives who solve them. Or don't.",
+  "size": "W",
+  "c1": "#1E2A33",
+  "c2": "#C9A24B",
+  "ids": [
+   "memories of murder|2003",
+   "the girl with the dragon tattoo|2011",
+   "the handmaiden|2016",
+   "caché|2005",
+   "l.a. confidential|1997",
+   "the secret in their eyes|2009",
+   "knives out|2019",
+   "anatomy of a fall|2023"
+  ]
+ },
+ "tn": {
+  "name": "The 2010s",
+  "desc": "The decade's films everyone keeps recommending. Curated, not complete.",
+  "size": "L",
+  "c1": "#2A2F4A",
+  "c2": "#E86A4A",
+  "ids": [
+   "inception|2010",
+   "interstellar|2014",
+   "the social network|2010",
+   "django unchained|2012",
+   "the grand budapest hotel|2014",
+   "the master|2012",
+   "the tree of life|2011",
+   "the revenant|2015",
+   "once upon a time in hollywood|2019",
+   "moonlight|2016",
+   "her|2013",
+   "blade runner 2049|2017",
+   "prisoners|2013",
+   "gone girl|2014",
+   "nightcrawler|2014",
+   "shutter island|2010",
+   "black swan|2010",
+   "birdman|2014",
+   "the lighthouse|2019",
+   "the conjuring|2013",
+   "get out|2017",
+   "hereditary|2018",
+   "the girl with the dragon tattoo|2011",
+   "ex machina|2014",
+   "uncut gems|2019",
+   "drive|2011",
+   "hell or high water|2016",
+   "sicario|2015",
+   "the hateful eight|2015",
+   "true grit|2010",
+   "inside llewyn davis|2013",
+   "manchester by the sea|2016",
+   "lady bird|2017",
+   "blue valentine|2010",
+   "the nice guys|2016",
+   "phantom thread|2017",
+   "the hunt|2012",
+   "burning|2018",
+   "train to busan|2016",
+   "your name|2016",
+   "snowpiercer|2013",
+   "the act of killing|2012",
+   "parasite|2019",
+   "whiplash|2014",
+   "mad max: fury road|2015",
+   "under the skin|2013",
+   "the handmaiden|2016",
+   "the wailing|2016",
+   "the raid|2011",
+   "the raid 2|2014",
+   "the great beauty|2013",
+   "roma|2018",
+   "shoplifters|2018",
+   "portrait of a lady on fire|2019",
+   "arrival|2016",
+   "the lobster|2015",
+   "good time|2017",
+   "the florida project|2017"
+  ]
+ }
 }

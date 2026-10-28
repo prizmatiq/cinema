@@ -525,5 +525,29 @@
  },
  "wish i was here|2014": {
   "poster": "https://image.tmdb.org/t/p/w500/hDDXIWLBS6rNPJS4tQvEXWxGXjK.jpg"
+ },
+ "picnic|1996": {
+  "imdbId": "tt0117338"
+ },
+ "sunset boulevard|1950": {
+  "imdbId": "tt0043014"
+ },
+ "contempt|1963": {
+  "imdbId": "tt0057345"
+ },
+ "caché|2005": {
+  "imdbId": "tt0387898"
+ },
+ "the secret in their eyes|2009": {
+  "imdbId": "tt1305806"
+ },
+ "good time|2017": {
+  "imdbId": "tt5727208"
+ },
+ "hail, caesar!|2016": {
+  "imdbId": "tt0475290"
+ },
+ "anatomy of a fall|2023": {
+  "imdbId": "tt17009710"
  }
 }
