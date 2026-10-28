@@ -118,9 +118,10 @@ section.dec h2 small{font-family:var(--f-mono);font-size:12px;font-weight:400;co
 @media (max-width:860px){.bento{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:560px){.bento{grid-template-columns:1fr;grid-auto-rows:200px}.bento .col.W,.bento .col.L{grid-column:span 1}.bento .col.T{grid-row:span 1}}
 .bento .col.cb{position:relative;overflow:hidden;isolation:isolate;padding:18px;justify-content:flex-end;gap:6px;border:0;background:var(--c1)}
-.cb .cbg{position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;filter:saturate(.55) contrast(1.05);transition:transform .5s ease}
+.cb .cbg{position:absolute;inset:0;z-index:-3;width:100%;height:100%;object-fit:cover;transition:transform .5s ease}
 .cb::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(135deg,var(--c1),var(--c2));mix-blend-mode:color;opacity:.75}
 .cb::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,rgba(0,0,0,.05) 0%,rgba(0,0,0,.25) 40%,rgba(0,0,0,.82) 100%),linear-gradient(135deg,var(--c1),var(--c2));background-blend-mode:normal,normal;opacity:1}
+.cb.has-bg::before{display:none}
 .cb.has-bg::after{background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.3) 45%,rgba(0,0,0,.9) 100%)}
 .cb:hover .cbg{transform:scale(1.04)}
 .cb h3{font-family:var(--f-display);font-stretch:78%;font-size:26px;line-height:1.05;margin:0;color:#fff;text-shadow:0 1px 12px rgba(0,0,0,.5)}
@@ -291,6 +292,8 @@ const TITLE="Cinema";
 const CONFIG={owner:"",repo:"",branch:"main",path:"data/library.json"};
 const IMG="https://image.tmdb.org/t/p/";
 let films=[], cols=[];
+/* Titles that come out after this year stay in the data but are not shown. */
+const live=list=>list.filter(f=>f.y<=new Date().getFullYear());
 const posterSrc=(f,w)=>f.poster.startsWith("http")?(w>400?f.poster.replace(/\._V1_.*\.jpg$/,"._V1_SX700.jpg"):f.poster):IMG+"w"+w+f.poster;
 const ui={actor:null,filters:false,fr:null,view:"films",director:null,layout:"grid",q:"",genre:null,col:null,show:"all",order:"new",decade:null,open:null,editable:false,dirty:false,saving:false,msg:"",adding:false};
 const app=document.getElementById("app");
@@ -674,7 +677,7 @@ async function save(){
       const merged=merge(data);
       try{
         await gh(`/contents/${CONFIG.path}`,{method:"PUT",body:JSON.stringify({message:"Update library from web app",content:b64enc(JSON.stringify(merged,null,1)+"\n"),sha,branch:CONFIG.branch})});
-        films=merged.films;cols=merged.cols;base=snap(films);ui.dirty=false;ui.msg="Saved";break;
+        films=live(merged.films);cols=merged.cols;base=snap(films);ui.dirty=false;ui.msg="Saved";break;
       }catch(e){if(e.status===409&&attempt===0)continue;throw e}
     }
   }catch(e){
@@ -703,12 +706,12 @@ function accessDrawer(){
 }
 async function load(){
   try{
-    if(getToken()){try{const {data}=await readRemote();films=data.films;cols=data.cols;ui.editable=true}catch(e){ui.editable=false}}
+    if(getToken()){try{const {data}=await readRemote();films=live(data.films);cols=data.cols;ui.editable=true}catch(e){ui.editable=false}}
     if(!films.length){
       const {owner,repo}=repoInfo();let d=null;
       if(owner&&repo){try{const r=await fetch(`https://raw.githubusercontent.com/${owner}/${repo}/${CONFIG.branch}/${CONFIG.path}?v=${Date.now()}`);if(r.ok)d=await r.json()}catch(e){}}
       if(!d){const r=await fetch(CONFIG.path+"?v="+Date.now());d=await r.json()}
-      films=d.films;cols=d.cols}
+      films=live(d.films);cols=d.cols}
     base=snap(films);
   }catch(e){ui.msg="Couldn't load the library";}
   render();
