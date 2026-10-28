@@ -4631,5 +4631,25 @@
   "r": null,
   "lb": null,
   "imdb": null
+ },
+ {
+  "id": "resolution|2012",
+  "type": "film",
+  "t": "Resolution",
+  "y": 2012,
+  "d": "Justin Benson & Aaron Moorhead",
+  "g": [
+   "Horror",
+   "Mystery",
+   "Thriller"
+  ],
+  "c": [
+   "mb"
+  ],
+  "n": "Watch before The Endless (2017)",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
  }
 ]
