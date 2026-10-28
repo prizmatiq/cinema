@@ -16853,8 +16853,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 4.14,
+   "imdb": 7.4,
    "c": [
     "su"
    ],
@@ -16868,10 +16868,39 @@
    "t": "The Wolf House",
    "y": 2018,
    "d": "Cristóbal León & Joaquín Cociña",
-   "imdbId": null,
-   "runtime": null,
-   "overview": null,
-   "poster": null
+   "imdbId": "tt8173728",
+   "runtime": 75,
+   "overview": "Tells the story of Maria, a young woman who takes refuge in a house in southern Chile after escaping from a German colony.",
+   "poster": "https://image.tmdb.org/t/p/w500/kvgch2e25cd6dWhRJ6G8BCJ1Wcq.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/the-wolf-house/",
+   "cast": [
+    "Amalia Kassai",
+    "Rainer Krause",
+    "Karina Hyland",
+    "Carlos Cociña"
+   ],
+   "tmdbId": 499537,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/u4CVC9VVpbfxxFqf8fcaPVegUmZ.jpg",
+   "trailer": "EEc3R3Pn0FA",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/65Rxyhpj4sx2eODNiCCyE6A8Qlp.jpg",
+    null,
+    null,
+    null
+   ],
+   "dirP": [
+    {
+     "n": "Cristóbal León",
+     "p": "https://image.tmdb.org/t/p/w185/sQVbiyJr2jDFkvp2w5Iwr1jV3cU.jpg"
+    },
+    {
+     "n": "Joaquín Cociña",
+     "p": "https://image.tmdb.org/t/p/w185/60Lyv6KXaWtrCxC4rPPKVSUdFP.jpg"
+    }
+   ],
+   "imdbVotes": 6431
   },
   {
    "w": false,
@@ -17631,8 +17660,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 4.21,
+   "imdb": 7.7,
    "c": [
     "ft",
     "ed"
@@ -17646,10 +17675,39 @@
    "t": "F for Fake",
    "y": 1973,
    "d": "Orson Welles",
-   "imdbId": null,
-   "runtime": null,
-   "overview": null,
-   "poster": null
+   "imdbId": "tt0072962",
+   "runtime": 89,
+   "overview": "A documentary about fraud and fakery.",
+   "poster": "https://image.tmdb.org/t/p/w500/fVeIDxS73CrosoeVOaefQuCUGZg.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/f-for-fake/",
+   "cast": [
+    "Orson Welles",
+    "Oja Kodar",
+    "Elmyr de Hory",
+    "Clifford Irving"
+   ],
+   "tmdbId": 43003,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/kwwuAQpPvewf4voKVMN98KcXEPM.jpg",
+   "trailer": "ic0BI8L-spQ",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/p5JF3pnAHDy4JSNPJBatM5Ttdam.jpg",
+    "https://image.tmdb.org/t/p/w185/289zwO8ToMhy4T8Py81Alap7duZ.jpg",
+    null,
+    "https://image.tmdb.org/t/p/w185/3cLcu0aFlW9Oldp3D6lkpeBUrE7.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Orson Welles",
+     "p": "https://image.tmdb.org/t/p/w185/p5JF3pnAHDy4JSNPJBatM5Ttdam.jpg"
+    },
+    {
+     "n": "François Reichenbach",
+     "p": "https://image.tmdb.org/t/p/w185/feZcegnRNIsboHCnYuzIten1HX9.jpg"
+    }
+   ],
+   "imdbVotes": 20040
   },
   {
    "w": false,
@@ -18218,8 +18276,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 4.17,
+   "imdb": 7.9,
    "c": [
     "ed"
    ],
@@ -18232,10 +18290,29 @@
    "t": "Lessons of Darkness",
    "y": 1992,
    "d": "Werner Herzog",
-   "imdbId": null,
-   "runtime": null,
-   "overview": null,
-   "poster": null
+   "imdbId": "tt0104706",
+   "runtime": 54,
+   "overview": "This film surveys the disaster of the Kuwaiti oil fields in flames, with little narration and scarcely any interviews. Hell on Earth is presented in such transcendent visions and music that one can only be fascinated by it.",
+   "poster": "https://image.tmdb.org/t/p/w500/rSQaIbOQj6SUSOxr3BEiAmCoj1P.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/lessons-of-darkness/",
+   "cast": [
+    "Werner Herzog"
+   ],
+   "tmdbId": 53200,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/4g5IcgWKESnkWfLJYyOYTjD3SsJ.jpg",
+   "trailer": "EPwmsbbcG6Q",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/qKlz1oM482Xf0jTPfLiR6qXlLYK.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Werner Herzog",
+     "p": "https://image.tmdb.org/t/p/w185/qKlz1oM482Xf0jTPfLiR6qXlLYK.jpg"
+    }
+   ],
+   "imdbVotes": 8635
   },
   {
    "w": false,
@@ -18287,8 +18364,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 4.41,
+   "imdb": 8.5,
    "c": [
     "ed"
    ],
@@ -18302,10 +18379,35 @@
    "t": "Dear Zachary: A Letter to a Son About His Father",
    "y": 2008,
    "d": "Kurt Kuenne",
-   "imdbId": null,
-   "runtime": null,
-   "overview": null,
-   "poster": null
+   "imdbId": "tt1152758",
+   "runtime": 95,
+   "overview": "A filmmaker decides to memorialize a murdered friend when his friend's ex-girlfriend announces she is expecting his son.",
+   "poster": "https://image.tmdb.org/t/p/w500/yYVHGe7U55Ojx11y5A82phPpCHv.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/dear-zachary-a-letter-to-a-son-about-his-father/",
+   "cast": [
+    "Kurt Kuenne",
+    "Andrew Bagby",
+    "David Bagby",
+    "Kathleen Bagby"
+   ],
+   "tmdbId": 15584,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/fCOIOhteWbyvSKLyJrMrvh04U6G.jpg",
+   "trailer": "l7ughuxTn_Q",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/5vhQ176yRcc4JtkTEzCLtrQF2ge.jpg",
+    "https://image.tmdb.org/t/p/w185/eyuZfMCGfqediL4GJyejlBt20K8.jpg",
+    null,
+    null
+   ],
+   "dirP": [
+    {
+     "n": "Kurt Kuenne",
+     "p": "https://image.tmdb.org/t/p/w185/5vhQ176yRcc4JtkTEzCLtrQF2ge.jpg"
+    }
+   ],
+   "imdbVotes": 47073
   },
   {
    "w": false,
@@ -19788,8 +19890,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 4.06,
+   "imdb": 7.6,
    "c": [
     "jp"
    ],
@@ -19803,10 +19905,35 @@
    "t": "One Cut of the Dead",
    "y": 2017,
    "d": "Shin'ichirô Ueda",
-   "imdbId": null,
-   "runtime": null,
-   "overview": null,
-   "poster": null
+   "imdbId": "tt7914416",
+   "runtime": 96,
+   "overview": "Things go badly for a hack director and film crew shooting a low budget zombie movie in an abandoned WWII Japanese facility, when they are attacked by real zombies.",
+   "poster": "https://image.tmdb.org/t/p/w500/rws34k2bqYVo2B5MkhKAbV8925j.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/one-cut-of-the-dead/",
+   "cast": [
+    "Takayuki Hamatsu",
+    "Yuzuki Akiyama",
+    "Kazuaki Nagaya",
+    "Harumi Shuhama"
+   ],
+   "tmdbId": 513434,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/oslUsPw3PUhDVK7a5soTvCAuaO7.jpg",
+   "trailer": "Du2XfUDfjN0",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/bXQw91qKv5NtLCaBXbNjQYePMoF.jpg",
+    "https://image.tmdb.org/t/p/w185/4Rkf7ZT7q6dZFgk7ye9JQgrytvg.jpg",
+    "https://image.tmdb.org/t/p/w185/tgvSjJavPVrLXmiJuTGyXOEs1qe.jpg",
+    "https://image.tmdb.org/t/p/w185/68bL7UczluqZFmBeoQuQAAzPfdi.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Shinichiro Ueda",
+     "p": "https://image.tmdb.org/t/p/w185/mEWWbK3eJkPSYqn4EvW8tD0fLDl.jpg"
+    }
+   ],
+   "imdbVotes": 36657
   },
   {
    "w": false,
@@ -20110,8 +20237,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 3.52,
+   "imdb": 7.6,
    "c": [
     "ff"
    ],
@@ -20125,10 +20252,35 @@
    "t": "Once Upon a Time in Harlem",
    "y": 2026,
    "d": "William Greaves & David Greaves",
-   "imdbId": null,
+   "imdbId": "tt8613988",
    "runtime": null,
-   "overview": null,
-   "poster": null
+   "overview": "Rita, a mother escaping the weight of a harrowing past, finds solace in a secluded all-women's cult - but when her daughters arrive she must choose between the freedom she's found and the life she left behind. Based on a true story.",
+   "poster": "https://image.tmdb.org/t/p/w500/cjbHYvJz9j5H3BSBfoaOiGMEHeZ.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/the-liberation-2026/",
+   "cast": [
+    "Carrie Coon",
+    "Lily James",
+    "Bella Ramsey",
+    "Odessa Young"
+   ],
+   "tmdbId": 1287365,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/9hrTg5I0cH4kCtlEfdtsb9krxtS.jpg",
+   "trailer": null,
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/vWChiHhXFjZVKC6HbACyyRFmdW4.jpg",
+    "https://image.tmdb.org/t/p/w185/2w8tMEdCxBXB44X05RQDC2Kvbap.jpg",
+    "https://image.tmdb.org/t/p/w185/vDbgxc7RYawpB1wK7JDEj62j06H.jpg",
+    "https://image.tmdb.org/t/p/w185/woaCgEcSzzwayaeVleiac0NCNRK.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Guy Nattiv",
+     "p": "https://image.tmdb.org/t/p/w185/81HiVqLJQYOKwi2ldOx2fLiPoi0.jpg"
+    }
+   ],
+   "imdbVotes": 99
   },
   {
    "w": false,
@@ -20180,8 +20332,8 @@
   {
    "w": false,
    "r": null,
-   "lb": null,
-   "imdb": null,
+   "lb": 3.99,
+   "imdb": 7.7,
    "c": [
     "ff"
    ],
@@ -20195,10 +20347,39 @@
    "t": "The Liberation",
    "y": 2026,
    "d": "Guy Nattiv",
-   "imdbId": null,
-   "runtime": null,
-   "overview": null,
-   "poster": null
+   "imdbId": "tt39163347",
+   "runtime": 100,
+   "overview": "A decade post-death, filmmaker William Greaves reveals his final work: footage of a 1972 gathering he arranged with Harlem Renaissance legends, which he deemed his most significant capture.",
+   "poster": "https://image.tmdb.org/t/p/w500/9eukk5gby8NZCwraiC7mloZmasP.jpg",
+   "idLock": true,
+   "v": 3,
+   "lbUrl": "https://letterboxd.com/film/once-upon-a-time-in-harlem/",
+   "cast": [
+    "Aaron Douglas",
+    "Richard Bruce Nugent",
+    "Ernest Crichlow",
+    "Eubie Blake"
+   ],
+   "tmdbId": 1596300,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/wk9dLaji3CXpl5FxIYBXR5ojcY6.jpg",
+   "trailer": "ESnX3LQbCVI",
+   "castP": [
+    null,
+    null,
+    null,
+    "https://image.tmdb.org/t/p/w185/k6UGsl8n2ycRJssSppgKl7cScsu.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "William Greaves",
+     "p": "https://image.tmdb.org/t/p/w185/9rzW1T4gT0lMvnu9oUG253Xnh51.jpg"
+    },
+    {
+     "n": "David Greaves",
+     "p": "https://image.tmdb.org/t/p/w185/jxkklpFTOCiUGeVToSPCU8lT4nr.jpg"
+    }
+   ],
+   "imdbVotes": 167
   },
   {
    "w": false,
