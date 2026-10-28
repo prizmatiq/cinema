@@ -4442,5 +4442,194 @@
   "r": null,
   "lb": null,
   "imdb": null
+ },
+ {
+  "id": "kwaidan|1964",
+  "type": "film",
+  "t": "Kwaidan",
+  "y": 1964,
+  "d": "Masaki Kobayashi",
+  "g": [
+   "Horror",
+   "Fantasy",
+   "Drama"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "shura|1971",
+  "type": "film",
+  "t": "Shura",
+  "y": 1971,
+  "d": "Toshio Matsumoto",
+  "g": [
+   "Horror",
+   "Drama",
+   "Historical"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "Letterboxd title: Demons",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "twin peaks: fire walk with me|1992",
+  "type": "film",
+  "t": "Twin Peaks: Fire Walk with Me",
+  "y": 1992,
+  "d": "David Lynch",
+  "g": [
+   "Horror",
+   "Mystery",
+   "Drama"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "the thing|1982",
+  "type": "film",
+  "t": "The Thing",
+  "y": 1982,
+  "d": "John Carpenter",
+  "g": [
+   "Horror",
+   "Sci-Fi",
+   "Mystery"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "coraline|2009",
+  "type": "film",
+  "t": "Coraline",
+  "y": 2009,
+  "d": "Henry Selick",
+  "g": [
+   "Animation",
+   "Fantasy",
+   "Horror"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "vampire hunter d: bloodlust|2000",
+  "type": "film",
+  "t": "Vampire Hunter D: Bloodlust",
+  "y": 2000,
+  "d": "Yoshiaki Kawajiri",
+  "g": [
+   "Animation",
+   "Horror",
+   "Action"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "what ever happened to baby jane?|1962",
+  "type": "film",
+  "t": "What Ever Happened to Baby Jane?",
+  "y": 1962,
+  "d": "Robert Aldrich",
+  "g": [
+   "Horror",
+   "Thriller",
+   "Drama"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "les diaboliques|1955",
+  "type": "film",
+  "t": "Les Diaboliques",
+  "y": 1955,
+  "d": "Henri-Georges Clouzot",
+  "g": [
+   "Horror",
+   "Thriller",
+   "Mystery"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
+ },
+ {
+  "id": "phantom of the paradise|1974",
+  "type": "film",
+  "t": "Phantom of the Paradise",
+  "y": 1974,
+  "d": "Brian De Palma",
+  "g": [
+   "Horror",
+   "Musical",
+   "Comedy"
+  ],
+  "c": [
+   "dr",
+   "hr"
+  ],
+  "n": "",
+  "w": false,
+  "r": null,
+  "lb": null,
+  "imdb": null
  }
 ]

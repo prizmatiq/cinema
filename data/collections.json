@@ -374,5 +374,30 @@
    "good time|2017",
    "the florida project|2017"
   ]
+ },
+ "hr": {
+  "name": "Highest Rated Horror",
+  "desc": "The horror films Letterboxd rates highest. Part of the list, the rest to come.",
+  "size": "W",
+  "c1": "#0F1A24",
+  "c2": "#D9C06A",
+  "ids": [
+   "perfect blue|1997",
+   "twin peaks: fire walk with me|1992",
+   "the thing|1982",
+   "the silence of the lambs|1991",
+   "psycho|1960",
+   "kwaidan|1964",
+   "shura|1971",
+   "the shining|1980",
+   "rosemary's baby|1968",
+   "coraline|2009",
+   "vampire hunter d: bloodlust|2000",
+   "what ever happened to baby jane?|1962",
+   "les diaboliques|1955",
+   "black swan|2010",
+   "phantom of the paradise|1974",
+   "alien|1979"
+  ]
  }
 }
