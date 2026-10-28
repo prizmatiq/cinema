@@ -10,7 +10,8 @@
   "name": "Lights Off",
   "size": "T",
   "c1": "#1A0B0B",
-  "c2": "#9A1C1C"
+  "c2": "#9A1C1C",
+  "bg": "bg/lights-off.jpg"
  },
  "lt": {
   "name": "Sunny Side",
