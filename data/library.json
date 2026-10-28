@@ -347,7 +347,8 @@
    "lb": 4.31,
    "imdb": 8.5,
    "c": [
-    "dr"
+    "dr",
+    "hr"
    ],
    "g": [
     "Horror",
@@ -964,7 +965,8 @@
    "lb": 4.21,
    "imdb": 8,
    "c": [
-    "dr"
+    "dr",
+    "hr"
    ],
    "g": [
     "Horror",
@@ -1718,7 +1720,8 @@
    "imdb": 8.4,
    "c": [
     "dr",
-    "wp"
+    "wp",
+    "hr"
    ],
    "g": [
     "Horror",
@@ -2610,7 +2613,8 @@
    "imdb": 8.6,
    "c": [
     "dr",
-    "cr"
+    "cr",
+    "hr"
    ],
    "g": [
     "Thriller",
@@ -3362,7 +3366,8 @@
     "mb",
     "dr",
     "su",
-    "jp"
+    "jp",
+    "hr"
    ],
    "g": [
     "Animation",
@@ -6545,7 +6550,8 @@
    "c": [
     "pt",
     "dr",
-    "tn"
+    "tn",
+    "hr"
    ],
    "g": [
     "Psychological Thriller"
@@ -14335,7 +14341,8 @@
    "lb": 4.24,
    "imdb": 8.4,
    "c": [
-    "dr"
+    "dr",
+    "hr"
    ],
    "g": [
     "Sci-Fi",
@@ -21866,6 +21873,426 @@
    ],
    "imdbVotes": 150153,
    "lbUrl": "https://letterboxd.com/film/the-florida-project/"
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.45,
+   "imdb": 8.4,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Fantasy",
+    "Drama"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "kwaidan|1964",
+   "t": "Kwaidan",
+   "y": 1964,
+   "d": "Masaki Kobayashi",
+   "imdbId": "tt0058625",
+   "idLock": true,
+   "v": 3,
+   "runtime": 147,
+   "overview": "An entomologist on vacation is trapped by local villagers into living with a woman whose life task is shoveling sand for them.",
+   "lbUrl": "https://letterboxd.com/film/woman-in-the-dunes/",
+   "poster": "https://image.tmdb.org/t/p/w500/xiBr3bIT2xpbuIKo5bLK7ebP4O1.jpg",
+   "cast": [
+    "Eiji Okada",
+    "Kyôko Kishida",
+    "Kōji Mitsui",
+    "Hiroko Itō"
+   ],
+   "tmdbId": 16672,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/dxfFh9pTKDaYH2B6PwcR6ohCM1L.jpg",
+   "trailer": "UFbJ9iDeZgg",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/mQb4kOYl1WlISWZOStAhm13DHdQ.jpg",
+    "https://image.tmdb.org/t/p/w185/d5raLmrkUXAgJ7kN17Uedwwu4iD.jpg",
+    "https://image.tmdb.org/t/p/w185/nahTXDNpFHNfKMraAHNDYiLXBM.jpg",
+    null
+   ],
+   "dirP": [
+    {
+     "n": "Hiroshi Teshigahara",
+     "p": "https://image.tmdb.org/t/p/w185/zh9nHtBeuT6KbE5MwpdXwBKlxPZ.jpg"
+    }
+   ],
+   "imdbVotes": 26950
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": null,
+   "imdb": null,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Drama",
+    "Historical"
+   ],
+   "n": "Letterboxd title: Demons",
+   "type": "film",
+   "id": "shura|1971",
+   "t": "Shura",
+   "y": 1971,
+   "d": "Toshio Matsumoto",
+   "imdbId": null,
+   "runtime": null,
+   "overview": null,
+   "poster": null
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.36,
+   "imdb": 7.3,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Mystery",
+    "Drama"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "twin peaks: fire walk with me|1992",
+   "t": "Twin Peaks: Fire Walk with Me",
+   "y": 1992,
+   "d": "David Lynch",
+   "imdbId": "tt0105665",
+   "runtime": 134,
+   "overview": "Laura Palmer's harrowing final days are chronicled one year after the murder of Teresa Banks, a resident of Twin Peaks' neighboring town.",
+   "poster": "https://image.tmdb.org/t/p/w500/mxsGXqetGnirf99qapYd5MMY1VL.jpg",
+   "v": 3,
+   "cast": [
+    "Sheryl Lee",
+    "Ray Wise",
+    "Mädchen Amick",
+    "Dana Ashbrook"
+   ],
+   "tmdbId": 1923,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/amGU1FpELmenVvNmPShW58Orepy.jpg",
+   "trailer": "vCUxM9UZrd0",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/kqAg6YjwTM1l7Ijffl6W3LCreSF.jpg",
+    "https://image.tmdb.org/t/p/w185/o2U9ZNf76Ufm9eAat0WqMLn3O12.jpg",
+    "https://image.tmdb.org/t/p/w185/Af47IaCUF9BYzmGBycZiKjqIwYf.jpg",
+    "https://image.tmdb.org/t/p/w185/Aj2y03r4pEoyvr2Ed1m28aQNmMs.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "David Lynch",
+     "p": "https://image.tmdb.org/t/p/w185/wwBzRDoIW6Ld64h6OkQ6ImCZKsR.jpg"
+    }
+   ],
+   "imdbVotes": 120679,
+   "lbUrl": "https://letterboxd.com/film/twin-peaks-fire-walk-with-me/"
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.35,
+   "imdb": 8.2,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Sci-Fi",
+    "Mystery"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "the thing|1982",
+   "t": "The Thing",
+   "y": 1982,
+   "d": "John Carpenter",
+   "imdbId": "tt0084787",
+   "runtime": 109,
+   "overview": "A research team in Antarctica is hunted by a shape-shifting alien that assumes the appearance of its victims.",
+   "poster": "https://image.tmdb.org/t/p/w500/tzGY49kseSE9QAKk47uuDGwnSCu.jpg",
+   "v": 3,
+   "cast": [
+    "Kurt Russell",
+    "Wilford Brimley",
+    "T.K. Carter",
+    "David Clennon"
+   ],
+   "tmdbId": 1091,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/r9leYNa8nTRCceZrZhP1DXkgKVb.jpg",
+   "trailer": "ySvzHdtCiWE",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/6g1d98oH4miG4k0ZiZWmF3Dt0bO.jpg",
+    "https://image.tmdb.org/t/p/w185/tB0DdWX6FeNB3tjffJIaC0EOLBB.jpg",
+    "https://image.tmdb.org/t/p/w185/rqlDLtg8USZsO07VEiYQpQyjyA2.jpg",
+    "https://image.tmdb.org/t/p/w185/jLOf8nYolcb4P8LUDOW7QK5Y9pH.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "John Carpenter",
+     "p": "https://image.tmdb.org/t/p/w185/3Qp0mg61u1qSZNJh30BFEUZrIMG.jpg"
+    }
+   ],
+   "imdbVotes": 540459,
+   "lbUrl": "https://letterboxd.com/film/the-thing/"
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.2,
+   "imdb": 7.8,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Animation",
+    "Fantasy",
+    "Horror"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "coraline|2009",
+   "t": "Coraline",
+   "y": 2009,
+   "d": "Henry Selick",
+   "imdbId": "tt0327597",
+   "runtime": 100,
+   "overview": "Wandering her rambling old house in her boring new town, a young girl discovers a hidden door to a strangely idealized version of her life that seems too good to be true.",
+   "poster": "https://image.tmdb.org/t/p/w500/4jeFXQYytChdZYE9JYO7Un87IlW.jpg",
+   "v": 3,
+   "cast": [
+    "Dakota Fanning",
+    "Teri Hatcher",
+    "Jennifer Saunders",
+    "Dawn French"
+   ],
+   "tmdbId": 14836,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/hofnlIyF6bePkgQOpcuRWLvzf15.jpg",
+   "trailer": "T6iQnnHNF50",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/hwcO08SVWkelfvgfIa5HsTMxsK8.jpg",
+    "https://image.tmdb.org/t/p/w185/ySmnfZm8ZGabcwp4UwaMDeSzXqx.jpg",
+    "https://image.tmdb.org/t/p/w185/pTgxwHcz9L8SNVYvPJS0o0lgHya.jpg",
+    "https://image.tmdb.org/t/p/w185/2hhh91WwDWDSNaqYLdjIlakkrif.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Henry Selick",
+     "p": "https://image.tmdb.org/t/p/w185/2LvtcpV8njWrp2W9eXmTNjsAWev.jpg"
+    }
+   ],
+   "imdbVotes": 311035,
+   "lbUrl": "https://letterboxd.com/film/coraline/"
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 2.87,
+   "imdb": 4.8,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Animation",
+    "Horror",
+    "Action"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "vampire hunter d: bloodlust|2000",
+   "t": "Vampire Hunter D: Bloodlust",
+   "y": 2000,
+   "d": "Yoshiaki Kawajiri",
+   "imdbId": "tt0226935",
+   "idLock": true,
+   "v": 3,
+   "runtime": 109,
+   "overview": "This movie tells five stories set in a single day at the famed Chelsea Hotel in New York City, involving an ensemble cast of some 30-35 characters.",
+   "lbUrl": "https://letterboxd.com/film/chelsea-walls/",
+   "poster": "https://image.tmdb.org/t/p/w500/qgM01zWdfb3uVWM2CYMDB4zXz0a.jpg",
+   "cast": [
+    "Bianca Hunter",
+    "Kevin Corrigan",
+    "Rosario Dawson",
+    "Paz de la Huerta"
+   ],
+   "tmdbId": 35694,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/iUKGfbEHvS4sid66UXb0BDw9WTX.jpg",
+   "trailer": "sUkHBxP7fcE",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/nOfp09JiWo6SrWZxAwkIu4HGDqN.jpg",
+    "https://image.tmdb.org/t/p/w185/obSUGc68mQDvFONalMg25Xw5GZM.jpg",
+    "https://image.tmdb.org/t/p/w185/siTzOI810a0K46wv1TORXMw5N7J.jpg",
+    "https://image.tmdb.org/t/p/w185/upFVPh2BtDBfAnP11mX2AHfl7GJ.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Ethan Hawke",
+     "p": "https://image.tmdb.org/t/p/w185/2LoTr6x0TEM7L5em4kSx1VmGDgG.jpg"
+    }
+   ],
+   "imdbVotes": 2295
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.2,
+   "imdb": 8,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller",
+    "Drama"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "what ever happened to baby jane?|1962",
+   "t": "What Ever Happened to Baby Jane?",
+   "y": 1962,
+   "d": "Robert Aldrich",
+   "imdbId": "tt0056687",
+   "runtime": 134,
+   "overview": "A former vaudeville child star torments her paraplegic sister, who eclipsed her as a movie star, in their decaying Hollywood mansion while desperately clinging to hopes of a comeback.",
+   "poster": "https://image.tmdb.org/t/p/w500/msGYzyWwtjAaA3DScdgmvJ5MReG.jpg",
+   "v": 3,
+   "cast": [
+    "Bette Davis",
+    "Joan Crawford",
+    "Victor Buono",
+    "Wesley Addy"
+   ],
+   "tmdbId": 10242,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/gkXL5ka6ciU4A4KYSvLIAXtvh7k.jpg",
+   "trailer": "3qFYjkFCxiE",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/dr7UzpC9055ByCdCUHvTP1qsD2X.jpg",
+    "https://image.tmdb.org/t/p/w185/r37awXZaJWCBjMA56kxcN5xiIBE.jpg",
+    "https://image.tmdb.org/t/p/w185/4NxvzksnK4GQzIY8dnGn6A89IQS.jpg",
+    "https://image.tmdb.org/t/p/w185/j0DmXhowoVNXR21jQy9QhTD8BOz.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Robert Aldrich",
+     "p": "https://image.tmdb.org/t/p/w185/AvuC16e9Yw9sFBkj6aaXFy5vSno.jpg"
+    }
+   ],
+   "imdbVotes": 68727,
+   "lbUrl": "https://letterboxd.com/film/what-ever-happened-to-baby-jane/"
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.19,
+   "imdb": 8.1,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Thriller",
+    "Mystery"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "les diaboliques|1955",
+   "t": "Les Diaboliques",
+   "y": 1955,
+   "d": "Henri-Georges Clouzot",
+   "imdbId": "tt0046911",
+   "idLock": true,
+   "v": 3,
+   "runtime": 117,
+   "overview": "The wife and mistress of a loathed school principal plan to murder him with what they believe is the perfect alibi.",
+   "lbUrl": "https://letterboxd.com/film/diabolique-1955/",
+   "poster": "https://image.tmdb.org/t/p/w500/jE8ygUYBUGyUcM4sR6iinPqYeDK.jpg",
+   "cast": [
+    "Véra Clouzot",
+    "Simone Signoret",
+    "Paul Meurisse",
+    "Charles Vanel"
+   ],
+   "tmdbId": 827,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/rcEUuRtr0dFL078bNeXL8pQqrMK.jpg",
+   "trailer": "BzbGtjtfZwA",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/g9zC50D4awugizaukcLTvRDrZEs.jpg",
+    "https://image.tmdb.org/t/p/w185/vRI2Vt3HX911uDrVK170waQsL8b.jpg",
+    "https://image.tmdb.org/t/p/w185/i9YSdeQDiMGoN12aZwsPIwh0tjs.jpg",
+    "https://image.tmdb.org/t/p/w185/ymJLGi92PXIQJSnGoJJxPGrsAmO.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Henri-Georges Clouzot",
+     "p": "https://image.tmdb.org/t/p/w185/lKljbdReVkqhwTsjBcuqt1Uwiiq.jpg"
+    }
+   ],
+   "imdbVotes": 74194
+  },
+  {
+   "w": false,
+   "r": null,
+   "lb": 4.15,
+   "imdb": 7.3,
+   "c": [
+    "dr",
+    "hr"
+   ],
+   "g": [
+    "Horror",
+    "Musical",
+    "Comedy"
+   ],
+   "n": "",
+   "type": "film",
+   "id": "phantom of the paradise|1974",
+   "t": "Phantom of the Paradise",
+   "y": 1974,
+   "d": "Brian De Palma",
+   "imdbId": "tt0071994",
+   "runtime": 91,
+   "overview": "After an evil record producer betrays him and steals his music to open a lavish rock palace, a disfigured composer sells his soul so that only the woman he loves can perform his work.",
+   "poster": "https://image.tmdb.org/t/p/w500/qDOtGWeSQNwB3dG7Amt1K0JW0az.jpg",
+   "v": 3,
+   "cast": [
+    "William Finley",
+    "Paul Williams",
+    "Jessica Harper",
+    "George Memmoli"
+   ],
+   "tmdbId": 27327,
+   "backdrop": "https://image.tmdb.org/t/p/w1280/mO5rgg8mr4fUIMrZykwP2MjPVmZ.jpg",
+   "trailer": "ULldW6fU7Vw",
+   "castP": [
+    "https://image.tmdb.org/t/p/w185/gwcqayLlpBpHfmL4UxwwdcPvAoY.jpg",
+    "https://image.tmdb.org/t/p/w185/hfBFenLU5reDGVi4wiP5P1VcP3G.jpg",
+    "https://image.tmdb.org/t/p/w185/oKwPtsJ8DcESvLXYe6Q05Q18YVB.jpg",
+    "https://image.tmdb.org/t/p/w185/kwhNDLl84nM22xcVexVnsp8H7RB.jpg"
+   ],
+   "dirP": [
+    {
+     "n": "Brian De Palma",
+     "p": "https://image.tmdb.org/t/p/w185/4xleWFdhtVC7faer6Ru2eyEgfTv.jpg"
+    }
+   ],
+   "imdbVotes": 26898,
+   "lbUrl": "https://letterboxd.com/film/phantom-of-the-paradise/"
   }
  ],
  "cols": [
@@ -22060,6 +22487,14 @@
    "size": "L",
    "c1": "#2A2F4A",
    "c2": "#E86A4A"
+  },
+  {
+   "id": "hr",
+   "name": "Highest Rated Horror",
+   "desc": "The horror films Letterboxd rates highest. Part of the list, the rest to come.",
+   "size": "W",
+   "c1": "#0F1A24",
+   "c2": "#D9C06A"
   }
  ]
 }
