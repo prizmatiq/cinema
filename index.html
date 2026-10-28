@@ -61,6 +61,7 @@ input,select,button,textarea{font:inherit;color:var(--fg)}
 input[type=search],input[type=text],input[type=number],select,textarea{padding:8px 10px;border:1px solid var(--line);border-radius:6px;background:var(--surface)}
 input[type=search]{flex:1 1 200px;min-width:0}
 :focus-visible{outline:2px solid var(--orange);outline-offset:2px}
+.prow:focus{outline:none}
 .btn{padding:8px 14px;border-radius:6px;border:1px solid var(--orange);background:var(--orange);color:var(--on-orange);font-weight:600;cursor:pointer;white-space:nowrap}
 .btn.ghost{background:transparent;color:var(--fg);border-color:var(--line)}
 .btn:disabled{opacity:.5;cursor:default}
@@ -574,7 +575,7 @@ function drawer(){
   }
   root.innerHTML=h+`</aside>`;
   const R=s=>root.querySelector(s);
-  R("#close").onclick=closeDrawer;R("#scrim").onclick=closeDrawer;R("#close").focus();swipeClose(root,closeDrawer);
+  R("#close").onclick=closeDrawer;R("#scrim").onclick=closeDrawer;{const st=R(".prow");if(st){st.tabIndex=-1;st.focus({preventScroll:true})}else R("#close").focus()}swipeClose(root,closeDrawer);
   if(ui.adding){
     R("#a-c").onclick=e=>{const b=e.target.closest(".mchip");if(b)b.setAttribute("aria-pressed",b.getAttribute("aria-pressed")!=="true")};
     R("#addf").onsubmit=e=>{e.preventDefault();const t=R("#a-t").value.trim(),y=parseInt(R("#a-y").value,10);if(!t||!y)return;
